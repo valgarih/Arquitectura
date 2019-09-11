@@ -1,0 +1,32 @@
+---------------------------------------------------
+Report for cell servo_pwm_clk64kHz
+   Instance path: servo_pwm_clk64kHz
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      28.00        100.0
+                                  LUT4	      17.00        100.0
+                                 IOBUF	         10        100.0
+                                PFUREG	         22        100.0
+                                RIPPLE	         19        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              clk64kHz	          1        39.3
+                             servo_pwm	          1        60.7
+---------------------------------------------------
+Report for cell servo_pwm
+   Instance path: servo_pwm_clk64kHz/servo_pwm_map
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.00        60.7
+                                  LUT4	       7.00        41.2
+                                PFUREG	         11        50.0
+                                RIPPLE	         13        68.4
+---------------------------------------------------
+Report for cell clk64kHz
+   Instance path: servo_pwm_clk64kHz/clk64kHz_map
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.00        39.3
+                                  LUT4	      10.00        58.8
+                                PFUREG	         11        50.0
+                                RIPPLE	          6        31.6

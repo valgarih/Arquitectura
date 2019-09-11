@@ -1,0 +1,1 @@
+@E: BN129 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu02\topalu01.vhdl":7:7:7:14|Net outFlagInstal0 (in view: work.topalu01(topalu0)) has mixed driver types 

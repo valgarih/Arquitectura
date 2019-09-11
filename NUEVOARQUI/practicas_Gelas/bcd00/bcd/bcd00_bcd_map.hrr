@@ -1,0 +1,159 @@
+---------------------------------------------------
+Report for cell topp07
+   Instance path: topp07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     145.00        100.0
+                                 IOLGC	       9.00        100.0
+                                  LUT4	     257.00        100.0
+                                 IOREG	          9        100.0
+                                 IOBUF	         61        100.0
+                                PFUREG	        156        100.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              portAB07	          1         1.4
+                               pcinc07	          1         5.1
+                              toposc00	          1        27.4
+                                sust07	          1         3.3
+                           shift8bit07	          1         5.9
+                          shift12bit07	          1         8.2
+                                 mux07	          1        18.9
+                             leeInst07	          1         3.7
+                                init07	          1         5.7
+                            contring07	          1         3.2
+                            contIter07	          1         2.3
+                             compadd07	          1         9.1
+                             ac12bit07	          1         2.8
+                              ac8bit07	          1         1.6
+---------------------------------------------------
+Report for cell sust07
+   Instance path: topp07/U08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.75         3.3
+                                  LUT4	       3.00         1.2
+                                PFUREG	         14         9.0
+---------------------------------------------------
+Report for cell init07
+   Instance path: topp07/U01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.33         5.7
+                                  LUT4	      13.50         5.3
+                                PFUREG	          7         4.5
+---------------------------------------------------
+Report for cell portAB07
+   Instance path: topp07/U02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.08         1.4
+                                  LUT4	       3.00         1.2
+                                PFUREG	          3         1.9
+---------------------------------------------------
+Report for cell shift8bit07
+   Instance path: topp07/U06
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.58         5.9
+                                  LUT4	      19.50         7.6
+                                PFUREG	         11         7.1
+---------------------------------------------------
+Report for cell mux07
+   Instance path: topp07/U14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.33        18.9
+                                  LUT4	      66.00        25.7
+                                PFUREG	          9         5.8
+---------------------------------------------------
+Report for cell contring07
+   Instance path: topp07/U13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.67         3.2
+                                  LUT4	       7.00         2.7
+                                PFUREG	         11         7.1
+---------------------------------------------------
+Report for cell contIter07
+   Instance path: topp07/U11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.33         2.3
+                                  LUT4	       7.00         2.7
+                                PFUREG	          5         3.2
+---------------------------------------------------
+Report for cell shift12bit07
+   Instance path: topp07/U10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.83         8.2
+                                  LUT4	      28.50        11.1
+                                PFUREG	         15         9.6
+---------------------------------------------------
+Report for cell compadd07
+   Instance path: topp07/U09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.17         9.1
+                                  LUT4	      20.50         8.0
+                                PFUREG	         28        17.9
+---------------------------------------------------
+Report for cell ac12bit07
+   Instance path: topp07/U07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.00         2.8
+                                  LUT4	       1.00         0.4
+                                PFUREG	         14         9.0
+---------------------------------------------------
+Report for cell leeInst07
+   Instance path: topp07/U05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.42         3.7
+                                  LUT4	      11.00         4.3
+                                PFUREG	          3         1.9
+---------------------------------------------------
+Report for cell ac8bit07
+   Instance path: topp07/U04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.33         1.6
+                                  LUT4	       1.00         0.4
+                                PFUREG	          8         5.1
+---------------------------------------------------
+Report for cell pcinc07
+   Instance path: topp07/U03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.33         5.1
+                                  LUT4	      15.00         5.8
+                                PFUREG	          5         3.2
+---------------------------------------------------
+Report for cell toposc00
+   Instance path: topp07/U00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.75        27.4
+                                  LUT4	      56.00        21.8
+                                PFUREG	         23        14.7
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        27.4
+---------------------------------------------------
+Report for cell div00
+   Instance path: topp07/U00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.75        27.4
+                                  LUT4	      56.00        21.8
+                                PFUREG	         23        14.7
+                                RIPPLE	         12        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topp07/U00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

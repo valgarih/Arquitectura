@@ -1,0 +1,12 @@
+#Start recording tcl command: 3/8/2018 08:53:23
+#Project Location: C:/Users/segui/OneDrive/Documentos/Arquitectura/mult8bit00; Project name: mult8bit00
+C:/Users/segui/OneDrive/Documentos/Arquitectura/shiftRL00
+shiftRL00
+#Start recording tcl command: 3/8/2018 09:03:56
+#Project Location: C:/Users/segui/OneDrive/Documentos/Arquitectura/shiftRL00; Project name: shiftRL00
+prj_project open "C:/Users/segui/OneDrive/Documentos/Arquitectura/mult8bit00/mult8bit00.ldf"
+prj_project close
+prj_project new -name "shiftRL00" -impl "shiftRL" -dev LCMXO2280C-3FT256C -synthesis "synplify"
+prj_src add "C:/Users/segui/OneDrive/Documentos/Arquitectura/osc00vhdl/div00.vhdl" "C:/Users/segui/OneDrive/Documentos/Arquitectura/osc00vhdl/osc00.vhdl" "C:/Users/segui/OneDrive/Documentos/Arquitectura/osc00vhdl/packageosc00.vhdl" "C:/Users/segui/OneDrive/Documentos/Arquitectura/osc00vhdl/toposc00.vhdl"
+prj_project save
+#Stop recording: 3/8/2018 09:03:57

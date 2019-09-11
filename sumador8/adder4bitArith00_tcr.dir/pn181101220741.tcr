@@ -1,0 +1,18 @@
+#Start recording tcl command: 11/1/2018 21:39:48
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bitArith00; Project name: adder4bitArith00
+prj_project new -name "adder4bitArith00" -impl "adder4bitArith0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bitArith00/topadder4bitArith.vhd"
+prj_run Export -impl adder4bitArith0 -task Jedecgen
+prj_run Export -impl adder4bitArith0 -task Jedecgen
+pgr_project save "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bitArith00/adder4bitArith0/adder4bitArith0.xcf"
+prj_src add -exclude "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bitArith00/adder4bitArith0/adder4bitArith0.xcf"
+prj_src enable "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bitArith00/adder4bitArith0/adder4bitArith0.xcf"
+pgr_program run
+prj_run Export -impl adder4bitArith0 -task Jedecgen
+prj_run Export -impl adder4bitArith0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bitArith00/adder4bitArith0/adder4bitArith0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 11/1/2018 22:07:41

@@ -1,0 +1,6 @@
+@W: CG296 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\sequence00.vhd":23:8:23:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\sequence00.vhd":25:5:25:7|Referenced variable ens is not in sensitivity list.
+@W: CL177 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\shiftRL00\shiftRL00.vhd":24:2:24:3|Sharing sequential element outseq. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL249 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\sequence00.vhd":25:2:25:3|Initial value is not supported on state machine state
+

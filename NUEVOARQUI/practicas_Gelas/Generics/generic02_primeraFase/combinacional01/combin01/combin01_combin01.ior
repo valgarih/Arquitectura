@@ -1,0 +1,42 @@
+Loading design for application iotiming from file combin01_combin01.ncd.
+Design name: eTopMultip00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3L-6900C
+Package:     CABGA256
+Performance: 6
+Package Status:                     Final          Version 1.16.
+Performance Hardware Data Status:   Final          Version 30.4.
+Loading design for application iotiming from file combin01_combin01.ncd.
+Design name: eTopMultip00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3L-6900C
+Package:     CABGA256
+Performance: M
+Package Status:                     Final          Version 1.16.
+Performance Hardware Data Status:   Final          Version 30.4.
+// Design: eTopMultip00
+// Package: CABGA256
+// ncd File: combin01_combin01.ncd
+// Version: Diamond (64-bit) 3.5.1.302
+// Written on Tue Dec 08 13:40:00 2015
+// M: Minimum Performance Grade
+// iotiming combin01_combin01.ncd combin01_combin01.prf -gui -msgset C:/lscc/Arquitectura/org/combinacional01/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+(no clock to output min/max data)

@@ -1,0 +1,5 @@
+#Start recording tcl command: 5/30/2018 12:22:09
+#Project Location: C:/Users/Ideapad/Desktop/GELACIO/bcd00; Project name: bcd00
+prj_project open "C:/Users/Ideapad/Desktop/GELACIO/bcd00/bcd00.ldf"
+prj_project close
+#Stop recording: 5/30/2018 12:26:43

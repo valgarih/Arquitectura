@@ -1,0 +1,109 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Thu Jun 14 00:13:04 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "toposc00"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                         Ending                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     osc00|osc_int_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
+div00|outosc_derived_clock       div00|outosc_derived_clock       |     480.769          |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:EN
+p:RS
+p:RW
+p:VCC
+p:anillo[0]
+p:anillo[1]
+p:anillo[2]
+p:anillo[3]
+p:entradaTeclado[0]
+p:entradaTeclado[1]
+p:entradaTeclado[2]
+p:entradaTeclado[3]
+p:indiv0[0]
+p:indiv0[1]
+p:indiv0[2]
+p:indiv0[3]
+p:lectura
+p:reset
+p:salidaAux
+p:salidaContadorCondiguracion[0]
+p:salidaContadorCondiguracion[1]
+p:salidaContadorCondiguracion[2]
+p:salidaContadorCondiguracion[3]
+p:salidaContadorCondiguracion[4]
+p:salidaContadorDatos[0]
+p:salidaContadorDatos[1]
+p:salidaContadorDatos[2]
+p:salidaContadorDatos[3]
+p:salidaContadorDatos[4]
+p:salidaContadorDatos[5]
+p:salidaPantallaMirror[0]
+p:salidaPantallaMirror[1]
+p:salidaPantallaMirror[2]
+p:salidaPantallaMirror[3]
+p:salidaPantallaMirror[4]
+p:salidaPantallaMirror[5]
+p:salidaPantallaMirror[6]
+p:salidaPantallaMirror[7]
+p:salidaPantalla[0]
+p:salidaPantalla[1]
+p:salidaPantalla[2]
+p:salidaPantalla[3]
+p:salidaPantalla[4]
+p:salidaPantalla[5]
+p:salidaPantalla[6]
+p:salidaPantalla[7]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

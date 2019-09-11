@@ -1,0 +1,692 @@
+----------------------------------------------------------------------
+Report for cell topmult4bit00.topmult4bit0
+
+Register bits: 0 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB        8       100.0
+                                 OB        8       100.0
+                           ORCALUT4       26       100.0
+                                PUR        1       100.0
+                                VHI       51       100.0
+                                VLO       51       100.0
+SUB MODULES 
+                              andmu        1       100.0
+                            andmu_1        1       100.0
+                           andmu_17        1       100.0
+                            andmu_2        1       100.0
+                           andmu_28        1       100.0
+                            andmu_7        1       100.0
+                             famu00        1       100.0
+                           famu00_0        1       100.0
+                         famu00_0_0        1       100.0
+                         famu00_0_1        1       100.0
+                         famu00_0_2        1       100.0
+                         famu00_0_3        1       100.0
+                         famu00_0_4        1       100.0
+                         famu00_0_5        1       100.0
+                         famu00_0_6        1       100.0
+                           famu00_1        1       100.0
+                           famu00_2        1       100.0
+                           famu00_8        1       100.0
+                             hamu00        1       100.0
+                           hamu00_1        1       100.0
+                          hamu00_10        1       100.0
+                          hamu00_12        1       100.0
+                          hamu00_13        1       100.0
+                          hamu00_15        1       100.0
+                          hamu00_17        1       100.0
+                          hamu00_19        1       100.0
+                           hamu00_4        1       100.0
+                           hamu00_5        1       100.0
+                           hamu00_6        1       100.0
+                           hamu00_7        1       100.0
+                             ormu_0        1       100.0
+                           ormu_0_0        1       100.0
+                           ormu_0_1        1       100.0
+                           ormu_0_2        1       100.0
+                           ormu_0_3        1       100.0
+                           ormu_0_4        1       100.0
+                           ormu_0_5        1       100.0
+                           ormu_0_6        1       100.0
+                              xormu        1       100.0
+                            xormu_0        1       100.0
+                           xormu_10        1       100.0
+                           xormu_12        1       100.0
+                           xormu_13        1       100.0
+                           xormu_15        1       100.0
+                           xormu_17        1       100.0
+                           xormu_19        1       100.0
+                            xormu_4        1       100.0
+                            xormu_5        1       100.0
+                            xormu_6        1       100.0
+                            xormu_7        1       100.0
+                            
+                         TOTAL           196           
+----------------------------------------------------------------------
+Report for cell famu00_0_6.netlist
+  Original Cell name famu00_0
+     Instance path:  M27
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                          hamu00_19        1       100.0
+                           ormu_0_6        1       100.0
+                           xormu_19        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell ormu_0_6.netlist
+  Original Cell name ormu_0
+     Instance path:  M27.FA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell hamu00_19.netlist
+  Original Cell name hamu00
+     Instance path:  M27.FA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        2         3.9
+                                VLO        2         3.9
+SUB MODULES 
+                           xormu_19        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xormu_19.netlist
+  Original Cell name xormu
+     Instance path:  M27.FA01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00_0_5.netlist
+  Original Cell name famu00_0
+     Instance path:  M26
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                          hamu00_17        1       100.0
+                           ormu_0_5        1       100.0
+                           xormu_17        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell ormu_0_5.netlist
+  Original Cell name ormu_0
+     Instance path:  M26.FA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell hamu00_17.netlist
+  Original Cell name hamu00
+     Instance path:  M26.FA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        2         3.9
+                                VLO        2         3.9
+SUB MODULES 
+                           xormu_17        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xormu_17.netlist
+  Original Cell name xormu
+     Instance path:  M26.FA01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00_0_4.netlist
+  Original Cell name famu00_0
+     Instance path:  M25
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                          hamu00_15        1       100.0
+                           ormu_0_4        1       100.0
+                           xormu_15        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell ormu_0_4.netlist
+  Original Cell name ormu_0
+     Instance path:  M25.FA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell hamu00_15.netlist
+  Original Cell name hamu00
+     Instance path:  M25.FA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        2         3.9
+                                VLO        2         3.9
+SUB MODULES 
+                           xormu_15        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xormu_15.netlist
+  Original Cell name xormu
+     Instance path:  M25.FA01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00_2.netlist
+  Original Cell name famu00
+     Instance path:  M24
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                           andmu_28        1       100.0
+                          hamu00_13        1       100.0
+                           xormu_13        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell hamu00_13.netlist
+  Original Cell name hamu00
+     Instance path:  M24.FA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        3         5.9
+                                VLO        3         5.9
+SUB MODULES 
+                           andmu_28        1       100.0
+                           xormu_13        1       100.0
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell andmu_28.netlist
+  Original Cell name andmu
+     Instance path:  M24.FA00.H01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xormu_13.netlist
+  Original Cell name xormu
+     Instance path:  M24.FA00.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00_0_3.netlist
+  Original Cell name famu00_0
+     Instance path:  M19
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                          hamu00_12        1       100.0
+                           ormu_0_3        1       100.0
+                           xormu_12        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell ormu_0_3.netlist
+  Original Cell name ormu_0
+     Instance path:  M19.FA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell hamu00_12.netlist
+  Original Cell name hamu00
+     Instance path:  M19.FA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        2         3.9
+                                VLO        2         3.9
+SUB MODULES 
+                           xormu_12        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xormu_12.netlist
+  Original Cell name xormu
+     Instance path:  M19.FA01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00_0_2.netlist
+  Original Cell name famu00_0
+     Instance path:  M18
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                          hamu00_10        1       100.0
+                           ormu_0_2        1       100.0
+                           xormu_10        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell ormu_0_2.netlist
+  Original Cell name ormu_0
+     Instance path:  M18.FA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell hamu00_10.netlist
+  Original Cell name hamu00
+     Instance path:  M18.FA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        2         3.9
+                                VLO        2         3.9
+SUB MODULES 
+                           xormu_10        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xormu_10.netlist
+  Original Cell name xormu
+     Instance path:  M18.FA01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00_0_1.netlist
+  Original Cell name famu00_0
+     Instance path:  M17
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                           hamu00_7        1       100.0
+                           ormu_0_1        1       100.0
+                            xormu_7        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell ormu_0_1.netlist
+  Original Cell name ormu_0
+     Instance path:  M17.FA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell hamu00_7.netlist
+  Original Cell name hamu00
+     Instance path:  M17.FA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        2         3.9
+                                VLO        2         3.9
+SUB MODULES 
+                            xormu_7        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xormu_7.netlist
+  Original Cell name xormu
+     Instance path:  M17.FA00.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00_1.netlist
+  Original Cell name famu00
+     Instance path:  M16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                           andmu_17        1       100.0
+                           hamu00_6        1       100.0
+                            xormu_6        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell hamu00_6.netlist
+  Original Cell name hamu00
+     Instance path:  M16.FA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        3         5.9
+                                VLO        3         5.9
+SUB MODULES 
+                           andmu_17        1       100.0
+                            xormu_6        1       100.0
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell andmu_17.netlist
+  Original Cell name andmu
+     Instance path:  M16.FA00.H01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xormu_6.netlist
+  Original Cell name xormu
+     Instance path:  M16.FA00.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00_8.netlist
+  Original Cell name famu00
+     Instance path:  M11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        3         5.9
+                                VLO        3         5.9
+SUB MODULES 
+                           hamu00_5        1       100.0
+                            xormu_5        1       100.0
+                            
+                         TOTAL             9           
+----------------------------------------------------------------------
+Report for cell hamu00_5.netlist
+  Original Cell name hamu00
+     Instance path:  M11.FA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        2         3.9
+                                VLO        2         3.9
+SUB MODULES 
+                            xormu_5        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xormu_5.netlist
+  Original Cell name xormu
+     Instance path:  M11.FA01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00_0_0.netlist
+  Original Cell name famu00_0
+     Instance path:  M10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                           hamu00_4        1       100.0
+                           ormu_0_0        1       100.0
+                            xormu_4        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell ormu_0_0.netlist
+  Original Cell name ormu_0
+     Instance path:  M10.FA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell hamu00_4.netlist
+  Original Cell name hamu00
+     Instance path:  M10.FA01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        2         3.9
+                                VLO        2         3.9
+SUB MODULES 
+                            xormu_4        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xormu_4.netlist
+  Original Cell name xormu
+     Instance path:  M10.FA01.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00_0.netlist
+  Original Cell name famu00
+     Instance path:  M09
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                           hamu00_1        1       100.0
+                             ormu_0        1       100.0
+                            xormu_0        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell ormu_0.netlist
+  Original Cell name ormu
+     Instance path:  M09.FA02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell hamu00_1.netlist
+  Original Cell name hamu00
+     Instance path:  M09.FA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        2         3.9
+                                VLO        2         3.9
+SUB MODULES 
+                            xormu_0        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell xormu_0.netlist
+  Original Cell name xormu
+     Instance path:  M09.FA00.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell famu00.netlist
+  Original Cell name famu00
+     Instance path:  M08
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        4         7.8
+                                VLO        4         7.8
+SUB MODULES 
+                            andmu_7        1       100.0
+                             hamu00        1       100.0
+                              xormu        1       100.0
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell hamu00.netlist
+  Original Cell name hamu00
+     Instance path:  M08.FA00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.7
+                                VHI        3         5.9
+                                VLO        3         5.9
+SUB MODULES 
+                            andmu_7        1       100.0
+                              xormu        1       100.0
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell andmu_7.netlist
+  Original Cell name andmu
+     Instance path:  M08.FA00.H01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell xormu.netlist
+  Original Cell name xormu
+     Instance path:  M08.FA00.H00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell andmu_2.netlist
+  Original Cell name andmu
+     Instance path:  M03
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell andmu_1.netlist
+  Original Cell name andmu
+     Instance path:  M02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell andmu.netlist
+  Original Cell name andmu
+     Instance path:  M00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.8
+                                VHI        1         2.0
+                                VLO        1         2.0
+                            
+                         TOTAL             3           

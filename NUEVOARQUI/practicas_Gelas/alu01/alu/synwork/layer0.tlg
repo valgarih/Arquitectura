@@ -1,0 +1,4 @@
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":6:7:6:14|Synthesizing work.subsal00.subsal0.
+Post processing for work.subsal00.subsal0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":24:1:24:2|Pruning unused register outFlagsubs_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL138 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":24:1:24:2|Removing register 'outSLsubs' because it is only assigned 0 or its original value.

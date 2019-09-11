@@ -1,0 +1,47 @@
+#Start recording tcl command: 6/13/2018 19:05:07
+#Project Location: C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00; Project name: alu00
+prj_project open "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu00.ldf"
+prj_src add "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/xora00.vhdl"
+prj_src add "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/nanda00.vhdl"
+prj_src add "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/nora00.vhdl"
+prj_src add "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/xnora00.vhdl"
+prj_src add "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/nota00.vhdl"
+prj_run Export -impl alu -task Jedecgen
+prj_run Export -impl alu -task Jedecgen
+pgr_project save "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+prj_src add -exclude "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+prj_src enable "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+pgr_program run
+pgr_project save "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+pgr_project close
+prj_run Export -impl alu -task Jedecgen
+pgr_project open "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+pgr_program run
+pgr_project save "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+prj_run Export -impl alu -task Jedecgen
+pgr_project save "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+pgr_project close
+pgr_project open "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+pgr_program run
+pgr_project save "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+prj_run Export -impl alu -task Jedecgen
+pgr_project save "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+pgr_project close
+pgr_project open "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+pgr_project save "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+pgr_program run
+prj_run Export -impl alu -task Jedecgen
+pgr_project save "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+pgr_project close
+pgr_project open "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu/alu.xcf"
+pgr_program run
+pgr_project close
+prj_src add "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/adder8bita00.vhdl"
+prj_src add "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/substract8bita00.vhdl"
+prj_src add "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/mult8bita00.vhdl"
+prj_run Export -impl alu -task Jedecgen
+prj_run Export -impl alu -task Jedecgen
+prj_run Export -impl alu -task Jedecgen
+prj_run Export -impl alu -task Jedecgen
+prj_run Export -impl alu -task Jedecgen
+#Stop recording: 6/14/2018 00:05:42

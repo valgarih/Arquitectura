@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/4/2018 14:38:22
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00; Project name: div00
+prj_project new -name "div00" -impl "div" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00/osc00.vhd"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00/div00.vhd"
+#Stop recording: 9/4/2018 15:38:10

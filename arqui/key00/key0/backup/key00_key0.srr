@@ -1,0 +1,31 @@
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\Program Files\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-JBP5BT2
+
+# Tue Mar  5 10:23:36 2019
+
+#Implementation: key0
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\countring00.vhdl":6:7:6:16|Top entity is set to contring00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\countring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+@E: CD297 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\countring00.vhdl":25:4:25:22|Width mismatch, location has width 3, value 4
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar  5 10:23:36 2019
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar  5 10:23:37 2019
+
+###########################################################]

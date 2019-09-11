@@ -1,0 +1,5 @@
+#Start recording tcl command: 11/6/2016 23:45:15
+#Project Location: C:/Users/saiko/Documents/ESCOM/5 semestre/Arqui de Computadoras/Arquitectura/generic04/generic02/combinacional01; Project name: combin01
+prj_project open "C:/Users/saiko/Documents/ESCOM/5 semestre/Arqui de Computadoras/Arquitectura/generic04/generic02/combinacional01/combin01.ldf"
+prj_project close
+#Stop recording: 11/6/2016 23:45:34

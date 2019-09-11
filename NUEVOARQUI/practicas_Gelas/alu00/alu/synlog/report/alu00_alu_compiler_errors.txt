@@ -1,0 +1,2 @@
+@E: CD297 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\alu00\mult8bita00.vhdl":33:7:33:15|Width mismatch, location has width 8, value 16
+

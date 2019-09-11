@@ -1,0 +1,24 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe  -osyn  F:\alu00\alu\synwork\alu00_alu_comp.srs  -top  topalu00  -hdllog  F:\alu00\alu\synlog\alu00_alu_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  F:\alu00\alu\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work F:\osc00VHDL\div00.vhdl -lib work F:\osc00VHDL\osc00.vhdl -lib work F:\osc00VHDL\packageosc00.vhdl -lib work F:\alu00\anda00.vhdl -lib work F:\alu00\ora00.vhdl -lib work F:\alu00\xora00.vhdl -lib work F:\alu00\nanda00.vhdl -lib work F:\alu00\nora00.vhdl -lib work F:\alu00\xnora00.vhdl -lib work F:\alu00\nota00.vhdl -lib work F:\alu00\adder8bita00.vhdl -lib work F:\alu00\substract8bita00.vhdl -lib work F:\alu00\mult8bita00.vhdl -lib work F:\alu00\ac800.vhdl -lib work F:\alu00\packagealu00.vhdl -lib work F:\osc00VHDL\toposc00.vhdl -lib work F:\alu00\topalu00.vhdl  -jobname  "compiler" 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe -osyn ..\synwork\alu00_alu_comp.srs -top topalu00 -hdllog ..\synlog\alu00_alu_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\..\osc00VHDL\div00.vhdl -lib work ..\..\..\osc00VHDL\osc00.vhdl -lib work ..\..\..\osc00VHDL\packageosc00.vhdl -lib work ..\..\anda00.vhdl -lib work ..\..\ora00.vhdl -lib work ..\..\xora00.vhdl -lib work ..\..\nanda00.vhdl -lib work ..\..\nora00.vhdl -lib work ..\..\xnora00.vhdl -lib work ..\..\nota00.vhdl -lib work ..\..\adder8bita00.vhdl -lib work ..\..\substract8bita00.vhdl -lib work ..\..\mult8bita00.vhdl -lib work ..\..\ac800.vhdl -lib work ..\..\packagealu00.vhdl -lib work ..\..\..\osc00VHDL\toposc00.vhdl -lib work ..\..\topalu00.vhdl -jobname "compiler"
+rc:0 success:1 runtime:9
+file:..\synwork\alu00_alu_comp.srs|io:o|time:1529339892|size:36306|exec:0|csum:
+file:..\synlog\alu00_alu_compiler.srr|io:o|time:1529339894|size:7786|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\..\osc00VHDL\div00.vhdl|io:i|time:1520349504|size:2199|exec:0|csum:E6CAF02E2D65A26E7D44E02A954477DE
+file:..\..\..\osc00VHDL\osc00.vhdl|io:i|time:1520348576|size:509|exec:0|csum:52FA8B1858CC10A6F1BAC84382475755
+file:..\..\..\osc00VHDL\packageosc00.vhdl|io:i|time:1520349518|size:398|exec:0|csum:3BB5632FFAC3B5BFB197A3D4EA8A04D5
+file:..\..\anda00.vhdl|io:i|time:1528942142|size:983|exec:0|csum:BF4259039320D53FD6780708246A825C
+file:..\..\ora00.vhdl|io:i|time:1528942442|size:973|exec:0|csum:3402DF1CA49D2CA244D3E2EA7054F866
+file:..\..\xora00.vhdl|io:i|time:1528942482|size:1001|exec:0|csum:D07132FE1535F0481752B4F1968478A3
+file:..\..\nanda00.vhdl|io:i|time:1528942490|size:965|exec:0|csum:CF79495893602950441AE6CE3C2077C7
+file:..\..\nora00.vhdl|io:i|time:1528942498|size:1001|exec:0|csum:1DBB8DC686DBE2740E12F15E50D1ADBE
+file:..\..\xnora00.vhdl|io:i|time:1528942506|size:1029|exec:0|csum:C6DD3F424EA399AD14652D062B14963D
+file:..\..\nota00.vhdl|io:i|time:1528942520|size:1009|exec:0|csum:9DB108B3A0C642C36C929A267F79F8F4
+file:..\..\adder8bita00.vhdl|io:i|time:1528942462|size:1133|exec:0|csum:65E077D7B7FCC9A98893DA2B42053BF1
+file:..\..\substract8bita00.vhdl|io:i|time:1528943058|size:1130|exec:0|csum:984AAB58C9C8108255D28958D0A48C5B
+file:..\..\mult8bita00.vhdl|io:i|time:1529339874|size:1107|exec:0|csum:64B87127FF7A31F35F624105B8C6B386
+file:..\..\ac800.vhdl|io:i|time:1528939880|size:719|exec:0|csum:D038679EED4F58F8B5C4E7571BB58DD4
+file:..\..\packagealu00.vhdl|io:i|time:1528950884|size:3754|exec:0|csum:B916303824B1B6C53134933976ADE228
+file:..\..\..\osc00VHDL\toposc00.vhdl|io:i|time:1520349706|size:515|exec:0|csum:BE8F543B892BE4EFB5915CFA0AB04830
+file:..\..\topalu00.vhdl|io:i|time:1528951078|size:3433|exec:0|csum:E798F9D412E7085050E1A6B245C5B675
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe|io:i|time:1501913558|size:5526016|exec:1|csum:B0FC75282263C9BC65A760D01C67ECBA

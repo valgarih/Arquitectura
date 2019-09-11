@@ -1,0 +1,69 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Jun 15 16:33:34 2018 *
+NOTE DESIGN NAME: topp07 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS sFlagInst : 26 : inout *
+NOTE PINS clk00 : 22 : out *
+NOTE PINS cdiv00[0] : 39 : in *
+NOTE PINS outDisplay[6] : 133 : out *
+NOTE PINS outDisplay[5] : 132 : out *
+NOTE PINS outDisplay[4] : 139 : out *
+NOTE PINS outDisplay[3] : 138 : out *
+NOTE PINS outDisplay[2] : 141 : out *
+NOTE PINS outDisplay[1] : 140 : out *
+NOTE PINS outDisplay[0] : 143 : out *
+NOTE PINS outTransist0[3] : 34 : out *
+NOTE PINS outTransist0[2] : 33 : out *
+NOTE PINS outTransist0[1] : 32 : out *
+NOTE PINS outTransist0[0] : 35 : out *
+NOTE PINS outport8a0[7] : 115 : out *
+NOTE PINS outport8a0[6] : 117 : out *
+NOTE PINS outport8a0[5] : 21 : out *
+NOTE PINS outport8a0[4] : 114 : out *
+NOTE PINS outport8a0[3] : 111 : out *
+NOTE PINS outport8a0[2] : 112 : out *
+NOTE PINS outport8a0[1] : 109 : out *
+NOTE PINS outport8a0[0] : 110 : out *
+NOTE PINS outport120[11] : 74 : out *
+NOTE PINS outport120[10] : 75 : out *
+NOTE PINS outport120[9] : 76 : out *
+NOTE PINS outport120[8] : 77 : out *
+NOTE PINS outport120[7] : 78 : out *
+NOTE PINS outport120[6] : 81 : out *
+NOTE PINS outport120[5] : 82 : out *
+NOTE PINS outport120[4] : 83 : out *
+NOTE PINS outport120[3] : 84 : out *
+NOTE PINS outport120[2] : 85 : out *
+NOTE PINS outport120[1] : 86 : out *
+NOTE PINS outport120[0] : 91 : out *
+NOTE PINS inport8a0[7] : 42 : in *
+NOTE PINS inport8a0[6] : 44 : in *
+NOTE PINS inport8a0[5] : 43 : in *
+NOTE PINS inport8a0[4] : 45 : in *
+NOTE PINS inport8a0[3] : 47 : in *
+NOTE PINS inport8a0[2] : 49 : in *
+NOTE PINS inport8a0[1] : 48 : in *
+NOTE PINS inport8a0[0] : 50 : in *
+NOTE PINS outcodeport[3] : 96 : out *
+NOTE PINS outcodeport[2] : 97 : out *
+NOTE PINS outcodeport[1] : 98 : out *
+NOTE PINS outcodeport[0] : 99 : out *
+NOTE PINS outpcport[3] : 92 : out *
+NOTE PINS outpcport[2] : 93 : out *
+NOTE PINS outpcport[1] : 94 : out *
+NOTE PINS outpcport[0] : 95 : out *
+NOTE PINS soutFlagIt : 25 : out *
+NOTE PINS soutFlagrom : 27 : out *
+NOTE PINS sFlag12B : 20 : inout *
+NOTE PINS sFlag12out : 24 : out *
+NOTE PINS sFlag8out : 23 : out *
+NOTE PINS soutFlagpc : 28 : out *
+NOTE PINS reset0 : 60 : in *
+NOTE PINS cdiv00[4] : 105 : in *
+NOTE PINS cdiv00[3] : 100 : in *
+NOTE PINS cdiv00[2] : 40 : in *
+NOTE PINS cdiv00[1] : 41 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

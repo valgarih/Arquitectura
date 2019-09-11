@@ -1,0 +1,10 @@
+#Start recording tcl command: 3/13/2018 09:34:30
+#Project Location: C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00; Project name: barrelSRL00
+prj_project open "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/barrelSRL00.ldf"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/packagebarrelSRL00.vhdl"
+prj_src remove "C:/Users/lalo/Desktop/quinto semestre/arquitectura/quinto semestre/arquitectura/osc00VHDL/div00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/quinto semestre/arquitectura/osc00VHDL/osc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/quinto semestre/arquitectura/osc00VHDL/packageosc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/quinto semestre/arquitectura/osc00VHDL/toposc00.vhdl"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/div00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/osc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/packageosc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/toposc00.vhdl"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/topbarrelSRL00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 3/13/2018 10:03:38

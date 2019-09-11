@@ -1,0 +1,126 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn180606132041"></A><B><U><big>pn180606132041</big></U></B>
+#Start recording tcl command: 6/6/2018 12:49:26
+#Project Location: C:/Users/Ideapad/Desktop/GELACIO/LCDram; Project name: LCDram00
+prj_project new -name "LCDram00" -impl "LCDram" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/div00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/osc00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/packageosc00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/toposc00.vhdl"
+prj_project save
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/LCDram/lcdram00.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/LCDram/packagelcdram00.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/LCDram/toplcdram00.vhdl"
+prj_run Export -impl LCDram -task Jedecgen
+prj_run Export -impl LCDram -task Jedecgen
+#Stop recording: 6/6/2018 13:20:41
+
+
+
+<A name="pn180611101624"></A><B><U><big>pn180611101624</big></U></B>
+#Start recording tcl command: 6/11/2018 09:46:53
+#Project Location: C:/Users/Ideapad/Desktop/GELACIO/LCDram; Project name: LCDram00
+prj_project open "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram00.ldf"
+pgr_project save "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+prj_src add -exclude "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+prj_src enable "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+prj_run Export -impl LCDram -task Jedecgen
+pgr_project save "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+pgr_program run
+pgr_project save "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+prj_project save
+prj_project close
+#Stop recording: 6/11/2018 10:16:24
+
+
+
+<A name="pn180615125322"></A><B><U><big>pn180615125322</big></U></B>
+#Start recording tcl command: 6/15/2018 11:28:58
+#Project Location: C:/Users/Ideapad/Desktop/GELACIO/LCDram; Project name: LCDram00
+prj_project open "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram00.ldf"
+pgr_project open "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+pgr_program run
+pgr_project save "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+prj_project close
+#Stop recording: 6/15/2018 12:53:23
+
+
+
+<A name="pn180615144830"></A><B><U><big>pn180615144830</big></U></B>
+#Start recording tcl command: 6/15/2018 14:34:46
+#Project Location: F:/hghg/LCDram; Project name: LCDram00
+prj_project open "F:/hghg/LCDram/LCDram00.ldf"
+prj_src remove "F:/hghg/osc00VHDL/div00.vhdl" "F:/hghg/osc00VHDL/osc00.vhdl" "F:/hghg/osc00VHDL/packageosc00.vhdl" "F:/hghg/osc00VHDL/toposc00.vhdl"
+prj_src add "F:/osc00VHDL/div00.vhdl" "F:/osc00VHDL/osc00.vhdl" "F:/osc00VHDL/packageosc00.vhdl" "F:/osc00VHDL/toposc00.vhdl"
+prj_run Export -impl LCDram -task Jedecgen
+prj_run Export -impl LCDram -task Jedecgen
+pgr_project open "F:/hghg/LCDram/LCDram/LCDram.xcf"
+pgr_program run
+pgr_project save "F:/hghg/LCDram/LCDram/LCDram.xcf"
+prj_project save
+prj_project close
+#Stop recording: 6/15/2018 14:48:30
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

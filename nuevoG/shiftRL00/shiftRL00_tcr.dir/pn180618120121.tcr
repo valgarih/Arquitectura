@@ -1,0 +1,8 @@
+#Start recording tcl command: 6/18/2018 11:56:29
+#Project Location: F:/shiftRL00; Project name: shiftRL00
+prj_project open "F:/shiftRL00/shiftRL00.ldf"
+pgr_project open "F:/shiftRL00/shiftRL00/shiftRL00.xcf"
+pgr_program run
+pgr_project save "F:/shiftRL00/shiftRL00/shiftRL00.xcf"
+prj_project close
+#Stop recording: 6/18/2018 12:01:22

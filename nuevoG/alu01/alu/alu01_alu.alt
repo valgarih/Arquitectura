@@ -1,0 +1,35 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Apr 09 12:02:31 2019 *
+NOTE DESIGN NAME: subsal00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outsubs[0] : 85 : out *
+NOTE PINS outSLsubs : 71 : out *
+NOTE PINS clksubs : 55 : in *
+NOTE PINS outLEDoverfsubs : 93 : out *
+NOTE PINS outFlagsubs : 74 : out *
+NOTE PINS outsubs[7] : 98 : out *
+NOTE PINS outsubs[6] : 89 : out *
+NOTE PINS outsubs[5] : 95 : out *
+NOTE PINS outsubs[4] : 78 : out *
+NOTE PINS outsubs[3] : 81 : out *
+NOTE PINS outsubs[2] : 91 : out *
+NOTE PINS outsubs[1] : 83 : out *
+NOTE PINS insubs[7] : 97 : in *
+NOTE PINS insubs[6] : 87 : in *
+NOTE PINS insubs[5] : 96 : in *
+NOTE PINS insubs[4] : 77 : in *
+NOTE PINS insubs[3] : 82 : in *
+NOTE PINS insubs[2] : 92 : in *
+NOTE PINS insubs[1] : 84 : in *
+NOTE PINS insubs[0] : 86 : in *
+NOTE PINS inLEDoverfsubs : 94 : in *
+NOTE PINS inFlagsubs : 73 : in *
+NOTE PINS opcodesubs[4] : 76 : in *
+NOTE PINS opcodesubs[3] : 68 : in *
+NOTE PINS opcodesubs[2] : 70 : in *
+NOTE PINS opcodesubs[1] : 69 : in *
+NOTE PINS opcodesubs[0] : 75 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

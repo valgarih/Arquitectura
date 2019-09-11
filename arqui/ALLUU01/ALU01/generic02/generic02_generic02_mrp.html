@@ -1,0 +1,941 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+         Lattice Mapping Report File for Design Module 'topgeneric01'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
+     generic02_generic02.ngd -o generic02_generic02_map.ncd -pr
+     generic02_generic02.prf -mp generic02_generic02.mrp -lpf C:/Users/AlanAnton
+     io/Desktop/ALLUU01/ALU01/generic02/generic02_generic02_synplify.lpf -lpf
+     C:/Users/AlanAntonio/Desktop/ALLUU01/ALU01/generic02.lpf -c 0 -gui -msgset
+     C:/Users/AlanAntonio/Desktop/ALLUU01/ALU01/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.2.115
+Mapped on:  06/19/18  17:17:17
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    218 out of  7209 (3%)
+      PFU registers:          202 out of  6864 (3%)
+      PIO registers:           16 out of   345 (5%)
+   Number of SLICEs:       270 out of  3432 (8%)
+      SLICEs as Logic/ROM:    270 out of  3432 (8%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:        515 out of  6864 (8%)
+      Number used as logic LUTs:        493
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 50 + 4(JTAG) out of 115 (47%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net G00.sclk_0: 145 loads, 145 rising, 0 falling (Driver: G00/UD00/OSCInst0
+     )
+
+   Number of Clock Enables:  19
+     Net aux_RNIP63G2: 16 loads, 0 LSLICEs
+     Net G09/aux_RNIPCKS1: 5 loads, 5 LSLICEs
+     Net G_4: 53 loads, 53 LSLICEs
+     Net G10/aux_RNIPH0A2: 5 loads, 5 LSLICEs
+     Net G01/aux_RNI2GR72: 4 loads, 4 LSLICEs
+     Net G02/aux_RNI1C182: 4 loads, 4 LSLICEs
+     Net G03/outx_1ce[0]: 4 loads, 4 LSLICEs
+     Net G04/outn_1ce[0]: 4 loads, 4 LSLICEs
+     Net G05/aux_RNIDID92: 4 loads, 4 LSLICEs
+     Net G06/aux_RNIBKQH2: 2 loads, 2 LSLICEs
+     Net G06/outno_1ce[3]: 3 loads, 3 LSLICEs
+     Net G07/outxn_1ce[0]: 4 loads, 4 LSLICEs
+     Net G12/aux_RNIN1FB2: 8 loads, 8 LSLICEs
+     Net G13/aux_RNI49KF2: 2 loads, 2 LSLICEs
+     Net G13/outsl_1ce[4]: 2 loads, 2 LSLICEs
+     Net G14/outsr_1ce[0]: 2 loads, 2 LSLICEs
+     Net G14/aux_RNII97I2: 2 loads, 2 LSLICEs
+     Net G15/outrl_1ce[0]: 4 loads, 4 LSLICEs
+     Net G16/outrr_1ce[0]: 4 loads, 4 LSLICEs
+   Number of LSRs:  2
+     Net aux_RNI7SJT2: 8 loads, 0 LSLICEs
+     Net G00/UD01/un1_outdiv44_RNIEC7H: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net G_4: 69 loads
+     Net outFlag0_c: 38 loads
+     Net portA0_c[7]: 32 loads
+     Net corr0_c[2]: 31 loads
+     Net portA0_c[0]: 31 loads
+     Net portA0_c[6]: 29 loads
+     Net portA0_c[4]: 28 loads
+     Net portA0_c[1]: 27 loads
+     Net portA0_c[2]: 27 loads
+     Net portA0_c[3]: 27 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+   No errors or warnings present.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| inFlag0             | BIDIR     | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| LEDas0              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk0                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv0[0]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ac0[15]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[14]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[13]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[12]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[11]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[10]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[9]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[8]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[7]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[6]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[5]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[4]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[3]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[2]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[1]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| ac0[0]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outFlag0            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| corr0[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| corr0[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| corr0[0]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[0]           | INPUT     | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| portB0[7]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[6]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[5]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[7]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[6]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[5]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SL0                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| enable0             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv0[3]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv0[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv0[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block G00/GND undriven or does not drive anything - clipped.
+Block G00/VCC undriven or does not drive anything - clipped.
+Block G00/UD00/VCC undriven or does not drive anything - clipped.
+Block G00/UD01/VCC undriven or does not drive anything - clipped.
+Block G08/GND undriven or does not drive anything - clipped.
+Block G08/VCC undriven or does not drive anything - clipped.
+
+Block G08/UA08/GND undriven or does not drive anything - clipped.
+Block G08/UA08/VCC undriven or does not drive anything - clipped.
+Block G08/UA08/U00/GND undriven or does not drive anything - clipped.
+Block G08/UA08/U00/VCC undriven or does not drive anything - clipped.
+Block G08/UA08/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G08/UA08/U00/U1/GND undriven or does not drive anything - clipped.
+Block G08/UA08/U02/VCC undriven or does not drive anything - clipped.
+Block G08/UA08/U02/GND undriven or does not drive anything - clipped.
+Block G08/UA09/GND undriven or does not drive anything - clipped.
+Block G08/UA09/VCC undriven or does not drive anything - clipped.
+Block G08/UA09/U01/GND undriven or does not drive anything - clipped.
+Block G08/UA09/U01/VCC undriven or does not drive anything - clipped.
+Block G08/UA09/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G08/UA09/U01/U1/GND undriven or does not drive anything - clipped.
+Block G08/UA09/U02/GND undriven or does not drive anything - clipped.
+Block G08/UA09/U02/VCC undriven or does not drive anything - clipped.
+Block G08/UA10/GND undriven or does not drive anything - clipped.
+Block G08/UA10/VCC undriven or does not drive anything - clipped.
+Block G08/UA10/U01/GND undriven or does not drive anything - clipped.
+Block G08/UA10/U01/VCC undriven or does not drive anything - clipped.
+Block G08/UA10/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G08/UA10/U01/U1/GND undriven or does not drive anything - clipped.
+Block G08/UA10/U02/GND undriven or does not drive anything - clipped.
+Block G08/UA10/U02/VCC undriven or does not drive anything - clipped.
+Block G08/UA11/GND undriven or does not drive anything - clipped.
+Block G08/UA11/VCC undriven or does not drive anything - clipped.
+Block G08/UA11/U01/GND undriven or does not drive anything - clipped.
+Block G08/UA11/U01/VCC undriven or does not drive anything - clipped.
+Block G08/UA11/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G08/UA11/U01/U1/GND undriven or does not drive anything - clipped.
+Block G08/UA11/U02/GND undriven or does not drive anything - clipped.
+Block G08/UA11/U02/VCC undriven or does not drive anything - clipped.
+Block G08/UA12/GND undriven or does not drive anything - clipped.
+Block G08/UA12/VCC undriven or does not drive anything - clipped.
+Block G08/UA12/U01/GND undriven or does not drive anything - clipped.
+Block G08/UA12/U01/VCC undriven or does not drive anything - clipped.
+Block G08/UA12/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G08/UA12/U01/U1/GND undriven or does not drive anything - clipped.
+Block G08/UA12/U02/GND undriven or does not drive anything - clipped.
+Block G08/UA12/U02/VCC undriven or does not drive anything - clipped.
+Block G08/UA13/GND undriven or does not drive anything - clipped.
+Block G08/UA13/VCC undriven or does not drive anything - clipped.
+Block G08/UA13/U02/GND undriven or does not drive anything - clipped.
+Block G08/UA13/U02/VCC undriven or does not drive anything - clipped.
+Block G08/UA14/GND undriven or does not drive anything - clipped.
+Block G08/UA14/VCC undriven or does not drive anything - clipped.
+Block G08/UA14/U02/GND undriven or does not drive anything - clipped.
+Block G08/UA14/U02/VCC undriven or does not drive anything - clipped.
+Block G08/UA16/VCC undriven or does not drive anything - clipped.
+Block G08/UA16/GND undriven or does not drive anything - clipped.
+Block G08/UA17/GND undriven or does not drive anything - clipped.
+Block G08/UA17/VCC undriven or does not drive anything - clipped.
+Block G08/UA18/GND undriven or does not drive anything - clipped.
+Block G08/UA18/VCC undriven or does not drive anything - clipped.
+Block G08/UA19/GND undriven or does not drive anything - clipped.
+Block G08/UA19/VCC undriven or does not drive anything - clipped.
+
+Block G08/UA20/GND undriven or does not drive anything - clipped.
+Block G08/UA20/VCC undriven or does not drive anything - clipped.
+Block G08/UA21/GND undriven or does not drive anything - clipped.
+Block G08/UA21/VCC undriven or does not drive anything - clipped.
+Block G08/UA22/GND undriven or does not drive anything - clipped.
+Block G08/UA22/VCC undriven or does not drive anything - clipped.
+Block G08/UA23/GND undriven or does not drive anything - clipped.
+Block G08/UA23/VCC undriven or does not drive anything - clipped.
+Block G08/UA24/GND undriven or does not drive anything - clipped.
+Block G08/UA24/VCC undriven or does not drive anything - clipped.
+Block G11/GND undriven or does not drive anything - clipped.
+Block G11/VCC undriven or does not drive anything - clipped.
+Block G11/M03/VCC undriven or does not drive anything - clipped.
+Block G11/M03/GND undriven or does not drive anything - clipped.
+Block G11/M11/VCC undriven or does not drive anything - clipped.
+Block G11/M11/GND undriven or does not drive anything - clipped.
+Block G11/M12/VCC undriven or does not drive anything - clipped.
+Block G11/M12/GND undriven or does not drive anything - clipped.
+Block G11/M13/VCC undriven or does not drive anything - clipped.
+Block G11/M13/GND undriven or does not drive anything - clipped.
+Block G11/M14/VCC undriven or does not drive anything - clipped.
+Block G11/M14/GND undriven or does not drive anything - clipped.
+Block G11/M16/GND undriven or does not drive anything - clipped.
+Block G11/M16/VCC undriven or does not drive anything - clipped.
+Block G11/M16/U00/GND undriven or does not drive anything - clipped.
+Block G11/M16/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M16/U00/U0/GND undriven or does not drive anything - clipped.
+Block G11/M16/U00/U0/VCC undriven or does not drive anything - clipped.
+Block G11/M16/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M16/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M17/GND undriven or does not drive anything - clipped.
+Block G11/M17/VCC undriven or does not drive anything - clipped.
+Block G11/M17/U01/GND undriven or does not drive anything - clipped.
+Block G11/M17/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M17/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M17/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M17/U02/GND undriven or does not drive anything - clipped.
+Block G11/M17/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M18/GND undriven or does not drive anything - clipped.
+Block G11/M18/VCC undriven or does not drive anything - clipped.
+Block G11/M18/U01/GND undriven or does not drive anything - clipped.
+Block G11/M18/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M18/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M18/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M18/U02/GND undriven or does not drive anything - clipped.
+Block G11/M18/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M19/GND undriven or does not drive anything - clipped.
+Block G11/M19/VCC undriven or does not drive anything - clipped.
+Block G11/M19/U00/GND undriven or does not drive anything - clipped.
+Block G11/M19/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M19/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M19/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M19/U02/GND undriven or does not drive anything - clipped.
+Block G11/M19/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M20/GND undriven or does not drive anything - clipped.
+Block G11/M20/VCC undriven or does not drive anything - clipped.
+
+Block G11/M20/U01/GND undriven or does not drive anything - clipped.
+Block G11/M20/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M20/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M20/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M20/U02/GND undriven or does not drive anything - clipped.
+Block G11/M20/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M21/GND undriven or does not drive anything - clipped.
+Block G11/M21/VCC undriven or does not drive anything - clipped.
+Block G11/M21/U01/GND undriven or does not drive anything - clipped.
+Block G11/M21/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M21/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M21/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M21/U02/GND undriven or does not drive anything - clipped.
+Block G11/M21/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M22/GND undriven or does not drive anything - clipped.
+Block G11/M22/VCC undriven or does not drive anything - clipped.
+Block G11/M22/U01/GND undriven or does not drive anything - clipped.
+Block G11/M22/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M22/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M22/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M22/U02/GND undriven or does not drive anything - clipped.
+Block G11/M22/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M23/GND undriven or does not drive anything - clipped.
+Block G11/M23/VCC undriven or does not drive anything - clipped.
+Block G11/M23/U01/GND undriven or does not drive anything - clipped.
+Block G11/M23/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M23/U01/U0/VCC undriven or does not drive anything - clipped.
+Block G11/M23/U01/U0/GND undriven or does not drive anything - clipped.
+Block G11/M32/GND undriven or does not drive anything - clipped.
+Block G11/M32/VCC undriven or does not drive anything - clipped.
+Block G11/M32/U00/GND undriven or does not drive anything - clipped.
+Block G11/M32/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M32/U00/U0/VCC undriven or does not drive anything - clipped.
+Block G11/M32/U00/U0/GND undriven or does not drive anything - clipped.
+Block G11/M32/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M32/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M33/GND undriven or does not drive anything - clipped.
+Block G11/M33/VCC undriven or does not drive anything - clipped.
+Block G11/M33/U00/GND undriven or does not drive anything - clipped.
+Block G11/M33/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M33/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M33/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M33/U02/GND undriven or does not drive anything - clipped.
+Block G11/M33/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M34/GND undriven or does not drive anything - clipped.
+Block G11/M34/VCC undriven or does not drive anything - clipped.
+Block G11/M34/U01/GND undriven or does not drive anything - clipped.
+Block G11/M34/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M34/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M34/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M34/U02/GND undriven or does not drive anything - clipped.
+Block G11/M34/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M35/GND undriven or does not drive anything - clipped.
+Block G11/M35/VCC undriven or does not drive anything - clipped.
+Block G11/M35/U01/GND undriven or does not drive anything - clipped.
+Block G11/M35/U01/VCC undriven or does not drive anything - clipped.
+
+Block G11/M35/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M35/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M35/U02/GND undriven or does not drive anything - clipped.
+Block G11/M35/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M36/GND undriven or does not drive anything - clipped.
+Block G11/M36/VCC undriven or does not drive anything - clipped.
+Block G11/M36/U00/GND undriven or does not drive anything - clipped.
+Block G11/M36/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M36/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M36/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M36/U02/GND undriven or does not drive anything - clipped.
+Block G11/M36/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M37/GND undriven or does not drive anything - clipped.
+Block G11/M37/VCC undriven or does not drive anything - clipped.
+Block G11/M37/U01/GND undriven or does not drive anything - clipped.
+Block G11/M37/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M37/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M37/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M37/U02/GND undriven or does not drive anything - clipped.
+Block G11/M37/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M38/GND undriven or does not drive anything - clipped.
+Block G11/M38/VCC undriven or does not drive anything - clipped.
+Block G11/M38/U01/GND undriven or does not drive anything - clipped.
+Block G11/M38/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M38/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M38/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M38/U02/GND undriven or does not drive anything - clipped.
+Block G11/M38/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M39/GND undriven or does not drive anything - clipped.
+Block G11/M39/VCC undriven or does not drive anything - clipped.
+Block G11/M39/U01/GND undriven or does not drive anything - clipped.
+Block G11/M39/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M39/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M39/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M39/U02/GND undriven or does not drive anything - clipped.
+Block G11/M39/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M48/GND undriven or does not drive anything - clipped.
+Block G11/M48/VCC undriven or does not drive anything - clipped.
+Block G11/M48/U00/GND undriven or does not drive anything - clipped.
+Block G11/M48/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M48/U00/U0/GND undriven or does not drive anything - clipped.
+Block G11/M48/U00/U0/VCC undriven or does not drive anything - clipped.
+Block G11/M48/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M48/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M49/GND undriven or does not drive anything - clipped.
+Block G11/M49/VCC undriven or does not drive anything - clipped.
+Block G11/M49/U00/GND undriven or does not drive anything - clipped.
+Block G11/M49/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M49/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M49/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M49/U02/GND undriven or does not drive anything - clipped.
+Block G11/M49/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M50/GND undriven or does not drive anything - clipped.
+Block G11/M50/VCC undriven or does not drive anything - clipped.
+Block G11/M50/U01/GND undriven or does not drive anything - clipped.
+Block G11/M50/U01/VCC undriven or does not drive anything - clipped.
+
+Block G11/M50/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M50/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M50/U02/GND undriven or does not drive anything - clipped.
+Block G11/M50/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M51/GND undriven or does not drive anything - clipped.
+Block G11/M51/VCC undriven or does not drive anything - clipped.
+Block G11/M51/U01/GND undriven or does not drive anything - clipped.
+Block G11/M51/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M51/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M51/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M51/U02/GND undriven or does not drive anything - clipped.
+Block G11/M51/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M52/GND undriven or does not drive anything - clipped.
+Block G11/M52/VCC undriven or does not drive anything - clipped.
+Block G11/M52/U01/GND undriven or does not drive anything - clipped.
+Block G11/M52/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M52/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M52/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M52/U02/GND undriven or does not drive anything - clipped.
+Block G11/M52/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M53/GND undriven or does not drive anything - clipped.
+Block G11/M53/VCC undriven or does not drive anything - clipped.
+Block G11/M53/U01/GND undriven or does not drive anything - clipped.
+Block G11/M53/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M53/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M53/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M53/U02/GND undriven or does not drive anything - clipped.
+Block G11/M53/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M54/GND undriven or does not drive anything - clipped.
+Block G11/M54/VCC undriven or does not drive anything - clipped.
+Block G11/M54/U01/GND undriven or does not drive anything - clipped.
+Block G11/M54/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M54/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M54/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M54/U02/GND undriven or does not drive anything - clipped.
+Block G11/M54/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M55/GND undriven or does not drive anything - clipped.
+Block G11/M55/VCC undriven or does not drive anything - clipped.
+Block G11/M55/U01/GND undriven or does not drive anything - clipped.
+Block G11/M55/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M55/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M55/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M55/U02/GND undriven or does not drive anything - clipped.
+Block G11/M55/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M64/GND undriven or does not drive anything - clipped.
+Block G11/M64/VCC undriven or does not drive anything - clipped.
+Block G11/M64/U00/GND undriven or does not drive anything - clipped.
+Block G11/M64/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M64/U00/U0/GND undriven or does not drive anything - clipped.
+Block G11/M64/U00/U0/VCC undriven or does not drive anything - clipped.
+Block G11/M64/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M64/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M65/GND undriven or does not drive anything - clipped.
+Block G11/M65/VCC undriven or does not drive anything - clipped.
+Block G11/M65/U00/GND undriven or does not drive anything - clipped.
+Block G11/M65/U00/VCC undriven or does not drive anything - clipped.
+
+Block G11/M65/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M65/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M65/U02/GND undriven or does not drive anything - clipped.
+Block G11/M65/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M66/GND undriven or does not drive anything - clipped.
+Block G11/M66/VCC undriven or does not drive anything - clipped.
+Block G11/M66/U01/GND undriven or does not drive anything - clipped.
+Block G11/M66/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M66/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M66/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M66/U02/GND undriven or does not drive anything - clipped.
+Block G11/M66/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M67/GND undriven or does not drive anything - clipped.
+Block G11/M67/VCC undriven or does not drive anything - clipped.
+Block G11/M67/U01/GND undriven or does not drive anything - clipped.
+Block G11/M67/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M67/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M67/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M67/U02/GND undriven or does not drive anything - clipped.
+Block G11/M67/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M68/GND undriven or does not drive anything - clipped.
+Block G11/M68/VCC undriven or does not drive anything - clipped.
+Block G11/M68/U02/GND undriven or does not drive anything - clipped.
+Block G11/M68/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M69/GND undriven or does not drive anything - clipped.
+Block G11/M69/VCC undriven or does not drive anything - clipped.
+Block G11/M69/U01/GND undriven or does not drive anything - clipped.
+Block G11/M69/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M69/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M69/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M69/U02/GND undriven or does not drive anything - clipped.
+Block G11/M69/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M70/GND undriven or does not drive anything - clipped.
+Block G11/M70/VCC undriven or does not drive anything - clipped.
+Block G11/M70/U00/GND undriven or does not drive anything - clipped.
+Block G11/M70/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M70/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M70/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M70/U02/GND undriven or does not drive anything - clipped.
+Block G11/M70/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M71/GND undriven or does not drive anything - clipped.
+Block G11/M71/VCC undriven or does not drive anything - clipped.
+Block G11/M71/U01/GND undriven or does not drive anything - clipped.
+Block G11/M71/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M71/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M71/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M71/U02/GND undriven or does not drive anything - clipped.
+Block G11/M71/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M80/GND undriven or does not drive anything - clipped.
+Block G11/M80/VCC undriven or does not drive anything - clipped.
+Block G11/M80/U00/GND undriven or does not drive anything - clipped.
+Block G11/M80/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M80/U00/U0/GND undriven or does not drive anything - clipped.
+Block G11/M80/U00/U0/VCC undriven or does not drive anything - clipped.
+Block G11/M80/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M80/U00/U1/VCC undriven or does not drive anything - clipped.
+
+Block G11/M81/GND undriven or does not drive anything - clipped.
+Block G11/M81/VCC undriven or does not drive anything - clipped.
+Block G11/M81/U00/GND undriven or does not drive anything - clipped.
+Block G11/M81/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M81/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M81/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M81/U02/GND undriven or does not drive anything - clipped.
+Block G11/M81/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M82/GND undriven or does not drive anything - clipped.
+Block G11/M82/VCC undriven or does not drive anything - clipped.
+Block G11/M82/U01/GND undriven or does not drive anything - clipped.
+Block G11/M82/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M82/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M82/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M82/U02/GND undriven or does not drive anything - clipped.
+Block G11/M82/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M83/GND undriven or does not drive anything - clipped.
+Block G11/M83/VCC undriven or does not drive anything - clipped.
+Block G11/M83/U01/GND undriven or does not drive anything - clipped.
+Block G11/M83/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M83/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M83/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M83/U02/GND undriven or does not drive anything - clipped.
+Block G11/M83/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M84/GND undriven or does not drive anything - clipped.
+Block G11/M84/VCC undriven or does not drive anything - clipped.
+Block G11/M84/U01/GND undriven or does not drive anything - clipped.
+Block G11/M84/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M84/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M84/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M84/U02/GND undriven or does not drive anything - clipped.
+Block G11/M84/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M85/GND undriven or does not drive anything - clipped.
+Block G11/M85/VCC undriven or does not drive anything - clipped.
+Block G11/M85/U01/GND undriven or does not drive anything - clipped.
+Block G11/M85/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M85/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M85/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M85/U02/GND undriven or does not drive anything - clipped.
+Block G11/M85/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M86/GND undriven or does not drive anything - clipped.
+Block G11/M86/VCC undriven or does not drive anything - clipped.
+Block G11/M86/U01/GND undriven or does not drive anything - clipped.
+Block G11/M86/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M86/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M86/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M86/U02/GND undriven or does not drive anything - clipped.
+Block G11/M86/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M87/GND undriven or does not drive anything - clipped.
+Block G11/M87/VCC undriven or does not drive anything - clipped.
+Block G11/M87/U01/GND undriven or does not drive anything - clipped.
+Block G11/M87/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M87/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M87/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M87/U02/GND undriven or does not drive anything - clipped.
+Block G11/M87/U02/VCC undriven or does not drive anything - clipped.
+
+Block G11/M96/GND undriven or does not drive anything - clipped.
+Block G11/M96/VCC undriven or does not drive anything - clipped.
+Block G11/M96/U00/GND undriven or does not drive anything - clipped.
+Block G11/M96/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M96/U00/U0/GND undriven or does not drive anything - clipped.
+Block G11/M96/U00/U0/VCC undriven or does not drive anything - clipped.
+Block G11/M96/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M96/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M97/GND undriven or does not drive anything - clipped.
+Block G11/M97/VCC undriven or does not drive anything - clipped.
+Block G11/M97/U00/GND undriven or does not drive anything - clipped.
+Block G11/M97/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M97/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M97/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M97/U02/GND undriven or does not drive anything - clipped.
+Block G11/M97/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M98/GND undriven or does not drive anything - clipped.
+Block G11/M98/VCC undriven or does not drive anything - clipped.
+Block G11/M98/U01/GND undriven or does not drive anything - clipped.
+Block G11/M98/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M98/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M98/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M98/U02/GND undriven or does not drive anything - clipped.
+Block G11/M98/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M99/GND undriven or does not drive anything - clipped.
+Block G11/M99/VCC undriven or does not drive anything - clipped.
+Block G11/M99/U01/GND undriven or does not drive anything - clipped.
+Block G11/M99/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M99/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M99/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M99/U02/GND undriven or does not drive anything - clipped.
+Block G11/M99/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M100/GND undriven or does not drive anything - clipped.
+Block G11/M100/VCC undriven or does not drive anything - clipped.
+Block G11/M100/U01/GND undriven or does not drive anything - clipped.
+Block G11/M100/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M100/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M100/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M100/U02/GND undriven or does not drive anything - clipped.
+Block G11/M100/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M101/GND undriven or does not drive anything - clipped.
+Block G11/M101/VCC undriven or does not drive anything - clipped.
+Block G11/M101/U01/GND undriven or does not drive anything - clipped.
+Block G11/M101/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M101/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M101/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M101/U02/GND undriven or does not drive anything - clipped.
+Block G11/M101/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M102/GND undriven or does not drive anything - clipped.
+Block G11/M102/VCC undriven or does not drive anything - clipped.
+Block G11/M102/U01/GND undriven or does not drive anything - clipped.
+Block G11/M102/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M102/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M102/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M102/U02/GND undriven or does not drive anything - clipped.
+Block G11/M102/U02/VCC undriven or does not drive anything - clipped.
+
+Block G11/M103/GND undriven or does not drive anything - clipped.
+Block G11/M103/VCC undriven or does not drive anything - clipped.
+Block G11/M103/U01/GND undriven or does not drive anything - clipped.
+Block G11/M103/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M103/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M103/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M103/U02/GND undriven or does not drive anything - clipped.
+Block G11/M103/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M112/GND undriven or does not drive anything - clipped.
+Block G11/M112/VCC undriven or does not drive anything - clipped.
+Block G11/M112/U00/GND undriven or does not drive anything - clipped.
+Block G11/M112/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M112/U00/U0/GND undriven or does not drive anything - clipped.
+Block G11/M112/U00/U0/VCC undriven or does not drive anything - clipped.
+Block G11/M112/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M112/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M113/GND undriven or does not drive anything - clipped.
+Block G11/M113/VCC undriven or does not drive anything - clipped.
+Block G11/M113/U00/GND undriven or does not drive anything - clipped.
+Block G11/M113/U00/VCC undriven or does not drive anything - clipped.
+Block G11/M113/U00/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M113/U00/U1/GND undriven or does not drive anything - clipped.
+Block G11/M113/U01/GND undriven or does not drive anything - clipped.
+Block G11/M113/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M113/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M113/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M113/U02/GND undriven or does not drive anything - clipped.
+Block G11/M113/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M114/GND undriven or does not drive anything - clipped.
+Block G11/M114/VCC undriven or does not drive anything - clipped.
+Block G11/M114/U01/GND undriven or does not drive anything - clipped.
+Block G11/M114/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M114/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M114/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M114/U02/GND undriven or does not drive anything - clipped.
+Block G11/M114/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M115/GND undriven or does not drive anything - clipped.
+Block G11/M115/VCC undriven or does not drive anything - clipped.
+Block G11/M115/U01/GND undriven or does not drive anything - clipped.
+Block G11/M115/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M115/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M115/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M115/U02/GND undriven or does not drive anything - clipped.
+Block G11/M115/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M116/GND undriven or does not drive anything - clipped.
+Block G11/M116/VCC undriven or does not drive anything - clipped.
+Block G11/M116/U01/GND undriven or does not drive anything - clipped.
+Block G11/M116/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M116/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M116/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M116/U02/GND undriven or does not drive anything - clipped.
+Block G11/M116/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M117/GND undriven or does not drive anything - clipped.
+Block G11/M117/VCC undriven or does not drive anything - clipped.
+Block G11/M117/U01/GND undriven or does not drive anything - clipped.
+Block G11/M117/U01/VCC undriven or does not drive anything - clipped.
+
+Block G11/M117/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M117/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M117/U02/GND undriven or does not drive anything - clipped.
+Block G11/M117/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M118/GND undriven or does not drive anything - clipped.
+Block G11/M118/VCC undriven or does not drive anything - clipped.
+Block G11/M118/U01/GND undriven or does not drive anything - clipped.
+Block G11/M118/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M118/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M118/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M118/U02/GND undriven or does not drive anything - clipped.
+Block G11/M118/U02/VCC undriven or does not drive anything - clipped.
+Block G11/M119/GND undriven or does not drive anything - clipped.
+Block G11/M119/VCC undriven or does not drive anything - clipped.
+Block G11/M119/U01/GND undriven or does not drive anything - clipped.
+Block G11/M119/U01/VCC undriven or does not drive anything - clipped.
+Block G11/M119/U01/U1/GND undriven or does not drive anything - clipped.
+Block G11/M119/U01/U1/VCC undriven or does not drive anything - clipped.
+Block G11/M119/U02/GND undriven or does not drive anything - clipped.
+Block G11/M119/U02/VCC undriven or does not drive anything - clipped.
+Block G17/GND undriven or does not drive anything - clipped.
+Block G17/VCC undriven or does not drive anything - clipped.
+Block G16/GND undriven or does not drive anything - clipped.
+Block G16/VCC undriven or does not drive anything - clipped.
+Block G15/GND undriven or does not drive anything - clipped.
+Block G15/VCC undriven or does not drive anything - clipped.
+Block G14/GND undriven or does not drive anything - clipped.
+Block G14/VCC undriven or does not drive anything - clipped.
+Block G13/GND undriven or does not drive anything - clipped.
+Block G13/VCC undriven or does not drive anything - clipped.
+Block G12/GND undriven or does not drive anything - clipped.
+Block G12/VCC undriven or does not drive anything - clipped.
+Block G07/GND undriven or does not drive anything - clipped.
+Block G07/VCC undriven or does not drive anything - clipped.
+Block G06/GND undriven or does not drive anything - clipped.
+Block G06/VCC undriven or does not drive anything - clipped.
+Block G05/GND undriven or does not drive anything - clipped.
+Block G05/VCC undriven or does not drive anything - clipped.
+Block G04/GND undriven or does not drive anything - clipped.
+Block G04/VCC undriven or does not drive anything - clipped.
+Block G03/GND undriven or does not drive anything - clipped.
+Block G03/VCC undriven or does not drive anything - clipped.
+Block G02/GND undriven or does not drive anything - clipped.
+Block G02/VCC undriven or does not drive anything - clipped.
+Block G01/GND undriven or does not drive anything - clipped.
+Block G01/VCC undriven or does not drive anything - clipped.
+Block G10/GND undriven or does not drive anything - clipped.
+Block G10/VCC undriven or does not drive anything - clipped.
+Block G09/GND undriven or does not drive anything - clipped.
+Block G09/VCC undriven or does not drive anything - clipped.
+Signal G00/UD00/GND undriven or does not drive anything - clipped.
+Signal G00/UD01/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal G00/UD00/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+     
+
+Signal G00/UD01/un1_sdiv_cry_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal G00/UD01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal G00/UD01/N_1 undriven or does not drive anything - clipped.
+Block G00/UD00/GND was optimized away.
+Block G00/UD01/GND was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                G00/UD00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     G00.sclk_0
+  OSC Nominal Frequency (MHz):                      2.08
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: G00/UD00/OSCInst0
+         Type: OSCH
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 2 secs  
+   Total REAL Time: 3 secs  
+   Peak Memory Usage: 60 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="alu02" device="LCMXO2-7000HE-5TG144C" default_implementation="alu">
+    <Options/>
+    <Implementation title="alu" dir="alu" description="alu" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topalu01"/>
+        <Source name="../osc00VHDL/div00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../osc00VHDL/osc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../osc00VHDL/packageosc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../osc00VHDL/toposc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../sum8bit00/and00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../sum8bit00/or00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../sum8bit00/packageha00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../sum8bit00/packagefa00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../sum8bit00/xor00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../sum8bit00/xnor00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../sum8bit00/ha00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../sum8bit00/fa00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../sum8bit00/packageadder8bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../sum8bit00/topadder8bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../multi8bit00/packagemult8bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../multi8bit00/topmult8bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../alu00/anda00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../alu00/ora00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="xoral00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="notal00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="nandal00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="noral00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="xnoral00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../alu01/addal00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../alu01/subsal00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="acal00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagealu01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topalu01.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topalu01"/>
+        </Source>
+        <Source name="multal00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="alu02.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="alu021.sty"/>
+</BaliProject>

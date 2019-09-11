@@ -1,0 +1,8 @@
+#Start recording tcl command: 6/15/2018 11:28:58
+#Project Location: C:/Users/Ideapad/Desktop/GELACIO/LCDram; Project name: LCDram00
+prj_project open "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram00.ldf"
+pgr_project open "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+pgr_program run
+pgr_project save "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+prj_project close
+#Stop recording: 6/15/2018 12:53:23

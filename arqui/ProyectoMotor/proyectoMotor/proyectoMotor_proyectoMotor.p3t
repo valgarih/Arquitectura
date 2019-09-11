@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "proyectoMotor_proyectoMotor.log"
+-o "proyectoMotor_proyectoMotor.csv"
+-pr "proyectoMotor_proyectoMotor.prf"

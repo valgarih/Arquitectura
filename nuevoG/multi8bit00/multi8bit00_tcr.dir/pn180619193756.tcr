@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/19/2018 19:34:38
+#Project Location: G:/multi8bit00; Project name: multi8bit00
+prj_project open "G:/multi8bit00/multi8bit00.ldf"
+prj_src remove "G:/sumador00/and00.vhdl" "G:/sumador00/xor00.vhdl" "G:/sumador00/package00.vhdl" "G:/sumador00/ha00.vhdl" "G:/sumador00/or00.vhdl" "G:/sumador00/packagefa00.vhdl" "G:/sumador00/fa00.vhdl"
+#Stop recording: 6/19/2018 19:37:56

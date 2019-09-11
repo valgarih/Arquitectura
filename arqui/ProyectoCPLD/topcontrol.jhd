@@ -1,0 +1,9 @@
+
+
+MODULE topcontrol
+
+	SUBMODULE topdiv00
+		INSTANCE U1
+
+	SUBMODULE control
+		INSTANCE U2

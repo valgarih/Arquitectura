@@ -1,0 +1,17 @@
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\topdv00.vhdl":7:7:7:13|Synthesizing work.topdv00.topdv0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":27:6:27:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":36:6:36:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":45:6:45:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":54:6:54:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":63:6:63:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":72:6:72:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":80:6:80:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":89:6:89:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD326 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\osc00.vhdl":21:0:21:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdv00.topdv0

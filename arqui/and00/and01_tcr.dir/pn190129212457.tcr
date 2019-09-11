@@ -1,0 +1,7 @@
+#Start recording tcl command: 1/29/2019 21:10:52
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/and00; Project name: and01
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/and00/and01.ldf"
+pgr_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/and00/and01/and01.xcf"
+pgr_project close
+prj_project close
+#Stop recording: 1/29/2019 21:24:57

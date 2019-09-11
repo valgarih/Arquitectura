@@ -1,0 +1,9 @@
+#Start recording tcl command: 6/19/2018 08:52:36
+#Project Location: F:/alu02; Project name: alu02
+prj_project open "F:/alu02/alu02.ldf"
+prj_src add "F:/alu01/addal00.vhdl" "F:/alu01/subsal00.vhdl"
+prj_src add "F:/alu02/packagealu01.vhdl"
+prj_src add "F:/alu02/acal00.vhdl"
+prj_run Export -impl alu -task Jedecgen
+prj_src add "F:/alu02/topalu01.vhdl"
+#Stop recording: 6/19/2018 10:14:40

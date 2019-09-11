@@ -1,0 +1,663 @@
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: ALLECTO
+
+# Thu Jun 14 22:28:54 2018
+
+#Implementation: bcd00
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"G:\bcd01\topconvbcd00.vhdl":8:7:8:18|Top entity is set to topconvbcd00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"G:\bcd01\topconvbcd00.vhdl":8:7:8:18|Synthesizing work.topconvbcd00.topconvbcd0.
+@W: CD638 :"G:\bcd01\topconvbcd00.vhdl":33:7:33:10|Signal sout is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"G:\bcd01\mux00.vhdl":10:7:10:11|Synthesizing work.mux00.mux0.
+@W: CG296 :"G:\bcd01\mux00.vhdl":21:8:21:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"G:\bcd01\mux00.vhdl":29:24:29:30|Referenced variable intbcdc is not in sensitivity list.
+@W: CG290 :"G:\bcd01\mux00.vhdl":27:24:27:30|Referenced variable intbcdd is not in sensitivity list.
+@W: CG290 :"G:\bcd01\mux00.vhdl":25:24:25:30|Referenced variable intbcdu is not in sensitivity list.
+Post processing for work.mux00.mux0
+@W: CL117 :"G:\bcd01\mux00.vhdl":23:7:23:10|Latch generated from process for signal outBCDmux(6 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"G:\bcd01\divint00.vhdl":10:7:10:14|Synthesizing work.divint00.divint0.
+Post processing for work.divint00.divint0
+@N: CD630 :"G:\bcd01\contring00.vhdl":10:7:10:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@N: CD630 :"G:\bcd01\coderNibbles00.vhdl":10:7:10:20|Synthesizing work.codernibbles00.codernibbles0.
+Post processing for work.codernibbles00.codernibbles0
+@N: CD630 :"G:\bcd01\contIter00.vhdl":10:7:10:16|Synthesizing work.contiter00.contiter0.
+Post processing for work.contiter00.contiter0
+@N: CD630 :"G:\bcd01\shift12bit00.vhdl":8:7:8:18|Synthesizing work.shift12bit00.shift12bit0.
+Post processing for work.shift12bit00.shift12bit0
+@W: CL169 :"G:\bcd01\shift12bit00.vhdl":23:6:23:7|Pruning unused register outFlagss_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"G:\bcd01\compadd00.vhdl":10:7:10:15|Synthesizing work.compadd00.compadd0.
+Post processing for work.compadd00.compadd0
+@W: CL169 :"G:\bcd01\compadd00.vhdl":26:5:26:6|Pruning unused register outFlagca_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"G:\bcd01\sust00.vhdl":8:7:8:12|Synthesizing work.sust00.sust0.
+Post processing for work.sust00.sust0
+@W: CL169 :"G:\bcd01\sust00.vhdl":26:5:26:6|Pruning unused register outFlagsu_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"G:\bcd01\sust00.vhdl":26:5:26:6|Pruning unused register outFlagsuB_cl_1. Make sure that there are no unused intermediate registers.
+@W: CL177 :"G:\bcd01\sust00.vhdl":27:13:27:28|Sharing sequential element outFlagsuB_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"G:\bcd01\sust00.vhdl":27:13:27:28|Sharing sequential element outFlagsuB. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"G:\bcd01\ac12bit00.vhdl":8:7:8:15|Synthesizing work.ac12bit00.ac12bit0.
+Post processing for work.ac12bit00.ac12bit0
+@N: CD630 :"G:\bcd01\shift8bit00.vhdl":8:7:8:17|Synthesizing work.shift8bit00.shift8bit0.
+Post processing for work.shift8bit00.shift8bit0
+@W: CL169 :"G:\bcd01\shift8bit00.vhdl":23:6:23:7|Pruning unused register outFlags_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"G:\bcd01\leeInst00.vhdl":10:7:10:15|Synthesizing work.leeinst00.leeinst0.
+Post processing for work.leeinst00.leeinst0
+@W: CL117 :"G:\bcd01\leeInst00.vhdl":31:9:31:10|Latch generated from process for signal outcode(3 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"G:\bcd01\ac8bit00.vhdl":8:7:8:14|Synthesizing work.ac8bit00.ac8bit0.
+Post processing for work.ac8bit00.ac8bit0
+@N: CD630 :"G:\bcd01\pcinc00.vhdl":10:7:10:13|Synthesizing work.pcinc00.pcinc0.
+@W: CG296 :"G:\bcd01\pcinc00.vhdl":24:13:24:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"G:\bcd01\pcinc00.vhdl":26:10:26:14|Referenced variable clkpc is not in sensitivity list.
+Post processing for work.pcinc00.pcinc0
+@N: CD630 :"G:\bcd01\portA00.vhdl":8:7:8:13|Synthesizing work.porta00.porta0.
+Post processing for work.porta00.porta0
+@W: CL169 :"G:\bcd01\portA00.vhdl":22:6:22:7|Pruning unused register outFlagLp_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"G:\bcd01\init00.vhdl":10:7:10:12|Synthesizing work.init00.init0.
+Post processing for work.init00.init0
+@N: CD630 :"G:\bcd01\topdiv00.vhdl":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"G:\bcd01\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"G:\bcd01\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topconvbcd00.topconvbcd0
+@W: CL138 :"G:\bcd01\init00.vhdl":30:2:30:3|Removing register 'aux0' because it is only assigned 0 or its original value.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outFlag8init is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outFlag12init is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(0) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(0) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(1) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(1) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(2) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(2) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(3) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(3) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(4) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(4) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(5) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(5) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(6) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(6) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(7) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(7) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(8) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(9) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(10) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(11) is always 0.
+@N: CL189 :"G:\bcd01\shift8bit00.vhdl":23:6:23:7|Register bit outACs(0) is always 0.
+@W: CL247 :"G:\bcd01\shift8bit00.vhdl":12:1:12:5|Input port bit 7 of inacs(7 downto 0) is unused 
+@W: CL246 :"G:\bcd01\sust00.vhdl":12:1:12:10|Input port bits 6 to 0 of inac8bitsu(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"G:\bcd01\sust00.vhdl":13:1:13:11|Input port bit 0 of inac12bitsu(11 downto 0) is unused 
+@N: CL189 :"G:\bcd01\shift12bit00.vhdl":23:6:23:7|Register bit outACss(0) is always 0.
+@W: CL247 :"G:\bcd01\shift12bit00.vhdl":12:1:12:6|Input port bit 11 of inacss(11 downto 0) is unused 
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 81MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun 14 22:29:01 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File D:\LatticeDiamond\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\Sergi\Desktop\bcd01\bcd00\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun 14 22:29:04 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun 14 22:29:04 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File D:\LatticeDiamond\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\Sergi\Desktop\bcd01\bcd00\synwork\bcd00_bcd00_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun 14 22:29:07 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Jun 14 22:29:08 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: G:\bcd01\bcd00\bcd00_bcd00_scck.rpt 
+Printing clock  summary report in "G:\bcd01\bcd00\bcd00_bcd00_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist topconvbcd00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                     Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                                     Frequency     Period        Type                                            Group                   Load 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                    1.0 MHz       1000.000      system                                          system_clkgroup         7    
+                                                                                                                                                             
+0 -       osc00|osc_int_inferred_clock              2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     22   
+1 .         div00|outosc_derived_clock              2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     13   
+2 ..          divint00|outd_derived_clock           2.1 MHz       480.769       derived (from div00|outosc_derived_clock)       Inferred_clkgroup_0     194  
+3 ...           pcinc00|outFlagpc_derived_clock     2.1 MHz       480.769       derived (from divint00|outd_derived_clock)      Inferred_clkgroup_0     160  
+=============================================================================================================================================================
+
+@W: MT531 :"g:\bcd01\mux00.vhdl":23:7:23:10|Found signal identified as System clock which controls 7 sequential elements including U15.outBCDmux_1[6:1].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"g:\bcd01\div00.vhdl":22:5:22:6|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including U00.UD01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 142MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:01s cputime
+# Thu Jun 14 22:29:13 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Jun 14 22:29:15 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@W: BN132 :"g:\bcd01\sust00.vhdl":27:13:27:28|Removing sequential instance U08.outFlagsu_1 because it is equivalent to instance U02.outFlagLp_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FA239 :"g:\bcd01\leeinst00.vhdl":32:26:32:31|ROM outcode_1[2:0] (in view: work.leeInst00(leeinst0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"g:\bcd01\leeinst00.vhdl":32:26:32:31|ROM outcode_1[2:0] (in view: work.leeInst00(leeinst0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"g:\bcd01\leeinst00.vhdl":32:26:32:31|Found ROM .delname. (in view: work.leeInst00(leeinst0)) with 16 words by 3 bits.
+@W: FA239 :"g:\bcd01\codernibbles00.vhdl":84:7:84:10|ROM outC_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"g:\bcd01\codernibbles00.vhdl":57:7:57:10|ROM outD_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"g:\bcd01\codernibbles00.vhdl":30:7:30:10|ROM outU_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"g:\bcd01\codernibbles00.vhdl":84:7:84:10|ROM outC_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"g:\bcd01\codernibbles00.vhdl":84:7:84:10|Found ROM .delname. (in view: work.coderNibbles00(codernibbles0)) with 10 words by 7 bits.
+@W: FA239 :"g:\bcd01\codernibbles00.vhdl":57:7:57:10|ROM outD_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"g:\bcd01\codernibbles00.vhdl":57:7:57:10|Found ROM .delname. (in view: work.coderNibbles00(codernibbles0)) with 10 words by 7 bits.
+@W: FA239 :"g:\bcd01\codernibbles00.vhdl":30:7:30:10|ROM outU_1[6:0] (in view: work.coderNibbles00(codernibbles0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"g:\bcd01\codernibbles00.vhdl":30:7:30:10|Found ROM .delname. (in view: work.coderNibbles00(codernibbles0)) with 10 words by 7 bits.
+@W: BN132 :"g:\bcd01\shift12bit00.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_23[11] because it is equivalent to instance U10.outACss_cl_22[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"g:\bcd01\shift12bit00.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_22[11] because it is equivalent to instance U10.outACss_cl_20[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"g:\bcd01\shift12bit00.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_21[11] because it is equivalent to instance U10.outACss_cl_19[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"g:\bcd01\shift12bit00.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_20[11] because it is equivalent to instance U10.outACss_cl_18[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"g:\bcd01\shift12bit00.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_19[11] because it is equivalent to instance U10.outACss_cl_17[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"g:\bcd01\shift12bit00.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_18[11] because it is equivalent to instance U10.outACss_cl_16[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"g:\bcd01\shift12bit00.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_17[11] because it is equivalent to instance U10.outACss_cl_15[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"g:\bcd01\shift12bit00.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_16[11] because it is equivalent to instance U10.outACss_cl_14[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"g:\bcd01\shift12bit00.vhdl":25:13:25:14|Removing user instance U10.outACss_cl_15[11] because it is equivalent to instance U10.outACss_cl_13[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"g:\bcd01\shift12bit00.vhdl":23:6:23:7|Removing sequential instance outACss_cl_11[11] (in view: work.shift12bit00(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift12bit00.vhdl":23:6:23:7|Removing sequential instance outACss_cl_9[11] (in view: work.shift12bit00(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift12bit00.vhdl":23:6:23:7|Removing sequential instance outACss_cl_8[11] (in view: work.shift12bit00(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift12bit00.vhdl":23:6:23:7|Removing sequential instance outACss_cl_7[11] (in view: work.shift12bit00(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift12bit00.vhdl":23:6:23:7|Removing sequential instance outACss_cl_6[11] (in view: work.shift12bit00(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift12bit00.vhdl":23:6:23:7|Removing sequential instance outACss_cl_5[11] (in view: work.shift12bit00(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift12bit00.vhdl":23:6:23:7|Removing sequential instance outACss_cl_4[11] (in view: work.shift12bit00(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift12bit00.vhdl":23:6:23:7|Removing sequential instance outACss_cl_3[11] (in view: work.shift12bit00(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift12bit00.vhdl":23:6:23:7|Removing sequential instance outACss_cl_2[11] (in view: work.shift12bit00(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift8bit00.vhdl":23:6:23:7|Removing sequential instance outACs_cl_7[7] (in view: work.shift8bit00(shift8bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift8bit00.vhdl":23:6:23:7|Removing sequential instance outACs_cl_5[7] (in view: work.shift8bit00(shift8bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift8bit00.vhdl":23:6:23:7|Removing sequential instance outACs_cl_4[7] (in view: work.shift8bit00(shift8bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift8bit00.vhdl":23:6:23:7|Removing sequential instance outACs_cl_3[7] (in view: work.shift8bit00(shift8bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\shift8bit00.vhdl":23:6:23:7|Removing sequential instance outACs_cl_2[7] (in view: work.shift8bit00(shift8bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\sust00.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_11[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\sust00.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_10[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\sust00.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_9[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\sust00.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_8[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\sust00.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_7[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\sust00.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_6[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\sust00.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_5[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\sust00.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_2[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\sust00.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_1[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\sust00.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\porta00.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_7[7] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\porta00.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_6[7] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\porta00.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_5[7] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\porta00.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_4[7] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\porta00.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_3[7] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl_11[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl_10[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl_9[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl_8[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl_7[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl_6[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl_5[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl_4[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl_3[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl_2[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\bcd01\compadd00.vhdl":26:5:26:6|Removing sequential instance U09.outBuf12ca_cl[11] (in view: work.topconvbcd00(topconvbcd0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+@W: MO129 :"g:\bcd01\leeinst00.vhdl":31:9:31:10|Sequential instance U05.outcode[3] is reduced to a combinational gate by constant propagation.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+@N: MF578 :"g:\bcd01\ac12bit00.vhdl":24:7:24:8|Incompatible asynchronous control logic preventing generated clock conversion of U07.aux (in view: work.topconvbcd00(topconvbcd0)).
+@A: BN291 :"g:\bcd01\contring00.vhdl":22:8:22:9|Boundary register U13.outr_ret[1] (in view: ScratchLib.cell73(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"g:\bcd01\contring00.vhdl":22:8:22:9|Boundary register U13.outr_ret[2] (in view: ScratchLib.cell73(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"g:\bcd01\contring00.vhdl":22:8:22:9|Boundary register U13.outr_ret[0] (in view: ScratchLib.cell73(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"g:\bcd01\contring00.vhdl":22:8:22:9|Boundary register U13.outr_ret[3] (in view: ScratchLib.cell73(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"g:\bcd01\contring00.vhdl":22:8:22:9|Removing sequential instance U13.outr[3] (in view: work.topconvbcd00(topconvbcd0)) because it does not drive other instances.
+@A: BN291 :"g:\bcd01\contring00.vhdl":22:8:22:9|Boundary register U13.outr[3] (in view: work.topconvbcd00(topconvbcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"g:\bcd01\contring00.vhdl":22:8:22:9|Removing sequential instance U13.outr[2] (in view: work.topconvbcd00(topconvbcd0)) because it does not drive other instances.
+@A: BN291 :"g:\bcd01\contring00.vhdl":22:8:22:9|Boundary register U13.outr[2] (in view: work.topconvbcd00(topconvbcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"g:\bcd01\contring00.vhdl":22:8:22:9|Removing sequential instance U13.outr[1] (in view: work.topconvbcd00(topconvbcd0)) because it does not drive other instances.
+@A: BN291 :"g:\bcd01\contring00.vhdl":22:8:22:9|Boundary register U13.outr[1] (in view: work.topconvbcd00(topconvbcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"g:\bcd01\contring00.vhdl":22:8:22:9|Removing sequential instance U13.outr[0] (in view: work.topconvbcd00(topconvbcd0)) because it does not drive other instances.
+@A: BN291 :"g:\bcd01\contring00.vhdl":22:8:22:9|Boundary register U13.outr[0] (in view: work.topconvbcd00(topconvbcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 144MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 157MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		   473.18ns		 244 /       153
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 157MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 155MB peak: 157MB)
+
+@N: MT611 :|Automatically generated clock osc00|osc_int_inferred_clock is not used and is being removed
+@N: MT617 :|Automatically generated clock div00|outosc_derived_clock has lost its master clock osc00|osc_int_inferred_clock and is being removed
+@N: MT617 :|Automatically generated clock divint00|outd_derived_clock has lost its master clock div00|outosc_derived_clock and is being removed
+@N: MT617 :|Automatically generated clock pcinc00|outFlagpc_derived_clock has lost its master clock divint00|outd_derived_clock and is being removed
+@N: MT617 :|Automatically generated clock divint00|outd_derived_clock has lost its master clock div00|outosc_derived_clock and is being removed
+@N: MT617 :|Automatically generated clock pcinc00|outFlagpc_derived_clock has lost its master clock divint00|outd_derived_clock and is being removed
+@N: MT617 :|Automatically generated clock pcinc00|outFlagpc_derived_clock has lost its master clock divint00|outd_derived_clock and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 163 clock pin(s) of sequential element(s)
+0 instances converted, 163 sequential instances remain driven by gated/generated clocks
+
+===================================================================================================== Gated/Generated Clocks ======================================================================================================
+Clock Tree ID     Driving Element       Drive Element Type     Fanout     Sample Instance            Explanation                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       U00.UD00.OSCInst0     OSCH                   47         U15.outr_ret               Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       U14.outd              FD1S3DX                116        U08.outAC12bitsu_1[11]     Need declared clock or clock from port to derive clock from ff                                                                
+===================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:02s; Memory used current: 119MB peak: 157MB)
+
+Writing Analyst data base G:\bcd01\bcd00\synwork\bcd00_bcd00_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 154MB peak: 157MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: G:\bcd01\bcd00\bcd00_bcd00.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:04s; Memory used current: 158MB peak: 160MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:04s; Memory used current: 157MB peak: 160MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Jun 14 22:29:26 2018
+#
+
+
+Top view:               topconvbcd00
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 985.809
+
+                   Requested     Estimated     Requested     Estimated                 Clock      Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type       Group          
+-----------------------------------------------------------------------------------------------------------------
+System             1.0 MHz       70.5 MHz      1000.000      14.191        985.809     system     system_clkgroup
+=================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System  |  1000.000    985.810  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                       Arrival            
+Instance              Reference     Type        Pin     Net          Time        Slack  
+                      Clock                                                             
+----------------------------------------------------------------------------------------
+U00.UD01.sdiv[0]      System        FD1S3IX     Q       sdiv[0]      1.044       985.809
+U00.UD01.sdiv[1]      System        FD1S3IX     Q       sdiv[1]      1.044       985.809
+U00.UD01.sdiv[2]      System        FD1S3IX     Q       sdiv[2]      1.044       985.809
+U00.UD01.sdiv[3]      System        FD1S3IX     Q       sdiv[3]      1.044       985.809
+U00.UD01.sdiv[4]      System        FD1S3IX     Q       sdiv[4]      1.044       985.809
+U00.UD01.sdiv[5]      System        FD1S3IX     Q       sdiv[5]      1.044       985.809
+U00.UD01.sdiv[6]      System        FD1S3IX     Q       sdiv[6]      1.044       985.809
+U00.UD01.sdiv[7]      System        FD1S3IX     Q       sdiv[7]      1.044       985.809
+U00.UD01.sdiv[8]      System        FD1S3IX     Q       sdiv[8]      1.044       985.809
+U00.UD01.sdiv[10]     System        FD1S3IX     Q       sdiv[10]     1.044       985.809
+========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                Required            
+Instance               Reference     Type        Pin     Net                   Time         Slack  
+                       Clock                                                                       
+---------------------------------------------------------------------------------------------------
+U00.UD01.sdiv[19]      System        FD1S3IX     D       un1_sdiv[20]          999.894      985.809
+U00.UD01.sdiv[20]      System        FD1S3IX     D       un1_sdiv[21]          999.894      985.809
+U15.outBCDmux_1[3]     System        FD1S3DX     D       outBCDmux_1_en2_1     1000.089     985.839
+U15.outBCDmux_1[6]     System        FD1S3DX     D       outBCDmux_1_en2_4     1000.089     985.839
+U00.UD01.sdiv[17]      System        FD1S3IX     D       un1_sdiv[18]          999.894      985.952
+U00.UD01.sdiv[18]      System        FD1S3IX     D       un1_sdiv[19]          999.894      985.952
+U00.UD01.sdiv[15]      System        FD1S3IX     D       un1_sdiv[16]          999.894      986.095
+U00.UD01.sdiv[16]      System        FD1S3IX     D       un1_sdiv[17]          999.894      986.095
+U00.UD01.sdiv[13]      System        FD1S3IX     D       un1_sdiv[14]          999.894      986.238
+U00.UD01.sdiv[14]      System        FD1S3IX     D       un1_sdiv[15]          999.894      986.238
+===================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         999.894
+
+    - Propagation time:                      14.085
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     985.810
+
+    Number of logic level(s):                19
+    Starting point:                          U00.UD01.sdiv[0] / Q
+    Ending point:                            U00.UD01.sdiv[20] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+U00.UD01.sdiv[0]                        FD1S3IX      Q        Out     1.044     1.044       -         
+sdiv[0]                                 Net          -        -       -         -           2         
+U00.UD01.outosc_0_sqmuxa_7_i_a2_0_0     ORCALUT4     A        In      0.000     1.044       -         
+U00.UD01.outosc_0_sqmuxa_7_i_a2_0_0     ORCALUT4     Z        Out     1.017     2.061       -         
+outosc_0_sqmuxa_7_i_a2_0_0              Net          -        -       -         -           1         
+U00.UD01.outosc_0_sqmuxa_7_i_a2_0       ORCALUT4     A        In      0.000     2.061       -         
+U00.UD01.outosc_0_sqmuxa_7_i_a2_0       ORCALUT4     Z        Out     1.089     3.149       -         
+outosc_0_sqmuxa_7_i_a2_0                Net          -        -       -         -           2         
+U00.UD01.outosc_0_sqmuxa_6_i_a2_0       ORCALUT4     A        In      0.000     3.149       -         
+U00.UD01.outosc_0_sqmuxa_6_i_a2_0       ORCALUT4     Z        Out     1.153     4.302       -         
+outosc_0_sqmuxa_6_i_a2_0                Net          -        -       -         -           3         
+U00.UD01.outosc_0_sqmuxa_4_i_a2_0       ORCALUT4     A        In      0.000     4.302       -         
+U00.UD01.outosc_0_sqmuxa_4_i_a2_0       ORCALUT4     Z        Out     1.193     5.495       -         
+outosc_0_sqmuxa_4_i_a2_0                Net          -        -       -         -           4         
+U00.UD01.outosc_0_sqmuxa_3_i_a6         ORCALUT4     B        In      0.000     5.495       -         
+U00.UD01.outosc_0_sqmuxa_3_i_a6         ORCALUT4     Z        Out     1.017     6.512       -         
+N_248                                   Net          -        -       -         -           1         
+U00.UD01.outosc_0_sqmuxa_3_i            ORCALUT4     A        In      0.000     6.512       -         
+U00.UD01.outosc_0_sqmuxa_3_i            ORCALUT4     Z        Out     1.089     7.601       -         
+outosc_0_sqmuxa_3_i                     Net          -        -       -         -           2         
+U00.UD01.un1_sdiv69_3                   ORCALUT4     C        In      0.000     7.601       -         
+U00.UD01.un1_sdiv69_3                   ORCALUT4     Z        Out     1.089     8.689       -         
+un1_sdiv69_3                            Net          -        -       -         -           2         
+U00.UD01.un1_sdiv69_i                   ORCALUT4     A        In      0.000     8.689       -         
+U00.UD01.un1_sdiv69_i                   ORCALUT4     Z        Out     1.017     9.706       -         
+un1_sdiv69_i                            Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_0_0               CCU2D        B0       In      0.000     9.706       -         
+U00.UD01.un1_sdiv_cry_0_0               CCU2D        COUT     Out     1.544     11.251      -         
+un1_sdiv_cry_0                          Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_1_0               CCU2D        CIN      In      0.000     11.251      -         
+U00.UD01.un1_sdiv_cry_1_0               CCU2D        COUT     Out     0.143     11.393      -         
+un1_sdiv_cry_2                          Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_3_0               CCU2D        CIN      In      0.000     11.393      -         
+U00.UD01.un1_sdiv_cry_3_0               CCU2D        COUT     Out     0.143     11.536      -         
+un1_sdiv_cry_4                          Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_5_0               CCU2D        CIN      In      0.000     11.536      -         
+U00.UD01.un1_sdiv_cry_5_0               CCU2D        COUT     Out     0.143     11.679      -         
+un1_sdiv_cry_6                          Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_7_0               CCU2D        CIN      In      0.000     11.679      -         
+U00.UD01.un1_sdiv_cry_7_0               CCU2D        COUT     Out     0.143     11.822      -         
+un1_sdiv_cry_8                          Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_9_0               CCU2D        CIN      In      0.000     11.822      -         
+U00.UD01.un1_sdiv_cry_9_0               CCU2D        COUT     Out     0.143     11.965      -         
+un1_sdiv_cry_10                         Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_11_0              CCU2D        CIN      In      0.000     11.965      -         
+U00.UD01.un1_sdiv_cry_11_0              CCU2D        COUT     Out     0.143     12.107      -         
+un1_sdiv_cry_12                         Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_13_0              CCU2D        CIN      In      0.000     12.107      -         
+U00.UD01.un1_sdiv_cry_13_0              CCU2D        COUT     Out     0.143     12.250      -         
+un1_sdiv_cry_14                         Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_15_0              CCU2D        CIN      In      0.000     12.250      -         
+U00.UD01.un1_sdiv_cry_15_0              CCU2D        COUT     Out     0.143     12.393      -         
+un1_sdiv_cry_16                         Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_17_0              CCU2D        CIN      In      0.000     12.393      -         
+U00.UD01.un1_sdiv_cry_17_0              CCU2D        COUT     Out     0.143     12.536      -         
+un1_sdiv_cry_18                         Net          -        -       -         -           1         
+U00.UD01.un1_sdiv_cry_19_0              CCU2D        CIN      In      0.000     12.536      -         
+U00.UD01.un1_sdiv_cry_19_0              CCU2D        S1       Out     1.549     14.085      -         
+un1_sdiv[21]                            Net          -        -       -         -           1         
+U00.UD01.sdiv[20]                       FD1S3IX      D        In      0.000     14.085      -         
+======================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:04s; Memory used current: 158MB peak: 160MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:04s; Memory used current: 158MB peak: 160MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 163 of 6864 (2%)
+PIC Latch:       0
+I/O cells:       62
+
+
+Details:
+BB:             2
+CCU2D:          11
+FD1P3AX:        75
+FD1P3DX:        4
+FD1P3IX:        1
+FD1P3JX:        3
+FD1S3AX:        18
+FD1S3BX:        1
+FD1S3DX:        7
+FD1S3IX:        45
+GSR:            1
+IB:             14
+IFS1P3DX:       9
+INV:            5
+OB:             46
+ORCALUT4:       233
+OSCH:           1
+PUR:            1
+VHI:            18
+VLO:            18
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:04s; Memory used current: 31MB peak: 160MB)
+
+Process took 0h:00m:12s realtime, 0h:00m:04s cputime
+# Thu Jun 14 22:29:27 2018
+
+###########################################################]

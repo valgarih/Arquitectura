@@ -1,0 +1,1 @@
+run_tcl -fg keylcdclear00_keylcdclear0_synplify.tcl

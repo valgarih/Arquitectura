@@ -1,0 +1,5 @@
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bitArith00\topadder4bitArith.vhd":5:7:5:23|Synthesizing work.topadder4bitarith.topadder4bitarith0.
+@W: CG296 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bitArith00\topadder4bitArith.vhd":17:1:17:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bitArith00\topadder4bitArith.vhd":20:32:20:35|Referenced variable num2 is not in sensitivity list.
+@W: CG290 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bitArith00\topadder4bitArith.vhd":20:17:20:20|Referenced variable num1 is not in sensitivity list.
+Post processing for work.topadder4bitarith.topadder4bitarith0

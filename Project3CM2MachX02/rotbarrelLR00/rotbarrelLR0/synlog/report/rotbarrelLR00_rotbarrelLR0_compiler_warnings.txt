@@ -1,0 +1,4 @@
+@W: CD276 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd":14:2:14:7|Map for port indiv1 of component topdiv00 not found
+@W: CD276 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd":15:2:15:8|Map for port oscout1 of component topdiv00 not found
+@W: CD730 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\rotbarrelLR00\toprotbarrelLR00.vhd":23:1:23:5|Component declaration has 2 ports but entity declares 4 ports
+

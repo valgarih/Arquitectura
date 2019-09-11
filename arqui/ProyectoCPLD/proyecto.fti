@@ -1,0 +1,133 @@
+#PLAFILE     proyecto.bl5
+#DATE        Thu May 30 19:58:09 2019
+
+#DESIGN      proyecto
+#DEVICE      MACH4S-256
+
+
+// Default settings.
+DATA GLOBAL tINDIO:0
+
+
+// Signal locations
+DATA LOCATION indivtop_4_:P_*_125
+DATA LOCATION enctop:N_*_104
+DATA LOCATION indivtop_3_:P_*_124
+DATA LOCATION indivtop_2_:P_*_123
+DATA LOCATION indivtop_1_:P_*_122
+DATA LOCATION indivtop_0_:P_*_121
+DATA LOCATION auxtop_4_:C_7_7
+DATA LOCATION clktop:C_1_4
+DATA LOCATION outctop:C_0_5
+DATA LOCATION outctop1:C_9_6
+DATA LOCATION auxtop_3_:C_4_8
+DATA LOCATION auxtop_2_:C_3_9
+DATA LOCATION auxtop_1_:D_5_11
+DATA LOCATION auxtop_0_:D_2_12
+DATA LOCATION gnd_n_n:C_15
+DATA LOCATION U2_aux_4_:C_5
+DATA LOCATION U2_aux_0_:N_9
+DATA LOCATION U2_aux_1_:P_3
+DATA LOCATION U2_aux_2_:N_3
+DATA LOCATION U2_aux_3_:P_9
+DATA LOCATION U1_U2_sdiv_14_:A_3
+DATA LOCATION U1_U2_sdiv_0_:O_3
+DATA LOCATION U1_U2_sdiv_1_:D_8
+DATA LOCATION U1_U2_sdiv_2_:B_4
+DATA LOCATION U1_U2_sdiv_3_:L_4
+DATA LOCATION U1_U2_sdiv_4_:F_11
+DATA LOCATION U1_U2_sdiv_5_:J_12
+DATA LOCATION U1_U2_sdiv_6_:M_12
+DATA LOCATION U1_U2_sdiv_7_:G_9
+DATA LOCATION U1_U2_sdiv_8_:H_9
+DATA LOCATION U1_U2_sdiv_9_:A_9
+DATA LOCATION U1_U2_sdiv_10_:K_9
+DATA LOCATION U1_U2_sdiv_11_:E_3
+DATA LOCATION U1_U2_sdiv_12_:E_7
+DATA LOCATION U1_U2_sdiv_13_:O_7
+DATA LOCATION u1_u2_n_4_i_n:I_7
+DATA LOCATION _dup_gnd_n_n:F_15
+
+// Signals direction
+DATA IO_DIR indivtop_4_:IN
+DATA IO_DIR enctop:IN
+DATA IO_DIR indivtop_3_:IN
+DATA IO_DIR indivtop_2_:IN
+DATA IO_DIR indivtop_1_:IN
+DATA IO_DIR indivtop_0_:IN
+DATA IO_DIR auxtop_4_:OUT
+DATA IO_DIR clktop:OUT
+DATA IO_DIR outctop:OUT
+DATA IO_DIR outctop1:OUT
+DATA IO_DIR auxtop_3_:OUT
+DATA IO_DIR auxtop_2_:OUT
+DATA IO_DIR auxtop_1_:OUT
+DATA IO_DIR auxtop_0_:OUT
+
+// Signals using Shared Clock or CE
+DATA tBCLK auxtop_4_.C
+DATA tBCLK outctop.C
+DATA tBCLK outctop1.C
+DATA tBCLK auxtop_3_.C
+DATA tBCLK auxtop_2_.C
+DATA tBCLK auxtop_1_.C
+DATA tBCLK auxtop_0_.C
+DATA tBCLK U2_aux_4_.C
+DATA tBCLK U2_aux_0_.C
+DATA tBCLK U2_aux_1_.C
+DATA tBCLK U2_aux_2_.C
+DATA tBCLK U2_aux_3_.C
+DATA tBCLK U1_U2_sdiv_14_.C
+DATA tBCLK U1_U2_sdiv_0_.C
+DATA tBCLK U1_U2_sdiv_2_.C
+DATA tBCLK U1_U2_sdiv_3_.C
+DATA tBCLK U1_U2_sdiv_4_.C
+DATA tBCLK U1_U2_sdiv_5_.C
+DATA tBCLK U1_U2_sdiv_6_.C
+DATA tBCLK U1_U2_sdiv_7_.C
+DATA tBCLK U1_U2_sdiv_8_.C
+DATA tBCLK U1_U2_sdiv_9_.C
+DATA tBCLK U1_U2_sdiv_10_.C
+DATA tBCLK U1_U2_sdiv_11_.C
+DATA tBCLK U1_U2_sdiv_12_.C
+DATA tBCLK U1_U2_sdiv_13_.C
+
+// Block Load Adders
+DATA tBLA indivtop_4_:13
+DATA tBLA indivtop_3_:13
+DATA tBLA indivtop_2_:13
+DATA tBLA indivtop_1_:13
+DATA tBLA indivtop_0_:13
+DATA tBLA U1_U2_sdiv_13_:12
+DATA tBLA U1_U2_sdiv_12_:12
+DATA tBLA U1_U2_sdiv_11_:12
+DATA tBLA U1_U2_sdiv_10_:12
+DATA tBLA U1_U2_sdiv_9_:12
+DATA tBLA U1_U2_sdiv_8_:12
+DATA tBLA U1_U2_sdiv_7_:12
+DATA tBLA U1_U2_sdiv_14_:12
+DATA tBLA u1_sclk_n:12
+DATA tBLA u1_u2_n_4_i_n:11
+DATA tBLA U1_U2_sdiv_1_:11
+DATA tBLA U1_U2_sdiv_0_:11
+DATA tBLA U1_U2_sdiv_2_:10
+DATA tBLA U1_U2_sdiv_3_:9
+DATA tBLA U1_U2_sdiv_4_:8
+DATA tBLA U1_U2_sdiv_5_:7
+DATA tBLA U1_U2_sdiv_6_:6
+DATA tBLA U2_aux_1_:3
+DATA tBLA U2_aux_0_:3
+DATA tBLA clktop:3
+DATA tBLA enctop:3
+DATA tBLA U2_aux_2_:2
+DATA tBLA U2_aux_3_:1
+
+// Signals using OSM or fast 5-PTs path
+DATA tOSM auxtop_4_
+DATA tOSM clktop
+DATA tOSM outctop
+DATA tOSM outctop1
+DATA tOSM auxtop_3_
+DATA tOSM auxtop_2_
+DATA tOSM auxtop_1_
+DATA tOSM auxtop_0_

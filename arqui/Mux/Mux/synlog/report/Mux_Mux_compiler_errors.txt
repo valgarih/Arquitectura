@@ -1,0 +1,2 @@
+@E: CD311 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\Mux\Mux.vhdl":17:23:17:27|Arguments have different widths (4 vs 3)
+

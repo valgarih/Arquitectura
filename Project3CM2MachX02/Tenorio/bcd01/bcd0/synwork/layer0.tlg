@@ -1,0 +1,10 @@
+@N: CD630 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\bcd01\topconvbcd00.vhd":8:7:8:18|Synthesizing work.topconvbcd00.topconvbcd0.
+@W: CD276 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd":14:2:14:7|Map for port indiv1 of component topdiv00 not found
+@W: CD276 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd":15:2:15:8|Map for port oscout1 of component topdiv00 not found
+@W: CD730 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\bcd01\topconvbcd00.vhd":38:2:38:4|Component declaration has 2 ports but entity declares 4 ports
+@E: CD326 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\bcd01\topconvbcd00.vhd":38:2:38:4|Port indiv1 of entity work.topdiv00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD277 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\bcd01\packagep00.vhd":128:3:128:12|Port direction mismatch between component and entity
+@W: CD277 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\bcd01\packagep00.vhd":150:3:150:6|Port direction mismatch between component and entity
+@W: CD638 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\bcd01\topconvbcd00.vhd":33:7:33:10|Signal sout is undriven. Either assign the signal a value or remove the signal declaration.
+Synthesis failed
+1 errors during synthesis

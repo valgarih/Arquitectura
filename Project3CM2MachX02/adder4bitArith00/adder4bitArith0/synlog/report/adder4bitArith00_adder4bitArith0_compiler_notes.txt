@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bitArith00\topadder4bitArith.vhd":5:7:5:23|Top entity is set to topadder4bitArith.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bitArith00\topadder4bitArith.vhd":5:7:5:23|Synthesizing work.topadder4bitarith.topadder4bitarith0.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,3 @@
+@E: CD567 :"C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\control.vhd":30:7:30:10|Wait statements not allowed in process with sensitivity list
+@E|Parse errors encountered - exiting
+

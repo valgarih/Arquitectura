@@ -1,0 +1,10 @@
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+File C:\lscc\Arquitectura\org\combinacional01\combin01\synwork\combin01_combin01_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 02 16:15:03 2015
+
+###########################################################]

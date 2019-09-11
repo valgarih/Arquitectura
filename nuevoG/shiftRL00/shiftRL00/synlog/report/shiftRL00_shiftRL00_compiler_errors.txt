@@ -1,0 +1,2 @@
+@E: CD648 :"C:\Users\lalo\Desktop\quinto semestre\arquitectura\shiftRL00\shiftRL00.vhdl":27:15:27:17|Expression does not match type std_ulogic
+

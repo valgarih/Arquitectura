@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="keylcd00" device="LCMXO2-7000HE-5TG144C" default_implementation="keylcd0">
+    <Options/>
+    <Implementation title="keylcd0" dir="keylcd0" description="keylcd0" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="coder00"/>
+        <Source name="../div00vhdl/div00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../div00vhdl/osc00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../div00vhdl/packagediv00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../div00vhdl/topdiv00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="topdiv00"/>
+        </Source>
+        <Source name="shiftRL00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="shiftRL00"/>
+        </Source>
+        <Source name="coder00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="coder00"/>
+        </Source>
+        <Source name="../lcd00/lcdConfig00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd00/lcdContConfig00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd00/lcdData00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd00/lcdmux00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd00/packagelcd00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../lcd00/toplcd00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="keylcd0/keylcd0.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="keylcd00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="keylcd001.sty"/>
+</BaliProject>

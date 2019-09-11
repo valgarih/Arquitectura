@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe  -osyn  F:\rom00\rom\synwork\rom00_rom_comp.srs  -top  toprom00  -hdllog  F:\rom00\rom\synlog\rom00_rom_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  F:\rom00\rom\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work F:\osc00VHDL\div00.vhdl -lib work F:\osc00VHDL\osc00.vhdl -lib work F:\osc00VHDL\packageosc00.vhdl -lib work F:\rom00\rom00.vhd -lib work F:\rom00\contRead00.vhdl -lib work F:\rom00\packagerom00.vhdl -lib work F:\osc00VHDL\toposc00.vhdl -lib work F:\rom00\toprom00.vhdl  -jobname  "compiler" 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe -osyn ..\synwork\rom00_rom_comp.srs -top toprom00 -hdllog ..\synlog\rom00_rom_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\..\osc00VHDL\div00.vhdl -lib work ..\..\..\osc00VHDL\osc00.vhdl -lib work ..\..\..\osc00VHDL\packageosc00.vhdl -lib work ..\..\rom00.vhd -lib work ..\..\contRead00.vhdl -lib work ..\..\packagerom00.vhdl -lib work ..\..\..\osc00VHDL\toposc00.vhdl -lib work ..\..\toprom00.vhdl -jobname "compiler"
+rc:0 success:1 runtime:6
+file:..\synwork\rom00_rom_comp.srs|io:o|time:1524579054|size:7885|exec:0|csum:
+file:..\synlog\rom00_rom_compiler.srr|io:o|time:1524579054|size:4025|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\..\osc00VHDL\div00.vhdl|io:i|time:1520349504|size:2199|exec:0|csum:E6CAF02E2D65A26E7D44E02A954477DE
+file:..\..\..\osc00VHDL\osc00.vhdl|io:i|time:1520348576|size:509|exec:0|csum:52FA8B1858CC10A6F1BAC84382475755
+file:..\..\..\osc00VHDL\packageosc00.vhdl|io:i|time:1520349518|size:398|exec:0|csum:3BB5632FFAC3B5BFB197A3D4EA8A04D5
+file:..\..\rom00.vhd|io:i|time:1524501724|size:1173|exec:0|csum:42626687A137087FDAC3CF606ECB39E0
+file:..\..\contRead00.vhdl|io:i|time:1524578226|size:707|exec:0|csum:F44EF835055DB77D3011EF2DF3C99D0C
+file:..\..\packagerom00.vhdl|io:i|time:1524578444|size:595|exec:0|csum:CF62320C4FD8EFF0080F7B5203A43D4B
+file:..\..\..\osc00VHDL\toposc00.vhdl|io:i|time:1520349706|size:515|exec:0|csum:BE8F543B892BE4EFB5915CFA0AB04830
+file:..\..\toprom00.vhdl|io:i|time:1524579022|size:798|exec:0|csum:FD51CC9CD0B21CFF63E32F9F6DD5706D
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe|io:i|time:1501913558|size:5526016|exec:1|csum:B0FC75282263C9BC65A760D01C67ECBA

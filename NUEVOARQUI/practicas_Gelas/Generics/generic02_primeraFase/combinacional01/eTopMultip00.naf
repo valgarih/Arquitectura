@@ -1,0 +1,16 @@
+entrada1_tm[3]  i
+entrada1_tm[2]  i
+entrada1_tm[1]  i
+entrada1_tm[0]  i
+entrada2_tm[3]  i
+entrada2_tm[2]  i
+entrada2_tm[1]  i
+entrada2_tm[0]  i
+resultado_tm[7]  o
+resultado_tm[6]  o
+resultado_tm[5]  o
+resultado_tm[4]  o
+resultado_tm[3]  o
+resultado_tm[2]  o
+resultado_tm[1]  o
+resultado_tm[0]  o

@@ -1,0 +1,23 @@
+JDF B
+// Created by Version 2.0 
+PROJECT Proyecto
+DESIGN proyecto Normal
+DEVKIT LC4256ZE-5TN144C
+ENTRY Pure VHDL
+MODULE div00.vhd
+MODSTYLE div00 Normal
+MODULE control.vhd
+MODSTYLE control Normal
+MODULE topdiv00.vhd
+MODSTYLE topdiv00 Normal
+MODULE packagediv00.vhd
+MODSTYLE packagediv00 Normal
+MODULE osc00.vhd
+MODSTYLE osc00 Normal
+MODULE packagecontrol.vhd
+MODSTYLE packagecontrol Normal
+MODULE topcontrol.vhd
+MODSTYLE topcontrol Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ActiveHDL
+TOPMODULE topcontrol

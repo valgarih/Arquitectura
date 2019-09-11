@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/14/2018 00:00:31
+#Project Location: C:/Users/jmaci/Desktop/Materias Escom/ADC/Practicas/segundo parcial/ram00; Project name: ram00
+prj_project open "C:/Users/jmaci/Desktop/Materias Escom/ADC/Practicas/segundo parcial/ram00/ram00.ldf"
+prj_project close
+#Stop recording: 6/14/2018 00:01:21

@@ -1,0 +1,85 @@
+[ START MERGED ]
+[ END MERGED ]
+[ START CLIPPED ]
+O00/GND
+O01/GND
+un1_contadorData_79_s_5_0_S1
+un1_contadorData_79_s_5_0_COUT
+un1_contadorRam_cry_0_0_S0
+N_2
+un1_contadorRam_s_5_0_S1
+un1_contadorRam_s_5_0_COUT
+un1_seleendatosram_cry_0_0_S1
+un1_seleendatosram_cry_0_0_S0
+N_3
+un1_seleendatosram_cry_1_0_S1
+un1_seleendatosram_cry_1_0_S0
+un1_seleendatosram_cry_3_0_S1
+un1_seleendatosram_cry_3_0_S0
+un1_seleendatosram_cry_5_0_S0
+un1_seleendatosram_cry_5_0_COUT
+O00/OSCInst0_SEDSTDBY
+O01/un1_sdiv_cry_0_0_S0
+O01/N_1
+O01/un1_sdiv_cry_19_0_COUT
+un1_contadorData_79_cry_0_0_S0
+N_1
+[ END CLIPPED ]
+[ START OSC ]
+sclkdiv_0 2.08
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Thu Jun 14 01:23:48 2018
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "VCC_x" SITE "109" ;
+LOCATE COMP "lectura" SITE "68" ;
+LOCATE COMP "outosc0" SITE "13" ;
+LOCATE COMP "salidaContadorDatos[5]" SITE "127" ;
+LOCATE COMP "salidaContadorDatos[4]" SITE "11" ;
+LOCATE COMP "salidaContadorDatos[3]" SITE "9" ;
+LOCATE COMP "salidaContadorDatos[2]" SITE "5" ;
+LOCATE COMP "salidaContadorDatos[1]" SITE "3" ;
+LOCATE COMP "salidaContadorDatos[0]" SITE "1" ;
+LOCATE COMP "salidaContadorCondiguracion[4]" SITE "12" ;
+LOCATE COMP "salidaContadorCondiguracion[3]" SITE "10" ;
+LOCATE COMP "salidaContadorCondiguracion[2]" SITE "6" ;
+LOCATE COMP "salidaContadorCondiguracion[1]" SITE "4" ;
+LOCATE COMP "salidaContadorCondiguracion[0]" SITE "2" ;
+LOCATE COMP "entradaTeclado[3]" SITE "81" ;
+LOCATE COMP "entradaTeclado[2]" SITE "77" ;
+LOCATE COMP "entradaTeclado[1]" SITE "75" ;
+LOCATE COMP "entradaTeclado[0]" SITE "73" ;
+LOCATE COMP "anillo[3]" SITE "82" ;
+LOCATE COMP "anillo[2]" SITE "78" ;
+LOCATE COMP "anillo[1]" SITE "76" ;
+LOCATE COMP "anillo[0]" SITE "74" ;
+LOCATE COMP "salidaAux" SITE "125" ;
+LOCATE COMP "EN" SITE "96" ;
+LOCATE COMP "RS" SITE "98" ;
+LOCATE COMP "RW" SITE "95" ;
+LOCATE COMP "salidaPantallaMirror[7]" SITE "128" ;
+LOCATE COMP "salidaPantallaMirror[6]" SITE "126" ;
+LOCATE COMP "salidaPantallaMirror[5]" SITE "122" ;
+LOCATE COMP "salidaPantallaMirror[4]" SITE "120" ;
+LOCATE COMP "salidaPantallaMirror[3]" SITE "117" ;
+LOCATE COMP "salidaPantallaMirror[2]" SITE "114" ;
+LOCATE COMP "salidaPantallaMirror[1]" SITE "112" ;
+LOCATE COMP "salidaPantallaMirror[0]" SITE "110" ;
+LOCATE COMP "salidaPantalla[7]" SITE "84" ;
+LOCATE COMP "salidaPantalla[6]" SITE "83" ;
+LOCATE COMP "salidaPantalla[5]" SITE "86" ;
+LOCATE COMP "salidaPantalla[4]" SITE "85" ;
+LOCATE COMP "salidaPantalla[3]" SITE "92" ;
+LOCATE COMP "salidaPantalla[2]" SITE "91" ;
+LOCATE COMP "salidaPantalla[1]" SITE "94" ;
+LOCATE COMP "salidaPantalla[0]" SITE "93" ;
+LOCATE COMP "reset" SITE "69" ;
+LOCATE COMP "indiv0[3]" SITE "42" ;
+LOCATE COMP "indiv0[2]" SITE "43" ;
+LOCATE COMP "indiv0[1]" SITE "44" ;
+LOCATE COMP "indiv0[0]" SITE "45" ;
+FREQUENCY NET "sclkdiv_0" 2.080000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

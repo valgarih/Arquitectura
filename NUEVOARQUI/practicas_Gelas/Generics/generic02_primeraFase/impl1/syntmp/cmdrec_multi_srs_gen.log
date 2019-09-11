@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topgeneric01  -incremental_debug  -multisrs  "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\synwork\generic02_impl1_comp.srs"  -osyn  "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\synwork\generic02_impl1_mult.srs"  -log  "C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\synlog\generic02_impl1_multi_srs_gen.srr" 
+rc:0 success:1 runtime:2
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\synwork\generic02_impl1_comp.srs|i|1478498943|65085
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\synwork\generic02_impl1_mult.srs|o|1478498947|12703
+C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\synlog\generic02_impl1_multi_srs_gen.srr|o|1478498947|616
+C:\lscc\diamond\3.7_x64\synpbase\bin\syn_nfilter.exe|i|1449734274|3110400
+C:\lscc\diamond\3.7_x64\synpbase\bin64\syn_nfilter.exe|i|1449734476|4182528

@@ -1,0 +1,71 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\topsequence00.vhd":9:7:9:19|Top entity is set to topsequence00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\topsequence00.vhd":9:7:9:19|Synthesizing work.topsequence00.topsequence0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\sequence00.vhd":9:7:9:16|Synthesizing work.sequence00.sequence0.
+@N: CD231 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\sequence00.vhd":20:16:20:17|Using onehot encoding for type state_type. For example, enumeration a is mapped to "10000".
+@W: CG296 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\sequence00.vhd":23:8:23:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\sequence00.vhd":25:5:25:7|Referenced variable ens is not in sensitivity list.
+Post processing for work.sequence00.sequence0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\shiftRL00\topshiftRL00.vhd":9:7:9:18|Synthesizing work.topshiftrl00.topshiftrl0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\shiftRL00\shiftRL00.vhd":7:7:7:15|Synthesizing work.shiftrl00.shiftrl0.
+Post processing for work.shiftrl00.shiftrl0
+@W: CL177 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\shiftRL00\shiftRL00.vhd":24:2:24:3|Sharing sequential element outseq. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topshiftrl00.topshiftrl0
+Post processing for work.topsequence00.topsequence0
+@N: CL201 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\sequence00.vhd":25:2:25:3|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL249 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\sequence00\sequence00.vhd":25:2:25:3|Initial value is not supported on state machine state
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov  8 18:23:51 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov  8 18:23:52 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov  8 18:23:52 2018
+
+###########################################################]

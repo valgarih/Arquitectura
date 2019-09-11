@@ -1,0 +1,489 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+         Lattice Mapping Report File for Design Module 'topgeneric01'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
+     generic02_impl1.ngd -o generic02_impl1_map.ncd -pr generic02_impl1.prf -mp
+     generic02_impl1.mrp -lpf C:/Users/Fernando/Documents/PracticasDD/generic02/
+     impl1/generic02_impl1_synplify.lpf -lpf
+     C:/Users/Fernando/Documents/PracticasDD/generic02/generic00.lpf -c 0 -gui
+     -msgset C:/Users/Fernando/Documents/PracticasDD/generic02/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.6.0.83.4
+Mapped on:  11/09/16  10:01:43
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    230 out of  7209 (3%)
+      PFU registers:          211 out of  6864 (3%)
+      PIO registers:           19 out of   345 (6%)
+   Number of SLICEs:       266 out of  3432 (8%)
+      SLICEs as Logic/ROM:    266 out of  3432 (8%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         34 out of  3432 (1%)
+   Number of LUT4s:        528 out of  6864 (8%)
+      Number used as logic LUTs:        460
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       68
+      Number used as shift registers:     0
+   Number of PIO sites used: 38 + 4(JTAG) out of 115 (37%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net G00.clk0: 158 loads, 158 rising, 0 falling (Driver: G00/U0/OSCInst0 )
+   Number of Clock Enables:  24
+
+     Net outuc2_cnv: 10 loads, 0 LSLICEs
+     Net outc2_1ce[0]: 5 loads, 4 LSLICEs
+     Net un1_outdiv_0_sqmuxa_1_2_RNIBKKT: 56 loads, 55 LSLICEs
+     Net G01/aux_RNI1FJB1: 4 loads, 4 LSLICEs
+     Net G02/aux_RNIODL22: 4 loads, 4 LSLICEs
+     Net G03/outn_1ce[0]: 4 loads, 4 LSLICEs
+     Net G04/outo_1ce[0]: 4 loads, 4 LSLICEs
+     Net G05/aux_RNI539D1: 3 loads, 3 LSLICEs
+     Net G05/outna_1ce[4]: 2 loads, 2 LSLICEs
+     Net G06/aux_RNI5OQN1: 4 loads, 4 LSLICEs
+     Net G07/aux_RNI60QA1: 4 loads, 4 LSLICEs
+     Net G08/outCarryadd_RNO: 1 loads, 1 LSLICEs
+     Net G08/aux_RNI64M93: 4 loads, 4 LSLICEs
+     Net G09/aux_RNIVCRF1: 4 loads, 4 LSLICEs
+     Net G09/outCarrysubce: 1 loads, 1 LSLICEs
+     Net G10/aux_RNINNUO1: 4 loads, 4 LSLICEs
+     Net G11/aux_RNI0DL63: 4 loads, 4 LSLICEs
+     Net G12/aux_RNIOSR02: 4 loads, 4 LSLICEs
+     Net G13/un1_codoprl_i_o2_RNIM11D1: 4 loads, 4 LSLICEs
+     Net G15/outc0_1_RNO_0[0]: 1 loads, 1 LSLICEs
+     Net G15/aux_RNIBIT12: 2 loads, 2 LSLICEs
+     Net outct_1ce[0]: 8 loads, 1 LSLICEs
+     Net G17/outmc_1ce[0]: 4 loads, 4 LSLICEs
+     Net G19/aux_RNIOPHT1: 4 loads, 4 LSLICEs
+   Number of LSRs:  2
+     Net G20/fb: 1 loads, 1 LSLICEs
+     Net G00/U1/outdiv_0_sqmuxa_RNI3DAH: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net un1_outdiv_0_sqmuxa_1_2_RNIBKKT: 78 loads
+     Net outFlag0_c: 77 loads
+     Net codop0_c[1]: 42 loads
+     Net codop0_c[3]: 40 loads
+     Net portB0_c[0]: 38 loads
+     Net codop0_c[0]: 37 loads
+     Net portB0_c[2]: 35 loads
+     Net portA0_c[3]: 34 loads
+     Net portA0_c[2]: 33 loads
+     Net portB0_c[1]: 33 loads
+
+
+
+
+   Number of warnings:  2
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: IO buffer missing for top level port enable0...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port outdiv00...logic will be
+     discarded.
+
+
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| sFlag0              | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| clk0                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv0[0]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| AC0[7]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| AC0[6]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| AC0[5]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| AC0[4]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| AC0[3]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| AC0[2]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| AC0[1]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| AC0[0]              | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outFlag0            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| carryOut1           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| carryOut            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| portB0[7]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[6]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[5]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[3]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| portB0[2]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| portB0[1]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| portB0[0]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| portA0[7]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[6]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[5]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[4]           | INPUT     | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| portA0[3]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| portA0[2]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| portA0[1]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| portA0[0]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| codop0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| codop0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv0[3]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv0[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv0[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block G00/U1/VCC undriven or does not drive anything - clipped.
+Block G18/A30/GND undriven or does not drive anything - clipped.
+Block G18/A23/GND undriven or does not drive anything - clipped.
+Block G18/S5/U5/U1/GND undriven or does not drive anything - clipped.
+Block G18/S5/U5/U2/GND undriven or does not drive anything - clipped.
+Block G18/S8/U5/U2/GND undriven or does not drive anything - clipped.
+Block G18/S9/U5/U1/GND undriven or does not drive anything - clipped.
+Block G18/S9/U5/U2/GND undriven or does not drive anything - clipped.
+Block G18/S10/U4/U2/GND undriven or does not drive anything - clipped.
+Block G20/VCC undriven or does not drive anything - clipped.
+Block G20/GND undriven or does not drive anything - clipped.
+Block G19/VCC undriven or does not drive anything - clipped.
+Block G19/GND undriven or does not drive anything - clipped.
+Block G17/VCC undriven or does not drive anything - clipped.
+Block G17/GND undriven or does not drive anything - clipped.
+Block G16/VCC undriven or does not drive anything - clipped.
+Block G16/GND undriven or does not drive anything - clipped.
+Block G15/VCC undriven or does not drive anything - clipped.
+Block G13/VCC undriven or does not drive anything - clipped.
+Block G13/GND undriven or does not drive anything - clipped.
+Block G12/VCC undriven or does not drive anything - clipped.
+Block G12/GND undriven or does not drive anything - clipped.
+Block G11/VCC undriven or does not drive anything - clipped.
+Block G11/GND undriven or does not drive anything - clipped.
+
+Block G10/VCC undriven or does not drive anything - clipped.
+Block G10/GND undriven or does not drive anything - clipped.
+Block G08/VCC undriven or does not drive anything - clipped.
+Block G07/GND undriven or does not drive anything - clipped.
+Block G07/VCC undriven or does not drive anything - clipped.
+Block G06/GND undriven or does not drive anything - clipped.
+Block G06/VCC undriven or does not drive anything - clipped.
+Block G05/GND undriven or does not drive anything - clipped.
+Block G05/VCC undriven or does not drive anything - clipped.
+Block G04/VCC undriven or does not drive anything - clipped.
+Block G03/VCC undriven or does not drive anything - clipped.
+Block G03/GND undriven or does not drive anything - clipped.
+Block G02/GND undriven or does not drive anything - clipped.
+Block G02/VCC undriven or does not drive anything - clipped.
+Block G01/GND undriven or does not drive anything - clipped.
+Block G01/VCC undriven or does not drive anything - clipped.
+Signal G12/aux_1_am_4 was merged into signal G12/N_236
+Signal G10/aux_1_am_3 was merged into signal G10/aux_0_sqmuxa_1
+Signal G00/U0/GND undriven or does not drive anything - clipped.
+Signal G00/U1/GND undriven or does not drive anything - clipped.
+Signal G15/GND undriven or does not drive anything - clipped.
+Signal G14/GND undriven or does not drive anything - clipped.
+Signal G09/GND undriven or does not drive anything - clipped.
+Signal G08/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal G00/U0/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+Signal G00/U1/un1_sdiv_cry_0_0_S0 undriven or does not drive anything - clipped.
+     
+Signal G00/U1/N_1 undriven or does not drive anything - clipped.
+Signal G00/U1/un1_sdiv_cry_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal G15/un6_codopc0_cry_1_0_S1 undriven or does not drive anything - clipped.
+     
+Signal G15/un6_codopc0_cry_1_0_S0 undriven or does not drive anything - clipped.
+     
+Signal G15/un6_codopc0_cry_3_0_S1 undriven or does not drive anything - clipped.
+     
+Signal G15/un6_codopc0_cry_3_0_S0 undriven or does not drive anything - clipped.
+     
+Signal G15/un6_codopc0_cry_5_0_S1 undriven or does not drive anything - clipped.
+     
+Signal G15/un6_codopc0_cry_5_0_S0 undriven or does not drive anything - clipped.
+     
+Signal G15/un6_codopc0_cry_7_0_S0 undriven or does not drive anything - clipped.
+     
+Signal G15/un6_codopc0_cry_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal G15/un5_codopc0_0_N_17 undriven or does not drive anything - clipped.
+Signal G15/un5_codopc0_0_I_1_0_S0 undriven or does not drive anything - clipped.
+     
+Signal G15/N_2 undriven or does not drive anything - clipped.
+Signal G15/un5_codopc0_0_I_9_0_S1 undriven or does not drive anything - clipped.
+     
+Signal G15/un5_codopc0_0_I_9_0_S0 undriven or does not drive anything - clipped.
+     
+
+Signal G15/un5_codopc0_0_I_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal G15/un5_codopc0_0_I_21_0_COUT undriven or does not drive anything -
+     clipped.
+Signal G15/un6_codopc0_cry_0_0_S1 undriven or does not drive anything - clipped.
+     
+Signal G15/un6_codopc0_cry_0_0_S0 undriven or does not drive anything - clipped.
+     
+Signal G15/N_1 undriven or does not drive anything - clipped.
+Signal G14/un3_outc2_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal G14/un3_outc2_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal G14/N_2 undriven or does not drive anything - clipped.
+Signal G14/un3_outc2_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal G14/un3_outc2_s_7_0_COUT undriven or does not drive anything - clipped.
+Signal G09/res_1_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal G09/res_1_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal G09/N_1 undriven or does not drive anything - clipped.
+Signal G09/res_1_cry_7_0_COUT undriven or does not drive anything - clipped.
+Signal G08/res_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal G08/res_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal G08/N_1 undriven or does not drive anything - clipped.
+Signal G08/res_cry_7_0_COUT undriven or does not drive anything - clipped.
+Block G12/aux_1_am was optimized away.
+Block G10/aux_1_am was optimized away.
+Block G00/U0/GND was optimized away.
+Block G00/U1/GND was optimized away.
+Block G15/GND was optimized away.
+Block G14/GND was optimized away.
+Block G09/GND was optimized away.
+Block G08/GND was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                G00/U0/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     G00.clk0
+  OSC Nominal Frequency (MHz):                      2.08
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: G00/U0/OSCInst0
+         Type: OSCH
+
+
+
+
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 61 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

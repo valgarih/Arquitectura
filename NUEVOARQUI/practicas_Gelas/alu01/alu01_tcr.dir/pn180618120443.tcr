@@ -1,0 +1,10 @@
+#Start recording tcl command: 6/18/2018 11:00:32
+#Project Location: F:/alu01; Project name: alu01
+prj_project new -name "alu01" -impl "alu" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "F:/osc00VHDL/div00.vhdl" "F:/osc00VHDL/osc00.vhdl" "F:/osc00VHDL/packageosc00.vhdl" "F:/osc00VHDL/toposc00.vhdl" "F:/sum8bit00/and00.vhdl" "F:/sum8bit00/fa00.vhdl" "F:/sum8bit00/ha00.vhdl" "F:/sum8bit00/or00.vhdl" "F:/sum8bit00/packageadder8bit00.vhdl" "F:/sum8bit00/packagefa00.vhdl" "F:/sum8bit00/packageha00.vhdl" "F:/sum8bit00/topadder8bit00.vhdl" "F:/sum8bit00/xnor00.vhdl" "F:/sum8bit00/xor00.vhdl"
+prj_project save
+prj_src add "F:/alu00/anda00.vhdl" "F:/alu00/ora00.vhdl"
+prj_src add "F:/alu01/addal00.vhdl"
+prj_src add "F:/alu01/subsal00.vhdl"
+prj_src add "F:/alu00/xora00.vhdl" "F:/alu00/xnora00.vhdl" "F:/alu00/nanda00.vhdl" "F:/alu00/nora00.vhdl" "F:/alu00/nota00.vhdl"
+#Stop recording: 6/18/2018 12:04:43

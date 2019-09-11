@@ -1,0 +1,11 @@
+#Start recording tcl command: 6/6/2018 12:49:26
+#Project Location: C:/Users/Ideapad/Desktop/GELACIO/LCDram; Project name: LCDram00
+prj_project new -name "LCDram00" -impl "LCDram" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/div00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/osc00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/packageosc00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/toposc00.vhdl"
+prj_project save
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/LCDram/lcdram00.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/LCDram/packagelcdram00.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/LCDram/toplcdram00.vhdl"
+prj_run Export -impl LCDram -task Jedecgen
+prj_run Export -impl LCDram -task Jedecgen
+#Stop recording: 6/6/2018 13:20:41

@@ -1,0 +1,58 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed May 08 10:34:03 2019 *
+NOTE DESIGN NAME: topgeneric01 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS inFlag0 : 138 : inout *
+NOTE PINS LEDas0 : 133 : out *
+NOTE PINS clk0 : 95 : out *
+NOTE PINS cdiv0[0] : 62 : in *
+NOTE PINS ac0[15] : 128 : out *
+NOTE PINS ac0[14] : 127 : out *
+NOTE PINS ac0[13] : 126 : out *
+NOTE PINS ac0[12] : 125 : out *
+NOTE PINS ac0[11] : 122 : out *
+NOTE PINS ac0[10] : 121 : out *
+NOTE PINS ac0[9] : 119 : out *
+NOTE PINS ac0[8] : 120 : out *
+NOTE PINS ac0[7] : 115 : out *
+NOTE PINS ac0[6] : 117 : out *
+NOTE PINS ac0[5] : 113 : out *
+NOTE PINS ac0[4] : 114 : out *
+NOTE PINS ac0[3] : 111 : out *
+NOTE PINS ac0[2] : 112 : out *
+NOTE PINS ac0[1] : 109 : out *
+NOTE PINS ac0[0] : 110 : out *
+NOTE PINS outFlag0 : 132 : out *
+NOTE PINS corr0[2] : 59 : in *
+NOTE PINS corr0[1] : 57 : in *
+NOTE PINS corr0[0] : 60 : in *
+NOTE PINS codop0[4] : 39 : in *
+NOTE PINS codop0[3] : 44 : in *
+NOTE PINS codop0[2] : 42 : in *
+NOTE PINS codop0[1] : 45 : in *
+NOTE PINS codop0[0] : 43 : in *
+NOTE PINS portB0[7] : 106 : in *
+NOTE PINS portB0[6] : 107 : in *
+NOTE PINS portB0[5] : 104 : in *
+NOTE PINS portB0[4] : 105 : in *
+NOTE PINS portB0[3] : 99 : in *
+NOTE PINS portB0[2] : 100 : in *
+NOTE PINS portB0[1] : 97 : in *
+NOTE PINS portB0[0] : 98 : in *
+NOTE PINS portA0[7] : 49 : in *
+NOTE PINS portA0[6] : 47 : in *
+NOTE PINS portA0[5] : 50 : in *
+NOTE PINS portA0[4] : 48 : in *
+NOTE PINS portA0[3] : 55 : in *
+NOTE PINS portA0[2] : 52 : in *
+NOTE PINS portA0[1] : 56 : in *
+NOTE PINS portA0[0] : 54 : in *
+NOTE PINS SL0 : 38 : in *
+NOTE PINS enable0 : 40 : in *
+NOTE PINS cdiv0[3] : 65 : in *
+NOTE PINS cdiv0[2] : 61 : in *
+NOTE PINS cdiv0[1] : 67 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

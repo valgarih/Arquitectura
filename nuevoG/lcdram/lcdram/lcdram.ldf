@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="lcdram" device="LCMXO2-7000HE-5TG144C" default_implementation="lcdram">
+    <Options/>
+    <Implementation title="lcdram" dir="lcdram" description="lcdram" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="toposc00"/>
+        <Source name="div00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="osc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packageosc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="toposc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="toposc00"/>
+        </Source>
+        <Source name="lcdram.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="lcdram/lcdram.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="lcdram1.sty"/>
+</BaliProject>

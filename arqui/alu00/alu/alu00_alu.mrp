@@ -1,0 +1,336 @@
+
+           Lattice Mapping Report File for Design Module 'topalu00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     alu00_alu.ngd -o alu00_alu_map.ncd -pr alu00_alu.prf -mp alu00_alu.mrp -lpf
+     C:/Users/Valery Garibay/Documents/alu00/alu/alu00_alu_synplify.lpf -lpf
+     C:/Users/Valery Garibay/Documents/alu00/alu00.lpf -c 0 -gui -msgset
+     C:/Users/Valery Garibay/Documents/alu00/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  04/30/19  10:46:25
+
+Design Summary
+--------------
+
+   Number of registers:     55 out of  7209 (1%)
+      PFU registers:           47 out of  6864 (1%)
+      PIO registers:            8 out of   345 (2%)
+   Number of SLICEs:        58 out of  3432 (2%)
+      SLICEs as Logic/ROM:     58 out of  3432 (2%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:        112 out of  6864 (2%)
+      Number used as logic LUTs:         90
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 37 + 4(JTAG) out of 115 (36%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net AC00.sclk_0: 37 loads, 37 rising, 0 falling (Driver: AC00/D00/OSCInst0
+     )
+   Number of Clock Enables:  6
+
+                                    Page 1
+
+
+
+
+Design:  topalu00                                      Date:  04/30/19  10:46:25
+
+Design Summary (cont)
+---------------------
+     Net outac_cnv[0]: 8 loads, 0 LSLICEs
+     Net G_3: 7 loads, 7 LSLICEs
+     Net AC01/un1_opcodeal_RNI9DHP1: 4 loads, 4 LSLICEs
+     Net AC01/aux_RNO_0: 1 loads, 1 LSLICEs
+     Net AC02/outoral_1_cnv[0]: 4 loads, 4 LSLICEs
+     Net AC02/aux_RNO: 1 loads, 1 LSLICEs
+   Number of LSRs:  1
+     Net AC00/D01/un1_outdiv_0_sqmuxa_1_3_RNILNPB1: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net G_3: 12 loads
+     Net AC00/D01/un1_outdiv_0_sqmuxa_1_3_RNILNPB1: 11 loads
+     Net AC01/outal_cl[7]: 9 loads
+     Net AC02.outoral_cl[7]: 9 loads
+     Net outFlagac0_c: 9 loads
+     Net AC00/D01/sdiv[17]: 8 loads
+     Net AC00/D01/sdiv[18]: 8 loads
+     Net AC01/N_121: 8 loads
+     Net AC02/N_131: 8 loads
+     Net outac_cnv[0]: 8 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| outFlaginside       | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk00               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outac0[7]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outac0[6]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outac0[5]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outac0[4]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outac0[3]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  topalu00                                      Date:  04/30/19  10:46:25
+
+IO (PIO) Attributes (cont)
+--------------------------
+| outac0[2]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outac0[1]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outac0[0]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| portB0[7]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[6]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[5]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portB0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[7]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[6]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[5]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| portA0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagac0          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| opcode0[3]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| opcode0[2]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| opcode0[1]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| opcode0[0]          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| en0                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  topalu00                                      Date:  04/30/19  10:46:25
+
+IO (PIO) Attributes (cont)
+--------------------------
+| cdiv00[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block AC00/GND undriven or does not drive anything - clipped.
+Block AC00/VCC undriven or does not drive anything - clipped.
+Block AC00/D00/VCC undriven or does not drive anything - clipped.
+Block AC00/D01/VCC undriven or does not drive anything - clipped.
+Block AC03/GND undriven or does not drive anything - clipped.
+Block AC03/VCC undriven or does not drive anything - clipped.
+Block AC02/GND undriven or does not drive anything - clipped.
+Block AC02/VCC undriven or does not drive anything - clipped.
+Block AC01/GND undriven or does not drive anything - clipped.
+Block AC01/VCC undriven or does not drive anything - clipped.
+Signal AC00/D00/GND undriven or does not drive anything - clipped.
+Signal AC00/D01/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal AC00/D00/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+     
+Signal AC00/D01/un1_sdiv_cry_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal AC00/D01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal AC00/D01/N_1 undriven or does not drive anything - clipped.
+Block AC00/D00/GND was optimized away.
+Block AC00/D01/GND was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                AC00/D00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     AC00.sclk_0
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: AC00/D00/OSCInst0
+         Type: OSCH
+
+
+
+                                    Page 4
+
+
+
+
+Design:  topalu00                                      Date:  04/30/19  10:46:25
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 3 secs  
+   Peak Memory Usage: 58 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 5
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

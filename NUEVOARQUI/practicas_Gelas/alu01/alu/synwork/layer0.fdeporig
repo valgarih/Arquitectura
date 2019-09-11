@@ -1,0 +1,152 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\alu01\\alu\\synwork\\alu01_alu_comp.srs|-top|subsal00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\osc00VHDL\\div00.vhdl":1520349504
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\osc00VHDL\\osc00.vhdl":1520348576
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\osc00VHDL\\packageosc00.vhdl":1520349518
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\sum8bit00\\and00.vhdl":1520487266
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\sum8bit00\\or00.vhdl":1520487362
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\sum8bit00\\packageha00.vhdl":1520487362
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\sum8bit00\\packagefa00.vhdl":1520487444
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\sum8bit00\\xor00.vhdl":1520487242
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\sum8bit00\\xnor00.vhdl":1520487444
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\sum8bit00\\packageadder8bit00.vhdl":1520488238
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\alu00\\anda00.vhdl":1529421230
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\alu00\\ora00.vhdl":1529421214
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\alu00\\xora00.vhdl":1528942482
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\alu00\\xnora00.vhdl":1528942506
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\alu00\\nanda00.vhdl":1528942490
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\alu00\\nora00.vhdl":1528942498
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\alu00\\nota00.vhdl":1528942520
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\alu01\\addal00.vhdl":1529421178
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\alu01\\subsal00.vhdl":1529421178
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\osc00VHDL\\toposc00.vhdl":1520349706
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\sum8bit00\\ha00.vhdl":1520487362
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\sum8bit00\\fa00.vhdl":1529455290
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\sum8bit00\\topadder8bit00.vhdl":1520488280
+0 "C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl" vhdl
+2 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\osc00.vhdl" vhdl
+3 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\packageosc00.vhdl" vhdl
+4 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\and00.vhdl" vhdl
+5 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\or00.vhdl" vhdl
+6 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\packageha00.vhdl" vhdl
+7 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\packagefa00.vhdl" vhdl
+8 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\xor00.vhdl" vhdl
+9 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\xnor00.vhdl" vhdl
+10 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\packageadder8bit00.vhdl" vhdl
+11 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\anda00.vhdl" vhdl
+12 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\ora00.vhdl" vhdl
+13 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\xora00.vhdl" vhdl
+14 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\xnora00.vhdl" vhdl
+15 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\nanda00.vhdl" vhdl
+16 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\nora00.vhdl" vhdl
+17 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\nota00.vhdl" vhdl
+18 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl" vhdl
+19 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl" vhdl
+20 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\toposc00.vhdl" vhdl
+21 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\ha00.vhdl" vhdl
+22 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\fa00.vhdl" vhdl
+23 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\topadder8bit00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 2 1 3 
+21 8 4 6 
+22 21 5 7 
+23 8 22 4 9 10 
+
+# Dependency Lists (Users Of)
+0 -1
+1 20 
+2 20 
+3 20 
+4 23 21 
+5 22 
+6 21 
+7 22 
+8 23 21 
+9 23 
+10 23 
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 22 
+22 23 
+23 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work osc00 osc0 2
+module work osc00 2
+arch work and00 and0 4
+module work and00 4
+arch work or00 or0 5
+module work or00 5
+arch work xor00 xor0 8
+module work xor00 8
+arch work xnor00 xnor0 9
+module work xnor00 9
+arch work anda00 anda0 11
+module work anda00 11
+arch work ora00 ora0 12
+module work ora00 12
+arch work xora00 xora0 13
+module work xora00 13
+arch work xnora00 xnora0 14
+module work xnora00 14
+arch work nanda00 nanda0 15
+module work nanda00 15
+arch work nora00 nora0 16
+module work nora00 16
+arch work nota00 nota0 17
+module work nota00 17
+arch work addal00 addal0 18
+module work addal00 18
+arch work subsal00 subsal0 19
+module work subsal00 19
+arch work toposc00 toposc0 20
+module work toposc00 20
+arch work ha00 ha0 21
+module work ha00 21
+arch work fa00 fa0 22
+module work fa00 22
+arch work topadder8bit00 topadder8bit0 23
+module work topadder8bit00 23

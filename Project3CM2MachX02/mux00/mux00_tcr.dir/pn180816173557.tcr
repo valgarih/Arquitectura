@@ -1,0 +1,6 @@
+#Start recording tcl command: 8/16/2018 17:30:09
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/mux00; Project name: mux00
+prj_project open "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/mux00/mux00.ldf"
+prj_run Synthesis -impl mux0
+prj_run Export -impl mux0 -task Jedecgen
+#Stop recording: 8/16/2018 17:35:57

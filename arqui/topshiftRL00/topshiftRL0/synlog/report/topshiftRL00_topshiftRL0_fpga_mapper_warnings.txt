@@ -1,0 +1,2 @@
+@W: MT246 :"c:\users\valery garibay\documents\6_semestre\arqui\topshiftrl00\topshiftrl00.vhdl":23:1:23:5|Blackbox shiftRL00 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\valery garibay\documents\6_semestre\arqui\topshiftrl00\topshiftrl00.vhdl":20:1:20:5|Blackbox topdiv00 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 

@@ -1,0 +1,14 @@
+@W: CG296 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdmux00.vhdl":27:7:27:13|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdmux00.vhdl":44:13:44:15|Referenced variable rwd is not in sensitivity list.
+@W: CG290 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdmux00.vhdl":41:13:41:15|Referenced variable enc is not in sensitivity list.
+@W: CG290 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdmux00.vhdl":40:13:40:15|Referenced variable rsc is not in sensitivity list.
+@W: CG290 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdmux00.vhdl":39:13:39:15|Referenced variable rwc is not in sensitivity list.
+@W: CG290 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdmux00.vhdl":29:7:29:12|Referenced variable resetm is not in sensitivity list.
+@W: CG290 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdmux00.vhdl":36:9:36:21|Referenced variable inflagconfigm is not in sensitivity list.
+@W: CG290 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdmux00.vhdl":46:13:46:16|Referenced variable endd is not in sensitivity list.
+@W: CG290 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdmux00.vhdl":45:13:45:15|Referenced variable rsd is not in sensitivity list.
+@W: CD276 :"D:\LatticeDiamond\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL260 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdconfig00.vhdl":27:2:27:3|Pruning register bit 6 of outwordconfigc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcdcontdata00.vhdl":25:2:25:3|Removing register 'RWcd' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcddata00.vhdl":76:2:76:3|Pruning register bit 7 of outwordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

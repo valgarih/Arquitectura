@@ -1,0 +1,53 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO106 :"f:\bcd00\leeinst07.vhdl":31:26:31:31|Found ROM .delname. (in view: work.leeInst07(leeinst07)) with 16 words by 3 bits.
+@N: MO106 :"f:\bcd00\codernibbles07.vhdl":82:7:82:10|Found ROM .delname. (in view: work.coderNibbles07(codernibbles0)) with 10 words by 7 bits.
+@N: MO106 :"f:\bcd00\codernibbles07.vhdl":55:7:55:10|Found ROM .delname. (in view: work.coderNibbles07(codernibbles0)) with 10 words by 7 bits.
+@N: MO106 :"f:\bcd00\codernibbles07.vhdl":28:7:28:10|Found ROM .delname. (in view: work.coderNibbles07(codernibbles0)) with 10 words by 7 bits.
+@N: BN362 :"f:\bcd00\shift12bit07.vhdl":23:6:23:7|Removing sequential instance outACss_cl_11[11] (in view: work.shift12bit07(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift12bit07.vhdl":23:6:23:7|Removing sequential instance outACss_cl_9[11] (in view: work.shift12bit07(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift12bit07.vhdl":23:6:23:7|Removing sequential instance outACss_cl_8[11] (in view: work.shift12bit07(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift12bit07.vhdl":23:6:23:7|Removing sequential instance outACss_cl_7[11] (in view: work.shift12bit07(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift12bit07.vhdl":23:6:23:7|Removing sequential instance outACss_cl_6[11] (in view: work.shift12bit07(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift12bit07.vhdl":23:6:23:7|Removing sequential instance outACss_cl_5[11] (in view: work.shift12bit07(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift12bit07.vhdl":23:6:23:7|Removing sequential instance outACss_cl_4[11] (in view: work.shift12bit07(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift12bit07.vhdl":23:6:23:7|Removing sequential instance outACss_cl_3[11] (in view: work.shift12bit07(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift12bit07.vhdl":23:6:23:7|Removing sequential instance outACss_cl_2[11] (in view: work.shift12bit07(shift12bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift8bit07.vhdl":22:6:22:7|Removing sequential instance outACs_cl_7[7] (in view: work.shift8bit07(shift8bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift8bit07.vhdl":22:6:22:7|Removing sequential instance outACs_cl_5[7] (in view: work.shift8bit07(shift8bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift8bit07.vhdl":22:6:22:7|Removing sequential instance outACs_cl_4[7] (in view: work.shift8bit07(shift8bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift8bit07.vhdl":22:6:22:7|Removing sequential instance outACs_cl_3[7] (in view: work.shift8bit07(shift8bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\shift8bit07.vhdl":22:6:22:7|Removing sequential instance outACs_cl_2[7] (in view: work.shift8bit07(shift8bit0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\init07.vhdl":25:6:25:7|Removing sequential instance outACA8init_1[4] (in view: work.init07(init0)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\init07.vhdl":25:6:25:7|Removing sequential instance outACA8init_1[1] (in view: work.init07(init0)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_11[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_10[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_9[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_8[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_7[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_6[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_5[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_4[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_3[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl_2[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\sust07.vhdl":26:5:26:6|Removing sequential instance U08.outAC12bitsu_cl[11] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\portab07.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_7[7] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\portab07.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_6[7] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\portab07.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_5[7] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\portab07.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_4[7] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\portab07.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_3[7] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\portab07.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_2[7] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\portab07.vhdl":22:6:22:7|Removing sequential instance U02.ACLpA_cl_1[7] (in view: work.topp07(topp0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\contring07.vhdl":20:8:20:9|Removing sequential instance U13.outr[3] (in view: work.topp07(topp0)) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\contring07.vhdl":20:8:20:9|Removing sequential instance U13.outr[2] (in view: work.topp07(topp0)) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\contring07.vhdl":20:8:20:9|Removing sequential instance U13.outr[1] (in view: work.topp07(topp0)) because it does not drive other instances.
+@N: BN362 :"f:\bcd00\contring07.vhdl":20:8:20:9|Removing sequential instance U13.outr[0] (in view: work.topp07(topp0)) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: MT611 :|Automatically generated clock osc00|osc_int_inferred_clock is not used and is being removed
+@N: MT617 :|Automatically generated clock div00|oscout_derived_clock has lost its master clock osc00|osc_int_inferred_clock and is being removed
+@N: MT617 :|Automatically generated clock pcinc07|outFlagpc_derived_clock has lost its master clock div00|oscout_derived_clock and is being removed
+@N: MT617 :|Automatically generated clock pcinc07|outFlagpc_derived_clock has lost its master clock div00|oscout_derived_clock and is being removed
+@N: FX1056 |Writing EDF file: F:\bcd00\bcd\bcd00_bcd.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

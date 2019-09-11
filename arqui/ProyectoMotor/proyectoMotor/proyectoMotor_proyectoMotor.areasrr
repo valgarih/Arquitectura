@@ -1,0 +1,50 @@
+----------------------------------------------------------------------
+Report for cell servo_pwm_clk64kHz.behavioral
+
+Register bits: 22 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       19       100.0
+                            FD1P3DX       10       100.0
+                            FD1S3DX       12       100.0
+                                GSR        1       100.0
+                                 IB        9       100.0
+                                INV        1       100.0
+                                 OB        1       100.0
+                           ORCALUT4       16       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        3       100.0
+SUB MODULES 
+                           clk64kHz        1       100.0
+                          servo_pwm        1       100.0
+                            
+                         TOTAL            78           
+----------------------------------------------------------------------
+Report for cell servo_pwm.netlist
+     Instance path:  servo_pwm_map
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       13        68.4
+                            FD1P3DX       10       100.0
+                            FD1S3DX        1         8.3
+                                INV        1       100.0
+                           ORCALUT4        6        37.5
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL            33           
+----------------------------------------------------------------------
+Report for cell clk64kHz.netlist
+     Instance path:  clk64kHz_map
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        6        31.6
+                            FD1S3DX       11        91.7
+                           ORCALUT4       10        62.5
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL            29           

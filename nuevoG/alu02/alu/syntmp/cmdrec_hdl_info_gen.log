@@ -1,0 +1,27 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe  -osyn  F:\alu02\alu\synwork\alu02_alu_hdl_.srs  -top  acal00  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  F:\alu02\alu\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work F:\osc00VHDL\div00.vhdl -lib work F:\osc00VHDL\osc00.vhdl -lib work F:\osc00VHDL\packageosc00.vhdl -lib work F:\osc00VHDL\toposc00.vhdl -lib work F:\sum8bit00\and00.vhdl -lib work F:\sum8bit00\or00.vhdl -lib work F:\sum8bit00\packageha00.vhdl -lib work F:\sum8bit00\packagefa00.vhdl -lib work F:\sum8bit00\xor00.vhdl -lib work F:\sum8bit00\xnor00.vhdl -lib work F:\sum8bit00\ha00.vhdl -lib work F:\sum8bit00\fa00.vhdl -lib work F:\sum8bit00\packageadder8bit00.vhdl -lib work F:\sum8bit00\topadder8bit00.vhdl -lib work F:\alu00\anda00.vhdl -lib work F:\alu00\ora00.vhdl -lib work F:\alu01\addal00.vhdl -lib work F:\alu01\subsal00.vhdl -lib work F:\alu02\acal00.vhdl -lib work F:\alu02\packagealu01.vhdl  -log  F:\alu02\alu\syntax.log  -fileorder  F:\alu02\alu\syntmp\hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\alu02_alu_hdl_.srs -top acal00 -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\..\osc00VHDL\div00.vhdl -lib work ..\..\..\osc00VHDL\osc00.vhdl -lib work ..\..\..\osc00VHDL\packageosc00.vhdl -lib work ..\..\..\osc00VHDL\toposc00.vhdl -lib work ..\..\..\sum8bit00\and00.vhdl -lib work ..\..\..\sum8bit00\or00.vhdl -lib work ..\..\..\sum8bit00\packageha00.vhdl -lib work ..\..\..\sum8bit00\packagefa00.vhdl -lib work ..\..\..\sum8bit00\xor00.vhdl -lib work ..\..\..\sum8bit00\xnor00.vhdl -lib work ..\..\..\sum8bit00\ha00.vhdl -lib work ..\..\..\sum8bit00\fa00.vhdl -lib work ..\..\..\sum8bit00\packageadder8bit00.vhdl -lib work ..\..\..\sum8bit00\topadder8bit00.vhdl -lib work ..\..\..\alu00\anda00.vhdl -lib work ..\..\..\alu00\ora00.vhdl -lib work ..\..\..\alu01\addal00.vhdl -lib work ..\..\..\alu01\subsal00.vhdl -lib work ..\..\acal00.vhdl -lib work ..\..\packagealu01.vhdl -log ..\syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:1
+file:..\synwork\alu02_alu_hdl_.srs|io:o|time:0|size:0|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\..\osc00VHDL\div00.vhdl|io:i|time:1520349504|size:2199|exec:0|csum:E6CAF02E2D65A26E7D44E02A954477DE
+file:..\..\..\osc00VHDL\osc00.vhdl|io:i|time:1520348576|size:509|exec:0|csum:52FA8B1858CC10A6F1BAC84382475755
+file:..\..\..\osc00VHDL\packageosc00.vhdl|io:i|time:1520349518|size:398|exec:0|csum:3BB5632FFAC3B5BFB197A3D4EA8A04D5
+file:..\..\..\osc00VHDL\toposc00.vhdl|io:i|time:1520349706|size:515|exec:0|csum:BE8F543B892BE4EFB5915CFA0AB04830
+file:..\..\..\sum8bit00\and00.vhdl|io:i|time:1520487266|size:252|exec:0|csum:CE43BA1FE4A4B17135ACF0DE35754BBD
+file:..\..\..\sum8bit00\or00.vhdl|io:i|time:1520487362|size:246|exec:0|csum:46E86A089696726428FED4E993C4FBBE
+file:..\..\..\sum8bit00\packageha00.vhdl|io:i|time:1520487362|size:364|exec:0|csum:6513096A8E54DC496ED5A768FB3EC37D
+file:..\..\..\sum8bit00\packagefa00.vhdl|io:i|time:1520487444|size:381|exec:0|csum:E1836184CC2406BDB9D8D9EE23007843
+file:..\..\..\sum8bit00\xor00.vhdl|io:i|time:1520487242|size:254|exec:0|csum:CD31EA5D83585A409AADC3BD2B223FD5
+file:..\..\..\sum8bit00\xnor00.vhdl|io:i|time:1520487444|size:264|exec:0|csum:287FD4497877E4AAF28324F031AA567F
+file:..\..\..\sum8bit00\ha00.vhdl|io:i|time:1520487362|size:471|exec:0|csum:1E4F834302EF7F672B099DD86D059CC0
+file:..\..\..\sum8bit00\fa00.vhdl|io:i|time:1529339198|size:684|exec:0|csum:0E5C23EF50B7F471BE9D8022FE25F868
+file:..\..\..\sum8bit00\packageadder8bit00.vhdl|io:i|time:1520488238|size:671|exec:0|csum:997EB4B716B22D800D244FEE06CBA099
+file:..\..\..\sum8bit00\topadder8bit00.vhdl|io:i|time:1520488280|size:3598|exec:0|csum:2784CDE5B519F478B9E388F79CF4AB00
+file:..\..\..\alu00\anda00.vhdl|io:i|time:1528942142|size:983|exec:0|csum:BF4259039320D53FD6780708246A825C
+file:..\..\..\alu00\ora00.vhdl|io:i|time:1529380602|size:973|exec:0|csum:3402DF1CA49D2CA244D3E2EA7054F866
+file:..\..\..\alu01\addal00.vhdl|io:i|time:1529339806|size:1132|exec:0|csum:510F82E2426F29A1120D94EF5900059F
+file:..\..\..\alu01\subsal00.vhdl|io:i|time:1529340740|size:1115|exec:0|csum:0EC9DA1B32E73394A10C2E7B95764110
+file:..\..\acal00.vhdl|io:i|time:1529417652|size:767|exec:0|csum:83C232ABFCB8637707CE6A03364AF167
+file:..\..\packagealu01.vhdl|io:i|time:1529417612|size:2081|exec:0|csum:8076408A3FBC53031F30335511768E28
+file:..\syntax.log|io:o|time:1529417688|size:957|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501913710|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

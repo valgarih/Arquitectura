@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Documents\6_semestre\arqui\sumador8bitArtimetico\Sumador8bitAritmetico.vhdl":5:7:5:27|Top entity is set to Sumador8bitAritmetico.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\sumador8bitArtimetico\Sumador8bitAritmetico.vhdl":5:7:5:27|Synthesizing work.sumador8bitaritmetico.sumador8bitaritmetico0.
+@N|Running in 64-bit mode
+

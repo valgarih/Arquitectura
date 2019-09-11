@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>enable0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>outdiv00</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVHD">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G00/U1/un1_sdiv_cry_19_0_COUT</Dynamic>
+            <Navigation>G00/U1/un1_sdiv_cry_19_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G00/U1/un1_sdiv_cry_0_0_S0</Dynamic>
+            <Navigation>G00/U1/un1_sdiv_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G00/U0/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>G00/U0/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G08/res_cry_7_0_COUT</Dynamic>
+            <Navigation>G08/res_cry_7_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G08/res_cry_0_0_S0</Dynamic>
+            <Navigation>G08/res_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G08/res_cry_0_0_S1</Dynamic>
+            <Navigation>G08/res_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G09/res_1_cry_7_0_COUT</Dynamic>
+            <Navigation>G09/res_1_cry_7_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G09/res_1_cry_0_0_S0</Dynamic>
+            <Navigation>G09/res_1_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G09/res_1_cry_0_0_S1</Dynamic>
+            <Navigation>G09/res_1_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G14/un3_outc2_s_7_0_COUT</Dynamic>
+            <Navigation>G14/un3_outc2_s_7_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G14/un3_outc2_s_7_0_S1</Dynamic>
+            <Navigation>G14/un3_outc2_s_7_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G14/un3_outc2_cry_0_0_S0</Dynamic>
+            <Navigation>G14/un3_outc2_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G14/un3_outc2_cry_0_0_S1</Dynamic>
+            <Navigation>G14/un3_outc2_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un5_codopc0_0_I_21_0_COUT</Dynamic>
+            <Navigation>G15/un5_codopc0_0_I_21_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un5_codopc0_0_I_21_0_S0</Dynamic>
+            <Navigation>G15/un5_codopc0_0_I_21_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un5_codopc0_0_I_9_0_S0</Dynamic>
+            <Navigation>G15/un5_codopc0_0_I_9_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un5_codopc0_0_I_9_0_S1</Dynamic>
+            <Navigation>G15/un5_codopc0_0_I_9_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un5_codopc0_0_I_1_0_S0</Dynamic>
+            <Navigation>G15/un5_codopc0_0_I_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un5_codopc0_0_N_17</Dynamic>
+            <Navigation>G15/un5_codopc0_0_N_17</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un6_codopc0_cry_7_0_COUT</Dynamic>
+            <Navigation>G15/un6_codopc0_cry_7_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un6_codopc0_cry_7_0_S0</Dynamic>
+            <Navigation>G15/un6_codopc0_cry_7_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un6_codopc0_cry_5_0_S0</Dynamic>
+            <Navigation>G15/un6_codopc0_cry_5_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un6_codopc0_cry_5_0_S1</Dynamic>
+            <Navigation>G15/un6_codopc0_cry_5_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un6_codopc0_cry_3_0_S0</Dynamic>
+            <Navigation>G15/un6_codopc0_cry_3_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un6_codopc0_cry_3_0_S1</Dynamic>
+            <Navigation>G15/un6_codopc0_cry_3_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un6_codopc0_cry_1_0_S0</Dynamic>
+            <Navigation>G15/un6_codopc0_cry_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un6_codopc0_cry_1_0_S1</Dynamic>
+            <Navigation>G15/un6_codopc0_cry_1_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un6_codopc0_cry_0_0_S0</Dynamic>
+            <Navigation>G15/un6_codopc0_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G15/un6_codopc0_cry_0_0_S1</Dynamic>
+            <Navigation>G15/un6_codopc0_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>enable0</Dynamic>
+            <Navigation>enable0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>outdiv00</Dynamic>
+            <Navigation>outdiv00</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>31</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\shiftx00.vhd&quot;:27:3:27:4|Pruning unused register outFlagsrx_cl_8. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outFlagsrx_cl_8. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\multicomb.vhdl&quot;:22:6:22:7|Pruning unused register outFlagmc_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\multicomb.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagmc_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl&quot;:25:6:25:7|Pruning unused register outFlagct_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagct_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl&quot;:25:6:25:7|Pruning unused register outFlagc0_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagc0_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp2.vhdl&quot;:24:6:24:7|Pruning unused register outFlagc2_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp2.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagc2_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\rotl00.vhdl&quot;:24:6:24:7|Pruning unused register outFlagrl_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\rotl00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagrl_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\rotr00.vhdl&quot;:24:6:24:7|Pruning unused register outFlagrr_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\rotr00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagrr_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\shiftl00.vhdl&quot;:24:6:24:7|Pruning unused register outFlagsl_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\shiftl00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagsl_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\shiftr00.vhdl&quot;:24:6:24:7|Pruning unused register outFlagsr_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\shiftr00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagsr_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\sub00.vhdl&quot;:26:6:26:7|Pruning unused register outFlagsub_cl_5. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\sub00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagsub_cl_5. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\add00.vhdl&quot;:26:6:26:7|Pruning unused register outFlagadd_cl_5. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\add00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagadd_cl_5. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nxor00.vhdl&quot;:23:6:23:7|Pruning unused register outFlagnx_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nxor00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagnx_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nor00.vhdl&quot;:23:6:23:7|Pruning unused register outFlagno_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nor00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagno_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nand00.vhdl&quot;:23:6:23:7|Pruning unused register outFlagna_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nand00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagna_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\or00.vhdl&quot;:23:6:23:7|Pruning unused register outFlago_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\or00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlago_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\not00.vhdl&quot;:22:6:22:7|Pruning unused register outFlagn_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\not00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagn_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\xor00.vhdl&quot;:23:6:23:7|Pruning unused register outFlagx_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\xor00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlagx_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\and00.vhdl&quot;:22:6:22:7|Pruning unused register outFlaga_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\and00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Pruning unused register outFlaga_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD277 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\packagediv00.vhdl&quot;:23:7:23:13|Port direction mismatch between component and entity</Dynamic>
+            <Navigation>CD277</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\packagediv00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Port direction mismatch between component and entity</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl&quot;:12:4:12:10|Input port bits 7 to 4 of portact(7 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Input port bits 7 to 4 of portact(7 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl&quot;:13:4:13:10|Input port bits 7 to 4 of portbct(7 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Input port bits 7 to 4 of portbct(7 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\shiftx00.vhd&quot;:13:4:13:11|Input port bits 7 to 4 of portbsrx(7 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Input port bits 7 to 4 of portbsrx(7 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\topgeneric01.vhdl&quot;:17:4:17:11|Inout outdiv00 is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\topgeneric01.vhdl</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Inout outdiv00 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\div00\div0.vhdl&quot;:20:5:20:6|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including G00.U1.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\div00\div0.vhdl</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including G00.U1.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd&quot;:28:7:28:8|Removing user instance G19.outsrx_cl_23[7] because it is equivalent to instance G19.outsrx_cl_22[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance G19.outsrx_cl_23[7] because it is equivalent to instance G19.outsrx_cl_22[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd&quot;:28:7:28:8|Removing user instance G19.outsrx_cl_22[7] because it is equivalent to instance G19.outsrx_cl_20[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance G19.outsrx_cl_22[7] because it is equivalent to instance G19.outsrx_cl_20[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd&quot;:28:7:28:8|Removing user instance G19.outsrx_cl_21[7] because it is equivalent to instance G19.outsrx_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance G19.outsrx_cl_21[7] because it is equivalent to instance G19.outsrx_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd&quot;:28:7:28:8|Removing user instance G19.outsrx_cl_20[7] because it is equivalent to instance G19.outsrx_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance G19.outsrx_cl_20[7] because it is equivalent to instance G19.outsrx_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd&quot;:28:7:28:8|Removing user instance G19.outsrx_cl_19[7] because it is equivalent to instance G19.outsrx_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance G19.outsrx_cl_19[7] because it is equivalent to instance G19.outsrx_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd&quot;:28:7:28:8|Removing user instance G19.outsrx_cl_18[7] because it is equivalent to instance G19.outsrx_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance G19.outsrx_cl_18[7] because it is equivalent to instance G19.outsrx_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd&quot;:27:3:27:4|Removing sequential instance G19.outsrx_cl_7[7] because it is equivalent to instance G19.outsrx_cl_5[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing sequential instance G19.outsrx_cl_7[7] because it is equivalent to instance G19.outsrx_cl_5[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd&quot;:28:7:28:8|Removing user instance G19.outsrx_cl_17[7] because it is equivalent to instance G19.outsrx_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Removing user instance G19.outsrx_cl_17[7] because it is equivalent to instance G19.outsrx_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd&quot;:27:3:27:4|Removing sequential instance G19.outsrx_cl_5[7] because it is equivalent to instance G19.outsrx_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing sequential instance G19.outsrx_cl_5[7] because it is equivalent to instance G19.outsrx_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd&quot;:27:3:27:4|Removing sequential instance G19.outsrx_cl_4[7] because it is equivalent to instance G19.outsrx_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\saiko\documents\escom\5 semestre\arqui de computadoras\arquitectura\generic04\generic02\shiftx00.vhd</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing sequential instance G19.outsrx_cl_4[7] because it is equivalent to instance G19.outsrx_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:G00.U0.osc_int&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:G00.U0.osc_int&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

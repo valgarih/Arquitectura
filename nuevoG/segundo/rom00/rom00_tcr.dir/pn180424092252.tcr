@@ -1,0 +1,17 @@
+#Start recording tcl command: 4/24/2018 08:48:33
+#Project Location: F:/rom00; Project name: rom00
+prj_project open "F:/rom00/rom00.ldf"
+prj_src add "F:/rom00/contRead00.vhdl"
+prj_src add "F:/rom00/packagerom00.vhdl"
+prj_src add "F:/rom00/toprom00.vhdl"
+prj_run Export -impl rom -task Jedecgen
+prj_run Export -impl rom -task Jedecgen
+pgr_project save "F:/rom00/rom/rom.xcf"
+prj_src add -exclude "F:/rom00/rom/rom.xcf"
+prj_src enable "F:/rom00/rom/rom.xcf"
+pgr_program run
+pgr_project save "F:/rom00/rom/rom.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 4/24/2018 09:22:52

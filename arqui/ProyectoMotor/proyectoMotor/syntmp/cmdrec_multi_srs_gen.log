@@ -1,0 +1,7 @@
+C:\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  servo_pwm_clk64kHz  -multisrs  "C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\proyectoMotor\synwork\proyectoMotor_proyectoMotor_comp.srs"  -osyn  "C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\proyectoMotor\synwork\proyectoMotor_proyectoMotor_mult.srs"  -log  "C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\proyectoMotor\synlog\proyectoMotor_proyectoMotor_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top servo_pwm_clk64kHz -multisrs "C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\proyectoMotor\synwork\proyectoMotor_proyectoMotor_comp.srs" -osyn "C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\proyectoMotor\synwork\proyectoMotor_proyectoMotor_mult.srs" -log "C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\proyectoMotor\synlog\proyectoMotor_proyectoMotor_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\proyectoMotor_proyectoMotor_comp.srs|io:i|time:1558457658|size:4562|exec:0|csum:4703D81F6964E539A4B3BD4CCDFE0A43
+file:..\synwork\proyectoMotor_proyectoMotor_mult.srs|io:o|time:1558457660|size:2506|exec:0|csum:
+file:..\synlog\proyectoMotor_proyectoMotor_multi_srs_gen.srr|io:o|time:1558457660|size:409|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

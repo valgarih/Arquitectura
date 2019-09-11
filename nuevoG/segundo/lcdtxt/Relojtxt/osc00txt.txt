@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library lattice;
+use lattice.all;
+
+entity osc00 is
+  port(osc_int: out std_logic);
+end osc00;
+
+architecture osc0 of osc00 is
+   COMPONENT OSCC
+      PORT (OSC:OUT std_logic);
+   END COMPONENT;
+begin
+  OSCInst0: OSCC PORT MAP (OSC => osc_int);
+end osc0;

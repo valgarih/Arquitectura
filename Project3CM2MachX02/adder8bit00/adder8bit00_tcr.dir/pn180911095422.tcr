@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/11/2018 09:37:41
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder8bit00; Project name: adder8bit00
+prj_project new -name "adder8bit00" -impl "adder8bit" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bit00/xoradd.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bit00/andadd.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bit00/packageha00.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bit00/ha00.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bit00/oradd.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bit00/packagefa00.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bit00/fa00.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bit00/xnoradd.vhd"
+#Stop recording: 9/11/2018 09:54:22

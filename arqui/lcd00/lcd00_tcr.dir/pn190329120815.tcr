@@ -1,0 +1,5 @@
+#Start recording tcl command: 3/29/2019 10:45:39
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/lcd00; Project name: lcd00
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/lcd00/lcd00.ldf"
+prj_run Export -impl lcdConfig -task Jedecgen
+#Stop recording: 3/29/2019 12:08:15

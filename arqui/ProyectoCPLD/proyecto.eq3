@@ -1,0 +1,408 @@
+|--------------------------------------------------- ----------|
+|- ispLEVER Classic 2.0.00.17.20.15 Equations File            -|
+|- Copyright(C), 1992-2012, Lattice Semiconductor Corporation -|
+|- All Rights Reserved.                                       -|
+|--------------------------------------------------------------|
+
+
+Equations:
+
+
+U1_U2_sdiv_0_.T = !( indivtop_4_ & !indivtop_0_ & !U1_U2_sdiv_0_.Q
+       & U1_U2_sdiv_8_.Q
+    # indivtop_4_ & !indivtop_1_ & !U1_U2_sdiv_0_.Q & U1_U2_sdiv_7_.Q
+    # indivtop_2_ & !U1_U2_sdiv_0_.Q & U1_U2_sdiv_11_.Q
+    # indivtop_3_ & !U1_U2_sdiv_0_.Q & U1_U2_sdiv_10_.Q
+    # indivtop_1_ & !U1_U2_sdiv_0_.Q & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & !U1_U2_sdiv_0_.Q & U1_U2_sdiv_9_.Q
+    # indivtop_4_ & !U1_U2_sdiv_0_.Q & U1_U2_sdiv_12_.Q
+    # indivtop_0_ & !U1_U2_sdiv_0_.Q & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q & !U1_U2_sdiv_0_.Q
+    # indivtop_4_ & !U1_U2_sdiv_0_.Q & U1_U2_sdiv_13_.Q ) ; (10 pterms, 14 signals)
+U1_U2_sdiv_0_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_0_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_10_.T = !indivtop_4_ & !indivtop_0_ & !U1_U2_sdiv_14_.Q
+       & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q
+       & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q
+       & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q & !U1_U2_sdiv_11_.Q
+       & !U1_U2_sdiv_12_.Q
+    # !indivtop_4_ & !indivtop_2_ & !indivtop_0_ & !U1_U2_sdiv_14_.Q
+       & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q
+       & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q
+       & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q & !U1_U2_sdiv_12_.Q
+    # !indivtop_4_ & !indivtop_1_ & !indivtop_0_ & !U1_U2_sdiv_14_.Q
+       & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q
+       & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q
+       & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q & !U1_U2_sdiv_11_.Q
+    # !indivtop_4_ & !indivtop_2_ & !indivtop_1_ & !indivtop_0_
+       & !U1_U2_sdiv_14_.Q & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q
+       & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q
+       & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q
+    # !indivtop_4_ & !U1_U2_sdiv_14_.Q & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q
+       & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q
+       & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q
+       & !U1_U2_sdiv_11_.Q & !U1_U2_sdiv_12_.Q & !U1_U2_sdiv_13_.Q
+    # !indivtop_4_ & !indivtop_2_ & !U1_U2_sdiv_14_.Q & U1_U2_sdiv_0_.Q
+       & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q
+       & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q & U1_U2_sdiv_8_.Q
+       & U1_U2_sdiv_9_.Q & !U1_U2_sdiv_12_.Q & !U1_U2_sdiv_13_.Q
+    # !indivtop_4_ & !indivtop_1_ & !U1_U2_sdiv_14_.Q & U1_U2_sdiv_0_.Q
+       & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q
+       & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q & U1_U2_sdiv_8_.Q
+       & U1_U2_sdiv_9_.Q & !U1_U2_sdiv_11_.Q & !U1_U2_sdiv_13_.Q
+    # !indivtop_4_ & !indivtop_2_ & !indivtop_1_ & !U1_U2_sdiv_14_.Q
+       & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q
+       & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q
+       & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q & !U1_U2_sdiv_13_.Q
+    # indivtop_4_ & !indivtop_0_ & U1_U2_sdiv_8_.Q & U1_U2_sdiv_10_.Q
+    # indivtop_4_ & !indivtop_1_ & U1_U2_sdiv_7_.Q & U1_U2_sdiv_10_.Q
+    # indivtop_2_ & U1_U2_sdiv_10_.Q & U1_U2_sdiv_11_.Q
+    # indivtop_1_ & U1_U2_sdiv_10_.Q & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_10_.Q & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_9_.Q & U1_U2_sdiv_10_.Q
+    # indivtop_0_ & U1_U2_sdiv_10_.Q & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q & U1_U2_sdiv_10_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q
+    # indivtop_4_ & U1_U2_sdiv_10_.Q & U1_U2_sdiv_13_.Q ; (18 pterms, 20 signals)
+U1_U2_sdiv_10_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_10_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_11_.T = !indivtop_4_ & !indivtop_3_ & !indivtop_0_
+       & !U1_U2_sdiv_14_.Q & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q
+       & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q
+       & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q
+       & U1_U2_sdiv_10_.Q & !U1_U2_sdiv_12_.Q
+    # !indivtop_4_ & !indivtop_3_ & !indivtop_1_ & !indivtop_0_
+       & !U1_U2_sdiv_14_.Q & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q
+       & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q
+       & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q
+       & U1_U2_sdiv_10_.Q
+    # !indivtop_4_ & !indivtop_3_ & !U1_U2_sdiv_14_.Q & U1_U2_sdiv_0_.Q
+       & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q
+       & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q & U1_U2_sdiv_8_.Q
+       & U1_U2_sdiv_9_.Q & U1_U2_sdiv_10_.Q & !U1_U2_sdiv_12_.Q
+       & !U1_U2_sdiv_13_.Q
+    # !indivtop_4_ & !indivtop_3_ & !indivtop_1_ & !U1_U2_sdiv_14_.Q
+       & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q
+       & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q
+       & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q & U1_U2_sdiv_10_.Q
+       & !U1_U2_sdiv_13_.Q
+    # indivtop_4_ & !indivtop_0_ & U1_U2_sdiv_8_.Q & U1_U2_sdiv_11_.Q
+    # indivtop_4_ & !indivtop_1_ & U1_U2_sdiv_7_.Q & U1_U2_sdiv_11_.Q
+    # indivtop_1_ & U1_U2_sdiv_11_.Q & U1_U2_sdiv_12_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q & U1_U2_sdiv_11_.Q
+    # indivtop_4_ & U1_U2_sdiv_11_.Q & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_9_.Q & U1_U2_sdiv_11_.Q
+    # indivtop_0_ & U1_U2_sdiv_11_.Q & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q & U1_U2_sdiv_11_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q
+    # indivtop_4_ & U1_U2_sdiv_11_.Q & U1_U2_sdiv_13_.Q ; (14 pterms, 20 signals)
+U1_U2_sdiv_11_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_11_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_12_.T = !indivtop_4_ & !indivtop_3_ & !indivtop_2_ & !indivtop_0_
+       & !U1_U2_sdiv_14_.Q & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q
+       & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q
+       & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q
+       & U1_U2_sdiv_10_.Q & U1_U2_sdiv_11_.Q
+    # !indivtop_4_ & !indivtop_3_ & !indivtop_2_ & !U1_U2_sdiv_14_.Q
+       & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q
+       & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q
+       & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q & U1_U2_sdiv_10_.Q
+       & U1_U2_sdiv_11_.Q & !U1_U2_sdiv_13_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q & U1_U2_sdiv_12_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q & U1_U2_sdiv_12_.Q
+    # U1_U2_sdiv_14_.Q & U1_U2_sdiv_12_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_12_.Q
+    # indivtop_0_ & U1_U2_sdiv_12_.Q & U1_U2_sdiv_13_.Q ; (8 pterms, 20 signals)
+U1_U2_sdiv_12_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_12_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_13_.T = !indivtop_4_ & !indivtop_3_ & !indivtop_2_ & !indivtop_1_
+       & !U1_U2_sdiv_14_.Q & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q
+       & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q
+       & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q
+       & U1_U2_sdiv_10_.Q & U1_U2_sdiv_11_.Q & U1_U2_sdiv_12_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q & U1_U2_sdiv_13_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q & U1_U2_sdiv_13_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q & U1_U2_sdiv_13_.Q
+    # indivtop_0_ & U1_U2_sdiv_13_.Q
+    # indivtop_4_ & U1_U2_sdiv_13_.Q ; (7 pterms, 20 signals)
+U1_U2_sdiv_13_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_13_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_14_.D = !indivtop_4_ & !indivtop_3_ & !indivtop_2_ & !indivtop_1_
+       & !indivtop_0_ & !U1_U2_sdiv_14_.Q & U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q
+       & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q
+       & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q
+       & U1_U2_sdiv_10_.Q & U1_U2_sdiv_11_.Q & U1_U2_sdiv_12_.Q
+       & U1_U2_sdiv_13_.Q ; (1 pterm, 20 signals)
+U1_U2_sdiv_14_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_14_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_1_.D = !( indivtop_4_ & !indivtop_0_ & U1_U2_sdiv_8_.Q
+    # indivtop_4_ & !indivtop_1_ & U1_U2_sdiv_7_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q
+    # !U1_U2_sdiv_0_.Q & !U1_U2_sdiv_1_.Q
+    # U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_9_.Q
+    # indivtop_4_ & U1_U2_sdiv_12_.Q
+    # indivtop_0_ & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q
+    # indivtop_4_ & U1_U2_sdiv_13_.Q ) ; (12 pterms, 15 signals)
+U1_U2_sdiv_1_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_1_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_2_.D = !( U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q
+    # indivtop_4_ & !indivtop_0_ & U1_U2_sdiv_8_.Q
+    # indivtop_4_ & !indivtop_1_ & U1_U2_sdiv_7_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q
+    # !U1_U2_sdiv_1_.Q & !U1_U2_sdiv_2_.Q
+    # !U1_U2_sdiv_0_.Q & !U1_U2_sdiv_2_.Q
+    # indivtop_4_ & U1_U2_sdiv_9_.Q
+    # indivtop_4_ & U1_U2_sdiv_12_.Q
+    # indivtop_0_ & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q
+    # indivtop_4_ & U1_U2_sdiv_13_.Q ) ; (13 pterms, 16 signals)
+U1_U2_sdiv_2_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_2_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_3_.D = !( U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q
+       & U1_U2_sdiv_3_.Q
+    # indivtop_4_ & !indivtop_0_ & U1_U2_sdiv_8_.Q
+    # indivtop_4_ & !indivtop_1_ & U1_U2_sdiv_7_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_9_.Q
+    # !U1_U2_sdiv_2_.Q & !U1_U2_sdiv_3_.Q
+    # !U1_U2_sdiv_1_.Q & !U1_U2_sdiv_3_.Q
+    # !U1_U2_sdiv_0_.Q & !U1_U2_sdiv_3_.Q
+    # indivtop_4_ & U1_U2_sdiv_12_.Q
+    # indivtop_0_ & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q
+    # indivtop_4_ & U1_U2_sdiv_13_.Q ) ; (14 pterms, 17 signals)
+U1_U2_sdiv_3_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_3_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_4_.D = !( U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q
+       & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q
+    # indivtop_4_ & !indivtop_0_ & U1_U2_sdiv_8_.Q
+    # indivtop_4_ & !indivtop_1_ & U1_U2_sdiv_7_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_9_.Q
+    # indivtop_4_ & U1_U2_sdiv_12_.Q
+    # !U1_U2_sdiv_3_.Q & !U1_U2_sdiv_4_.Q
+    # !U1_U2_sdiv_2_.Q & !U1_U2_sdiv_4_.Q
+    # !U1_U2_sdiv_1_.Q & !U1_U2_sdiv_4_.Q
+    # !U1_U2_sdiv_0_.Q & !U1_U2_sdiv_4_.Q
+    # indivtop_0_ & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q
+    # indivtop_4_ & U1_U2_sdiv_13_.Q ) ; (15 pterms, 18 signals)
+U1_U2_sdiv_4_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_4_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_5_.D = !( U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q
+       & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q
+    # indivtop_4_ & !indivtop_0_ & U1_U2_sdiv_8_.Q
+    # indivtop_4_ & !indivtop_1_ & U1_U2_sdiv_7_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_9_.Q
+    # indivtop_4_ & U1_U2_sdiv_12_.Q
+    # !U1_U2_sdiv_4_.Q & !U1_U2_sdiv_5_.Q
+    # !U1_U2_sdiv_3_.Q & !U1_U2_sdiv_5_.Q
+    # !U1_U2_sdiv_2_.Q & !U1_U2_sdiv_5_.Q
+    # !U1_U2_sdiv_1_.Q & !U1_U2_sdiv_5_.Q
+    # !U1_U2_sdiv_0_.Q & !U1_U2_sdiv_5_.Q
+    # indivtop_0_ & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q
+    # indivtop_4_ & U1_U2_sdiv_13_.Q ) ; (16 pterms, 19 signals)
+U1_U2_sdiv_5_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_5_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_6_.D = !( U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q
+       & U1_U2_sdiv_3_.Q & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q
+    # indivtop_4_ & !indivtop_0_ & U1_U2_sdiv_8_.Q
+    # indivtop_4_ & !indivtop_1_ & U1_U2_sdiv_7_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_9_.Q
+    # indivtop_4_ & U1_U2_sdiv_12_.Q
+    # !U1_U2_sdiv_5_.Q & !U1_U2_sdiv_6_.Q
+    # !U1_U2_sdiv_4_.Q & !U1_U2_sdiv_6_.Q
+    # !U1_U2_sdiv_3_.Q & !U1_U2_sdiv_6_.Q
+    # !U1_U2_sdiv_2_.Q & !U1_U2_sdiv_6_.Q
+    # !U1_U2_sdiv_1_.Q & !U1_U2_sdiv_6_.Q
+    # !U1_U2_sdiv_0_.Q & !U1_U2_sdiv_6_.Q
+    # indivtop_0_ & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q
+    # indivtop_4_ & U1_U2_sdiv_13_.Q ) ; (17 pterms, 20 signals)
+U1_U2_sdiv_6_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_6_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_7_.D = !( indivtop_4_ & !indivtop_1_ & U1_U2_sdiv_7_.Q
+    # U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q
+       & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q
+    # indivtop_4_ & !indivtop_0_ & U1_U2_sdiv_8_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_9_.Q
+    # indivtop_4_ & U1_U2_sdiv_12_.Q
+    # !U1_U2_sdiv_6_.Q & !U1_U2_sdiv_7_.Q
+    # !U1_U2_sdiv_5_.Q & !U1_U2_sdiv_7_.Q
+    # !U1_U2_sdiv_4_.Q & !U1_U2_sdiv_7_.Q
+    # !U1_U2_sdiv_3_.Q & !U1_U2_sdiv_7_.Q
+    # !U1_U2_sdiv_2_.Q & !U1_U2_sdiv_7_.Q
+    # !U1_U2_sdiv_1_.Q & !U1_U2_sdiv_7_.Q
+    # !U1_U2_sdiv_0_.Q & !U1_U2_sdiv_7_.Q
+    # indivtop_0_ & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q
+    # indivtop_4_ & U1_U2_sdiv_13_.Q ) ; (18 pterms, 20 signals)
+U1_U2_sdiv_7_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_7_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_8_.D = !( indivtop_4_ & !indivtop_0_ & U1_U2_sdiv_8_.Q
+    # U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q
+       & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q
+       & U1_U2_sdiv_8_.Q
+    # indivtop_4_ & !indivtop_1_ & U1_U2_sdiv_7_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q
+    # indivtop_4_ & U1_U2_sdiv_9_.Q
+    # indivtop_4_ & U1_U2_sdiv_12_.Q
+    # !U1_U2_sdiv_7_.Q & !U1_U2_sdiv_8_.Q
+    # !U1_U2_sdiv_6_.Q & !U1_U2_sdiv_8_.Q
+    # !U1_U2_sdiv_5_.Q & !U1_U2_sdiv_8_.Q
+    # !U1_U2_sdiv_4_.Q & !U1_U2_sdiv_8_.Q
+    # !U1_U2_sdiv_3_.Q & !U1_U2_sdiv_8_.Q
+    # !U1_U2_sdiv_2_.Q & !U1_U2_sdiv_8_.Q
+    # !U1_U2_sdiv_1_.Q & !U1_U2_sdiv_8_.Q
+    # !U1_U2_sdiv_0_.Q & !U1_U2_sdiv_8_.Q
+    # indivtop_0_ & U1_U2_sdiv_13_.Q
+    # U1_U2_sdiv_14_.Q
+    # indivtop_4_ & U1_U2_sdiv_13_.Q ) ; (19 pterms, 20 signals)
+U1_U2_sdiv_8_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_8_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U1_U2_sdiv_9_.D = !( indivtop_4_ & U1_U2_sdiv_9_.Q
+    # U1_U2_sdiv_0_.Q & U1_U2_sdiv_1_.Q & U1_U2_sdiv_2_.Q & U1_U2_sdiv_3_.Q
+       & U1_U2_sdiv_4_.Q & U1_U2_sdiv_5_.Q & U1_U2_sdiv_6_.Q & U1_U2_sdiv_7_.Q
+       & U1_U2_sdiv_8_.Q & U1_U2_sdiv_9_.Q
+    # indivtop_1_ & U1_U2_sdiv_12_.Q
+    # indivtop_2_ & U1_U2_sdiv_11_.Q
+    # indivtop_3_ & U1_U2_sdiv_10_.Q
+    # indivtop_4_ & !indivtop_0_
+    # indivtop_4_ & !indivtop_1_
+    # !U1_U2_sdiv_8_.Q & !U1_U2_sdiv_9_.Q
+    # !U1_U2_sdiv_7_.Q & !U1_U2_sdiv_9_.Q
+    # !U1_U2_sdiv_6_.Q & !U1_U2_sdiv_9_.Q
+    # !U1_U2_sdiv_5_.Q & !U1_U2_sdiv_9_.Q
+    # !U1_U2_sdiv_4_.Q & !U1_U2_sdiv_9_.Q
+    # !U1_U2_sdiv_3_.Q & !U1_U2_sdiv_9_.Q
+    # !U1_U2_sdiv_2_.Q & !U1_U2_sdiv_9_.Q
+    # !U1_U2_sdiv_1_.Q & !U1_U2_sdiv_9_.Q
+    # !U1_U2_sdiv_0_.Q & !U1_U2_sdiv_9_.Q
+    # U1_U2_sdiv_14_.Q
+    # indivtop_0_ & U1_U2_sdiv_13_.Q ) ; (18 pterms, 20 signals)
+U1_U2_sdiv_9_.C = u1_sclk_n ; (1 pterm, 1 signal)
+U1_U2_sdiv_9_.CE = u1_u2_n_4_i_n ; (1 pterm, 1 signal)
+
+U2_aux_0_.D = enctop & !U2_aux_0_.Q
+    # !enctop & U2_aux_0_.Q ; (2 pterms, 2 signals)
+U2_aux_0_.C = clktop.Q ; (1 pterm, 1 signal)
+
+U2_aux_1_.D = enctop & U2_aux_0_.Q & !U2_aux_1_.Q
+    # !U2_aux_0_.Q & U2_aux_1_.Q
+    # !enctop & U2_aux_1_.Q ; (3 pterms, 3 signals)
+U2_aux_1_.C = clktop.Q ; (1 pterm, 1 signal)
+
+U2_aux_2_.D = enctop & U2_aux_0_.Q & U2_aux_1_.Q & !U2_aux_2_.Q
+    # !U2_aux_1_.Q & U2_aux_2_.Q
+    # !U2_aux_0_.Q & U2_aux_2_.Q
+    # !enctop & U2_aux_2_.Q ; (4 pterms, 4 signals)
+U2_aux_2_.C = clktop.Q ; (1 pterm, 1 signal)
+
+U2_aux_3_.D.X1 = enctop & U2_aux_0_.Q & U2_aux_1_.Q & U2_aux_2_.Q ; (1 pterm, 4 signals)
+U2_aux_3_.D.X2 = U2_aux_3_.Q ; (1 pterm, 1 signal)
+U2_aux_3_.C = clktop.Q ; (1 pterm, 1 signal)
+
+U2_aux_4_.T = enctop & U2_aux_0_.Q & U2_aux_1_.Q & U2_aux_2_.Q & U2_aux_3_.Q ; (1 pterm, 5 signals)
+U2_aux_4_.C = clktop.Q ; (1 pterm, 1 signal)
+
+_dup_gnd_n_n = 0 ; (0 pterm, 0 signal)
+
+auxtop_0_.D = U2_aux_0_.Q ; (1 pterm, 1 signal)
+auxtop_0_.C = clktop.Q ; (1 pterm, 1 signal)
+auxtop_0_.CE = enctop ; (1 pterm, 1 signal)
+
+auxtop_1_.D = U2_aux_1_.Q ; (1 pterm, 1 signal)
+auxtop_1_.C = clktop.Q ; (1 pterm, 1 signal)
+auxtop_1_.CE = enctop ; (1 pterm, 1 signal)
+
+auxtop_2_.D = U2_aux_2_.Q ; (1 pterm, 1 signal)
+auxtop_2_.C = clktop.Q ; (1 pterm, 1 signal)
+auxtop_2_.CE = enctop ; (1 pterm, 1 signal)
+
+auxtop_3_.D = U2_aux_3_.Q ; (1 pterm, 1 signal)
+auxtop_3_.C = clktop.Q ; (1 pterm, 1 signal)
+auxtop_3_.CE = enctop ; (1 pterm, 1 signal)
+
+auxtop_4_.D = U2_aux_4_.Q ; (1 pterm, 1 signal)
+auxtop_4_.C = clktop.Q ; (1 pterm, 1 signal)
+auxtop_4_.CE = enctop ; (1 pterm, 1 signal)
+
+clktop.T = !( !indivtop_1_ & indivtop_0_ & !U1_U2_sdiv_14_.Q
+       & !U1_U2_sdiv_13_.Q
+    # !indivtop_2_ & !indivtop_0_ & !U1_U2_sdiv_14_.Q
+    # !indivtop_2_ & indivtop_1_ & !indivtop_0_
+    # indivtop_2_ & !indivtop_1_ & indivtop_0_
+    # !indivtop_4_ & indivtop_2_ & !indivtop_0_
+    # !U1_U2_sdiv_14_.Q & !U1_U2_sdiv_7_.Q & !U1_U2_sdiv_8_.Q
+       & !U1_U2_sdiv_9_.Q & !U1_U2_sdiv_10_.Q & !U1_U2_sdiv_11_.Q
+       & !U1_U2_sdiv_12_.Q & !U1_U2_sdiv_13_.Q
+    # indivtop_1_ & !U1_U2_sdiv_14_.Q & !U1_U2_sdiv_8_.Q & !U1_U2_sdiv_9_.Q
+       & !U1_U2_sdiv_10_.Q & !U1_U2_sdiv_11_.Q & !U1_U2_sdiv_12_.Q
+       & !U1_U2_sdiv_13_.Q
+    # indivtop_0_ & !U1_U2_sdiv_14_.Q & !U1_U2_sdiv_9_.Q & !U1_U2_sdiv_10_.Q
+       & !U1_U2_sdiv_11_.Q & !U1_U2_sdiv_12_.Q & !U1_U2_sdiv_13_.Q
+    # !indivtop_4_ & !U1_U2_sdiv_14_.Q & !U1_U2_sdiv_10_.Q & !U1_U2_sdiv_11_.Q
+       & !U1_U2_sdiv_12_.Q & !U1_U2_sdiv_13_.Q
+    # !indivtop_3_ & !U1_U2_sdiv_14_.Q & !U1_U2_sdiv_11_.Q & !U1_U2_sdiv_12_.Q
+       & !U1_U2_sdiv_13_.Q
+    # indivtop_4_ & !indivtop_3_
+    # indivtop_3_ & !indivtop_2_
+    # !indivtop_2_ & !U1_U2_sdiv_14_.Q & !U1_U2_sdiv_12_.Q & !U1_U2_sdiv_13_.Q ) ; (13 pterms, 13 signals)
+clktop.C = u1_sclk_n ; (1 pterm, 1 signal)
+
+gnd_n_n = 0 ; (0 pterm, 0 signal)
+
+outctop.D = enctop & outctop.Q & U2_aux_0_.Q & U2_aux_1_.Q & U2_aux_2_.Q
+       & U2_aux_3_.Q
+    # enctop & U2_aux_4_.Q ; (2 pterms, 7 signals)
+outctop.C = clktop.Q ; (1 pterm, 1 signal)
+
+outctop1.D = !( !outctop1.Q & U2_aux_0_.Q & U2_aux_1_.Q & U2_aux_2_.Q
+       & U2_aux_3_.Q
+    # U2_aux_4_.Q
+    # !enctop ) ; (3 pterms, 7 signals)
+outctop1.C = clktop.Q ; (1 pterm, 1 signal)
+
+u1_u2_n_4_i_n = indivtop_3_ & indivtop_2_ & indivtop_1_ & indivtop_0_
+    # !indivtop_4_ & !indivtop_3_ & indivtop_1_ & indivtop_0_
+    # !indivtop_4_ & !indivtop_3_ & !indivtop_2_ & !indivtop_1_
+    # indivtop_4_ & indivtop_3_ & indivtop_2_ & !indivtop_0_ ; (4 pterms, 5 signals)
+

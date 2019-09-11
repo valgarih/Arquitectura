@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topdiv00  -multisrs  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00\div\synwork\div00_div_comp.srs  -osyn  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00\div\synwork\div00_div_mult.srs  -log  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00\div\synlog\div00_div_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topdiv00 -multisrs ..\synwork\div00_div_comp.srs -osyn ..\synwork\div00_div_mult.srs -log ..\synlog\div00_div_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\div00_div_comp.srs|io:i|time:1536249778|size:5506|exec:0|csum:0380278852C58B3881F4BB245CFFD347
+file:..\synwork\div00_div_mult.srs|io:o|time:1536249780|size:2366|exec:0|csum:
+file:..\synlog\div00_div_multi_srs_gen.srr|io:o|time:1536249780|size:409|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501910190|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

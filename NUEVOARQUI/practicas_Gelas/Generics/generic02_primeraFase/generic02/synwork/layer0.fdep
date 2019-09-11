@@ -1,0 +1,213 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\synwork\\generic02_generic02_comp.srs|-top|topgeneric01|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\multg01.vhdl":1512183678
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\cpld\\lattice.vhd":1501917816
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1501917816
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\nandg01.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\norg01.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\notg01.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\org01.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\xnorg01.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\addg01.vhdl":1556826167
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\and00.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\andg01.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\div00.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\ha00.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\nxor00.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\or00.vhdl":1512183678
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\osc00.vhdl":1512183704
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\packageadder00.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\packagediv00.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\packagefa00.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\packagemult4bit00.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\subg01.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\ucg01.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\xor00.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\xorg01.vhdl":1512183820
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\ShiftL00.vhdl":1557329592
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\ShiftR00.vhdl":1512183820
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\rotL00.vhdl":1512183820
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\rotR00.vhdl":1557013136
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\packagegeneric01.vhdl":1512183820
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\topha00.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\topfa00.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\topadder00.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\topdiv00.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\topmult4bit00.vhdl":1512183772
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\Generics\\generic02_primeraFase\\generic02\\source\\topgeneric01.vhdl":1557153287
+0 "C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\multg01.vhdl" vhdl
+2 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\nandg01.vhdl" vhdl
+3 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\norg01.vhdl" vhdl
+4 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\notg01.vhdl" vhdl
+5 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\org01.vhdl" vhdl
+6 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\xnorg01.vhdl" vhdl
+7 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\addg01.vhdl" vhdl
+8 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\and00.vhdl" vhdl
+9 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\andg01.vhdl" vhdl
+10 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\div00.vhdl" vhdl
+11 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\ha00.vhdl" vhdl
+12 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\nxor00.vhdl" vhdl
+13 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\or00.vhdl" vhdl
+14 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\osc00.vhdl" vhdl
+15 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\packageadder00.vhdl" vhdl
+16 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\packagediv00.vhdl" vhdl
+17 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\packagefa00.vhdl" vhdl
+18 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\packagemult4bit00.vhdl" vhdl
+19 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\subg01.vhdl" vhdl
+20 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\ucg01.vhdl" vhdl
+21 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\xor00.vhdl" vhdl
+22 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\xorg01.vhdl" vhdl
+23 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\ShiftL00.vhdl" vhdl
+24 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\ShiftR00.vhdl" vhdl
+25 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\rotL00.vhdl" vhdl
+26 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\rotR00.vhdl" vhdl
+27 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\packagegeneric01.vhdl" vhdl
+28 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topha00.vhdl" vhdl
+29 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topfa00.vhdl" vhdl
+30 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topadder00.vhdl" vhdl
+31 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topdiv00.vhdl" vhdl
+32 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topmult4bit00.vhdl" vhdl
+33 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topgeneric01.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 -1
+22 -1
+23 -1
+24 -1
+25 -1
+26 -1
+27 -1
+28 8 21 11 
+29 28 13 17 
+30 21 29 8 12 15 17 11 
+31 14 10 16 
+32 8 29 18 
+33 31 9 5 22 4 2 3 6 30 7 19 32 1 23 24 25 26 20 27 
+
+# Dependency Lists (Users Of)
+0 -1
+1 33 
+2 33 
+3 33 
+4 33 
+5 33 
+6 33 
+7 33 
+8 32 28 30 
+9 33 
+10 31 
+11 30 28 
+12 30 
+13 29 
+14 31 
+15 30 
+16 31 
+17 30 29 
+18 32 
+19 33 
+20 33 
+21 28 30 
+22 33 
+23 33 
+24 33 
+25 33 
+26 33 
+27 33 
+28 29 
+29 32 30 
+30 33 
+31 33 
+32 33 
+33 -1
+
+# Design Unit to File Association
+arch work multg01 multg0 1
+module work multg01 1
+arch work nandg01 nandg0 2
+module work nandg01 2
+arch work norg01 norg0 3
+module work norg01 3
+arch work notg01 notg0 4
+module work notg01 4
+arch work org01 org0 5
+module work org01 5
+arch work xnorg01 xnorg0 6
+module work xnorg01 6
+arch work addg01 addg0 7
+module work addg01 7
+arch work and00 and0 8
+module work and00 8
+arch work andg01 andg0 9
+module work andg01 9
+arch work div00 div0 10
+module work div00 10
+arch work nxor00 nxor0 12
+module work nxor00 12
+arch work or00 or0 13
+module work or00 13
+arch work osc00 osc0 14
+module work osc00 14
+arch work subg01 subg0 19
+module work subg01 19
+arch work ucg01 ucg0 20
+module work ucg01 20
+arch work xor00 xor0 21
+module work xor00 21
+arch work xorg01 xorg01 22
+module work xorg01 22
+arch work shiftl00 shiftl0 23
+module work shiftl00 23
+arch work shiftr00 shiftr0 24
+module work shiftr00 24
+arch work rotl00 rotl0 25
+module work rotl00 25
+arch work rotr00 rotr0 26
+module work rotr00 26
+arch work topha00 topha0 28
+module work topha00 28
+arch work topfa00 topfa0 29
+module work topfa00 29
+arch work topadder00 topadder0 30
+module work topadder00 30
+arch work topdiv00 topdiv0 31
+module work topdiv00 31
+arch work topmult4bit00 topmult4bit0 32
+module work topmult4bit00 32
+arch work topgeneric01 topgeneric0 33
+module work topgeneric01 33
+
+
+# Configuration files used

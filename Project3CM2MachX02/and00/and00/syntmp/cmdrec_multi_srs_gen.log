@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  and00  -multisrs  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\and00\and00\synwork\and00_and00_comp.srs  -osyn  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\and00\and00\synwork\and00_and00_mult.srs  -log  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\and00\and00\synlog\and00_and00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top and00 -multisrs ..\synwork\and00_and00_comp.srs -osyn ..\synwork\and00_and00_mult.srs -log ..\synlog\and00_and00_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\and00_and00_comp.srs|io:i|time:1534458024|size:1676|exec:0|csum:23447837683F5D8CF4A04101739BBFF8
+file:..\synwork\and00_and00_mult.srs|io:o|time:1534458027|size:1362|exec:0|csum:
+file:..\synlog\and00_and00_multi_srs_gen.srr|io:o|time:1534458027|size:557|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501910190|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

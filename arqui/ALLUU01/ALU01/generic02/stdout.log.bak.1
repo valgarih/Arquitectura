@@ -1,0 +1,115 @@
+Running in Lattice mode
+
+sourcing C:\lscc\diamond\3.7_x64\synpbase\lib\message_override.tcl
+
+
+Starting:    C:\lscc\diamond\3.7_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.7_x64\synpbase
+Hostname:    BETAZO
+Date:        Thu Dec 08 09:15:11 2016
+Version:     K-2015.09L-2
+
+Arguments:   -product synplify_pro -batch generic02_generic02_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+log file: "F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Copied F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.srr to F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.srf
+
+log file: "F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.srr"
+
+Running: generic02 in foreground
+
+
+
+Running proj_1|generic02
+
+
+Running: compile (Compile) on proj_1|generic02
+
+
+Running: compile_flow (Compile Process) on proj_1|generic02
+
+
+Running: compiler (Compile Input) on proj_1|generic02
+
+Copied F:\Documents\ESCOM\7semestre\Project\generic02\generic02\synwork\generic02_generic02_comp.srs to F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.srs
+
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:04s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|generic02
+
+Copied F:\Documents\ESCOM\7semestre\Project\generic02\generic02\synwork\generic02_generic02_comp.srs to F:\Documents\ESCOM\7semestre\Project\generic02\generic02\synwork\generic02_generic02_s.srs
+
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+
+Copied F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.srr to F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.srf
+
+Complete: Compile Process on proj_1|generic02
+
+
+Running: premap (Pre-mapping) on proj_1|generic02
+
+Copied F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.fse to F:\Documents\ESCOM\7semestre\Project\generic02\generic02\synwork\generic02_generic02_s.fse
+
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:04s
+
+Complete: Compile on proj_1|generic02
+
+
+Running: map (Map) on proj_1|generic02
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|generic02
+
+Copied F:\Documents\ESCOM\7semestre\Project\generic02\generic02\synwork\generic02_generic02_m.srm to F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.srm
+
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:15s
+
+Complete: Map on proj_1|generic02
+
+Copied F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.srr to F:\Documents\ESCOM\7semestre\Project\generic02\generic02\generic02_generic02.srf
+
+Complete: Logic Synthesis on proj_1|generic02
+
+TCL script complete: "generic02_generic02_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+F:\Documents\ESCOM\7semestre\Project\generic02\generic02\proj_1.prj
+
+batch mode default:no
+

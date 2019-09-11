@@ -1,0 +1,10 @@
+@E: CD371 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":24:14:24:23|No matching overload for "+"
+@E: CD371 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":33:14:33:23|No matching overload for "+"
+@E: CD371 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":42:14:42:23|No matching overload for "+"
+@E: CD371 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":51:14:51:23|No matching overload for "+"
+@E: CD371 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":60:14:60:23|No matching overload for "+"
+@E: CD371 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":69:14:69:23|No matching overload for "+"
+@E: CD371 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":77:14:77:23|No matching overload for "+"
+@E: CD371 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":86:14:86:23|No matching overload for "+"
+@E: CD308 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\osc00MacX02\topdv00\div00.vhdl":24:14:24:23|Unable to evaluate expression type
+

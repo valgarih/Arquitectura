@@ -1,0 +1,13 @@
+#Start recording tcl command: 6/15/2018 14:34:46
+#Project Location: F:/hghg/LCDram; Project name: LCDram00
+prj_project open "F:/hghg/LCDram/LCDram00.ldf"
+prj_src remove "F:/hghg/osc00VHDL/div00.vhdl" "F:/hghg/osc00VHDL/osc00.vhdl" "F:/hghg/osc00VHDL/packageosc00.vhdl" "F:/hghg/osc00VHDL/toposc00.vhdl"
+prj_src add "F:/osc00VHDL/div00.vhdl" "F:/osc00VHDL/osc00.vhdl" "F:/osc00VHDL/packageosc00.vhdl" "F:/osc00VHDL/toposc00.vhdl"
+prj_run Export -impl LCDram -task Jedecgen
+prj_run Export -impl LCDram -task Jedecgen
+pgr_project open "F:/hghg/LCDram/LCDram/LCDram.xcf"
+pgr_program run
+pgr_project save "F:/hghg/LCDram/LCDram/LCDram.xcf"
+prj_project save
+prj_project close
+#Stop recording: 6/15/2018 14:48:30

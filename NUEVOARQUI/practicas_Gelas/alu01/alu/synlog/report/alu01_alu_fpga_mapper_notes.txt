@@ -1,0 +1,12 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_7[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_6[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_3[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_2[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_1[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\alu\alu01_alu.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

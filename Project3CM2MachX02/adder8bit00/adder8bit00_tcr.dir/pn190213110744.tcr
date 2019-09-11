@@ -1,0 +1,16 @@
+#Start recording tcl command: 2/13/2019 10:39:13
+#Project Location: C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/adder8bit00; Project name: adder8bit00
+C:/Users/Valery Garibay/Documents/6_semestre/arqui/mul4bit00
+mult4bit00
+#Start recording tcl command: 2/13/2019 11:07:44
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/mul4bit00; Project name: mult4bit00
+prj_project open "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/adder8bit00/adder8bit00.ldf"
+prj_run Export -impl adder8bit -task Jedecgen
+pgr_project open "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/adder8bit00/adder8bit/adder8bit.xcf"
+pgr_program run
+pgr_project save "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/adder8bit00/adder8bit/adder8bit.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/mul4bit00/mult4bit00.ldf"
+pgr_project close
+#Stop recording: 2/13/2019 11:07:44

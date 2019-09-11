@@ -1,0 +1,7 @@
+D:\LatticeDiamond\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toplcd00  -multisrs  "C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcd\synwork\lcd00_lcd_comp.srs"  -osyn  "C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcd\synwork\lcd00_lcd_mult.srs"  -log  "C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcd\synlog\lcd00_lcd_multi_srs_gen.srr" 
+relcom:D:\LatticeDiamond\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top toplcd00 -multisrs "C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcd\synwork\lcd00_lcd_comp.srs" -osyn "C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcd\synwork\lcd00_lcd_mult.srs" -log "C:\Users\Sergi\Desktop\Arquitectura de Computadoras\Tareas\grupo3CM1\lcd00\lcd\synlog\lcd00_lcd_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\lcd00_lcd_comp.srs|io:i|time:1528346370|size:15217|exec:0|csum:6BD53EABEDD99F045327E1094B556839
+file:..\synwork\lcd00_lcd_mult.srs|io:o|time:1528346371|size:5031|exec:0|csum:
+file:..\synlog\lcd00_lcd_multi_srs_gen.srr|io:o|time:1528346371|size:543|exec:0|csum:
+file:D:\LatticeDiamond\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

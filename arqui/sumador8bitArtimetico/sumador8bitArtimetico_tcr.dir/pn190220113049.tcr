@@ -1,0 +1,13 @@
+#Start recording tcl command: 2/20/2019 11:09:50
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/sumador8bitArtimetico; Project name: sumador8bitArtimetico
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/sumador8bitArtimetico/sumador8bitArtimetico.ldf"
+prj_run Export -impl sumador8bitArtimetico -task Jedecgen
+pgr_project save "C:/Users/Valery Garibay/Documents/6_semestre/arqui/sumador8bitArtimetico/sumador8bitArtimetico/sumador8bitArtimetico.xcf"
+prj_src add -exclude "C:/Users/Valery Garibay/Documents/6_semestre/arqui/sumador8bitArtimetico/sumador8bitArtimetico/sumador8bitArtimetico.xcf"
+prj_src enable "C:/Users/Valery Garibay/Documents/6_semestre/arqui/sumador8bitArtimetico/sumador8bitArtimetico/sumador8bitArtimetico.xcf"
+pgr_program run
+pgr_project save "C:/Users/Valery Garibay/Documents/6_semestre/arqui/sumador8bitArtimetico/sumador8bitArtimetico/sumador8bitArtimetico.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 2/20/2019 11:30:49

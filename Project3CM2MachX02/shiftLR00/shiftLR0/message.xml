@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>SLR00/D00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>SLR00/D00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd&quot;:14:2:14:7|Map for port indiv1 of component topdiv00 not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Map for port indiv1 of component topdiv00 not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd&quot;:15:2:15:8|Map for port oscout1 of component topdiv00 not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Map for port oscout1 of component topdiv00 not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD730 :&quot;C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd&quot;:22:1:22:5|Component declaration has 2 ports but entity declares 4 ports</Dynamic>
+            <Navigation>CD730</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Component declaration has 2 ports but entity declares 4 ports</Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CD326 :&quot;C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd&quot;:22:1:22:5|Port indiv1 of entity work.topdiv00 is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
+            <Navigation>CD326</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Port indiv1 of entity work.topdiv00 is unconnected. If a port needs to remain unconnected, use the keyword open.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

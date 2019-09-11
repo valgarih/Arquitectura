@@ -1,0 +1,2 @@
+@E: CD395 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\coder00.vhdl":88:19:88:26|Constant width 6 does not match context width 7
+

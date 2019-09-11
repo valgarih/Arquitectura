@@ -1,0 +1,48 @@
+[ START MERGED ]
+[ END MERGED ]
+[ START CLIPPED ]
+clk64kHz_map/GND
+servo_pwm_map/GND
+VCC
+clk64kHz_map/un5_counter_s_9_0_S1
+clk64kHz_map/un5_counter_s_9_0_COUT
+clk64kHz_map/un5_counter_cry_0_0_S1
+clk64kHz_map/un5_counter_cry_0_0_S0
+clk64kHz_map/N_1
+servo_pwm_map/un2_cnt_cry_0_0_S1
+servo_pwm_map/un2_cnt_cry_0_0_S0
+servo_pwm_map/N_1
+servo_pwm_map/un2_cnt_cry_9_0_COUT
+servo_pwm_map/un1_servo_cry_0_0_S1
+servo_pwm_map/un1_servo_cry_0_0_S0
+servo_pwm_map/N_2
+servo_pwm_map/un1_servo_cry_1_0_S1
+servo_pwm_map/un1_servo_cry_1_0_S0
+servo_pwm_map/un1_servo_cry_3_0_S1
+servo_pwm_map/un1_servo_cry_3_0_S0
+servo_pwm_map/un1_servo_cry_5_0_S1
+servo_pwm_map/un1_servo_cry_5_0_S0
+servo_pwm_map/un1_servo_cry_7_0_S1
+servo_pwm_map/un1_servo_cry_7_0_S0
+servo_pwm_map/un1_servo_cry_9_0_S1
+servo_pwm_map/un1_servo_cry_9_0_S0
+servo_pwm_map/un1_servo_cry_10_0_S1
+servo_pwm_map/un1_servo_cry_10_0_COUT
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Tue May 21 12:00:46 2019
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "servo" SITE "110" ;
+LOCATE COMP "clk" SITE "95" ;
+LOCATE COMP "pos[6]" SITE "57" ;
+LOCATE COMP "pos[5]" SITE "60" ;
+LOCATE COMP "pos[4]" SITE "58" ;
+LOCATE COMP "pos[3]" SITE "65" ;
+LOCATE COMP "pos[2]" SITE "61" ;
+LOCATE COMP "pos[1]" SITE "67" ;
+LOCATE COMP "pos[0]" SITE "62" ;
+LOCATE COMP "reset" SITE "40" ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

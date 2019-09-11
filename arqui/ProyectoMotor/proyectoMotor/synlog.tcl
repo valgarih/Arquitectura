@@ -1,0 +1,1 @@
+run_tcl -fg proyectoMotor_proyectoMotor_synplify.tcl

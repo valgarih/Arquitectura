@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(3): Semantic error in &quot;LOCATE COMP &quot;cdiv00[0]&quot; SITE &quot;62&quot; ;&quot;: </Dynamic>
+            <Dynamic>cdiv00[0]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(4): Semantic error in &quot;LOCATE COMP &quot;cdiv00[1]&quot; SITE &quot;67&quot; ;&quot;: </Dynamic>
+            <Dynamic>cdiv00[1]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(5): Semantic error in &quot;LOCATE COMP &quot;cdiv00[2]&quot; SITE &quot;61&quot; ;&quot;: </Dynamic>
+            <Dynamic>cdiv00[2]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(6): Semantic error in &quot;LOCATE COMP &quot;cdiv00[3]&quot; SITE &quot;65&quot; ;&quot;: </Dynamic>
+            <Dynamic>cdiv00[3]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(7): Semantic error in &quot;LOCATE COMP &quot;cdiv00[4]&quot; SITE &quot;58&quot; ;&quot;: </Dynamic>
+            <Dynamic>cdiv00[4]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(8): Semantic error in &quot;LOCATE COMP &quot;clk00&quot; SITE &quot;95&quot; ;&quot;: </Dynamic>
+            <Dynamic>clk00</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(9): Semantic error in &quot;LOCATE COMP &quot;en0&quot; SITE &quot;40&quot; ;&quot;: </Dynamic>
+            <Dynamic>en0</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(10): Semantic error in &quot;LOCATE COMP &quot;opcode0[0]&quot; SITE &quot;43&quot; ;&quot;: </Dynamic>
+            <Dynamic>opcode0[0]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(11): Semantic error in &quot;LOCATE COMP &quot;opcode0[1]&quot; SITE &quot;45&quot; ;&quot;: </Dynamic>
+            <Dynamic>opcode0[1]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(12): Semantic error in &quot;LOCATE COMP &quot;opcode0[2]&quot; SITE &quot;42&quot; ;&quot;: </Dynamic>
+            <Dynamic>opcode0[2]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(13): Semantic error in &quot;LOCATE COMP &quot;opcode0[3]&quot; SITE &quot;44&quot; ;&quot;: </Dynamic>
+            <Dynamic>opcode0[3]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(14): Semantic error in &quot;LOCATE COMP &quot;portA0[0]&quot; SITE &quot;54&quot; ;&quot;: </Dynamic>
+            <Dynamic>portA0[0]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(15): Semantic error in &quot;LOCATE COMP &quot;portA0[1]&quot; SITE &quot;56&quot; ;&quot;: </Dynamic>
+            <Dynamic>portA0[1]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(16): Semantic error in &quot;LOCATE COMP &quot;portA0[2]&quot; SITE &quot;52&quot; ;&quot;: </Dynamic>
+            <Dynamic>portA0[2]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>16</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(17): Semantic error in &quot;LOCATE COMP &quot;portA0[3]&quot; SITE &quot;55&quot; ;&quot;: </Dynamic>
+            <Dynamic>portA0[3]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(18): Semantic error in &quot;LOCATE COMP &quot;portA0[4]&quot; SITE &quot;48&quot; ;&quot;: </Dynamic>
+            <Dynamic>portA0[4]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(19): Semantic error in &quot;LOCATE COMP &quot;portA0[5]&quot; SITE &quot;50&quot; ;&quot;: </Dynamic>
+            <Dynamic>portA0[5]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(20): Semantic error in &quot;LOCATE COMP &quot;portA0[6]&quot; SITE &quot;47&quot; ;&quot;: </Dynamic>
+            <Dynamic>portA0[6]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(21): Semantic error in &quot;LOCATE COMP &quot;portA0[7]&quot; SITE &quot;49&quot; ;&quot;: </Dynamic>
+            <Dynamic>portA0[7]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(22): Semantic error in &quot;LOCATE COMP &quot;portB0[0]&quot; SITE &quot;98&quot; ;&quot;: </Dynamic>
+            <Dynamic>portB0[0]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>22</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(23): Semantic error in &quot;LOCATE COMP &quot;portB0[1]&quot; SITE &quot;97&quot; ;&quot;: </Dynamic>
+            <Dynamic>portB0[1]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>23</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(24): Semantic error in &quot;LOCATE COMP &quot;portB0[2]&quot; SITE &quot;100&quot; ;&quot;: </Dynamic>
+            <Dynamic>portB0[2]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>24</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(25): Semantic error in &quot;LOCATE COMP &quot;portB0[3]&quot; SITE &quot;99&quot; ;&quot;: </Dynamic>
+            <Dynamic>portB0[3]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(26): Semantic error in &quot;LOCATE COMP &quot;portB0[4]&quot; SITE &quot;105&quot; ;&quot;: </Dynamic>
+            <Dynamic>portB0[4]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(27): Semantic error in &quot;LOCATE COMP &quot;portB0[5]&quot; SITE &quot;104&quot; ;&quot;: </Dynamic>
+            <Dynamic>portB0[5]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>27</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(28): Semantic error in &quot;LOCATE COMP &quot;portB0[6]&quot; SITE &quot;107&quot; ;&quot;: </Dynamic>
+            <Dynamic>portB0[6]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>28</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(29): Semantic error in &quot;LOCATE COMP &quot;portB0[7]&quot; SITE &quot;106&quot; ;&quot;: </Dynamic>
+            <Dynamic>portB0[7]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>29</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(30): Semantic error in &quot;LOCATE COMP &quot;outac01[0]&quot; SITE &quot;110&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[0]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(31): Semantic error in &quot;LOCATE COMP &quot;outac01[10]&quot; SITE &quot;109&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[10]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>31</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(32): Semantic error in &quot;LOCATE COMP &quot;outac01[11]&quot; SITE &quot;112&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[11]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(33): Semantic error in &quot;LOCATE COMP &quot;outac01[12]&quot; SITE &quot;111&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[12]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>33</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(34): Semantic error in &quot;LOCATE COMP &quot;outac01[13]&quot; SITE &quot;114&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[13]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(35): Semantic error in &quot;LOCATE COMP &quot;outac01[14]&quot; SITE &quot;113&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[14]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(36): Semantic error in &quot;LOCATE COMP &quot;outac01[15]&quot; SITE &quot;117&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[15]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>36</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(37): Semantic error in &quot;LOCATE COMP &quot;outac01[1]&quot; SITE &quot;115&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[1]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>37</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(38): Semantic error in &quot;LOCATE COMP &quot;outac01[2]&quot; SITE &quot;120&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[2]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(39): Semantic error in &quot;LOCATE COMP &quot;outac01[3]&quot; SITE &quot;119&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[3]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(40): Semantic error in &quot;LOCATE COMP &quot;outac01[4]&quot; SITE &quot;121&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[4]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>40</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(41): Semantic error in &quot;LOCATE COMP &quot;outac01[5]&quot; SITE &quot;122&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[5]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>41</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(42): Semantic error in &quot;LOCATE COMP &quot;outac01[6]&quot; SITE &quot;125&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[6]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>42</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(43): Semantic error in &quot;LOCATE COMP &quot;outac01[7]&quot; SITE &quot;126&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[7]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(44): Semantic error in &quot;LOCATE COMP &quot;outac01[8]&quot; SITE &quot;127&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[8]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>44</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(45): Semantic error in &quot;LOCATE COMP &quot;outac01[9]&quot; SITE &quot;128&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac01[9]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>45</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(46): Semantic error in &quot;LOCATE COMP &quot;outac0[0]&quot; SITE &quot;74&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac0[0]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>46</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(47): Semantic error in &quot;LOCATE COMP &quot;outac0[1]&quot; SITE &quot;73&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac0[1]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>47</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(48): Semantic error in &quot;LOCATE COMP &quot;outac0[2]&quot; SITE &quot;76&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac0[2]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>48</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(49): Semantic error in &quot;LOCATE COMP &quot;outac0[3]&quot; SITE &quot;75&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac0[3]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>49</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(50): Semantic error in &quot;LOCATE COMP &quot;outac0[4]&quot; SITE &quot;78&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac0[4]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(51): Semantic error in &quot;LOCATE COMP &quot;outac0[5]&quot; SITE &quot;77&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac0[5]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>51</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(52): Semantic error in &quot;LOCATE COMP &quot;outac0[6]&quot; SITE &quot;82&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac0[6]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>52</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(53): Semantic error in &quot;LOCATE COMP &quot;outac0[7]&quot; SITE &quot;81&quot; ;&quot;: </Dynamic>
+            <Dynamic>outac0[7]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>53</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(54): Semantic error in &quot;LOCATE COMP &quot;outFlagac0&quot; SITE &quot;133&quot; ;&quot;: </Dynamic>
+            <Dynamic>outFlagac0</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf(55): Semantic error in &quot;LOCATE COMP &quot;outFlaginside&quot; SITE &quot;138&quot; ;&quot;: </Dynamic>
+            <Dynamic>outFlaginside</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Documents/nuevoG/alu00/alu00.lpf</Navigation>
+            <Navigation>55</Navigation>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\valery garibay\documents\nuevog\alu00\ac800.vhdl&quot;:22:1:22:2|Found inferred clock ac800|clkac which controls 9 sequential elements including outac[7:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\valery garibay\documents\nuevog\alu00\ac800.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Found inferred clock ac800|clkac which controls 9 sequential elements including outac[7:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock ac800|clkac with period 1000.00ns. Please declare a user-defined clock on object &quot;p:clkac&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock ac800|clkac with period 1000.00ns. Please declare a user-defined clock on object &quot;p:clkac&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

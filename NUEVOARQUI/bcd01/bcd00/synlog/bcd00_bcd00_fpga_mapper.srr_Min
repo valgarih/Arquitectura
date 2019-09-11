@@ -1,0 +1,212 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Jun 01 10:53:26 2017
+#
+
+
+Top view:               topconvbcd00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.169
+
+                                 Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     2.1 MHz       65.9 MHz      480.769       15.167        465.602     inferred     Inferred_clkgroup_0
+System                           1.0 MHz       127.5 MHz     1000.000      7.841         992.159     system       system_clkgroup    
+=====================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------
+System                        System                        |  0.000       0.169  |  No paths    -      |  No paths    -      |  No paths    -    
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  0.000       0.657  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                                             Arrival          
+Instance              Reference                        Type        Pin     Net             Time        Slack
+                      Clock                                                                                 
+------------------------------------------------------------------------------------------------------------
+U13.sintRing[0]       osc00|osc_int_inferred_clock     FD1P3IX     Q       sintRing[0]     0.731       0.657
+U13.sintRing[1]       osc00|osc_int_inferred_clock     FD1P3JX     Q       sintRing[1]     0.731       0.657
+U13.sintRing[2]       osc00|osc_int_inferred_clock     FD1P3JX     Q       sintRing[2]     0.731       0.657
+U13.sintRing[3]       osc00|osc_int_inferred_clock     FD1P3JX     Q       sintRing[3]     0.731       0.657
+U00.UD01.outdiv       osc00|osc_int_inferred_clock     FD1S3AX     Q       clk0_c          0.775       0.760
+U00.UD01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[20]        0.832       1.200
+U14.QR[3]             osc00|osc_int_inferred_clock     FD1P3DX     Q       QR[3]           0.775       1.269
+U14.QR[0]             osc00|osc_int_inferred_clock     FD1P3DX     Q       QR[0]           0.803       1.297
+U14.QR[2]             osc00|osc_int_inferred_clock     FD1P3DX     Q       QR[2]           0.803       1.297
+U14.QR[1]             osc00|osc_int_inferred_clock     FD1P3DX     Q       QR[1]           0.826       1.320
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                                   Required          
+Instance            Reference                        Type         Pin     Net                                  Time         Slack
+                    Clock                                                                                                        
+---------------------------------------------------------------------------------------------------------------------------------
+U13_outrio[3]       osc00|osc_int_inferred_clock     OFS1P3DX     D       U13.sintRing[3]                      0.074        0.657
+U13.outr[0]         osc00|osc_int_inferred_clock     FD1P3AX      D       sintRing[0]                          0.074        0.657
+U13.outr[1]         osc00|osc_int_inferred_clock     FD1P3AX      D       sintRing[1]                          0.074        0.657
+U13.outr[2]         osc00|osc_int_inferred_clock     FD1P3AX      D       sintRing[2]                          0.074        0.657
+U13.sintRing[0]     osc00|osc_int_inferred_clock     FD1P3IX      D       sintRing[3]                          0.074        0.657
+U13.sintRing[1]     osc00|osc_int_inferred_clock     FD1P3JX      D       sintRing[0]                          0.074        0.657
+U13.sintRing[2]     osc00|osc_int_inferred_clock     FD1P3JX      D       sintRing[1]                          0.074        0.657
+U13.sintRing[3]     osc00|osc_int_inferred_clock     FD1P3JX      D       sintRing[2]                          0.074        0.657
+U14.QR[0]           osc00|osc_int_inferred_clock     FD1P3DX      SP      un1_outdiv_0_sqmuxa_1_3_RNI30II1     0.330        0.760
+U14.QR[1]           osc00|osc_int_inferred_clock     FD1P3DX      SP      un1_outdiv_0_sqmuxa_1_3_RNI30II1     0.330        0.760
+=================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.731
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.657
+
+    Number of logic level(s):                0
+    Starting point:                          U13.sintRing[0] / Q
+    Ending point:                            U13.outr[0] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+U13.sintRing[0]     FD1P3IX     Q        Out     0.731     0.731       -         
+sintRing[0]         Net         -        -       -         -           2         
+U13.outr[0]         FD1P3AX     D        In      0.000     0.731       -         
+=================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                         Arrival          
+Instance           Reference     Type        Pin     Net            Time        Slack
+                   Clock                                                             
+-------------------------------------------------------------------------------------
+U09.aux            System        FD1P3AX     Q       aux            0.731       0.169
+U10.aux            System        FD1S3AX     Q       aux            0.803       0.241
+U06.aux            System        FD1S3AX     Q       aux            0.803       0.241
+U05.outcode[2]     System        FD1S3AX     Q       outcode[2]     0.803       0.556
+U05.outcode[1]     System        FD1S3AX     Q       outcode[1]     0.832       0.584
+U09.snibb00[0]     System        FD1P3AX     Q       snibb00[0]     0.680       0.606
+U09.snibb00[1]     System        FD1P3AX     Q       snibb00[1]     0.680       0.606
+U09.snibb00[2]     System        FD1P3AX     Q       snibb00[2]     0.680       0.606
+U09.snibb00[3]     System        FD1P3AX     Q       snibb00[3]     0.680       0.606
+U09.snibb01[0]     System        FD1P3AX     Q       snibb01[0]     0.680       0.606
+=====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                               Required          
+Instance                        Reference     Type        Pin     Net                  Time         Slack
+                                Clock                                                                    
+---------------------------------------------------------------------------------------------------------
+U09.outFlagca_1                 System        FD1S3IX     CD      aux                  0.562        0.169
+U06.outFlags_1                  System        FD1S3IX     CD      aux                  0.562        0.241
+U10.outFlagss_1                 System        FD1S3IX     CD      aux                  0.562        0.241
+U02.ACLpA_cl_1[7]               System        FD1S3IX     CD      outcodeport_c[2]     0.562        0.556
+U08.outAC12bitsu_cl[11]         System        FD1S3IX     CD      outcodeport_c[2]     0.562        0.556
+U01.outACA12init_cl[11]         System        FD1S3IX     CD      outcodeport_c[2]     0.562        0.556
+U09.outBuf12ca_cl[11]           System        FD1S3IX     CD      outcodeport_c[2]     0.562        0.556
+U01.outFlag8init_tri_enable     System        FD1S3IX     CD      outcodeport_c[2]     0.562        0.556
+U02.outFlagLp_tri_enable        System        FD1S3IX     CD      outcodeport_c[2]     0.562        0.556
+U09.outFlagca_tri_enable        System        FD1S3IX     CD      outcodeport_c[2]     0.562        0.556
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.731
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.562
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (critical) :                     0.169
+
+    Number of logic level(s):                0
+    Starting point:                          U09.aux / Q
+    Ending point:                            U09.outFlagca_1 / CD
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+U09.aux             FD1P3AX     Q        Out     0.731     0.731       -         
+aux                 Net         -        -       -         -           2         
+U09.outFlagca_1     FD1S3IX     CD       In      0.000     0.731       -         
+=================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Constraints that could not be applied
+None

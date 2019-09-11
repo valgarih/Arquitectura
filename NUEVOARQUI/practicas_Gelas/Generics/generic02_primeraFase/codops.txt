@@ -1,0 +1,18 @@
+codops
+
+0000 and
+0001 xor
+0010 not
+0011 or
+0100 nand
+0101 nor
+0110 nxor
+0111 add
+1000 sub
+1001 shiftr
+1010 shiftl
+1011 rotr
+1100 rotl
+1101 compl2
+1110 comp
+1111 concat

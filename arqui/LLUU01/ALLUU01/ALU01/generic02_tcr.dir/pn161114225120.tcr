@@ -1,0 +1,10 @@
+#Start recording tcl command: 11/14/2016 21:06:29
+#Project Location: C:/Users/Raul TinidadOrtiz/Documents/Sistemas/Arquitectura de Computadoras/generic02; Project name: generic02
+prj_project open "C:/Users/Raul TinidadOrtiz/Documents/Sistemas/Arquitectura de Computadoras/generic02/generic02.ldf"
+prj_run Export -impl generic02 -task Jedecgen
+pgr_project open "C:/Users/Raul TinidadOrtiz/Documents/Sistemas/Arquitectura de Computadoras/generic02/generic02/generic02.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/Raul TinidadOrtiz/Documents/Sistemas/Arquitectura de Computadoras/generic02/generic02/generic02.xcf"
+prj_project close
+#Stop recording: 11/14/2016 22:51:20

@@ -1,0 +1,14 @@
+LOCATE COMP "cdiv0[0]" SITE "62" ;
+LOCATE COMP "cdiv0[1]" SITE "67" ;
+LOCATE COMP "cdiv0[2]" SITE "61" ;
+LOCATE COMP "cdiv0[3]" SITE "65" ;
+LOCATE COMP "cdiv0[4]" SITE "58" ;
+LOCATE COMP "enable0" SITE "40" ;
+LOCATE COMP "inkey0[0]" SITE "71" ;
+LOCATE COMP "inkey0[1]" SITE "69" ;
+LOCATE COMP "inkey0[2]" SITE "70" ;
+LOCATE COMP "inkey0[3]" SITE "68" ;
+LOCATE COMP "reset0" SITE "38" ;
+LOCATE COMP "rw0" SITE "41" ;
+LOCATE COMP "outFlagdd0" SITE "39" ;
+LOCATE COMP "clk0" SITE "95" ;

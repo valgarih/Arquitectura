@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "multi8bit00_multi8bit0.log"
+-o "multi8bit00_multi8bit0.csv"
+-pr "multi8bit00_multi8bit0.prf"

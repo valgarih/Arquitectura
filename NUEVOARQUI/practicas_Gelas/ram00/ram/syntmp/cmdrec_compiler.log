@@ -1,0 +1,18 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe  -osyn  F:\ram00\ram\synwork\ram00_ram_comp.srs  -top  topram00  -hdllog  F:\ram00\ram\synlog\ram00_ram_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  F:\ram00\ram\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work F:\osc00VHDL\div00.vhdl -lib work F:\osc00VHDL\osc00.vhdl -lib work F:\osc00VHDL\packageosc00.vhdl -lib work F:\ram00\contring00.vhdl -lib work F:\ram00\coderram00.vhdl -lib work F:\ram00\ram00.vhdl -lib work F:\ram00\contRead00.vhdl -lib work F:\ram00\muxram00.vhdl -lib work F:\ram00\packageram00.vhdl -lib work F:\osc00VHDL\toposc00.vhdl -lib work F:\ram00\topram00.vhdl  -jobname  "compiler" 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe -osyn ..\synwork\ram00_ram_comp.srs -top topram00 -hdllog ..\synlog\ram00_ram_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\..\osc00VHDL\div00.vhdl -lib work ..\..\..\osc00VHDL\osc00.vhdl -lib work ..\..\..\osc00VHDL\packageosc00.vhdl -lib work ..\..\contring00.vhdl -lib work ..\..\coderram00.vhdl -lib work ..\..\ram00.vhdl -lib work ..\..\contRead00.vhdl -lib work ..\..\muxram00.vhdl -lib work ..\..\packageram00.vhdl -lib work ..\..\..\osc00VHDL\toposc00.vhdl -lib work ..\..\topram00.vhdl -jobname "compiler"
+rc:0 success:1 runtime:10
+file:..\synwork\ram00_ram_comp.srs|io:o|time:1524589990|size:15858|exec:0|csum:
+file:..\synlog\ram00_ram_compiler.srr|io:o|time:1524589992|size:6292|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\..\osc00VHDL\div00.vhdl|io:i|time:1520349504|size:2199|exec:0|csum:E6CAF02E2D65A26E7D44E02A954477DE
+file:..\..\..\osc00VHDL\osc00.vhdl|io:i|time:1520348576|size:509|exec:0|csum:52FA8B1858CC10A6F1BAC84382475755
+file:..\..\..\osc00VHDL\packageosc00.vhdl|io:i|time:1520349518|size:398|exec:0|csum:3BB5632FFAC3B5BFB197A3D4EA8A04D5
+file:..\..\contring00.vhdl|io:i|time:1523549694|size:656|exec:0|csum:5DFC0AFFD732F3D9845814C16CA04A23
+file:..\..\coderram00.vhdl|io:i|time:1524586692|size:10256|exec:0|csum:C5EBF13F6B1EB694536A02CDD7A5FA48
+file:..\..\ram00.vhdl|io:i|time:1524154474|size:1200|exec:0|csum:D5F11C592EA27EDCC710E8A877ADB3E7
+file:..\..\contRead00.vhdl|io:i|time:1524589972|size:903|exec:0|csum:C4D8A5F5D8F6E0A2B4B75C05D2651CCC
+file:..\..\muxram00.vhdl|io:i|time:1523973924|size:781|exec:0|csum:445082CE8E6FC243386C79B2DF04E6B7
+file:..\..\packageram00.vhdl|io:i|time:1524153532|size:1593|exec:0|csum:FC14F0D8C3C63040324440C2FA307142
+file:..\..\..\osc00VHDL\toposc00.vhdl|io:i|time:1520349706|size:515|exec:0|csum:BE8F543B892BE4EFB5915CFA0AB04830
+file:..\..\topram00.vhdl|io:i|time:1524425670|size:2133|exec:0|csum:B3B2A97BDBE62098DF1DDF72FAA99809
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe|io:i|time:1501913558|size:5526016|exec:1|csum:B0FC75282263C9BC65A760D01C67ECBA

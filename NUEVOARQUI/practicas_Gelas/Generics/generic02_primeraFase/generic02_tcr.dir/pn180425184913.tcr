@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/25/2018 18:48:21
+#Project Location: F:/IPN/Arquitectura_de_Computadoras/ProjectsMachXO2/Generics/generic02_primeraFase; Project name: generic02
+prj_project open "F:/IPN/Arquitectura_de_Computadoras/ProjectsMachXO2/Generics/generic02_primeraFase/generic02.ldf"
+prj_project close
+#Stop recording: 4/25/2018 18:49:13

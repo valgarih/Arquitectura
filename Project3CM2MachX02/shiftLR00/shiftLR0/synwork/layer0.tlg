@@ -1,0 +1,7 @@
+@N: CD630 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd":9:7:9:18|Synthesizing work.topshiftlr00.topshiftlr0.
+@W: CD276 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd":14:2:14:7|Map for port indiv1 of component topdiv00 not found
+@W: CD276 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd":15:2:15:8|Map for port oscout1 of component topdiv00 not found
+@W: CD730 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd":22:1:22:5|Component declaration has 2 ports but entity declares 4 ports
+@E: CD326 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd":22:1:22:5|Port indiv1 of entity work.topdiv00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+Synthesis failed
+1 errors during synthesis

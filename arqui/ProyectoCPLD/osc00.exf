@@ -1,0 +1,10 @@
+Section Cross Reference File
+Design 'osc00' created Wed May 22 11:36:27 2019
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Net                 gnd_n_n                                       GND
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Output     tmr_out
+End

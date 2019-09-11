@@ -1,0 +1,7 @@
+#Start recording tcl command: 11/26/2018 10:44:21
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/bcd00; Project name: bcd00
+prj_project open "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/bcd00/bcd00.ldf"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/bcd00/ac800.vhd"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/bcd00/ac1200.vhd"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/bcd00/contIter00.vhd"
+#Stop recording: 11/26/2018 12:01:11

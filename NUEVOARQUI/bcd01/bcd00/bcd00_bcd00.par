@@ -1,0 +1,244 @@
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Mon May 13 08:08:22 2019
+
+C:/Program Files/diamond/3.10_x64/ispfpga\bin\nt64\par -f bcd00_bcd00.p2t
+bcd00_bcd00_map.ncd bcd00_bcd00.dir bcd00_bcd00.prf -gui -msgset
+C:/Users/Valery Garibay/Desktop/NUEVOARQUI/bcd01/promote.xml
+
+
+Preference file: bcd00_bcd00.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            459.979      0            0.306        0            19           Success
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 19 secs 
+
+par done!
+
+Lattice Place and Route Report for Design "bcd00_bcd00_map.ncd"
+Mon May 13 08:08:22 2019
+
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/bcd01/promote.xml" -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF bcd00_bcd00_map.ncd bcd00_bcd00.dir/5_1.ncd bcd00_bcd00.prf
+Preference file: bcd00_bcd00.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file bcd00_bcd00_map.ncd.
+Design name: topconvbcd00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/Program Files/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   62+4(JTAG)/336     20% used
+                  62+4(JTAG)/115     57% bonded
+   IOLOGIC            9/336           2% used
+
+   SLICE            133/3432          3% used
+
+   GSR                1/1           100% used
+   OSC                1/1           100% used
+
+
+Number of Signals: 446
+Number of Connections: 1274
+
+Pin Constraint Summary:
+   61 out of 62 pins locked (98% locked).
+
+The following 2 signals are selected to use the primary clock routing resources:
+    sclk0_0 (driver: U14/SLICE_91, clk load #: 75)
+    U00.sclk_0_0 (driver: U00/UD00/OSCInst0, clk load #: 27)
+
+
+The following 1 signal is selected to use the secondary clock routing resources:
+    U00/UD01/un1_sdiv69_RNI28M5 (driver: U00/UD01/SLICE_127, clk load #: 0, sr load #: 11, ce load #: 0)
+
+Signal U15/outbcdmux12 is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+........
+Finished Placer Phase 0.  REAL time: 5 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 112641.
+Finished Placer Phase 1.  REAL time: 11 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  112455
+Finished Placer Phase 2.  REAL time: 11 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "sclk0_0" from Q0 on comp "U14/SLICE_91" on site "R2C19A", clk load = 75
+  PRIMARY "U00.sclk_0_0" from OSC on comp "U00/UD00/OSCInst0" on site "OSC", clk load = 27
+  SECONDARY "U00/UD01/un1_sdiv69_RNI28M5" from F0 on comp "U00/UD01/SLICE_127" on site "R21C20D", clk load = 0, ce load = 0, sr load = 11
+
+  PRIMARY  : 2 out of 8 (25%)
+  SECONDARY: 1 out of 8 (12%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   62 + 4(JTAG) out of 336 (19.6%) PIO sites used.
+   62 + 4(JTAG) out of 115 (57.4%) bonded PIO sites used.
+   Number of PIO comps: 62; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 19 / 28 ( 67%) | 2.5V       | -         |
+| 1        | 18 / 29 ( 62%) | 2.5V       | -         |
+| 2        | 14 / 29 ( 48%) | 2.5V       | -         |
+| 3        | 0 / 9 (  0%)   | -          | -         |
+| 4        | 1 / 10 ( 10%)  | 2.5V       | -         |
+| 5        | 10 / 10 (100%) | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 9 secs 
+
+Dumping design to file bcd00_bcd00.dir/5_1.ncd.
+
+0 connections routed; 1274 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 17 secs 
+
+Start NBR router at 08:08:39 05/13/19
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 08:08:39 05/13/19
+
+Start NBR section for initial routing at 08:08:39 05/13/19
+Level 4, iteration 1
+55(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.019ns/0.000ns; real time: 18 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 08:08:40 05/13/19
+Level 4, iteration 1
+21(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.019ns/0.000ns; real time: 18 secs 
+Level 4, iteration 2
+8(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 460.330ns/0.000ns; real time: 18 secs 
+Level 4, iteration 3
+7(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.979ns/0.000ns; real time: 18 secs 
+Level 4, iteration 4
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.979ns/0.000ns; real time: 18 secs 
+Level 4, iteration 5
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.979ns/0.000ns; real time: 18 secs 
+Level 4, iteration 6
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.979ns/0.000ns; real time: 18 secs 
+Level 4, iteration 7
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.979ns/0.000ns; real time: 18 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 08:08:40 05/13/19
+
+Start NBR section for re-routing at 08:08:40 05/13/19
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 459.979ns/0.000ns; real time: 18 secs 
+
+Start NBR section for post-routing at 08:08:40 05/13/19
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 459.979ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 17 secs 
+Total REAL time: 19 secs 
+Completely routed.
+End of route.  1274 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file bcd00_bcd00.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Success
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 459.979
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.306
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 17 secs 
+Total REAL time to completion: 19 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.

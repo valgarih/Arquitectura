@@ -1,0 +1,16 @@
+C:\lscc\diamond\3.5_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\lscc\Arquitectura\org\combinacional01\combin01\synwork\combin01_combin01_comp.srs  -top  eTopMultip00  -hdllog  C:\lscc\Arquitectura\org\combinacional01\combin01\synlog\combin01_combin01_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\lscc\Arquitectura\org\combinacional01\combin01\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo3l.vhd -lib work C:\lscc\Arquitectura\org\combinacional01\combin01\source\and.vhdl -lib work C:\lscc\Arquitectura\org\combinacional01\combin01\source\or.vhdl -lib work C:\lscc\Arquitectura\org\combinacional01\combin01\source\paquete_sumadorcompleto.vhdl -lib work C:\lscc\Arquitectura\org\combinacional01\combin01\source\paquete_sumadormedio.vhdl -lib work C:\lscc\Arquitectura\org\combinacional01\combin01\source\xor.vhdl -lib work C:\lscc\Arquitectura\org\combinacional01\paquete_topcombin.vhdl -lib work C:\lscc\Arquitectura\org\combinacional01\combin01\source\top_sumadormedio.vhdl -lib work C:\lscc\Arquitectura\org\combinacional01\combin01\source\top_sumadorcompleto.vhdl -lib work C:\lscc\Arquitectura\org\combinacional01\topmulticomb01.vhdl 
+rc:0 success:1
+C:\lscc\Arquitectura\org\combinacional01\combin01\synwork\combin01_combin01_comp.srs|o|1449094501|5987
+C:\lscc\Arquitectura\org\combinacional01\combin01\synlog\combin01_combin01_compiler.srr|o|1449094501|3354
+C:\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo3l.vhd|i|1389385814|72734
+C:\lscc\Arquitectura\org\combinacional01\combin01\source\and.vhdl|i|1443565939|249
+C:\lscc\Arquitectura\org\combinacional01\combin01\source\or.vhdl|i|1443566249|238
+C:\lscc\Arquitectura\org\combinacional01\combin01\source\paquete_sumadorcompleto.vhdl|i|1443566535|398
+C:\lscc\Arquitectura\org\combinacional01\combin01\source\paquete_sumadormedio.vhdl|i|1443566592|352
+C:\lscc\Arquitectura\org\combinacional01\combin01\source\xor.vhdl|i|1443566348|249
+C:\lscc\Arquitectura\org\combinacional01\paquete_topcombin.vhdl|i|1449082192|429
+C:\lscc\Arquitectura\org\combinacional01\combin01\source\top_sumadormedio.vhdl|i|1443566806|518
+C:\lscc\Arquitectura\org\combinacional01\combin01\source\top_sumadorcompleto.vhdl|i|1443566810|772
+C:\lscc\Arquitectura\org\combinacional01\topmulticomb01.vhdl|i|1449094489|4268
+C:\lscc\diamond\3.5_x64\synpbase\bin\c_hdl.exe|i|1429561672|1298944
+C:\lscc\diamond\3.5_x64\synpbase\bin64\c_hdl.exe|i|1429561866|1901568

@@ -1,0 +1,2 @@
+set_option -top_module work.osc00
+project -fileorder "C:/Program\ Files/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/Valery\ Garibay/Documents/6_semestre/arqui/osc00MacX02/osc00/osc00.vhdl" 

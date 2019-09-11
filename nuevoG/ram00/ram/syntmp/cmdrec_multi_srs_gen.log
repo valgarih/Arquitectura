@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topram00  -multisrs  F:\ram00\ram\synwork\ram00_ram_comp.srs  -osyn  F:\ram00\ram\synwork\ram00_ram_mult.srs  -log  F:\ram00\ram\synlog\ram00_ram_multi_srs_gen.srr 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topram00 -multisrs ..\synwork\ram00_ram_comp.srs -osyn ..\synwork\ram00_ram_mult.srs -log ..\synlog\ram00_ram_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\ram00_ram_comp.srs|io:i|time:1524589990|size:15858|exec:0|csum:83AC0764AD945FD47DA82DC9B73763F0
+file:..\synwork\ram00_ram_mult.srs|io:o|time:1524589994|size:4374|exec:0|csum:
+file:..\synlog\ram00_ram_multi_srs_gen.srr|io:o|time:1524589994|size:477|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

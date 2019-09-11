@@ -1,0 +1,724 @@
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-ONJC2QMR
+
+# Thu Nov 29 12:56:55 2018
+
+#Implementation: keylcdram0
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\toplcd00.vhd":7:7:7:14|Top entity is set to toplcd00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\toplcd00.vhd":7:7:7:14|Synthesizing work.toplcd00.toplcd0.
+@W: CD276 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdContConfig00.vhd":16:2:16:10|Map for port outflagcc of component lcdcontconfig00 not found
+@W: CD730 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\toplcd00.vhd":46:1:46:4|Component declaration has 4 ports but entity declares 5 ports
+@W: CD326 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\toplcd00.vhd":46:1:46:4|Port outflagcc of entity work.lcdcontconfig00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdmux00.vhd":6:7:6:14|Synthesizing work.lcdmux00.lcdmux0.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\contread00.vhd":9:7:9:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\contread00.vhd":36:8:36:16|Removing redundant assignment.
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\ram00.vhd":9:7:9:11|Synthesizing work.ram00.ram0.
+Post processing for work.ram00.ram0
+@N: CL134 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\ram00.vhd":24:7:24:13|Found RAM wordram, depth=64, width=11
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":9:7:9:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":48:8:48:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":56:9:56:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":65:9:65:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":74:9:74:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":83:9:83:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":92:9:92:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":101:9:101:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":110:9:110:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":119:9:119:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":128:9:128:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":137:9:137:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":146:9:146:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":155:9:155:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":164:9:164:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":174:8:174:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":182:9:182:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":191:9:191:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":200:9:200:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":209:9:209:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":218:9:218:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":227:9:227:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":236:9:236:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":245:9:245:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":254:9:254:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":263:9:263:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":272:9:272:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":281:9:281:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":290:9:290:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":300:8:300:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":308:9:308:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":317:9:317:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":326:9:326:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":335:9:335:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":344:9:344:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":353:9:353:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":362:9:362:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":371:9:371:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":380:9:380:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":389:9:389:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":398:9:398:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":407:9:407:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":416:9:416:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":426:8:426:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":434:9:434:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":443:9:443:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":452:9:452:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":461:9:461:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":470:9:470:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":479:9:479:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":488:9:488:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":497:9:497:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":506:9:506:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":515:9:515:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":524:9:524:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":533:9:533:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":542:9:542:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":552:8:552:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":560:9:560:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":569:9:569:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":578:9:578:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":587:9:587:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":596:9:596:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":605:9:605:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":614:9:614:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":623:9:623:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":632:9:632:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":641:9:641:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":650:9:650:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":659:9:659:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":668:9:668:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":678:8:678:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":686:9:686:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":695:9:695:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":704:9:704:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":713:9:713:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":722:9:722:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":731:9:731:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":740:9:740:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":749:9:749:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":758:9:758:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":767:9:767:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":776:9:776:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":785:9:785:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":794:9:794:16|Removing redundant assignment.
+Post processing for work.coder00.coder0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":6:7:6:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdContConfig00.vhd":9:7:9:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdContConfig00.vhd":33:5:33:13|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+@W: CL240 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdContConfig00.vhd":16:2:16:10|Signal outFlagcc is floating; a simulation mismatch is possible.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\shiftRL00.vhd":7:7:7:15|Synthesizing work.shiftrl00.shiftrl0.
+Post processing for work.shiftrl00.shiftrl0
+@W: CL279 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\shiftRL00.vhd":21:2:21:3|Pruning register bits 5 to 1 of scontcr(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.toplcd00.toplcd0
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Register bit commandcf(0) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Register bit commandcf(1) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Register bit commandcf(9) is always 0.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Pruning register bit 9 of commandcf(10 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Pruning register bits 1 to 0 of commandcf(10 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Pruning register bit 8 of commandcf(8 downto 2). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(31) is always 0.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Pruning register bit 31 of wordscounter(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(5) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(6) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(7) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(8) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(9) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(10) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(11) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(12) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(13) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(14) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(15) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(16) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(17) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(18) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(19) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(20) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(21) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(22) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(23) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(24) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(25) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(26) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(27) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(28) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(29) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(30) is always 0.
+@W: CL279 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Pruning register bits 30 to 5 of wordscounter(30 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 81MB peak: 84MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 29 12:56:59 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\keylcdram0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 29 12:57:00 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Thu Nov 29 12:57:00 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\keylcdram0\synwork\keylcdram00_keylcdram0_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 29 12:57:02 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Nov 29 12:57:02 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\keylcdram0\keylcdram00_keylcdram0_scck.rpt 
+Printing clock  summary report in "C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\keylcdram0\keylcdram00_keylcdram0_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist toplcd00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     22   
+1 .         div00|outosc_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     87   
+====================================================================================================================================================
+
+@W: MT529 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\div00vhdl\div00.vhd":23:2:23:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including LC00.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Nov 29 12:57:04 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Nov 29 12:57:04 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 155MB peak: 156MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 150MB peak: 156MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 150MB peak: 156MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 156MB)
+
+@N: FA113 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\coder00.vhd":54:21:54:32|Pipelining module un1_outcontr[5:1]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\coder00.vhd":35:2:35:3|Pushed in register outcontr[4:0].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 156MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 156MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 156MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 147MB peak: 156MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 188MB peak: 190MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		   468.09ns		 370 /        99
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 188MB peak: 190MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\ram00.vhd":24:7:24:13|Generating RAM LC05.wordram[10:0]
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\shiftrl00.vhd":21:2:21:3|Boundary register LC01.outcr_5_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\shiftrl00.vhd":21:2:21:3|Boundary register LC01.outcr_4_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\shiftrl00.vhd":21:2:21:3|Boundary register LC01.outcr_3_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\shiftrl00.vhd":21:2:21:3|Boundary register LC01.outcr_2_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\shiftrl00.vhd":21:2:21:3|Boundary register LC01.outcr_1_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\shiftrl00.vhd":21:2:21:3|Boundary register LC01.outcr_0_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\lcdcontconfig00.vhd":24:4:24:5|Boundary register LC02.outcontcc_4_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\lcdcontconfig00.vhd":24:4:24:5|Boundary register LC02.outcontcc_3_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\lcdcontconfig00.vhd":24:4:24:5|Boundary register LC02.outcontcc_2_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\lcdcontconfig00.vhd":24:4:24:5|Boundary register LC02.outcontcc_1_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\lcdcontconfig00.vhd":24:4:24:5|Boundary register LC02.outcontcc_0_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\keylcdram00\lcdconfig00.vhd":21:4:21:5|Boundary register LC03.outFlagcf.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 189MB peak: 190MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 105 clock pin(s) of sequential element(s)
+0 instances converted, 105 sequential instances remain driven by gated/generated clocks
+
+================================================================================================== Gated/Generated Clocks ===================================================================================================
+Clock Tree ID     Driving Element       Drive Element Type     Fanout     Sample Instance      Explanation                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       LC00.D00.OSCInst0     OSCH                   99         LC00.D01.outosc      Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       LC00.D01.outosc       FD1S3AX                6          LC05.wordram_ram     No gated clock conversion method for cell cell:LUCENT.DPR16X4C                                                                
+=============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 154MB peak: 190MB)
+
+Writing Analyst data base C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\keylcdram0\synwork\keylcdram00_keylcdram0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 187MB peak: 190MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\keylcdram0\keylcdram00_keylcdram0.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 191MB peak: 194MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 191MB peak: 194MB)
+
+@N: MT615 |Found clock div00|outosc_derived_clock with period 480.77ns 
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:LC00.D00.osc_int"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Nov 29 12:57:12 2018
+#
+
+
+Top view:               toplcd00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 466.515
+
+                                 Requested     Estimated     Requested     Estimated                 Clock                                           Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type                                            Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+div00|outosc_derived_clock       2.1 MHz       250.1 MHz     480.769       3.998         478.253     derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
+osc00|osc_int_inferred_clock     2.1 MHz       70.2 MHz      480.769       14.255        466.515     inferred                                        Inferred_clkgroup_0
+========================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     466.515  |  No paths    -      |  No paths    -      |  No paths    -    
+osc00|osc_int_inferred_clock  div00|outosc_derived_clock    |  480.769     476.771  |  No paths    -      |  No paths    -      |  No paths    -    
+div00|outosc_derived_clock    osc00|osc_int_inferred_clock  |  480.769     478.253  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div00|outosc_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                               Arrival            
+Instance               Reference                      Type         Pin     Net                Time        Slack  
+                       Clock                                                                                     
+-----------------------------------------------------------------------------------------------------------------
+LC05.wordram_ram       div00|outosc_derived_clock     DPR16X4C     DO3     wordram_ram_2      0.972       478.253
+LC05.wordram_ram_0     div00|outosc_derived_clock     DPR16X4C     DO3     wordram_ram_6      0.972       478.253
+LC05.wordram_ram_2     div00|outosc_derived_clock     DPR16X4C     DO3     wordram_ram_13     0.972       478.253
+LC05.wordram_ram_3     div00|outosc_derived_clock     DPR16X4C     DO3     wordram_ram_17     0.972       478.253
+=================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                    Required            
+Instance              Reference                      Type        Pin     Net      Time         Slack  
+                      Clock                                                                           
+------------------------------------------------------------------------------------------------------
+LC05.outwordra[3]     div00|outosc_derived_clock     FD1P3JX     D       N_31     480.858      478.253
+LC05.outwordra[7]     div00|outosc_derived_clock     FD1P3JX     D       N_35     480.858      478.253
+======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.858
+
+    - Propagation time:                      2.605
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 478.253
+
+    Number of logic level(s):                2
+    Starting point:                          LC05.wordram_ram / DO3
+    Ending point:                            LC05.outwordra[3] / D
+    The start point is clocked by            div00|outosc_derived_clock [rising] on pin WCK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+LC05.wordram_ram                  DPR16X4C     DO3      Out     0.972     0.972       -         
+wordram_ram_2                     Net          -        -       -         -           1         
+LC05.pram\.outwordra_5_RNO[3]     ORCALUT4     A        In      0.000     0.972       -         
+LC05.pram\.outwordra_5_RNO[3]     ORCALUT4     Z        Out     1.017     1.989       -         
+wordram[3]                        Net          -        -       -         -           1         
+LC05.pram\.outwordra_5[3]         ORCALUT4     A        In      0.000     1.989       -         
+LC05.pram\.outwordra_5[3]         ORCALUT4     Z        Out     0.617     2.605       -         
+N_31                              Net          -        -       -         -           1         
+LC05.outwordra[3]                 FD1P3JX      D        In      0.000     2.605       -         
+================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                         Arrival            
+Instance             Reference                        Type        Pin     Net         Time        Slack  
+                     Clock                                                                               
+---------------------------------------------------------------------------------------------------------
+LC00.D01.sdiv[0]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[0]     1.044       466.515
+LC00.D01.sdiv[1]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[1]     1.044       466.515
+LC00.D01.sdiv[2]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[2]     1.044       466.515
+LC00.D01.sdiv[3]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[3]     1.044       466.515
+LC00.D01.sdiv[4]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[4]     1.044       466.515
+LC00.D01.sdiv[5]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[5]     1.044       466.515
+LC00.D01.sdiv[6]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[6]     1.044       467.531
+LC00.D01.sdiv[7]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]     1.044       467.531
+LC00.D01.sdiv[8]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]     1.044       467.531
+LC00.D01.sdiv[9]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]     1.044       467.531
+=========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                              Required            
+Instance              Reference                        Type        Pin     Net              Time         Slack  
+                      Clock                                                                                     
+----------------------------------------------------------------------------------------------------------------
+LC00.D01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[20]     480.664      466.515
+LC00.D01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[21]     480.664      466.515
+LC00.D01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[18]     480.664      466.658
+LC00.D01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[19]     480.664      466.658
+LC00.D01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[16]     480.664      466.800
+LC00.D01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[17]     480.664      466.800
+LC00.D01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[14]     480.664      466.943
+LC00.D01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[15]     480.664      466.943
+LC00.D01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[12]     480.664      467.086
+LC00.D01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[13]     480.664      467.086
+================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      14.149
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     466.515
+
+    Number of logic level(s):                19
+    Starting point:                          LC00.D01.sdiv[0] / Q
+    Ending point:                            LC00.D01.sdiv[20] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+LC00.D01.sdiv[0]                           FD1S3IX      Q        Out     1.044     1.044       -         
+sdiv[0]                                    Net          -        -       -         -           2         
+LC00.D01.pdiv\.outosc13lto17_i_a2_14_4     ORCALUT4     A        In      0.000     1.044       -         
+LC00.D01.pdiv\.outosc13lto17_i_a2_14_4     ORCALUT4     Z        Out     1.017     2.061       -         
+outosc13lto17_i_a2_14_4                    Net          -        -       -         -           1         
+LC00.D01.pdiv\.outosc13lto17_i_a2_14       ORCALUT4     B        In      0.000     2.061       -         
+LC00.D01.pdiv\.outosc13lto17_i_a2_14       ORCALUT4     Z        Out     1.193     3.253       -         
+N_3_16                                     Net          -        -       -         -           4         
+LC00.D01.pdiv\.outosc23lto15_i_a2          ORCALUT4     B        In      0.000     3.253       -         
+LC00.D01.pdiv\.outosc23lto15_i_a2          ORCALUT4     Z        Out     1.225     4.478       -         
+N_3_18                                     Net          -        -       -         -           5         
+LC00.D01.pdiv\.outosc18lto17               ORCALUT4     A        In      0.000     4.478       -         
+LC00.D01.pdiv\.outosc18lto17               ORCALUT4     Z        Out     1.017     5.495       -         
+outosc18lt20                               Net          -        -       -         -           1         
+LC00.D01.outosc_0_sqmuxa_3                 ORCALUT4     B        In      0.000     5.495       -         
+LC00.D01.outosc_0_sqmuxa_3                 ORCALUT4     Z        Out     1.017     6.512       -         
+outosc_0_sqmuxa_3                          Net          -        -       -         -           1         
+LC00.D01.un1_outosc50_2_0                  ORCALUT4     A        In      0.000     6.512       -         
+LC00.D01.un1_outosc50_2_0                  ORCALUT4     Z        Out     1.153     7.665       -         
+un1_outosc50_2_0                           Net          -        -       -         -           3         
+LC00.D01.un1_outosc50_4                    ORCALUT4     D        In      0.000     7.665       -         
+LC00.D01.un1_outosc50_4                    ORCALUT4     Z        Out     1.089     8.753       -         
+un1_outosc50_4                             Net          -        -       -         -           2         
+LC00.D01.un1_sdiv_cry_0_0_RNO              ORCALUT4     B        In      0.000     8.753       -         
+LC00.D01.un1_sdiv_cry_0_0_RNO              ORCALUT4     Z        Out     1.017     9.770       -         
+un1_outosc50_i                             Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_0_0                  CCU2D        B0       In      0.000     9.770       -         
+LC00.D01.un1_sdiv_cry_0_0                  CCU2D        COUT     Out     1.544     11.315      -         
+un1_sdiv_cry_0                             Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_1_0                  CCU2D        CIN      In      0.000     11.315      -         
+LC00.D01.un1_sdiv_cry_1_0                  CCU2D        COUT     Out     0.143     11.457      -         
+un1_sdiv_cry_2                             Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_3_0                  CCU2D        CIN      In      0.000     11.457      -         
+LC00.D01.un1_sdiv_cry_3_0                  CCU2D        COUT     Out     0.143     11.600      -         
+un1_sdiv_cry_4                             Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_5_0                  CCU2D        CIN      In      0.000     11.600      -         
+LC00.D01.un1_sdiv_cry_5_0                  CCU2D        COUT     Out     0.143     11.743      -         
+un1_sdiv_cry_6                             Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_7_0                  CCU2D        CIN      In      0.000     11.743      -         
+LC00.D01.un1_sdiv_cry_7_0                  CCU2D        COUT     Out     0.143     11.886      -         
+un1_sdiv_cry_8                             Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_9_0                  CCU2D        CIN      In      0.000     11.886      -         
+LC00.D01.un1_sdiv_cry_9_0                  CCU2D        COUT     Out     0.143     12.029      -         
+un1_sdiv_cry_10                            Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_11_0                 CCU2D        CIN      In      0.000     12.029      -         
+LC00.D01.un1_sdiv_cry_11_0                 CCU2D        COUT     Out     0.143     12.171      -         
+un1_sdiv_cry_12                            Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_13_0                 CCU2D        CIN      In      0.000     12.171      -         
+LC00.D01.un1_sdiv_cry_13_0                 CCU2D        COUT     Out     0.143     12.314      -         
+un1_sdiv_cry_14                            Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_15_0                 CCU2D        CIN      In      0.000     12.314      -         
+LC00.D01.un1_sdiv_cry_15_0                 CCU2D        COUT     Out     0.143     12.457      -         
+un1_sdiv_cry_16                            Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_17_0                 CCU2D        CIN      In      0.000     12.457      -         
+LC00.D01.un1_sdiv_cry_17_0                 CCU2D        COUT     Out     0.143     12.600      -         
+un1_sdiv_cry_18                            Net          -        -       -         -           1         
+LC00.D01.un1_sdiv_cry_19_0                 CCU2D        CIN      In      0.000     12.600      -         
+LC00.D01.un1_sdiv_cry_19_0                 CCU2D        S1       Out     1.549     14.149      -         
+un1_sdiv[21]                               Net          -        -       -         -           1         
+LC00.D01.sdiv[20]                          FD1S3IX      D        In      0.000     14.149      -         
+=========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 191MB peak: 194MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 191MB peak: 194MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 99 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       44
+
+
+Details:
+CCU2D:          15
+DPR16X4C:       6
+FD1P3AX:        34
+FD1P3AY:        1
+FD1P3IX:        24
+FD1P3JX:        17
+FD1S3AX:        2
+FD1S3IX:        21
+GSR:            1
+IB:             20
+OB:             24
+ORCALUT4:       378
+OSCH:           1
+PUR:            1
+VHI:            12
+VLO:            12
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 34MB peak: 194MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Thu Nov 29 12:57:12 2018
+
+###########################################################]

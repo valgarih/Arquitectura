@@ -1,0 +1,7 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe  -link  -top  topcontrol  -multisrs  "C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synwork\topcontrol_comp.srs"  -osyn  "C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synwork\topcontrol_mult.srs"  -log  "C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synlog\topcontrol_multi_srs_gen.srr" 
+rc:0 success:1
+C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synwork\topcontrol_comp.srs|i|1559264267|6594
+C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synwork\topcontrol_mult.srs|o|1559264269|2943
+C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synlog\topcontrol_multi_srs_gen.srr|o|1559264269|496
+C:\ispLEVER_Classic2_0\synpbase\bin\syn_nfilter.exe|i|1401249136|2741760
+C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe|i|1401249332|6337536

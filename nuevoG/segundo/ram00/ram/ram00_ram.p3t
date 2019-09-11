@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "ram00_ram.log"
+-o "ram00_ram.csv"
+-pr "ram00_ram.prf"

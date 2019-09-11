@@ -1,0 +1,80 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Tue Apr 16 11:50:41 2019
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ac800"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:enac
+p:inFlagac
+p:inac[0]
+p:inac[1]
+p:inac[2]
+p:inac[3]
+p:inac[4]
+p:inac[5]
+p:inac[6]
+p:inac[7]
+p:outFlagac
+p:outac[0]
+p:outac[1]
+p:outac[2]
+p:outac[3]
+p:outac[4]
+p:outac[5]
+p:outac[6]
+p:outac[7]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

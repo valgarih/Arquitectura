@@ -1,0 +1,28 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe  -osyn  F:\bcd00\bcd\synwork\bcd00_bcd_hdl_.srs  -top  topp07  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  F:\bcd00\bcd\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work F:\osc00VHDL\osc00.vhdl -lib work F:\osc00VHDL\div00.vhdl -lib work F:\osc00VHDL\packageosc00.vhdl -lib work F:\osc00VHDL\toposc00.vhdl -lib work F:\bcd00\init07.vhdl -lib work F:\bcd00\sust07.vhdl -lib work F:\bcd00\shift12bit07.vhdl -lib work F:\bcd00\shift8bit07.vhdl -lib work F:\bcd00\portAB07.vhdl -lib work F:\bcd00\pcinc07.vhdl -lib work F:\bcd00\mux07.vhdl -lib work F:\bcd00\leeInst07.vhdl -lib work F:\bcd00\contring07.vhdl -lib work F:\bcd00\contIter07.vhdl -lib work F:\bcd00\compadd07.vhdl -lib work F:\bcd00\coderNibbles07.vhdl -lib work F:\bcd00\ac12bit07.vhdl -lib work F:\bcd00\ac8bit07.vhdl -lib work F:\bcd00\div07.vhdl -lib work F:\bcd00\packagep07.vhdl -lib work F:\bcd00\topp07.vhdl  -log  F:\bcd00\bcd\syntax.log  -fileorder  F:\bcd00\bcd\syntmp\hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\bcd00_bcd_hdl_.srs -top topp07 -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\..\osc00VHDL\osc00.vhdl -lib work ..\..\..\osc00VHDL\div00.vhdl -lib work ..\..\..\osc00VHDL\packageosc00.vhdl -lib work ..\..\..\osc00VHDL\toposc00.vhdl -lib work ..\..\init07.vhdl -lib work ..\..\sust07.vhdl -lib work ..\..\shift12bit07.vhdl -lib work ..\..\shift8bit07.vhdl -lib work ..\..\portAB07.vhdl -lib work ..\..\pcinc07.vhdl -lib work ..\..\mux07.vhdl -lib work ..\..\leeInst07.vhdl -lib work ..\..\contring07.vhdl -lib work ..\..\contIter07.vhdl -lib work ..\..\compadd07.vhdl -lib work ..\..\coderNibbles07.vhdl -lib work ..\..\ac12bit07.vhdl -lib work ..\..\ac8bit07.vhdl -lib work ..\..\div07.vhdl -lib work ..\..\packagep07.vhdl -lib work ..\..\topp07.vhdl -log ..\syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:1
+file:..\synwork\bcd00_bcd_hdl_.srs|io:o|time:0|size:0|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\..\osc00VHDL\osc00.vhdl|io:i|time:1520348576|size:509|exec:0|csum:52FA8B1858CC10A6F1BAC84382475755
+file:..\..\..\osc00VHDL\div00.vhdl|io:i|time:1520349504|size:2199|exec:0|csum:E6CAF02E2D65A26E7D44E02A954477DE
+file:..\..\..\osc00VHDL\packageosc00.vhdl|io:i|time:1520349518|size:398|exec:0|csum:3BB5632FFAC3B5BFB197A3D4EA8A04D5
+file:..\..\..\osc00VHDL\toposc00.vhdl|io:i|time:1520349706|size:515|exec:0|csum:BE8F543B892BE4EFB5915CFA0AB04830
+file:..\..\init07.vhdl|io:i|time:1528558144|size:1857|exec:0|csum:FDEF1AB75AE5CD949E1ED26D1628B357
+file:..\..\sust07.vhdl|io:i|time:1528558198|size:1316|exec:0|csum:21758C5FEF867FCF2DB898358F80AA93
+file:..\..\shift12bit07.vhdl|io:i|time:1528558290|size:1221|exec:0|csum:7A2A712D08F9E835346AFAA0FC3D786C
+file:..\..\shift8bit07.vhdl|io:i|time:1528558326|size:1165|exec:0|csum:90B781200742D301CCE446930023AF34
+file:..\..\portAB07.vhdl|io:i|time:1528563022|size:915|exec:0|csum:6A3166493BEA761464731F7A7CEFB1F9
+file:..\..\pcinc07.vhdl|io:i|time:1528558410|size:4452|exec:0|csum:6008E37FED044915C9A4157A7B4171D8
+file:..\..\mux07.vhdl|io:i|time:1528558504|size:770|exec:0|csum:31E8236CCD9580389408CA311992C284
+file:..\..\leeInst07.vhdl|io:i|time:1528558548|size:914|exec:0|csum:F9239D855173F4E95065F08310C0E9E9
+file:..\..\contring07.vhdl|io:i|time:1528558620|size:730|exec:0|csum:21EF93EEDDE0B8672839083DE8639DE6
+file:..\..\contIter07.vhdl|io:i|time:1528558702|size:926|exec:0|csum:20C95F952F83A10B8603F664DD3E9C78
+file:..\..\compadd07.vhdl|io:i|time:1528558746|size:1766|exec:0|csum:26734E5B36603CCDBDCDAD1392376CC7
+file:..\..\coderNibbles07.vhdl|io:i|time:1528558788|size:2819|exec:0|csum:F627DD170A0A748E2A7F67178C1EA371
+file:..\..\ac12bit07.vhdl|io:i|time:1528558824|size:843|exec:0|csum:F7BF8BD66CEF0D1250399459538EBD7A
+file:..\..\ac8bit07.vhdl|io:i|time:1528558856|size:737|exec:0|csum:B7A63139237456B6CB71A933BBD7B3A5
+file:..\..\div07.vhdl|io:i|time:1528559030|size:816|exec:0|csum:FC34EF2F91B6B2C38219C96D149751BD
+file:..\..\packagep07.vhdl|io:i|time:1529097752|size:4215|exec:0|csum:5BF9D0B25C093E87883932CED184C09F
+file:..\..\topp07.vhdl|io:i|time:1528567772|size:6768|exec:0|csum:C23D5F71B83E065512BA4464B16802B2
+file:..\syntax.log|io:o|time:1529097764|size:957|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501913710|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

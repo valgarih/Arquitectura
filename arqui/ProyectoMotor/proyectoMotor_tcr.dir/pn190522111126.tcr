@@ -1,0 +1,20 @@
+#Start recording tcl command: 5/21/2019 11:44:53
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/ProyectoMotor; Project name: proyectoMotor
+prj_project new -name "proyectoMotor" -impl "proyectoMotor" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ProyectoMotor/clk64kHz.vhdl"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ProyectoMotor/servo_pwm.vhdl"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ProyectoMotor/servo_pwm_clk64kHz.vhdl"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ProyectoMotor/servo_pwm_clk64kHz_tb.vhdl"
+prj_run Synthesis -impl proyectoMotor
+prj_src remove "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ProyectoMotor/servo_pwm_clk64kHz_tb.vhdl"
+prj_run Synthesis -impl proyectoMotor
+prj_run Export -impl proyectoMotor -task Jedecgen
+prj_run Export -impl proyectoMotor -task Jedecgen
+prj_run Export -impl proyectoMotor -task Jedecgen
+pgr_project save "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ProyectoMotor/proyectoMotor/proyectoMotor.xcf"
+prj_src add -exclude "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ProyectoMotor/proyectoMotor/proyectoMotor.xcf"
+prj_src enable "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ProyectoMotor/proyectoMotor/proyectoMotor.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 5/22/2019 11:11:26

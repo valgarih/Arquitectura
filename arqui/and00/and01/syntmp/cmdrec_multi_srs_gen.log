@@ -1,0 +1,7 @@
+C:\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  work.and01  -multisrs  "C:\Users\Valery Garibay\Documents\6_semestre\arqui\and00\and01\synwork\and01_and01_comp.srs"  -osyn  "C:\Users\Valery Garibay\Documents\6_semestre\arqui\and00\and01\synwork\and01_and01_mult.srs"  -log  "C:\Users\Valery Garibay\Documents\6_semestre\arqui\and00\and01\synlog\and01_and01_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top work.and01 -multisrs "C:\Users\Valery Garibay\Documents\6_semestre\arqui\and00\and01\synwork\and01_and01_comp.srs" -osyn "C:\Users\Valery Garibay\Documents\6_semestre\arqui\and00\and01\synwork\and01_and01_mult.srs" -log "C:\Users\Valery Garibay\Documents\6_semestre\arqui\and00\and01\synlog\and01_and01_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\and01_and01_comp.srs|io:i|time:1548815086|size:1718|exec:0|csum:5C171C8EBBA5D4739192B77023AFCDFC
+file:..\synwork\and01_and01_mult.srs|io:o|time:1548815088|size:1331|exec:0|csum:
+file:..\synlog\and01_and01_multi_srs_gen.srr|io:o|time:1548815088|size:529|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

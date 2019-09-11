@@ -1,0 +1,136 @@
+----------------------------------------------------------------------
+Report for cell toplcd00.toplcd0
+
+Register bits: 54 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       43
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11       100.0
+                            FD1P3AX        9       100.0
+                            FD1P3IX       17       100.0
+                            FD1P3JX        5       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                                GSR        1       100.0
+                                 IB        6       100.0
+                                INV        2       100.0
+                                 OB       37       100.0
+                           OFS1P3DX        1       100.0
+                           ORCALUT4      112       100.0
+                               OSCH        1       100.0
+                              PFUMX        4       100.0
+                                PUR        1       100.0
+                                VHI        9       100.0
+                                VLO        9       100.0
+SUB MODULES 
+                              div00        1       100.0
+                        lcdConfig00        1       100.0
+                    lcdContConfig00        1       100.0
+                      lcdContData00        1       100.0
+                          lcdData00        1       100.0
+                           lcdmux00        1       100.0
+                              osc00        1       100.0
+                           topdiv00        1       100.0
+                            
+                         TOTAL           255           
+----------------------------------------------------------------------
+Report for cell lcdmux00.netlist
+     Instance path:  LC05
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       11         9.8
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL            13           
+----------------------------------------------------------------------
+Report for cell lcdData00.netlist
+     Instance path:  LC04
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3IX        8        47.1
+                                INV        1        50.0
+                           ORCALUT4       17        15.2
+                              PFUMX        4       100.0
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL            32           
+----------------------------------------------------------------------
+Report for cell lcdContData00.netlist
+     Instance path:  LC03
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        3        33.3
+                            FD1P3IX        5        29.4
+                           ORCALUT4       13        11.6
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL            23           
+----------------------------------------------------------------------
+Report for cell lcdConfig00.netlist
+     Instance path:  LC02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        6        66.7
+                            FD1P3IX        3        17.6
+                                INV        1        50.0
+                           ORCALUT4       16        14.3
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL            28           
+----------------------------------------------------------------------
+Report for cell lcdContConfig00.netlist
+     Instance path:  LC01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3IX        1         5.9
+                            FD1P3JX        5       100.0
+                           ORCALUT4        6         5.4
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL            14           
+----------------------------------------------------------------------
+Report for cell topdiv00.netlist
+     Instance path:  LC00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       49        43.8
+                               OSCH        1       100.0
+                                VHI        3        33.3
+                                VLO        3        33.3
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL            91           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  LC00.D01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       49        43.8
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL            84           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  LC00.D00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VHI        1        11.1
+                                VLO        1        11.1
+                            
+                         TOTAL             3           

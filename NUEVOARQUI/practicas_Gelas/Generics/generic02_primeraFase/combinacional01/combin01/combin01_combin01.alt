@@ -1,0 +1,28 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Dec 02 16:15:22 2015 *
+NOTE DESIGN NAME: eTopMultip00 *
+NOTE DEVICE NAME: LCMXO3L-6900C-5CABGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS resultado_tm[0] : T12 : out *
+NOTE PINS entrada1_tm[0] : N3 : in *
+NOTE PINS resultado_tm[7] : P9 : out *
+NOTE PINS resultado_tm[6] : T9 : out *
+NOTE PINS resultado_tm[5] : R9 : out *
+NOTE PINS resultado_tm[4] : T10 : out *
+NOTE PINS resultado_tm[3] : P11 : out *
+NOTE PINS resultado_tm[2] : T11 : out *
+NOTE PINS resultado_tm[1] : R11 : out *
+NOTE PINS entrada2_tm[3] : L3 : in *
+NOTE PINS entrada2_tm[2] : L2 : in *
+NOTE PINS entrada2_tm[1] : M2 : in *
+NOTE PINS entrada2_tm[0] : H6 : in *
+NOTE PINS entrada1_tm[3] : L5 : in *
+NOTE PINS entrada1_tm[2] : L1 : in *
+NOTE PINS entrada1_tm[1] : M1 : in *
+NOTE PINS SYSCONFIG_PIN_MCLK : P6 : inout *
+NOTE PINS SYSCONFIG_PIN_SO : T6 : inout *
+NOTE PINS SYSCONFIG_PIN_SN : R12 : in *
+NOTE PINS SYSCONFIG_PIN_SI : P13 : inout *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

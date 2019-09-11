@@ -1,0 +1,2 @@
+@E: CD353 :"C:\Users\Adrian\Desktop\Curso Architecture EneJun2016\generic04\generic02\shiftx00.vhd":40:5:40:9|While loop is not terminating? You can set the maximum number of loop iterations with the syn_looplimit attribute -- attach it to the loop label 
+

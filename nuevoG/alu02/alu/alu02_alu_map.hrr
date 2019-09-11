@@ -1,0 +1,11 @@
+---------------------------------------------------
+Report for cell acal00
+   Instance path: acal00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        100.0
+                                 IOLGC	       9.00        100.0
+                                  LUT4	       3.00        100.0
+                                 IOREG	          9        100.0
+                                 IOBUF	         20        100.0
+                                PFUREG	          1        100.0

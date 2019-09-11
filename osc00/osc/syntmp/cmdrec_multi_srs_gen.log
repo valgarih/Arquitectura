@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  osc00  -multisrs  "C:\Users\Sergio Luna\Desktop\Sexto Semestre\Project3CM2MachX02\osc00\osc\synwork\osc00_osc_comp.srs"  -osyn  "C:\Users\Sergio Luna\Desktop\Sexto Semestre\Project3CM2MachX02\osc00\osc\synwork\osc00_osc_mult.srs"  -log  "C:\Users\Sergio Luna\Desktop\Sexto Semestre\Project3CM2MachX02\osc00\osc\synlog\osc00_osc_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top osc00 -multisrs "C:\Users\Sergio Luna\Desktop\Sexto Semestre\Project3CM2MachX02\osc00\osc\synwork\osc00_osc_comp.srs" -osyn "C:\Users\Sergio Luna\Desktop\Sexto Semestre\Project3CM2MachX02\osc00\osc\synwork\osc00_osc_mult.srs" -log "C:\Users\Sergio Luna\Desktop\Sexto Semestre\Project3CM2MachX02\osc00\osc\synlog\osc00_osc_multi_srs_gen.srr"
+rc:0 success:1 runtime:1
+file:..\synwork\osc00_osc_comp.srs|io:i|time:1550595399|size:2473|exec:0|csum:3FE3CBB6E71192764CAE9FC9EF6AFBD7
+file:..\synwork\osc00_osc_mult.srs|io:o|time:1550595401|size:2167|exec:0|csum:
+file:..\synlog\osc00_osc_multi_srs_gen.srr|io:o|time:1550595401|size:637|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

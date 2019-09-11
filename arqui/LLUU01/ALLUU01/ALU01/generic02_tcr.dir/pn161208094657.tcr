@@ -1,0 +1,10 @@
+#Start recording tcl command: 12/8/2016 09:14:29
+#Project Location: F:/Documents/ESCOM/7semestre/Project/generic02; Project name: generic02
+prj_project open "F:/Documents/ESCOM/7semestre/Project/generic02/generic02.ldf"
+prj_run Export -impl generic02 -task Jedecgen
+prj_run Export -impl generic02 -task Jedecgen
+pgr_project open "F:/Documents/ESCOM/7semestre/Project/generic02/generic02/generic02.xcf"
+pgr_program run
+pgr_project save "F:/Documents/ESCOM/7semestre/Project/generic02/generic02/generic02.xcf"
+pgr_project close
+#Stop recording: 12/8/2016 09:46:57

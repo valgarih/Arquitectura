@@ -1,0 +1,2 @@
+@E: CD297 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\alu00\anda00.vhdl":31:7:31:11|Width mismatch, location has width 16, value 8
+

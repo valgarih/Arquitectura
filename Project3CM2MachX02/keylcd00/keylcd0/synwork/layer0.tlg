@@ -1,0 +1,64 @@
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\toplcd00.vhd":7:7:7:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdmux00.vhd":6:7:6:14|Synthesizing work.lcdmux00.lcdmux0.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit RWda is always 0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdConfig00.vhd":6:7:6:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContConfig00.vhd":9:7:9:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContConfig00.vhd":35:5:35:13|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcd00\coder00.vhd":7:7:7:13|Synthesizing work.coder00.coder0.
+Post processing for work.coder00.coder0
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcd00\coder00.vhd":23:2:23:3|Register bit outcoderk(7) is always 0.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcd00\coder00.vhd":23:2:23:3|Pruning register bit 7 of outcoderk(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcd00\shiftRL00.vhd":7:7:7:15|Synthesizing work.shiftrl00.shiftrl0.
+Post processing for work.shiftrl00.shiftrl0
+@W: CL279 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcd00\shiftRL00.vhd":21:2:21:3|Pruning register bits 3 to 1 of scontcr(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.toplcd00.toplcd0
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdConfig00.vhd":25:4:25:5|Register bit RScf is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdConfig00.vhd":25:4:25:5|Register bit RWcf is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdConfig00.vhd":25:4:25:5|Register bit commandcf(6) is always 0.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdConfig00.vhd":25:4:25:5|Pruning register bit 6 of commandcf(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdConfig00.vhd":25:4:25:5|Pruning register bit 5 of commandcf(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(31) is always 0.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Pruning register bit 31 of wordscounter(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(5) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(6) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(7) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(8) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(9) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(10) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(11) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(12) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(13) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(14) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(15) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(16) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(17) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(18) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(19) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(20) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(21) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(22) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(23) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(24) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(25) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(26) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(27) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(28) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(29) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Register bit wordscounter(30) is always 0.
+@W: CL279 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":32:4:32:5|Pruning register bits 30 to 5 of wordscounter(30 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL158 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\toplcd00.vhd":11:2:11:5|Inout clk1 is unused
+@N: CL159 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\toplcd00.vhd":13:2:13:6|Input cdiv1 is unused.

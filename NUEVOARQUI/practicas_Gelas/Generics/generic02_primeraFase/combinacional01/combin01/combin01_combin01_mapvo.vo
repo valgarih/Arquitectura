@@ -1,0 +1,644 @@
+
+// Verilog netlist produced by program ldbanno, Version Diamond (64-bit) 3.5.1.302
+
+// ldbanno -n Verilog -o combin01_combin01_mapvo.vo -w -neg -gui -msgset C:/lscc/Arquitectura/org/combinacional01/promote.xml combin01_combin01_map.ncd 
+// Netlist created on Wed Dec 02 16:15:08 2015
+// Netlist written on Tue Dec 08 13:39:50 2015
+// Design is for device LCMXO3L-6900C
+// Design is for package CABGA256
+// Design is for performance grade 5
+
+`timescale 1 ns / 1 ps
+
+module eTopMultip00 ( entrada1_tm, entrada2_tm, resultado_tm );
+  input  [3:0] entrada1_tm;
+  input  [3:0] entrada2_tm;
+  output [7:0] resultado_tm;
+  wire   \entrada2_tm_c[1] , \entrada2_tm_c[0] , \entrada1_tm_c[1] , 
+         \entrada1_tm_c[0] , and20, CS1, CS2, \entrada2_tm_c[2] , 
+         \entrada1_tm_c[3] , CS7, CS3, \entrada2_tm_c[3] , CS11, CS8, 
+         \resultado_tm_c[6] , \entrada1_tm_c[2] , SS8, CS10, 
+         \resultado_tm_c[7] , SS6, SS7, CS9, \resultado_tm_c[4] , and30, SS4, 
+         CS6, SS3, CS5, \S2.suma1 , and23, \S8.suma1 , \resultado_tm_c[5] , 
+         \resultado_tm_c[2] , \resultado_tm_c[1] , \resultado_tm_c[0] , 
+         \resultado_tm_c[3] , VCCI;
+
+  SLICE_0 SLICE_0( .D1(\entrada2_tm_c[1] ), .C1(\entrada2_tm_c[0] ), 
+    .B1(\entrada1_tm_c[1] ), .A1(\entrada1_tm_c[0] ), .D0(\entrada2_tm_c[1] ), 
+    .C0(\entrada1_tm_c[1] ), .B0(and20), .A0(CS1), .F0(CS2), .F1(CS1));
+  SLICE_1 SLICE_1( .D1(\entrada2_tm_c[2] ), .C1(\entrada1_tm_c[3] ), .B1(CS7), 
+    .A1(CS3), .D0(\entrada2_tm_c[3] ), .C0(\entrada1_tm_c[3] ), .B0(CS11), 
+    .A0(CS8), .F0(\resultado_tm_c[6] ), .F1(CS8));
+  SLICE_2 SLICE_2( .D1(\entrada2_tm_c[3] ), .C1(\entrada1_tm_c[2] ), .B1(SS8), 
+    .A1(CS10), .D0(\entrada2_tm_c[3] ), .C0(\entrada1_tm_c[3] ), .B0(CS11), 
+    .A0(CS8), .F0(\resultado_tm_c[7] ), .F1(CS11));
+  SLICE_3 SLICE_3( .C1(\entrada2_tm_c[3] ), .B1(\entrada1_tm_c[0] ), .A1(SS6), 
+    .D0(\entrada2_tm_c[3] ), .C0(\entrada1_tm_c[1] ), .B0(SS7), .A0(CS9), 
+    .F0(\resultado_tm_c[4] ), .F1(CS9));
+  SLICE_4 SLICE_4( .D1(\entrada2_tm_c[1] ), .C1(\entrada1_tm_c[2] ), 
+    .B1(and30), .A1(CS2), .C0(\entrada2_tm_c[1] ), .B0(\entrada1_tm_c[3] ), 
+    .A0(CS3), .F0(SS4), .F1(CS3));
+  SLICE_5 SLICE_5( .D1(\entrada2_tm_c[2] ), .C1(\entrada1_tm_c[2] ), .B1(SS4), 
+    .A1(CS6), .D0(CS3), .C0(\entrada1_tm_c[3] ), .B0(\entrada2_tm_c[2] ), 
+    .A0(CS7), .F0(SS8), .F1(CS7));
+  SLICE_6 SLICE_6( .D1(\entrada2_tm_c[2] ), .C1(\entrada1_tm_c[1] ), .B1(SS3), 
+    .A1(CS5), .D0(\entrada2_tm_c[2] ), .C0(\entrada1_tm_c[2] ), .B0(SS4), 
+    .A0(CS6), .F0(SS7), .F1(CS6));
+  SLICE_7 SLICE_7( .D1(\entrada2_tm_c[2] ), .C1(\entrada1_tm_c[0] ), 
+    .B1(\S2.suma1 ), .A1(CS1), .D0(\entrada2_tm_c[2] ), 
+    .C0(\entrada1_tm_c[1] ), .B0(SS3), .A0(CS5), .F0(SS6), .F1(CS5));
+  SLICE_8 SLICE_8( .B1(\entrada2_tm_c[3] ), .A1(\entrada1_tm_c[2] ), 
+    .D0(and23), .C0(\S8.suma1 ), .B0(CS10), .A0(CS7), .F0(\resultado_tm_c[5] ), 
+    .F1(and23));
+  SLICE_9 SLICE_9( .D1(\entrada1_tm_c[2] ), .C1(\entrada2_tm_c[0] ), 
+    .B1(\entrada1_tm_c[1] ), .A1(\entrada2_tm_c[1] ), .D0(\entrada2_tm_c[2] ), 
+    .C0(\entrada1_tm_c[0] ), .B0(\S2.suma1 ), .A0(CS1), 
+    .F0(\resultado_tm_c[2] ), .F1(\S2.suma1 ));
+  SLICE_10 SLICE_10( .B1(\entrada2_tm_c[0] ), .A1(\entrada1_tm_c[3] ), 
+    .D0(\entrada2_tm_c[1] ), .C0(\entrada1_tm_c[2] ), .B0(and30), .A0(CS2), 
+    .F0(SS3), .F1(and30));
+  SLICE_11 SLICE_11( .B1(\entrada2_tm_c[0] ), .A1(\entrada1_tm_c[0] ), 
+    .D0(\entrada2_tm_c[1] ), .C0(\entrada2_tm_c[0] ), .B0(\entrada1_tm_c[1] ), 
+    .A0(\entrada1_tm_c[0] ), .F0(\resultado_tm_c[1] ), 
+    .F1(\resultado_tm_c[0] ));
+  SLICE_12 SLICE_12( .C1(\entrada2_tm_c[3] ), .B1(\entrada1_tm_c[0] ), 
+    .A1(SS6), .D0(\entrada2_tm_c[3] ), .C0(\entrada1_tm_c[1] ), .B0(SS7), 
+    .A0(CS9), .F0(CS10), .F1(\resultado_tm_c[3] ));
+  SLICE_13 SLICE_13( .B1(\entrada2_tm_c[0] ), .A1(\entrada1_tm_c[2] ), 
+    .C0(\entrada2_tm_c[2] ), .B0(\entrada1_tm_c[3] ), .A0(CS3), 
+    .F0(\S8.suma1 ), .F1(and20));
+  resultado_tm_0_ \resultado_tm[0]_I ( .PADDO(\resultado_tm_c[0] ), 
+    .resultadotm0(resultado_tm[0]));
+  entrada1_tm_0_ \entrada1_tm[0]_I ( .PADDI(\entrada1_tm_c[0] ), 
+    .entrada1tm0(entrada1_tm[0]));
+  resultado_tm_7_ \resultado_tm[7]_I ( .PADDO(\resultado_tm_c[7] ), 
+    .resultadotm7(resultado_tm[7]));
+  resultado_tm_6_ \resultado_tm[6]_I ( .PADDO(\resultado_tm_c[6] ), 
+    .resultadotm6(resultado_tm[6]));
+  resultado_tm_5_ \resultado_tm[5]_I ( .PADDO(\resultado_tm_c[5] ), 
+    .resultadotm5(resultado_tm[5]));
+  resultado_tm_4_ \resultado_tm[4]_I ( .PADDO(\resultado_tm_c[4] ), 
+    .resultadotm4(resultado_tm[4]));
+  resultado_tm_3_ \resultado_tm[3]_I ( .PADDO(\resultado_tm_c[3] ), 
+    .resultadotm3(resultado_tm[3]));
+  resultado_tm_2_ \resultado_tm[2]_I ( .PADDO(\resultado_tm_c[2] ), 
+    .resultadotm2(resultado_tm[2]));
+  resultado_tm_1_ \resultado_tm[1]_I ( .PADDO(\resultado_tm_c[1] ), 
+    .resultadotm1(resultado_tm[1]));
+  entrada2_tm_3_ \entrada2_tm[3]_I ( .PADDI(\entrada2_tm_c[3] ), 
+    .entrada2tm3(entrada2_tm[3]));
+  entrada2_tm_2_ \entrada2_tm[2]_I ( .PADDI(\entrada2_tm_c[2] ), 
+    .entrada2tm2(entrada2_tm[2]));
+  entrada2_tm_1_ \entrada2_tm[1]_I ( .PADDI(\entrada2_tm_c[1] ), 
+    .entrada2tm1(entrada2_tm[1]));
+  entrada2_tm_0_ \entrada2_tm[0]_I ( .PADDI(\entrada2_tm_c[0] ), 
+    .entrada2tm0(entrada2_tm[0]));
+  entrada1_tm_3_ \entrada1_tm[3]_I ( .PADDI(\entrada1_tm_c[3] ), 
+    .entrada1tm3(entrada1_tm[3]));
+  entrada1_tm_2_ \entrada1_tm[2]_I ( .PADDI(\entrada1_tm_c[2] ), 
+    .entrada1tm2(entrada1_tm[2]));
+  entrada1_tm_1_ \entrada1_tm[1]_I ( .PADDI(\entrada1_tm_c[1] ), 
+    .entrada1tm1(entrada1_tm[1]));
+  VHI VHI_INST( .Z(VCCI));
+  PUR PUR_INST( .PUR(VCCI));
+  GSR GSR_INST( .GSR(VCCI));
+endmodule
+
+module SLICE_0 ( input D1, C1, B1, A1, D0, C0, B0, A0, output F0, F1 );
+
+  lut4 \S1/U5/U1/salida_and ( .A(A1), .B(B1), .C(C1), .D(D1), .Z(F1));
+  lut40001 \S2/U3/salida_or ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (D1 => F1) = (0:0:0,0:0:0);
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut4 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h8000) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module lut40001 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'hE888) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module SLICE_1 ( input D1, C1, B1, A1, D0, C0, B0, A0, output F0, F1 );
+
+  lut40002 \S8/U3/salida_or ( .A(A1), .B(B1), .C(C1), .D(D1), .Z(F1));
+  lut40003 \S12/U4/U2/salida_xor ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (D1 => F1) = (0:0:0,0:0:0);
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut40002 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'hE080) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module lut40003 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h9666) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module SLICE_2 ( input D1, C1, B1, A1, D0, C0, B0, A0, output F0, F1 );
+
+  lut40004 \S11/U3/salida_or ( .A(A1), .B(B1), .C(C1), .D(D1), .Z(F1));
+  lut40005 \S12/U3/salida_or ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (D1 => F1) = (0:0:0,0:0:0);
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut40004 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'hE828) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module lut40005 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'hEA48) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module SLICE_3 ( input C1, B1, A1, D0, C0, B0, A0, output F0, F1 );
+  wire   GNDI;
+
+  lut40006 \S9/U5/U1/salida_and ( .A(A1), .B(B1), .C(C1), .D(GNDI), .Z(F1));
+  gnd DRIVEGND( .PWR0(GNDI));
+  lut40003 \S10/U4/U2/salida_xor_0_a2 ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut40006 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h8080) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module gnd ( output PWR0 );
+
+  VLO INST1( .Z(PWR0));
+endmodule
+
+module SLICE_4 ( input D1, C1, B1, A1, C0, B0, A0, output F0, F1 );
+  wire   GNDI;
+
+  lut40001 \S3/U3/salida_or ( .A(A1), .B(B1), .C(C1), .D(D1), .Z(F1));
+  lut40007 \S10/U4/U2/salida_xor_1_i_o2 ( .A(A0), .B(B0), .C(C0), .D(GNDI), 
+    .Z(F0));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (D1 => F1) = (0:0:0,0:0:0);
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut40007 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h6A6A) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module SLICE_5 ( input D1, C1, B1, A1, D0, C0, B0, A0, output F0, F1 );
+
+  lut40001 \S7/U3/salida_or ( .A(A1), .B(B1), .C(C1), .D(D1), .Z(F1));
+  lut40008 \S8/U4/U2/salida_xor_i ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (D1 => F1) = (0:0:0,0:0:0);
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut40008 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h9A6A) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module SLICE_6 ( input D1, C1, B1, A1, D0, C0, B0, A0, output F0, F1 );
+
+  lut40001 \S6/U3/salida_or ( .A(A1), .B(B1), .C(C1), .D(D1), .Z(F1));
+  lut40003 \S7/U4/U2/salida_xor_0_a2 ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (D1 => F1) = (0:0:0,0:0:0);
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module SLICE_7 ( input D1, C1, B1, A1, D0, C0, B0, A0, output F0, F1 );
+
+  lut40009 \S5/U5/U1/salida_and ( .A(A1), .B(B1), .C(C1), .D(D1), .Z(F1));
+  lut40003 \S6/U4/U2/salida_xor_0_a2 ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (D1 => F1) = (0:0:0,0:0:0);
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut40009 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h6000) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module SLICE_8 ( input B1, A1, D0, C0, B0, A0, output F0, F1 );
+  wire   GNDI;
+
+  lut40010 \A23/salida_and ( .A(A1), .B(B1), .C(GNDI), .D(GNDI), .Z(F1));
+  gnd DRIVEGND( .PWR0(GNDI));
+  lut40011 \S11/U4/U2/salida_xor_0_a3 ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut40010 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h8888) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module lut40011 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h6996) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module SLICE_9 ( input D1, C1, B1, A1, D0, C0, B0, A0, output F0, F1 );
+
+  lut40012 \S2/U5/U2/salida_xor_i_o3 ( .A(A1), .B(B1), .C(C1), .D(D1), .Z(F1));
+  lut40003 \S5/U5/U2/salida_xor_0_a3 ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (D1 => F1) = (0:0:0,0:0:0);
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut40012 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h7888) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module SLICE_10 ( input B1, A1, D0, C0, B0, A0, output F0, F1 );
+  wire   GNDI;
+
+  lut40010 \A30/salida_and ( .A(A1), .B(B1), .C(GNDI), .D(GNDI), .Z(F1));
+  gnd DRIVEGND( .PWR0(GNDI));
+  lut40003 \S3/U4/U2/salida_xor_i_o2 ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module SLICE_11 ( input B1, A1, D0, C0, B0, A0, output F0, F1 );
+  wire   GNDI;
+
+  lut40010 \A00/salida_and ( .A(A1), .B(B1), .C(GNDI), .D(GNDI), .Z(F1));
+  gnd DRIVEGND( .PWR0(GNDI));
+  lut40013 \S1/U5/U2/salida_xor ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut40013 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h6AC0) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module SLICE_12 ( input C1, B1, A1, D0, C0, B0, A0, output F0, F1 );
+  wire   GNDI;
+
+  lut40007 \S9/U5/U2/salida_xor_0_a2 ( .A(A1), .B(B1), .C(C1), .D(GNDI), 
+    .Z(F1));
+  gnd DRIVEGND( .PWR0(GNDI));
+  lut40001 \S10/U3/salida_or ( .A(A0), .B(B0), .C(C0), .D(D0), .Z(F0));
+
+  specify
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module SLICE_13 ( input B1, A1, C0, B0, A0, output F0, F1 );
+  wire   GNDI;
+
+  lut40010 \A20/salida_and ( .A(A1), .B(B1), .C(GNDI), .D(GNDI), .Z(F1));
+  gnd DRIVEGND( .PWR0(GNDI));
+  lut40014 \S8/U5/U2/salida_xor_i_o3 ( .A(A0), .B(B0), .C(C0), .D(GNDI), 
+    .Z(F0));
+
+  specify
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (C0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+    (A0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut40014 ( input A, B, C, D, output Z );
+
+  ROM16X1A #(16'h4848) INST10( .AD0(A), .AD1(B), .AD2(C), .AD3(D), .DO0(Z));
+endmodule
+
+module resultado_tm_0_ ( input PADDO, output resultadotm0 );
+  wire   GNDI;
+
+  xo2iobuf \resultado_tm_pad[0] ( .I(PADDO), .T(GNDI), .PAD(resultadotm0));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => resultadotm0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module xo2iobuf ( input I, T, output PAD );
+
+  OBZPD INST5( .I(I), .T(T), .O(PAD));
+endmodule
+
+module entrada1_tm_0_ ( output PADDI, input entrada1tm0 );
+
+  xo2iobuf0015 \entrada1_tm_pad[0] ( .Z(PADDI), .PAD(entrada1tm0));
+
+  specify
+    (entrada1tm0 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge entrada1tm0, 0:0:0);
+    $width (negedge entrada1tm0, 0:0:0);
+  endspecify
+
+endmodule
+
+module xo2iobuf0015 ( output Z, input PAD );
+
+  IBPD INST1( .I(PAD), .O(Z));
+endmodule
+
+module resultado_tm_7_ ( input PADDO, output resultadotm7 );
+  wire   GNDI;
+
+  xo2iobuf \resultado_tm_pad[7] ( .I(PADDO), .T(GNDI), .PAD(resultadotm7));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => resultadotm7) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module resultado_tm_6_ ( input PADDO, output resultadotm6 );
+  wire   GNDI;
+
+  xo2iobuf \resultado_tm_pad[6] ( .I(PADDO), .T(GNDI), .PAD(resultadotm6));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => resultadotm6) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module resultado_tm_5_ ( input PADDO, output resultadotm5 );
+  wire   GNDI;
+
+  xo2iobuf \resultado_tm_pad[5] ( .I(PADDO), .T(GNDI), .PAD(resultadotm5));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => resultadotm5) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module resultado_tm_4_ ( input PADDO, output resultadotm4 );
+  wire   GNDI;
+
+  xo2iobuf \resultado_tm_pad[4] ( .I(PADDO), .T(GNDI), .PAD(resultadotm4));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => resultadotm4) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module resultado_tm_3_ ( input PADDO, output resultadotm3 );
+  wire   GNDI;
+
+  xo2iobuf \resultado_tm_pad[3] ( .I(PADDO), .T(GNDI), .PAD(resultadotm3));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => resultadotm3) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module resultado_tm_2_ ( input PADDO, output resultadotm2 );
+  wire   GNDI;
+
+  xo2iobuf \resultado_tm_pad[2] ( .I(PADDO), .T(GNDI), .PAD(resultadotm2));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => resultadotm2) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module resultado_tm_1_ ( input PADDO, output resultadotm1 );
+  wire   GNDI;
+
+  xo2iobuf \resultado_tm_pad[1] ( .I(PADDO), .T(GNDI), .PAD(resultadotm1));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => resultadotm1) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module entrada2_tm_3_ ( output PADDI, input entrada2tm3 );
+
+  xo2iobuf0015 \entrada2_tm_pad[3] ( .Z(PADDI), .PAD(entrada2tm3));
+
+  specify
+    (entrada2tm3 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge entrada2tm3, 0:0:0);
+    $width (negedge entrada2tm3, 0:0:0);
+  endspecify
+
+endmodule
+
+module entrada2_tm_2_ ( output PADDI, input entrada2tm2 );
+
+  xo2iobuf0015 \entrada2_tm_pad[2] ( .Z(PADDI), .PAD(entrada2tm2));
+
+  specify
+    (entrada2tm2 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge entrada2tm2, 0:0:0);
+    $width (negedge entrada2tm2, 0:0:0);
+  endspecify
+
+endmodule
+
+module entrada2_tm_1_ ( output PADDI, input entrada2tm1 );
+
+  xo2iobuf0015 \entrada2_tm_pad[1] ( .Z(PADDI), .PAD(entrada2tm1));
+
+  specify
+    (entrada2tm1 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge entrada2tm1, 0:0:0);
+    $width (negedge entrada2tm1, 0:0:0);
+  endspecify
+
+endmodule
+
+module entrada2_tm_0_ ( output PADDI, input entrada2tm0 );
+
+  xo2iobuf0015 \entrada2_tm_pad[0] ( .Z(PADDI), .PAD(entrada2tm0));
+
+  specify
+    (entrada2tm0 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge entrada2tm0, 0:0:0);
+    $width (negedge entrada2tm0, 0:0:0);
+  endspecify
+
+endmodule
+
+module entrada1_tm_3_ ( output PADDI, input entrada1tm3 );
+
+  xo2iobuf0015 \entrada1_tm_pad[3] ( .Z(PADDI), .PAD(entrada1tm3));
+
+  specify
+    (entrada1tm3 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge entrada1tm3, 0:0:0);
+    $width (negedge entrada1tm3, 0:0:0);
+  endspecify
+
+endmodule
+
+module entrada1_tm_2_ ( output PADDI, input entrada1tm2 );
+
+  xo2iobuf0015 \entrada1_tm_pad[2] ( .Z(PADDI), .PAD(entrada1tm2));
+
+  specify
+    (entrada1tm2 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge entrada1tm2, 0:0:0);
+    $width (negedge entrada1tm2, 0:0:0);
+  endspecify
+
+endmodule
+
+module entrada1_tm_1_ ( output PADDI, input entrada1tm1 );
+
+  xo2iobuf0015 \entrada1_tm_pad[1] ( .Z(PADDI), .PAD(entrada1tm1));
+
+  specify
+    (entrada1tm1 => PADDI) = (0:0:0,0:0:0);
+    $width (posedge entrada1tm1, 0:0:0);
+    $width (negedge entrada1tm1, 0:0:0);
+  endspecify
+
+endmodule

@@ -1,0 +1,34 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Feb 20 11:14:11 2019 *
+NOTE DESIGN NAME: Sumador8bitAritmetico *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS SUM[0] : 110 : out *
+NOTE PINS NUM1[0] : 98 : in *
+NOTE PINS SUM[8] : 120 : out *
+NOTE PINS SUM[7] : 115 : out *
+NOTE PINS SUM[6] : 117 : out *
+NOTE PINS SUM[5] : 113 : out *
+NOTE PINS SUM[4] : 114 : out *
+NOTE PINS SUM[3] : 111 : out *
+NOTE PINS SUM[2] : 112 : out *
+NOTE PINS SUM[1] : 109 : out *
+NOTE PINS option : 40 : in *
+NOTE PINS NUM2[7] : 95 : in *
+NOTE PINS NUM2[6] : 96 : in *
+NOTE PINS NUM2[5] : 93 : in *
+NOTE PINS NUM2[4] : 94 : in *
+NOTE PINS NUM2[3] : 91 : in *
+NOTE PINS NUM2[2] : 92 : in *
+NOTE PINS NUM2[1] : 85 : in *
+NOTE PINS NUM2[0] : 86 : in *
+NOTE PINS NUM1[7] : 106 : in *
+NOTE PINS NUM1[6] : 107 : in *
+NOTE PINS NUM1[5] : 104 : in *
+NOTE PINS NUM1[4] : 105 : in *
+NOTE PINS NUM1[3] : 99 : in *
+NOTE PINS NUM1[2] : 100 : in *
+NOTE PINS NUM1[1] : 97 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

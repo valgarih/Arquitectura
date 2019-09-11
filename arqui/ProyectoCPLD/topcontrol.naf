@@ -1,0 +1,14 @@
+clktop  b
+indivtop[4]  i
+indivtop[3]  i
+indivtop[2]  i
+indivtop[1]  i
+indivtop[0]  i
+enctop  i
+outctop  o
+outctop1  o
+auxtop[4]  o
+auxtop[3]  o
+auxtop[2]  o
+auxtop[1]  o
+auxtop[0]  o

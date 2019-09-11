@@ -1,0 +1,21 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\topkey00.vhdl":7:7:7:14|Top entity is set to topkey00.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\topkey00.vhdl":7:7:7:14|Synthesizing work.topkey00.topkey0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\coder00.vhdl":6:7:6:13|Synthesizing work.coder00.coder0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\countring00.vhdl":6:7:6:17|Synthesizing work.countring00.countring0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\topdv00.vhdl":7:7:7:13|Synthesizing work.topdv00.topdv0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\div00.vhdl":27:6:27:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\div00.vhdl":36:6:36:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\div00.vhdl":45:6:45:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\div00.vhdl":54:6:54:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\div00.vhdl":63:6:63:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\div00.vhdl":72:6:72:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\div00.vhdl":80:6:80:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\div00.vhdl":89:6:89:11|Removing redundant assignment.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\key00\key0\source\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

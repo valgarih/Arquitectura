@@ -1,0 +1,144 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|F:\\bcd00\\bcd\\synwork\\bcd00_bcd_comp.srs|-top|topp07|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"F:\\osc00VHDL\\osc00.vhdl":1520348576
+#CUR:"F:\\osc00VHDL\\div00.vhdl":1520349504
+#CUR:"F:\\osc00VHDL\\packageosc00.vhdl":1520349518
+#CUR:"F:\\bcd00\\init07.vhdl":1528558144
+#CUR:"F:\\bcd00\\sust07.vhdl":1528558198
+#CUR:"F:\\bcd00\\shift12bit07.vhdl":1528558290
+#CUR:"F:\\bcd00\\shift8bit07.vhdl":1528558326
+#CUR:"F:\\bcd00\\portAB07.vhdl":1528563022
+#CUR:"F:\\bcd00\\pcinc07.vhdl":1528558410
+#CUR:"F:\\bcd00\\mux07.vhdl":1528558504
+#CUR:"F:\\bcd00\\leeInst07.vhdl":1528558548
+#CUR:"F:\\bcd00\\contring07.vhdl":1528558620
+#CUR:"F:\\bcd00\\contIter07.vhdl":1528558702
+#CUR:"F:\\bcd00\\compadd07.vhdl":1528558746
+#CUR:"F:\\bcd00\\coderNibbles07.vhdl":1528558788
+#CUR:"F:\\bcd00\\ac12bit07.vhdl":1528558824
+#CUR:"F:\\bcd00\\ac8bit07.vhdl":1528558856
+#CUR:"F:\\bcd00\\div07.vhdl":1528559030
+#CUR:"F:\\bcd00\\packagep07.vhdl":1529097752
+#CUR:"F:\\osc00VHDL\\toposc00.vhdl":1520349706
+#CUR:"F:\\bcd00\\topp07.vhdl":1528567772
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "F:\osc00VHDL\osc00.vhdl" vhdl
+2 "F:\osc00VHDL\div00.vhdl" vhdl
+3 "F:\osc00VHDL\packageosc00.vhdl" vhdl
+4 "F:\bcd00\init07.vhdl" vhdl
+5 "F:\bcd00\sust07.vhdl" vhdl
+6 "F:\bcd00\shift12bit07.vhdl" vhdl
+7 "F:\bcd00\shift8bit07.vhdl" vhdl
+8 "F:\bcd00\portAB07.vhdl" vhdl
+9 "F:\bcd00\pcinc07.vhdl" vhdl
+10 "F:\bcd00\mux07.vhdl" vhdl
+11 "F:\bcd00\leeInst07.vhdl" vhdl
+12 "F:\bcd00\contring07.vhdl" vhdl
+13 "F:\bcd00\contIter07.vhdl" vhdl
+14 "F:\bcd00\compadd07.vhdl" vhdl
+15 "F:\bcd00\coderNibbles07.vhdl" vhdl
+16 "F:\bcd00\ac12bit07.vhdl" vhdl
+17 "F:\bcd00\ac8bit07.vhdl" vhdl
+18 "F:\bcd00\div07.vhdl" vhdl
+19 "F:\bcd00\packagep07.vhdl" vhdl
+20 "F:\osc00VHDL\toposc00.vhdl" vhdl
+21 "F:\bcd00\topp07.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 1 2 3 
+21 20 4 8 9 17 11 7 16 5 14 6 13 15 12 10 19 
+
+# Dependency Lists (Users Of)
+0 -1
+1 20 
+2 20 
+3 20 
+4 21 
+5 21 
+6 21 
+7 21 
+8 21 
+9 21 
+10 21 
+11 21 
+12 21 
+13 21 
+14 21 
+15 21 
+16 21 
+17 21 
+18 -1
+19 21 
+20 21 
+21 -1
+
+# Design Unit to File Association
+arch work osc00 osc0 1
+module work osc00 1
+arch work div00 div0 2
+module work div00 2
+arch work init07 init0 4
+module work init07 4
+arch work sust07 sust0 5
+module work sust07 5
+arch work shift12bit07 shift12bit0 6
+module work shift12bit07 6
+arch work shift8bit07 shift8bit0 7
+module work shift8bit07 7
+arch work portab07 portab0 8
+module work portab07 8
+arch work pcinc07 pcinc07 9
+module work pcinc07 9
+arch work mux07 mux0 10
+module work mux07 10
+arch work leeinst07 leeinst07 11
+module work leeinst07 11
+arch work contring07 contring0 12
+module work contring07 12
+arch work contiter07 contiter0 13
+module work contiter07 13
+arch work compadd07 compadd0 14
+module work compadd07 14
+arch work codernibbles07 codernibbles0 15
+module work codernibbles07 15
+arch work ac12bit07 ac12bit0 16
+module work ac12bit07 16
+arch work ac8bit07 ac8bit0 17
+module work ac8bit07 17
+arch work div07 div0 18
+module work div07 18
+arch work toposc00 toposc0 20
+module work toposc00 20
+arch work topp07 topp0 21
+module work topp07 21

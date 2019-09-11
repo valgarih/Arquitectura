@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toprom00  -multisrs  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\rom00\rom0\synwork\rom00_rom0_comp.srs  -osyn  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\rom00\rom0\synwork\rom00_rom0_mult.srs  -log  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\rom00\rom0\synlog\rom00_rom0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top toprom00 -multisrs ..\synwork\rom00_rom0_comp.srs -osyn ..\synwork\rom00_rom0_mult.srs -log ..\synlog\rom00_rom0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\rom00_rom0_comp.srs|io:i|time:1539880711|size:8262|exec:0|csum:F5CE41C6EEE3C2E0A3A02014F19FA8FF
+file:..\synwork\rom00_rom0_mult.srs|io:o|time:1539880713|size:3148|exec:0|csum:
+file:..\synlog\rom00_rom0_multi_srs_gen.srr|io:o|time:1539880713|size:555|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501910190|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

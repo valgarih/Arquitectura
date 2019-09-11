@@ -1,0 +1,458 @@
+---------------------------------------------------
+Report for cell topmult4bit00
+   Instance path: topmult4bit00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.00        100.0
+                                  LUT4	      26.00        100.0
+                                 IOBUF	         16        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              famu00_1	          1         7.7
+                              famu00_8	          1         3.8
+                              famu00_2	          1         7.7
+                                famu00	          1         7.7
+                            famu00_0_2	          1         7.7
+                            famu00_0_4	          1         7.7
+                            famu00_0_5	          1         7.7
+                            famu00_0_6	          1         7.7
+                            famu00_0_3	          1         7.7
+                            famu00_0_0	          1         7.7
+                            famu00_0_1	          1         7.7
+                              famu00_0	          1         7.7
+                               andmu_2	          1         3.8
+                                 andmu	          1         3.8
+                               andmu_1	          1         3.8
+---------------------------------------------------
+Report for cell famu00_0_6
+   Instance path: topmult4bit00/M27
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              ormu_0_6	          1         3.8
+                             hamu00_19	          1         3.8
+---------------------------------------------------
+Report for cell ormu_0_6
+   Instance path: topmult4bit00/M27/FA02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell hamu00_19
+   Instance path: topmult4bit00/M27/FA01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xormu_19	          1         3.8
+---------------------------------------------------
+Report for cell xormu_19
+   Instance path: topmult4bit00/M27/FA01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00_0_5
+   Instance path: topmult4bit00/M26
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              ormu_0_5	          1         3.8
+                             hamu00_17	          1         3.8
+---------------------------------------------------
+Report for cell ormu_0_5
+   Instance path: topmult4bit00/M26/FA02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell hamu00_17
+   Instance path: topmult4bit00/M26/FA01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xormu_17	          1         3.8
+---------------------------------------------------
+Report for cell xormu_17
+   Instance path: topmult4bit00/M26/FA01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00_0_4
+   Instance path: topmult4bit00/M25
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              ormu_0_4	          1         3.8
+                             hamu00_15	          1         3.8
+---------------------------------------------------
+Report for cell ormu_0_4
+   Instance path: topmult4bit00/M25/FA02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell hamu00_15
+   Instance path: topmult4bit00/M25/FA01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xormu_15	          1         3.8
+---------------------------------------------------
+Report for cell xormu_15
+   Instance path: topmult4bit00/M25/FA01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00_2
+   Instance path: topmult4bit00/M24
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             hamu00_13	          1         7.7
+---------------------------------------------------
+Report for cell hamu00_13
+   Instance path: topmult4bit00/M24/FA00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xormu_13	          1         3.8
+                              andmu_28	          1         3.8
+---------------------------------------------------
+Report for cell andmu_28
+   Instance path: topmult4bit00/M24/FA00/H01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell xormu_13
+   Instance path: topmult4bit00/M24/FA00/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00_0_3
+   Instance path: topmult4bit00/M19
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              ormu_0_3	          1         3.8
+                             hamu00_12	          1         3.8
+---------------------------------------------------
+Report for cell ormu_0_3
+   Instance path: topmult4bit00/M19/FA02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell hamu00_12
+   Instance path: topmult4bit00/M19/FA01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xormu_12	          1         3.8
+---------------------------------------------------
+Report for cell xormu_12
+   Instance path: topmult4bit00/M19/FA01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00_0_2
+   Instance path: topmult4bit00/M18
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              ormu_0_2	          1         3.8
+                             hamu00_10	          1         3.8
+---------------------------------------------------
+Report for cell ormu_0_2
+   Instance path: topmult4bit00/M18/FA02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell hamu00_10
+   Instance path: topmult4bit00/M18/FA01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xormu_10	          1         3.8
+---------------------------------------------------
+Report for cell xormu_10
+   Instance path: topmult4bit00/M18/FA01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00_0_1
+   Instance path: topmult4bit00/M17
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              ormu_0_1	          1         3.8
+                              hamu00_7	          1         3.8
+---------------------------------------------------
+Report for cell ormu_0_1
+   Instance path: topmult4bit00/M17/FA02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell hamu00_7
+   Instance path: topmult4bit00/M17/FA00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xormu_7	          1         3.8
+---------------------------------------------------
+Report for cell xormu_7
+   Instance path: topmult4bit00/M17/FA00/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00_1
+   Instance path: topmult4bit00/M16
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              hamu00_6	          1         7.7
+---------------------------------------------------
+Report for cell hamu00_6
+   Instance path: topmult4bit00/M16/FA00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xormu_6	          1         3.8
+                              andmu_17	          1         3.8
+---------------------------------------------------
+Report for cell andmu_17
+   Instance path: topmult4bit00/M16/FA00/H01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell xormu_6
+   Instance path: topmult4bit00/M16/FA00/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00_8
+   Instance path: topmult4bit00/M11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              hamu00_5	          1         3.8
+---------------------------------------------------
+Report for cell hamu00_5
+   Instance path: topmult4bit00/M11/FA01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xormu_5	          1         3.8
+---------------------------------------------------
+Report for cell xormu_5
+   Instance path: topmult4bit00/M11/FA01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00_0_0
+   Instance path: topmult4bit00/M10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              ormu_0_0	          1         3.8
+                              hamu00_4	          1         3.8
+---------------------------------------------------
+Report for cell ormu_0_0
+   Instance path: topmult4bit00/M10/FA02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell hamu00_4
+   Instance path: topmult4bit00/M10/FA01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xormu_4	          1         3.8
+---------------------------------------------------
+Report for cell xormu_4
+   Instance path: topmult4bit00/M10/FA01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00_0
+   Instance path: topmult4bit00/M09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                ormu_0	          1         3.8
+                              hamu00_1	          1         3.8
+---------------------------------------------------
+Report for cell ormu_0
+   Instance path: topmult4bit00/M09/FA02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell hamu00_1
+   Instance path: topmult4bit00/M09/FA00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xormu_0	          1         3.8
+---------------------------------------------------
+Report for cell xormu_0
+   Instance path: topmult4bit00/M09/FA00/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell famu00
+   Instance path: topmult4bit00/M08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                hamu00	          1         7.7
+---------------------------------------------------
+Report for cell hamu00
+   Instance path: topmult4bit00/M08/FA00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         7.7
+                                  LUT4	       2.00         7.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 xormu	          1         3.8
+                               andmu_7	          1         3.8
+---------------------------------------------------
+Report for cell andmu_7
+   Instance path: topmult4bit00/M08/FA00/H01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell xormu
+   Instance path: topmult4bit00/M08/FA00/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell andmu_2
+   Instance path: topmult4bit00/M03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell andmu_1
+   Instance path: topmult4bit00/M02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8
+---------------------------------------------------
+Report for cell andmu
+   Instance path: topmult4bit00/M00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         3.8
+                                  LUT4	       1.00         3.8

@@ -1,0 +1,10 @@
+#Start recording tcl command: 3/5/2018 08:49:18
+#Project Location: C:/Users/segui/OneDrive/Documentos/Arquitectura/mult8bit00; Project name: mult8bit00
+C:/Users/segui/OneDrive/Documentos/Arquitectura/oscint
+oscint
+#Start recording tcl command: 3/5/2018 08:49:47
+#Project Location: C:/Users/segui/OneDrive/Documentos/Arquitectura/oscint; Project name: oscint
+prj_project open "C:/Users/segui/OneDrive/Documentos/Arquitectura/mult8bit00/mult8bit00.ldf"
+prj_project close
+prj_project open "C:/Users/segui/OneDrive/Documentos/Arquitectura/oscint/oscint.ldf"
+#Stop recording: 3/5/2018 08:49:48

@@ -1,0 +1,18 @@
+#Start recording tcl command: 3/8/2018 10:55:43
+#Project Location: C:/Users/lalo/Desktop/quinto semestre/arquitectura/shiftRL00; Project name: shiftRL00
+prj_project new -name "shiftRL00" -impl "shiftRL00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/div00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/osc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/packageosc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/toposc00.vhdl"
+prj_project save
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/shiftRL00/shiftRL00.vhdl"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/shiftRL00/packageshiftRL00.vhdl"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/shiftRL00/topshiftRL00.vhdl"
+prj_run Export -impl shiftRL00 -task Jedecgen
+prj_run Export -impl shiftRL00 -task Jedecgen
+prj_run Export -impl shiftRL00 -task Jedecgen
+pgr_project save "C:/Users/lalo/Desktop/quinto semestre/arquitectura/shiftRL00/shiftRL00/shiftRL00.xcf"
+prj_src add -exclude "C:/Users/lalo/Desktop/quinto semestre/arquitectura/shiftRL00/shiftRL00/shiftRL00.xcf"
+prj_src enable "C:/Users/lalo/Desktop/quinto semestre/arquitectura/shiftRL00/shiftRL00/shiftRL00.xcf"
+pgr_program run
+pgr_project save "C:/Users/lalo/Desktop/quinto semestre/arquitectura/shiftRL00/shiftRL00/shiftRL00.xcf"
+pgr_project close
+#Stop recording: 3/8/2018 12:01:53

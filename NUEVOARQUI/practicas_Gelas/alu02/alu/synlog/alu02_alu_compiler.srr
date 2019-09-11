@@ -1,0 +1,147 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl":7:7:7:14|Top entity is set to topalu01.
+File C:\Program Files\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\osc00.vhdl changed - recompiling
+File C:\Program Files\diamond\3.10_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\packageosc00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\and00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\or00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\packageha00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\packagefa00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\xor00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\xnor00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\packageadder8bit00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\packagemult8bit00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\anda00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\ora00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xoral00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\notal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\nandal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\noral00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xnoral00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\acal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\packagealu01.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\multal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\toposc00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\ha00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\fa00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\topadder8bit00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\topmult8bit00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl changed - recompiling
+@W: CD433 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\multal00.vhdl":0:0:0:0|No design units in file
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl":7:7:7:14|Synthesizing work.topalu01.topalu0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\acal00.vhdl":6:7:6:12|Synthesizing work.acal00.acal0.
+Post processing for work.acal00.acal0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":6:7:6:14|Synthesizing work.subsal00.subsal0.
+Post processing for work.subsal00.subsal0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":24:1:24:2|Pruning unused register outFlagsubs_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl":6:7:6:13|Synthesizing work.addal00.addal0.
+Post processing for work.addal00.addal0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl":24:1:24:2|Pruning unused register outFlagadd_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\topmult8bit00.vhdl":7:7:7:19|Synthesizing work.topmult8bit00.topmult8bit0.
+@W: CD796 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\topmult8bit00.vhdl":16:34:16:36|Bit 7 of signal s20 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\ha00.vhdl":7:7:7:10|Synthesizing work.ha00.ha0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+Post processing for work.ha00.ha0
+Post processing for work.fa00.fa0
+Post processing for work.topmult8bit00.topmult8bit0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\topadder8bit00.vhdl":7:7:7:20|Synthesizing work.topadder8bit00.topadder8bit0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\xnor00.vhdl":6:7:6:12|Synthesizing work.xnor00.xnor0.
+Post processing for work.xnor00.xnor0
+Post processing for work.topadder8bit00.topadder8bit0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xnoral00.vhdl":6:7:6:14|Synthesizing work.xnoral00.xnoral0.
+Post processing for work.xnoral00.xnoral0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xnoral00.vhdl":22:2:22:3|Pruning unused register outFlagxnoral_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\noral00.vhdl":6:7:6:13|Synthesizing work.noral00.noral0.
+Post processing for work.noral00.noral0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\noral00.vhdl":22:2:22:3|Pruning unused register outFlagnoral_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\nandal00.vhdl":6:7:6:14|Synthesizing work.nandal00.nandal0.
+Post processing for work.nandal00.nandal0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\nandal00.vhdl":22:2:22:3|Pruning unused register outFlagnandal_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\notal00.vhdl":6:7:6:13|Synthesizing work.notal00.notal0.
+Post processing for work.notal00.notal0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\notal00.vhdl":22:2:22:3|Pruning unused register outFlagnotal_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xoral00.vhdl":6:7:6:13|Synthesizing work.xoral00.xoral0.
+Post processing for work.xoral00.xoral0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xoral00.vhdl":23:2:23:3|Pruning unused register outFlagxoral_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\ora00.vhdl":6:7:6:11|Synthesizing work.ora00.ora0.
+Post processing for work.ora00.ora0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\ora00.vhdl":23:2:23:3|Pruning unused register outFlagoral_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\anda00.vhdl":6:7:6:12|Synthesizing work.anda00.anda0.
+Post processing for work.anda00.anda0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\anda00.vhdl":23:2:23:3|Pruning unused register outFlagal_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":27:2:27:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":36:2:36:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":45:2:45:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":54:2:54:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":63:2:63:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":72:2:72:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":81:2:81:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":90:2:90:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":99:2:99:7|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.topalu01.topalu0
+@W: CL168 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl":93:1:93:4|Removing instance AL09 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL138 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl":24:1:24:2|Removing register 'outSLadd' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":24:1:24:2|Removing register 'outSLsubs' because it is only assigned 0 or its original value.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  2 13:02:46 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  2 13:02:46 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  2 13:02:46 2019
+
+###########################################################]

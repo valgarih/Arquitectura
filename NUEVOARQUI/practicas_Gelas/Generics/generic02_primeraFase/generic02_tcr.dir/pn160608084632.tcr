@@ -1,0 +1,6 @@
+#Start recording tcl command: 6/8/2016 08:45:01
+#Project Location: F:/generic04/generic02; Project name: generic02
+prj_project open "F:/generic04/generic02/generic02.ldf"
+prj_project save
+prj_project close
+#Stop recording: 6/8/2016 08:46:32

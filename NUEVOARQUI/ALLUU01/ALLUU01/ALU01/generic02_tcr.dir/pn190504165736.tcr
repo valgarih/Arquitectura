@@ -1,0 +1,8 @@
+#Start recording tcl command: 5/2/2019 13:09:25
+#Project Location: C:/Users/Valery Garibay/Desktop/NUEVOARQUI/ALLUU01/ALLUU01/ALU01; Project name: generic02
+prj_project open "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/ALLUU01/ALLUU01/ALU01/generic02.ldf"
+prj_run Export -impl generic02 -task Jedecgen
+pgr_project open "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/ALLUU01/ALLUU01/ALU01/generic02/generic02.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 5/4/2019 16:57:36

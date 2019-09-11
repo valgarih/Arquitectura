@@ -1,0 +1,75 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03L
+#--  Project file C:\lscc\Arquitectura\org\combinacional01\combin01\run_options.txt
+
+#project files
+add_file -vhdl -lib work "C:/lscc/diamond/3.5_x64/cae_library/synthesis/vhdl/machxo3l.vhd"
+add_file -vhdl -lib work "C:/lscc/Arquitectura/org/combinacional01/combin01/source/and.vhdl"
+add_file -vhdl -lib work "C:/lscc/Arquitectura/org/combinacional01/combin01/source/or.vhdl"
+add_file -vhdl -lib work "C:/lscc/Arquitectura/org/combinacional01/combin01/source/paquete_sumadorcompleto.vhdl"
+add_file -vhdl -lib work "C:/lscc/Arquitectura/org/combinacional01/combin01/source/paquete_sumadormedio.vhdl"
+add_file -vhdl -lib work "C:/lscc/Arquitectura/org/combinacional01/combin01/source/xor.vhdl"
+add_file -vhdl -lib work "C:/lscc/Arquitectura/org/combinacional01/paquete_topcombin.vhdl"
+add_file -vhdl -lib work "C:/lscc/Arquitectura/org/combinacional01/combin01/source/top_sumadormedio.vhdl"
+add_file -vhdl -lib work "C:/lscc/Arquitectura/org/combinacional01/combin01/source/top_sumadorcompleto.vhdl"
+add_file -vhdl -lib work "C:/lscc/Arquitectura/org/combinacional01/topmulticomb01.vhdl"
+
+
+
+#implementation: "combin01"
+impl -add combin01 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+
+#device options
+set_option -technology MACHXO3L
+set_option -part LCMXO3L_6900C
+set_option -package BG256C
+set_option -speed_grade -5
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "eTopMultip00"
+
+# mapper_options
+set_option -frequency 1
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# Lattice XP
+set_option -maxfan 1000
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -pipe 1
+set_option -forcegsr false
+set_option -fix_gated_and_generated_clocks 1
+set_option -rw_check_on_ram 1
+set_option -update_models_cp 0
+set_option -syn_edif_array_rename 1
+set_option -Write_declared_clocks_only 1
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./combin01_combin01.edi"
+
+#set log file 
+set_option log_file "C:/lscc/Arquitectura/org/combinacional01/combin01/combin01_combin01.srf" 
+impl -active "combin01"

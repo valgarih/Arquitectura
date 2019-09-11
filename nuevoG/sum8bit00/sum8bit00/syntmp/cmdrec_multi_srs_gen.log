@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topadder8bit00  -multisrs  C:\Users\jmaci\Desktop\sum8bit00\sum8bit00\synwork\sum8bit00_sum8bit00_comp.srs  -osyn  C:\Users\jmaci\Desktop\sum8bit00\sum8bit00\synwork\sum8bit00_sum8bit00_mult.srs  -log  C:\Users\jmaci\Desktop\sum8bit00\sum8bit00\synlog\sum8bit00_sum8bit00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topadder8bit00 -multisrs ..\synwork\sum8bit00_sum8bit00_comp.srs -osyn ..\synwork\sum8bit00_sum8bit00_mult.srs -log ..\synlog\sum8bit00_sum8bit00_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\sum8bit00_sum8bit00_comp.srs|io:i|time:1520488330|size:5958|exec:0|csum:051155D00FDC3B01496CE8F07179C2BE
+file:..\synwork\sum8bit00_sum8bit00_mult.srs|io:o|time:1520488332|size:3550|exec:0|csum:
+file:..\synlog\sum8bit00_sum8bit00_multi_srs_gen.srr|io:o|time:1520488332|size:409|exec:0|csum:
+file:..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

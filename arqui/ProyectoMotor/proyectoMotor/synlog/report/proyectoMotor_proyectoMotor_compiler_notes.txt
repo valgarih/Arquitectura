@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\servo_pwm_clk64kHz.vhdl":4:7:4:24|Top entity is set to servo_pwm_clk64kHz.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\servo_pwm_clk64kHz.vhdl":4:7:4:24|Synthesizing work.servo_pwm_clk64khz.behavioral.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\servo_pwm.vhdl":5:7:5:15|Synthesizing work.servo_pwm.behavioral.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\clk64kHz.vhdl":4:7:4:14|Synthesizing work.clk64khz.behavioral.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,9 @@
+clkc  i
+enc  i
+outc  o
+outc1  o
+aux1[4]  o
+aux1[3]  o
+aux1[2]  o
+aux1[1]  o
+aux1[0]  o

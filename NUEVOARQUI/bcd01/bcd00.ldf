@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="bcd00" device="LCMXO2-7000HE-5TG144C" default_implementation="bcd00">
+    <Options/>
+    <Implementation title="bcd00" dir="bcd00" description="bcd00" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topconvbcd00"/>
+        <Source name="div00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="osc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packageosc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="toposc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="toposc00"/>
+        </Source>
+        <Source name="init00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="ac8bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="ac12bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="coderNibbles00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="compadd00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="contIter00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="contring00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="divint00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="leeInst00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="mux00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="shift8bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="shift12bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="sust00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="pcinc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="portA00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagediv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagep00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topdiv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topconvbcd00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topconvbcd00"/>
+        </Source>
+        <Source name="bcd00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="bcd00/bcd00.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="bcd001.sty"/>
+</BaliProject>

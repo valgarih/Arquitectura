@@ -1,0 +1,70 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\lscc\\Arquitectura\\org\\combinacional01\\combin01\\synwork\\combin01_combin01_comp.srs|-top|eTopMultip00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\bin64\\c_vhdl.exe":1429561930
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\location.map":1429719370
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\std.vhd":1429561514
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1429561514
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\std1164.vhd":1429561514
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\numeric.vhd":1429561514
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1429561514
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\arith.vhd":1429561514
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1429561514
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1429561514
+#CUR:"C:\\lscc\\diamond\\3.5_x64\\cae_library\\synthesis\\vhdl\\machxo3l.vhd":1389385814
+#CUR:"C:\\lscc\\Arquitectura\\org\\combinacional01\\combin01\\source\\and.vhdl":1443565939
+#CUR:"C:\\lscc\\Arquitectura\\org\\combinacional01\\combin01\\source\\or.vhdl":1443566249
+#CUR:"C:\\lscc\\Arquitectura\\org\\combinacional01\\combin01\\source\\paquete_sumadorcompleto.vhdl":1443566535
+#CUR:"C:\\lscc\\Arquitectura\\org\\combinacional01\\combin01\\source\\paquete_sumadormedio.vhdl":1443566592
+#CUR:"C:\\lscc\\Arquitectura\\org\\combinacional01\\combin01\\source\\xor.vhdl":1443566348
+#CUR:"C:\\lscc\\Arquitectura\\org\\combinacional01\\paquete_topcombin.vhdl":1449082192
+#CUR:"C:\\lscc\\Arquitectura\\org\\combinacional01\\combin01\\source\\top_sumadormedio.vhdl":1443566806
+#CUR:"C:\\lscc\\Arquitectura\\org\\combinacional01\\combin01\\source\\top_sumadorcompleto.vhdl":1443566810
+#CUR:"C:\\lscc\\Arquitectura\\org\\combinacional01\\topmulticomb01.vhdl":1449094489
+0 "C:\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo3l.vhd" vhdl
+1 "C:\lscc\Arquitectura\org\combinacional01\combin01\source\and.vhdl" vhdl
+2 "C:\lscc\Arquitectura\org\combinacional01\combin01\source\or.vhdl" vhdl
+3 "C:\lscc\Arquitectura\org\combinacional01\combin01\source\paquete_sumadorcompleto.vhdl" vhdl
+4 "C:\lscc\Arquitectura\org\combinacional01\combin01\source\paquete_sumadormedio.vhdl" vhdl
+5 "C:\lscc\Arquitectura\org\combinacional01\combin01\source\xor.vhdl" vhdl
+6 "C:\lscc\Arquitectura\org\combinacional01\paquete_topcombin.vhdl" vhdl
+7 "C:\lscc\Arquitectura\org\combinacional01\combin01\source\top_sumadormedio.vhdl" vhdl
+8 "C:\lscc\Arquitectura\org\combinacional01\combin01\source\top_sumadorcompleto.vhdl" vhdl
+9 "C:\lscc\Arquitectura\org\combinacional01\topmulticomb01.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 1 5 4 
+8 2 7 3 
+9 1 8 6 
+
+# Dependency Lists (Users Of)
+0 -1
+1 9 7 
+2 8 
+3 8 
+4 7 
+5 7 
+6 9 
+7 8 
+8 9 
+9 -1
+
+# Design Unit to File Association
+arch work eand aand 1
+module work eand 1
+arch work eor aor 2
+module work eor 2
+arch work exor axor 5
+module work exor 5
+arch work etopsummedio atopsummedio 7
+module work etopsummedio 7
+arch work etopsumcompleto atopsumcompleto 8
+module work etopsumcompleto 8
+arch work etopmultip00 atopmultip 9
+module work etopmultip00 9

@@ -1,0 +1,12 @@
+#Start recording tcl command: 6/15/2018 15:40:43
+#Project Location: F:/alu00; Project name: alu00
+prj_project open "F:/alu00/alu00.ldf"
+prj_run Export -impl alu -task Jedecgen
+pgr_project open "F:/alu00/alu/alu.xcf"
+pgr_program run
+pgr_project save "F:/alu00/alu/alu.xcf"
+prj_run Export -impl alu -task Jedecgen
+pgr_program run
+pgr_project save "F:/alu00/alu/alu.xcf"
+prj_project close
+#Stop recording: 6/15/2018 16:20:20

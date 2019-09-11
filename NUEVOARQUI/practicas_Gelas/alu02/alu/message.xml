@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD433 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\multal00.vhdl&quot;:0:0:0:0|No design units in file</Dynamic>
+            <Navigation>CD433</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\multal00.vhdl</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>No design units in file</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl&quot;:24:1:24:2|Pruning unused register outFlagsubs_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Pruning unused register outFlagsubs_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl&quot;:24:1:24:2|Pruning unused register outFlagadd_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Pruning unused register outFlagadd_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\topmult8bit00.vhdl&quot;:16:34:16:36|Bit 7 of signal s20 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\topmult8bit00.vhdl</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>36</Navigation>
+            <Navigation>Bit 7 of signal s20 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xnoral00.vhdl&quot;:22:2:22:3|Pruning unused register outFlagxnoral_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xnoral00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outFlagxnoral_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\noral00.vhdl&quot;:22:2:22:3|Pruning unused register outFlagnoral_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\noral00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outFlagnoral_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\nandal00.vhdl&quot;:22:2:22:3|Pruning unused register outFlagnandal_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\nandal00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outFlagnandal_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\notal00.vhdl&quot;:22:2:22:3|Pruning unused register outFlagnotal_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\notal00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outFlagnotal_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xoral00.vhdl&quot;:23:2:23:3|Pruning unused register outFlagxoral_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xoral00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outFlagxoral_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\ora00.vhdl&quot;:23:2:23:3|Pruning unused register outFlagoral_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\ora00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outFlagoral_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\anda00.vhdl&quot;:23:2:23:3|Pruning unused register outFlagal_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\anda00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outFlagal_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl&quot;:93:1:93:4|Removing instance AL09 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl</Navigation>
+            <Navigation>93</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>93</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing instance AL09 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl&quot;:24:1:24:2|Removing register 'outSLadd' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing register 'outSLadd' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl&quot;:24:1:24:2|Removing register 'outSLsubs' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing register 'outSLsubs' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\osc00vhdl\div00.vhdl&quot;:20:0:20:1|Found inferred clock osc00|osc_int_inferred_clock which controls 23 sequential elements including AL00.OS01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\osc00vhdl\div00.vhdl</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 23 sequential elements including AL00.OS01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>BN129 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu02\topalu01.vhdl&quot;:7:7:7:14|Net outFlagInstal0 (in view: work.topalu01(topalu0)) has mixed driver types</Dynamic>
+            <Navigation>BN129</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu02\topalu01.vhdl</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Net outFlagInstal0 (in view: work.topalu01(topalu0)) has mixed driver types </Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topshiftRL00\topshiftRL00.vhdl":7:7:7:18|Top entity is set to topshiftRL00.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topshiftRL00\topshiftRL00.vhdl":7:7:7:18|Synthesizing work.topshiftrl00.topshiftrl0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topshiftRL00\packageshiftRL00.vhdl":13:10:13:18|Synthesizing work.shiftrl00.syn_black_box.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topshiftRL00\packageshiftRL00.vhdl":8:10:8:17|Synthesizing work.topdiv00.syn_black_box.
+@N|Running in 64-bit mode
+

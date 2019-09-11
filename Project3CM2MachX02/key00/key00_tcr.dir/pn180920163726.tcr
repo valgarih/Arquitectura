@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/20/2018 15:40:53
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/key00; Project name: key00
+prj_project open "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/key00/key00.ldf"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/key00/packagekey00.vhd"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/key00/topkey00.vhd"
+#Stop recording: 9/20/2018 16:37:26

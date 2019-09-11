@@ -1,0 +1,120 @@
+[ START MERGED ]
+[ END MERGED ]
+[ START CLIPPED ]
+AC00/OS00/GND
+AC00/OS01/GND
+AC10/GND
+AC09/GND
+AC08/GND
+VCC
+GND
+AC00/OS00/OSCInst0_SEDSTDBY
+AC00/OS01/un1_sdiv_cry_0_0_S0
+AC00/OS01/N_1
+AC00/OS01/un1_sdiv_s_21_0_S1
+AC00/OS01/un1_sdiv_s_21_0_COUT
+AC10/outmultal_1_madd_4_cry_9_0_COUT
+AC10/outmultal_1_madd_3_cry_1_0_S1
+AC10/outmultal_1_madd_3_cry_1_0_S0
+AC10/N_2
+AC10/outmultal_1_madd_3_cry_8_0_COUT
+AC10/outmultal_1_madd_2_cry_1_0_S1
+AC10/outmultal_1_madd_2_cry_1_0_S0
+AC10/N_18
+AC10/outmultal_1_madd_2_cry_8_0_COUT
+AC10/outmultal_1_madd_1_cry_1_0_S1
+AC10/outmultal_1_madd_1_cry_1_0_S0
+AC10/N_19
+AC10/outmultal_1_madd_1_cry_8_0_COUT
+AC10/outmultal_1_madd_0_cry_0_0_S1
+AC10/outmultal_1_madd_0_cry_0_0_S0
+AC10/N_20
+AC10/outmultal_1_madd_0_cry_7_0_COUT
+AC10/outmultal_1_madd_cry_0_0_S1
+AC10/outmultal_1_madd_cry_0_0_S0
+AC10/N_21
+AC10/outmultal_1_madd_s_11_0_S1
+AC10/outmultal_1_madd_s_11_0_COUT
+AC10/outmultal_1_madd_5_cry_2_0_S1
+AC10/outmultal_1_madd_5_cry_2_0_S0
+AC10/N_22
+AC10/outmultal_1_madd_5_s_11_0_S1
+AC10/outmultal_1_madd_5_s_11_0_COUT
+AC10/outmultal_1_madd_4_cry_0_0_S1
+AC10/outmultal_1_madd_4_cry_0_0_S0
+AC10/N_1
+AC09/outsubsal_1_cry_0_0_S1
+AC09/outsubsal_1_cry_0_0_S0
+AC09/N_1
+AC09/outsubsal_1_s_7_0_S1
+AC09/outsubsal_1_s_7_0_COUT
+AC08/outadderal_2_cry_0_0_S1
+AC08/outadderal_2_cry_0_0_S0
+AC08/N_1
+AC08/outadderal_2_s_7_0_S1
+AC08/outadderal_2_s_7_0_COUT
+[ END CLIPPED ]
+[ START OSC ]
+AC00.sclk_0 2.08
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.10.0.111.2 -- WARNING: Map write only section -- Thu May 02 12:51:02 2019
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "outFlaginside" SITE "132" ;
+LOCATE COMP "clk00" SITE "95" ;
+LOCATE COMP "cdiv00[0]" SITE "62" ;
+LOCATE COMP "outac01[15]" SITE "128" ;
+LOCATE COMP "outac01[14]" SITE "127" ;
+LOCATE COMP "outac01[13]" SITE "126" ;
+LOCATE COMP "outac01[12]" SITE "125" ;
+LOCATE COMP "outac01[11]" SITE "122" ;
+LOCATE COMP "outac01[10]" SITE "121" ;
+LOCATE COMP "outac01[9]" SITE "119" ;
+LOCATE COMP "outac01[8]" SITE "120" ;
+LOCATE COMP "outac01[7]" SITE "115" ;
+LOCATE COMP "outac01[6]" SITE "117" ;
+LOCATE COMP "outac01[5]" SITE "113" ;
+LOCATE COMP "outac01[4]" SITE "114" ;
+LOCATE COMP "outac01[3]" SITE "111" ;
+LOCATE COMP "outac01[2]" SITE "112" ;
+LOCATE COMP "outac01[1]" SITE "109" ;
+LOCATE COMP "outac01[0]" SITE "110" ;
+LOCATE COMP "outac0[7]" SITE "81" ;
+LOCATE COMP "outac0[6]" SITE "82" ;
+LOCATE COMP "outac0[5]" SITE "77" ;
+LOCATE COMP "outac0[4]" SITE "78" ;
+LOCATE COMP "outac0[3]" SITE "75" ;
+LOCATE COMP "outac0[2]" SITE "76" ;
+LOCATE COMP "outac0[1]" SITE "73" ;
+LOCATE COMP "outac0[0]" SITE "74" ;
+LOCATE COMP "portB0[7]" SITE "106" ;
+LOCATE COMP "portB0[6]" SITE "107" ;
+LOCATE COMP "portB0[5]" SITE "104" ;
+LOCATE COMP "portB0[4]" SITE "105" ;
+LOCATE COMP "portB0[3]" SITE "99" ;
+LOCATE COMP "portB0[2]" SITE "100" ;
+LOCATE COMP "portB0[1]" SITE "97" ;
+LOCATE COMP "portB0[0]" SITE "98" ;
+LOCATE COMP "portA0[7]" SITE "49" ;
+LOCATE COMP "portA0[6]" SITE "47" ;
+LOCATE COMP "portA0[5]" SITE "50" ;
+LOCATE COMP "portA0[4]" SITE "48" ;
+LOCATE COMP "portA0[3]" SITE "55" ;
+LOCATE COMP "portA0[2]" SITE "52" ;
+LOCATE COMP "portA0[1]" SITE "56" ;
+LOCATE COMP "portA0[0]" SITE "54" ;
+LOCATE COMP "outFlagac0" SITE "133" ;
+LOCATE COMP "opcode0[3]" SITE "44" ;
+LOCATE COMP "opcode0[2]" SITE "42" ;
+LOCATE COMP "opcode0[1]" SITE "45" ;
+LOCATE COMP "opcode0[0]" SITE "43" ;
+LOCATE COMP "en0" SITE "40" ;
+LOCATE COMP "cdiv00[4]" SITE "58" ;
+LOCATE COMP "cdiv00[3]" SITE "65" ;
+LOCATE COMP "cdiv00[2]" SITE "61" ;
+LOCATE COMP "cdiv00[1]" SITE "67" ;
+FREQUENCY NET "AC00.sclk_0" 2.080000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

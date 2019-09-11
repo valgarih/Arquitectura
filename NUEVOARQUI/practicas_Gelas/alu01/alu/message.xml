@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl&quot;:24:1:24:2|Pruning unused register outFlagsubs_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Pruning unused register outFlagsubs_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl&quot;:24:1:24:2|Removing register 'outSLsubs' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Removing register 'outSLsubs' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:24:1:24:2|Found inferred clock subsal00|clksubs which controls 21 sequential elements including aux. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Found inferred clock subsal00|clksubs which controls 21 sequential elements including aux. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:26:3:26:6|Removing user instance outsubs_cl_15[7] because it is equivalent to instance outsubs_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Removing user instance outsubs_cl_15[7] because it is equivalent to instance outsubs_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:26:3:26:6|Removing user instance outsubs_cl_14[7] because it is equivalent to instance outsubs_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Removing user instance outsubs_cl_14[7] because it is equivalent to instance outsubs_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:26:3:26:6|Removing user instance outsubs_cl_13[7] because it is equivalent to instance outsubs_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Removing user instance outsubs_cl_13[7] because it is equivalent to instance outsubs_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:26:3:26:6|Removing user instance outsubs_cl_12[7] because it is equivalent to instance outsubs_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Removing user instance outsubs_cl_12[7] because it is equivalent to instance outsubs_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:26:3:26:6|Removing user instance outsubs_cl_11[7] because it is equivalent to instance outsubs_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Removing user instance outsubs_cl_11[7] because it is equivalent to instance outsubs_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:26:3:26:6|Removing user instance outsubs_cl_10[7] because it is equivalent to instance outsubs_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Removing user instance outsubs_cl_10[7] because it is equivalent to instance outsubs_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:26:3:26:6|Removing user instance outsubs_cl_9[7] because it is equivalent to instance outLEDoverfsubs_cl_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Removing user instance outsubs_cl_9[7] because it is equivalent to instance outLEDoverfsubs_cl_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:25:2:25:3|Removing user instance outsubs_cl_23[7] because it is equivalent to instance outsubs_cl_21[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing user instance outsubs_cl_23[7] because it is equivalent to instance outsubs_cl_21[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:26:3:26:6|Removing user instance outLEDoverfsubs_cl_1 because it is equivalent to instance outsubs_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Removing user instance outLEDoverfsubs_cl_1 because it is equivalent to instance outsubs_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl&quot;:25:2:25:3|Removing user instance outsubs_cl_21[7] because it is equivalent to instance outsubs_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing user instance outsubs_cl_21[7] because it is equivalent to instance outsubs_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock subsal00|clksubs with period 1000.00ns. Please declare a user-defined clock on object &quot;p:clksubs&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock subsal00|clksubs with period 1000.00ns. Please declare a user-defined clock on object &quot;p:clksubs&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

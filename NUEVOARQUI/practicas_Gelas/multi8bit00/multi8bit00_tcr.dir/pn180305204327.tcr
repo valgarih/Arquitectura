@@ -1,0 +1,7 @@
+#Start recording tcl command: 3/5/2018 20:42:07
+#Project Location: C:/Users/lalo/Desktop/quinto semestre/arquitectura/multi8bit00; Project name: multi8bit00
+prj_project new -name "multi8bit00" -impl "multi8bit0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/sumador00/and00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/sumador00/fa00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/sumador00/ha00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/sumador00/or00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/sumador00/package00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/sumador00/packagefa00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/sumador00/xor00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 3/5/2018 20:43:27

@@ -1,0 +1,18 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue May 21 12:01:01 2019 *
+NOTE DESIGN NAME: servo_pwm_clk64kHz *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS servo : 110 : out *
+NOTE PINS clk : 95 : in *
+NOTE PINS pos[6] : 57 : in *
+NOTE PINS pos[5] : 60 : in *
+NOTE PINS pos[4] : 58 : in *
+NOTE PINS pos[3] : 65 : in *
+NOTE PINS pos[2] : 61 : in *
+NOTE PINS pos[1] : 67 : in *
+NOTE PINS pos[0] : 62 : in *
+NOTE PINS reset : 40 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

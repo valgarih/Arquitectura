@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/16/2018 09:09:10
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/rom00; Project name: rom00
+prj_project new -name "rom00" -impl "rom0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00vhdl/div00.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00vhdl/osc00.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00vhdl/packagediv00.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00vhdl/topdiv00.vhd"
+prj_project save
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/rom00/rom00.vhd"
+#Stop recording: 10/16/2018 09:52:06

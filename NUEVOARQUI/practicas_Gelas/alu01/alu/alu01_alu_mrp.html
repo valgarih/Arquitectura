@@ -1,0 +1,312 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+           Lattice Mapping Report File for Design Module 'subsal00'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     alu01_alu.ngd -o alu01_alu_map.ncd -pr alu01_alu.prf -mp alu01_alu.mrp -lpf
+     C:/Users/Valery Garibay/Desktop/NUEVOARQUI/practicas_Gelas/alu01/alu/alu01_
+     alu_synplify.lpf -lpf C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/practicas_Gelas/alu01/alu01.lpf -c 0 -gui
+     -msgset C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/practicas_Gelas/alu01/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  05/02/19  13:01:17
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:     13 out of  7209 (0%)
+      PFU registers:            2 out of  6864 (0%)
+      PIO registers:           11 out of   345 (3%)
+   Number of SLICEs:         5 out of  3432 (0%)
+      SLICEs as Logic/ROM:      5 out of  3432 (0%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:          0 out of  3432 (0%)
+   Number of LUT4s:         10 out of  6864 (0%)
+      Number used as logic LUTs:         10
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 27 + 4(JTAG) out of 115 (27%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net clksubs_c: 12 loads, 12 rising, 0 falling (Driver: PIO clksubs )
+
+   Number of Clock Enables:  2
+     Net outsubs_1ce[0]: 9 loads, 0 LSLICEs
+     Net aux_0_sqmuxa_i: 1 loads, 1 LSLICEs
+   Number of LSRs:  1
+     Net opcodesubs_c[0]: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net outsubs_cl[7]: 10 loads
+     Net outsubs_1ce[0]: 9 loads
+     Net aux: 4 loads
+     Net inFlagsubs_c: 4 loads
+     Net opcodesubs_c[0]: 3 loads
+     Net opcodesubs_c[3]: 3 loads
+     Net opcodesubs_c[4]: 3 loads
+     Net psubs.un1_opcodesubs: 3 loads
+     Net opcodesubs_c[1]: 2 loads
+     Net opcodesubs_c[2]: 2 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+   No errors or warnings present.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| outsubs[0]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outSLsubs           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clksubs             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outLEDoverfsubs     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagsubs         | OUTPUT    | LVCMOS25  | OUT/TRI    |
++---------------------+-----------+-----------+------------+
+| outsubs[7]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outsubs[6]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outsubs[5]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outsubs[4]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outsubs[3]          | OUTPUT    | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| outsubs[2]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outsubs[1]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| insubs[7]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| insubs[6]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| insubs[5]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| insubs[4]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| insubs[3]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| insubs[2]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| insubs[1]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| insubs[0]           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inLEDoverfsubs      | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| inFlagsubs          | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| opcodesubs[4]       | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| opcodesubs[3]       | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| opcodesubs[2]       | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| opcodesubs[1]       | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| opcodesubs[0]       | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal outsubs_cl_i[7] was merged into signal outsubs_cl[7]
+Signal VCC undriven or does not drive anything - clipped.
+Block outsubs_cl_RNIINN5[7] was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+
+   Peak Memory Usage: 34 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

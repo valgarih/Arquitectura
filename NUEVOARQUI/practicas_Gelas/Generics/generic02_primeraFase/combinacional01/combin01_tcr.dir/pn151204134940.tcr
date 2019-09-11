@@ -1,0 +1,7 @@
+#Start recording tcl command: 12/4/2015 13:47:05
+#Project Location: C:/lscc/Arquitectura/org/combinacional01; Project name: combin01
+prj_project open "C:/lscc/Arquitectura/org/combinacional01/combin01.ldf"
+pgr_project open "C:/lscc/Arquitectura/org/combinacional01/combin01/combin01.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 12/4/2015 13:49:40

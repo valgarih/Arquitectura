@@ -1,0 +1,9 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  "C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld"  -part LC4064B  -package T44C  -grade -2.5   -ispmach4s -RWCheckOnRam 1 -areadelay 0 -minc -auto_constrain_io -summaryfile "C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synlog\report\topcontrol_fpga_mapper.xml" -top_level_module  topcontrol  -multisrs  -ta_num_paths 3  -ta_num_points 0  -oedif  "C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\topcontrol.edi"  -freq 200.000  "C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synwork\topcontrol_mult.srs"  -ologparam  "C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\syntmp\topcontrol.plg"  -osyn  "C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\topcontrol.srm"  -prjdir  "c:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\"  -prjname  topcontrol  -log  "C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synlog\topcontrol_fpga_mapper.srr" 
+rc:0 success:1
+C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\topcontrol.edi|o|1559264269|114881
+C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synwork\topcontrol_mult.srs|i|1559264269|2943
+"C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\syntmp\topcontrol.plg"|o|0|0
+C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\topcontrol.srm|o|1559264269|39475
+C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\synlog\topcontrol_fpga_mapper.srr|o|1559264269|1311
+C:\ispLEVER_Classic2_0\synpbase\bin\m_cpld.exe|i|1399390884|7067648
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe|i|1399393722|8049664

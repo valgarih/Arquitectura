@@ -1,0 +1,5 @@
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdData00.vhd":38:4:38:5|Pruning register bit 7 of outWordw(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdConfig00.vhd":23:4:23:5|Pruning register bit 6 of commandcf(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContData00.vhd":25:4:25:5|Pruning register bit 4 of outcontcd(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

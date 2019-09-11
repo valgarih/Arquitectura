@@ -1,0 +1,7 @@
+#Start recording tcl command: 4/9/2019 10:52:07
+#Project Location: C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/keylcd00; Project name: keylcd00
+prj_project open "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/keylcd00/keylcd00.ldf"
+prj_src add "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcdVHDL/lcdConfig00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcdVHDL/lcdContConfig00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcdVHDL/lcdContData00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcdVHDL/lcdData00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcdVHDL/lcdmux00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcdVHDL/packagelcd00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcdVHDL/toplcd00.vhd"
+prj_src remove "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcd00/lcdConfig00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcd00/lcdContConfig00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcd00/lcdData00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcd00/lcdmux00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcd00/packagelcd00.vhd" "C:/Users/Valery Garibay/Desktop/Project3CM2MachX02/lcd00/toplcd00.vhd"
+prj_run Export -impl keylcd0 -task Jedecgen
+#Stop recording: 4/9/2019 11:00:30

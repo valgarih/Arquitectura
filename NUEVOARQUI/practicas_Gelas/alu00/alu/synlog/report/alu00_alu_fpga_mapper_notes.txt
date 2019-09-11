@@ -1,0 +1,46 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"f:\alu00\adder8bita00.vhdl":25:2:25:3|Removing sequential instance outadderal_cl_7[7] (in view: work.adder8bita00(adder8bita0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\adder8bita00.vhdl":25:2:25:3|Removing sequential instance outadderal_cl_5[7] (in view: work.adder8bita00(adder8bita0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\adder8bita00.vhdl":25:2:25:3|Removing sequential instance outadderal_cl_3[7] (in view: work.adder8bita00(adder8bita0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\adder8bita00.vhdl":25:2:25:3|Removing sequential instance outadderal_cl_2[7] (in view: work.adder8bita00(adder8bita0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nota00.vhdl":23:2:23:3|Removing sequential instance outnotaal_cl_7[7] (in view: work.nota00(nota0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nota00.vhdl":23:2:23:3|Removing sequential instance outnotaal_cl_6[7] (in view: work.nota00(nota0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nota00.vhdl":23:2:23:3|Removing sequential instance outnotaal_cl_5[7] (in view: work.nota00(nota0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nota00.vhdl":23:2:23:3|Removing sequential instance outnotaal_cl_4[7] (in view: work.nota00(nota0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nota00.vhdl":23:2:23:3|Removing sequential instance outnotaal_cl_3[7] (in view: work.nota00(nota0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nota00.vhdl":23:2:23:3|Removing sequential instance outnotaal_cl_2[7] (in view: work.nota00(nota0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\xnora00.vhdl":23:2:23:3|Removing sequential instance outxnoral_cl_7[7] (in view: work.xnora00(xnora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\xnora00.vhdl":23:2:23:3|Removing sequential instance outxnoral_cl_6[7] (in view: work.xnora00(xnora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\xnora00.vhdl":23:2:23:3|Removing sequential instance outxnoral_cl_5[7] (in view: work.xnora00(xnora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\xnora00.vhdl":23:2:23:3|Removing sequential instance outxnoral_cl_4[7] (in view: work.xnora00(xnora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\xnora00.vhdl":23:2:23:3|Removing sequential instance outxnoral_cl_3[7] (in view: work.xnora00(xnora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\xnora00.vhdl":23:2:23:3|Removing sequential instance outxnoral_cl_2[7] (in view: work.xnora00(xnora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nora00.vhdl":23:2:23:3|Removing sequential instance outnoral_cl_7[7] (in view: work.nora00(nora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nora00.vhdl":23:2:23:3|Removing sequential instance outnoral_cl_6[7] (in view: work.nora00(nora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nora00.vhdl":23:2:23:3|Removing sequential instance outnoral_cl_5[7] (in view: work.nora00(nora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nora00.vhdl":23:2:23:3|Removing sequential instance outnoral_cl_4[7] (in view: work.nora00(nora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nora00.vhdl":23:2:23:3|Removing sequential instance outnoral_cl_3[7] (in view: work.nora00(nora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nora00.vhdl":23:2:23:3|Removing sequential instance outnoral_cl_2[7] (in view: work.nora00(nora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nanda00.vhdl":23:2:23:3|Removing sequential instance outaal_cl_7[7] (in view: work.nanda00(nanda0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nanda00.vhdl":23:2:23:3|Removing sequential instance outaal_cl_6[7] (in view: work.nanda00(nanda0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nanda00.vhdl":23:2:23:3|Removing sequential instance outaal_cl_5[7] (in view: work.nanda00(nanda0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nanda00.vhdl":23:2:23:3|Removing sequential instance outaal_cl_4[7] (in view: work.nanda00(nanda0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nanda00.vhdl":23:2:23:3|Removing sequential instance outaal_cl_3[7] (in view: work.nanda00(nanda0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\nanda00.vhdl":23:2:23:3|Removing sequential instance outaal_cl_2[7] (in view: work.nanda00(nanda0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\xora00.vhdl":23:2:23:3|Removing sequential instance outxoral_cl_7[7] (in view: work.xora00(xora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\xora00.vhdl":23:2:23:3|Removing sequential instance outxoral_cl_5[7] (in view: work.xora00(xora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\xora00.vhdl":23:2:23:3|Removing sequential instance outxoral_cl_3[7] (in view: work.xora00(xora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\xora00.vhdl":23:2:23:3|Removing sequential instance outxoral_cl_2[7] (in view: work.xora00(xora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\ora00.vhdl":23:2:23:3|Removing sequential instance outoral_cl_7[7] (in view: work.ora00(ora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\ora00.vhdl":23:2:23:3|Removing sequential instance outoral_cl_6[7] (in view: work.ora00(ora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\ora00.vhdl":23:2:23:3|Removing sequential instance outoral_cl_5[7] (in view: work.ora00(ora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\ora00.vhdl":23:2:23:3|Removing sequential instance outoral_cl_4[7] (in view: work.ora00(ora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\ora00.vhdl":23:2:23:3|Removing sequential instance outoral_cl_3[7] (in view: work.ora00(ora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\alu00\ora00.vhdl":23:2:23:3|Removing sequential instance outoral_cl_2[7] (in view: work.ora00(ora0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: MT611 :|Automatically generated clock div00|oscout_derived_clock is not used and is being removed
+@N: FX1056 |Writing EDF file: F:\alu00\alu\alu00_alu.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,20 @@
+#Start recording tcl command: 5/4/2019 19:14:46
+#Project Location: C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00; Project name: alu00
+prj_project open "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/alu00.ldf"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/packageadder00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/packagefa00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/topadder00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/topfa00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/topha00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/topmult4bit00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/or00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/and00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/ha00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/xor00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/packagemult4bit00.vhdl"
+prj_src remove "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/topadder00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/topadder00.vhdl"
+prj_src remove "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/topha00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/topha00.vhdl"
+prj_src remove "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/alu00/topmult4bit00.vhdl"
+#Stop recording: 5/7/2019 10:51:41

@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/and00/and00.vhd" 

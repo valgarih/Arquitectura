@@ -1,0 +1,28 @@
+#Start recording tcl command: 2/25/2019 11:08:02
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/topshiftRL00; Project name: topshiftRL00
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topshiftRL00/topshiftRL00.ldf"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topshiftRL00/ShiftRL00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topshiftRL00/packageshiftRL00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topshiftRL00/topShiftRL00.vhdl"
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_src remove "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topshiftRL00/ShiftRL00.vhdl"
+prj_src remove "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topshiftRL00/topShiftRL00.vhdl"
+prj_run Synthesis -impl topshiftRL0
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topshiftRL00/topshiftRL00.vhdl"
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topshiftRL00/shiftRL00.vhdl"
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_run Synthesis -impl topshiftRL0
+prj_project save
+prj_project close
+#Stop recording: 2/25/2019 12:17:08

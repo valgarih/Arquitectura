@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(11): Semantic error in &quot;LOCATE COMP &quot;vector_entrada[8]&quot; SITE &quot;54&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_entrada[8]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(12): Semantic error in &quot;LOCATE COMP &quot;vector_entrada[9]&quot; SITE &quot;56&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_entrada[9]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(13): Semantic error in &quot;LOCATE COMP &quot;vector_entrada[10]&quot; SITE &quot;52&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_entrada[10]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(14): Semantic error in &quot;LOCATE COMP &quot;vector_entrada[11]&quot; SITE &quot;55&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_entrada[11]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(15): Semantic error in &quot;LOCATE COMP &quot;vector_entrada[12]&quot; SITE &quot;48&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_entrada[12]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(16): Semantic error in &quot;LOCATE COMP &quot;vector_entrada[13]&quot; SITE &quot;50&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_entrada[13]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>16</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(17): Semantic error in &quot;LOCATE COMP &quot;vector_entrada[14]&quot; SITE &quot;47&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_entrada[14]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(18): Semantic error in &quot;LOCATE COMP &quot;vector_entrada[15]&quot; SITE &quot;49&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_entrada[15]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(34): Semantic error in &quot;LOCATE COMP &quot;vector_salida[17]&quot; SITE &quot;133&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[17]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(35): Semantic error in &quot;LOCATE COMP &quot;vector_salida[18]&quot; SITE &quot;132&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[18]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(36): Semantic error in &quot;LOCATE COMP &quot;vector_salida[19]&quot; SITE &quot;74&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[19]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>36</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(37): Semantic error in &quot;LOCATE COMP &quot;vector_salida[20]&quot; SITE &quot;73&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[20]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>37</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(38): Semantic error in &quot;LOCATE COMP &quot;vector_salida[21]&quot; SITE &quot;76&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[21]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(39): Semantic error in &quot;LOCATE COMP &quot;vector_salida[22]&quot; SITE &quot;75&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[22]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(40): Semantic error in &quot;LOCATE COMP &quot;vector_salida[23]&quot; SITE &quot;78&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[23]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>40</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(41): Semantic error in &quot;LOCATE COMP &quot;vector_salida[24]&quot; SITE &quot;77&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[24]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>41</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(42): Semantic error in &quot;LOCATE COMP &quot;vector_salida[25]&quot; SITE &quot;82&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[25]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>42</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(43): Semantic error in &quot;LOCATE COMP &quot;vector_salida[26]&quot; SITE &quot;81&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[26]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(44): Semantic error in &quot;LOCATE COMP &quot;vector_salida[27]&quot; SITE &quot;84&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[27]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>44</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(45): Semantic error in &quot;LOCATE COMP &quot;vector_salida[28]&quot; SITE &quot;83&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[28]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>45</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(46): Semantic error in &quot;LOCATE COMP &quot;vector_salida[29]&quot; SITE &quot;86&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[29]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>46</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(47): Semantic error in &quot;LOCATE COMP &quot;vector_salida[30]&quot; SITE &quot;85&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[30]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>47</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(48): Semantic error in &quot;LOCATE COMP &quot;vector_salida[31]&quot; SITE &quot;92&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[31]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>48</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(50): Semantic error in &quot;LOCATE COMP &quot;vector_salida[16]&quot; SITE &quot;138&quot; ;&quot;: </Dynamic>
+            <Dynamic>vector_salida[16]</Dynamic>
+            <Navigation>C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+    </Task>
+</BaliMessageLog>

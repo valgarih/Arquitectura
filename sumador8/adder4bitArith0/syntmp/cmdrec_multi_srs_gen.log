@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topadder4bitArith  -multisrs  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bitArith00\adder4bitArith0\synwork\adder4bitArith00_adder4bitArith0_comp.srs  -osyn  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bitArith00\adder4bitArith0\synwork\adder4bitArith00_adder4bitArith0_mult.srs  -log  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\adder4bitArith00\adder4bitArith0\synlog\adder4bitArith00_adder4bitArith0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topadder4bitArith -multisrs ..\synwork\adder4bitArith00_adder4bitArith0_comp.srs -osyn ..\synwork\adder4bitArith00_adder4bitArith0_mult.srs -log ..\synlog\adder4bitArith00_adder4bitArith0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\adder4bitArith00_adder4bitArith0_comp.srs|io:i|time:1541131223|size:2073|exec:0|csum:994A6CD9FE76A1B368618E36E9E6788F
+file:..\synwork\adder4bitArith00_adder4bitArith0_mult.srs|io:o|time:1541131224|size:1779|exec:0|csum:
+file:..\synlog\adder4bitArith00_adder4bitArith0_multi_srs_gen.srr|io:o|time:1541131224|size:599|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501910190|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

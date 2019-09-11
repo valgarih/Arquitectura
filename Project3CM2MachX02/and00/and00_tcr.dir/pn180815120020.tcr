@@ -1,0 +1,11 @@
+#Start recording tcl command: 8/15/2018 09:44:29
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/and00; Project name: and00
+prj_project new -name "and00" -impl "and00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/and00/and00.vhd"
+prj_run Synthesis -impl and00
+prj_run Synthesis -impl and00
+prj_run Synthesis -impl and00
+prj_run Synthesis -impl and00
+prj_run Export -impl and00 -task Jedecgen
+#Stop recording: 8/15/2018 12:00:20

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "sequence00_sequence0.log"
+-o "sequence00_sequence0.csv"
+-pr "sequence00_sequence0.prf"

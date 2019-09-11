@@ -1,0 +1,2 @@
+@W: CD796 :"C:\Users\lalo\Desktop\quinto semestre\arquitectura\multi8bit00\topmult8bit00.vhdl":16:34:16:36|Bit 7 of signal s20 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+

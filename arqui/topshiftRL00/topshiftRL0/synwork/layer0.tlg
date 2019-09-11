@@ -1,0 +1,8 @@
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topshiftRL00\topshiftRL00.vhdl":7:7:7:18|Synthesizing work.topshiftrl00.topshiftrl0.
+@W: CD280 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topshiftRL00\packageshiftRL00.vhdl":8:10:8:17|Unbound component topdiv00 mapped to black box
+@W: CD280 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topshiftRL00\packageshiftRL00.vhdl":13:10:13:18|Unbound component shiftRL00 mapped to black box
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topshiftRL00\packageshiftRL00.vhdl":13:10:13:18|Synthesizing work.shiftrl00.syn_black_box.
+Post processing for work.shiftrl00.syn_black_box
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topshiftRL00\packageshiftRL00.vhdl":8:10:8:17|Synthesizing work.topdiv00.syn_black_box.
+Post processing for work.topdiv00.syn_black_box
+Post processing for work.topshiftrl00.topshiftrl0

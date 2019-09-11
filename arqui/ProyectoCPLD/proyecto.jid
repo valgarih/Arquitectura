@@ -1,0 +1,8 @@
+. topcontrol topcontrol.vhd "c:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\topcontrol.vhd"
+U1.U1 osc00 osc00.vhd "c:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\osc00.vhd"
+U1.U2 div00 div00.vhd "c:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\div00.vhd"
+U1 topdiv00 topdiv00.vhd "c:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\topdiv00.vhd"
+U2 control control.vhd "c:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\control.vhd"
+U1.U1.inst11 OSCTIMER  "c:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\"
+[VHDL_Package] packagediv00 packagediv00.vhd "c:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\packagediv00.vhd"
+[VHDL_Package] packagecontrol packagecontrol.vhd "c:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\packagecontrol.vhd"

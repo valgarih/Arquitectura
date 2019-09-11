@@ -1,0 +1,402 @@
+
+           Lattice Mapping Report File for Design Module 'toposc00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     lcdram_lcdram.ngd -o lcdram_lcdram_map.ncd -pr lcdram_lcdram.prf -mp
+     lcdram_lcdram.mrp -lpf
+     C:/Users/Sergi/Desktop/lcdram/lcdram/lcdram/lcdram_lcdram_synplify.lpf -lpf
+     C:/Users/Sergi/Desktop/lcdram/lcdram/lcdram.lpf -c 0 -gui -msgset
+     C:/Users/Sergi/Desktop/lcdram/lcdram/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  06/14/18  01:23:47
+
+Design Summary
+--------------
+
+   Number of registers:    372 out of  7209 (5%)
+      PFU registers:          369 out of  6864 (5%)
+      PIO registers:            3 out of   345 (1%)
+   Number of SLICEs:       535 out of  3432 (16%)
+      SLICEs as Logic/ROM:    535 out of  3432 (16%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         23 out of  3432 (1%)
+   Number of LUT4s:        1066 out of  6864 (16%)
+      Number used as logic LUTs:        1020
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       46
+      Number used as shift registers:     0
+   Number of PIO sites used: 47 + 4(JTAG) out of 115 (44%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net sclkdiv_0: 208 loads, 208 rising, 0 falling (Driver: O00/OSCInst0 )
+   Number of Clock Enables:  45
+
+                                    Page 1
+
+
+
+
+Design:  toposc00                                      Date:  06/14/18  01:23:47
+
+Design Summary (cont)
+---------------------
+     Net un1_outosc_0_sqmuxa_1_1_RNISE6F: 34 loads, 31 LSLICEs
+     Net un1_desactivacontadorconfiguracionram22_RNIV27V: 5 loads, 5 LSLICEs
+     Net un1_dataword_0_0_a3_RNIJ6O42: 4 loads, 4 LSLICEs
+     Net ENR_RNO_0: 1 loads, 1 LSLICEs
+     Net datosEsVacioRam_RNIR8MC1: 6 loads, 6 LSLICEs
+     Net reset_pad_RNIGP143: 5 loads, 5 LSLICEs
+     Net seLeenDatos_RNI2KGA1: 3 loads, 3 LSLICEs
+     Net seLeenDatosRam_RNO: 1 loads, 1 LSLICEs
+     Net seLeenDatos_RNO_0: 1 loads, 1 LSLICEs
+     Net un1_desactivacontadorconfiguracion3_14_RNIQC0G1: 5 loads, 5 LSLICEs
+     Net salidaAPantallaConfiguracion_RNO[7]: 1 loads, 1 LSLICEs
+     Net salidaAPantallaConfiguracionRam_RNO[7]: 1 loads, 1 LSLICEs
+     Net datosEsVacioRam_RNO: 1 loads, 1 LSLICEs
+     Net un1_reset_81_i_o2_0_RNIATNR1: 4 loads, 4 LSLICEs
+     Net un1_dataword_8_0_a3_RNI9OD12: 4 loads, 4 LSLICEs
+     Net un1_reset_90_i_a2_0_RNIQ9VC2: 4 loads, 4 LSLICEs
+     Net un1_dataword_6_0_a3_RNIP4L22: 4 loads, 4 LSLICEs
+     Net un1_reset_106_i_a2_0_RNIE2UT1: 4 loads, 4 LSLICEs
+     Net un1_dataword_4_0_a3_RNI54582: 4 loads, 4 LSLICEs
+     Net un1_reset_81_i_o2_0_RNITINL2: 4 loads, 4 LSLICEs
+     Net un1_dataword_3_0_a3_RNI2L2F4: 4 loads, 4 LSLICEs
+     Net un1_reset_90_i_a2_0_RNIF9JR2_0: 4 loads, 4 LSLICEs
+     Net un1_dataword_2_0_a3_RNI3QG32: 4 loads, 4 LSLICEs
+     Net un1_reset_81_i_o2_0_RNISIKV1: 4 loads, 4 LSLICEs
+     Net un1_reset_81_i_o2_0_RNIT8GI2_0: 4 loads, 4 LSLICEs
+     Net un1_dataword_27_0_a3_RNICVR02: 4 loads, 4 LSLICEs
+     Net un1_reset_90_i_a2_0_RNIF9JR2: 4 loads, 4 LSLICEs
+     Net un1_dataword_23_0_a3_RNI8BJ72: 4 loads, 4 LSLICEs
+     Net un1_dataword_25_0_a3_RNIOUB62: 4 loads, 4 LSLICEs
+     Net un1_reset_81_i_o2_0_RNIT8GI2_1: 4 loads, 4 LSLICEs
+     Net un1_reset_87_i_a2_0_RNI6Q322: 4 loads, 4 LSLICEs
+     Net un1_reset_90_i_a2_0_RNIFVBO2: 4 loads, 4 LSLICEs
+     Net un1_reset_90_i_a2_0_RNIFVBO2_0: 4 loads, 4 LSLICEs
+     Net un1_dataword_19_0_a3_RNID3112: 4 loads, 4 LSLICEs
+     Net un1_reset_90_i_a2_RNIJ6DG2: 4 loads, 4 LSLICEs
+     Net un1_dataword_1_0_a3_RNIKB2F2: 4 loads, 4 LSLICEs
+     Net un1_dataword_17_0_a3_RNIBPCC2: 4 loads, 4 LSLICEs
+     Net un1_reset_81_i_o2_0_RNIT8GI2: 4 loads, 4 LSLICEs
+     Net un1_reset_90_i_a2_0_RNI4M542: 4 loads, 4 LSLICEs
+     Net un1_dataword_15_0_a2_RNIMOS12: 4 loads, 4 LSLICEs
+     Net un1_dataword_14_0_a3_RNI8AED2: 4 loads, 4 LSLICEs
+     Net un1_dataword_13_0_a3_RNI75432: 4 loads, 4 LSLICEs
+     Net un1_reset_81_i_o2_0_RNIK9U22: 4 loads, 4 LSLICEs
+     Net un1_dataword_11_0_a3_RNI5RFE2: 4 loads, 4 LSLICEs
+     Net reset_pad_RNIJOLS: 3 loads, 3 LSLICEs
+   Number of LSRs:  6
+     Net salidaAPantallaRam_1_sqmuxa_RNIOL0O2: 3 loads, 3 LSLICEs
+     Net salidaAPantallaRam_5_.fb: 1 loads, 1 LSLICEs
+     Net reset_pad_RNIJOLS_0: 42 loads, 39 LSLICEs
+     Net O01/un1_sdiv61_RNIATKT: 11 loads, 11 LSLICEs
+     Net salidaAPantallaConfiguracion_RNO_0[7]: 1 loads, 1 LSLICEs
+     Net salidaAPantallaConfiguracionRam_RNO_0[7]: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net un45_contadordata: 168 loads
+     Net contadorRam[4]: 131 loads
+
+                                    Page 2
+
+
+
+
+Design:  toposc00                                      Date:  06/14/18  01:23:47
+
+Design Summary (cont)
+---------------------
+     Net entradaTeclado_c[0]: 95 loads
+     Net N_4141: 88 loads
+     Net un1_outosc_0_sqmuxa_1_1_RNISE6F: 82 loads
+     Net contadorRam[3]: 67 loads
+     Net anillo_c[2]: 54 loads
+     Net anillo_c[1]: 53 loads
+     Net entradaTeclado_c[1]: 53 loads
+     Net seqalAnillo[3]: 49 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| VCC_x               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| lectura             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outosc0             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorDatos[5]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorDatos[4]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorDatos[3]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorDatos[2]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorDatos[1]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorDatos[0]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorCondiguracion[4]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorCondiguracion[3]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorCondiguracion[2]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorCondiguracion[1]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaContadorCondiguracion[0]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  toposc00                                      Date:  06/14/18  01:23:47
+
+IO (PIO) Attributes (cont)
+--------------------------
+| entradaTeclado[3]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| entradaTeclado[2]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| entradaTeclado[1]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| entradaTeclado[0]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| anillo[3]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| anillo[2]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| anillo[1]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| anillo[0]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| salidaAux           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| EN                  | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| RS                  | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| RW                  | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantallaMirror[7]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantallaMirror[6]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantallaMirror[5]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantallaMirror[4]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantallaMirror[3]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantallaMirror[2]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantallaMirror[1]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantallaMirror[0]| OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantalla[7]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantalla[6]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantalla[5]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantalla[4]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantalla[3]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantalla[2]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantalla[1]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| salidaPantalla[0]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 4
+
+
+
+
+Design:  toposc00                                      Date:  06/14/18  01:23:47
+
+IO (PIO) Attributes (cont)
+--------------------------
+| reset               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| indiv0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Block O00/VCC undriven or does not drive anything - clipped.
+Block O01/VCC undriven or does not drive anything - clipped.
+Signal O00/GND undriven or does not drive anything - clipped.
+Signal O01/GND undriven or does not drive anything - clipped.
+Signal un1_contadorData_79_s_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal un1_contadorData_79_s_5_0_COUT undriven or does not drive anything -
+     clipped.
+Signal un1_contadorRam_cry_0_0_S0 undriven or does not drive anything - clipped.
+     
+Signal N_2 undriven or does not drive anything - clipped.
+Signal un1_contadorRam_s_5_0_S1 undriven or does not drive anything - clipped.
+Signal un1_contadorRam_s_5_0_COUT undriven or does not drive anything - clipped.
+     
+Signal un1_seleendatosram_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal un1_seleendatosram_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal N_3 undriven or does not drive anything - clipped.
+Signal un1_seleendatosram_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal un1_seleendatosram_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal un1_seleendatosram_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal un1_seleendatosram_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal un1_seleendatosram_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal un1_seleendatosram_cry_5_0_COUT undriven or does not drive anything -
+     clipped.
+Signal O00/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+Signal O01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal O01/N_1 undriven or does not drive anything - clipped.
+Signal O01/un1_sdiv_cry_19_0_COUT undriven or does not drive anything - clipped.
+     
+Signal un1_contadorData_79_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Block O00/GND was optimized away.
+Block O01/GND was optimized away.
+
+                                    Page 5
+
+
+
+
+Design:  toposc00                                      Date:  06/14/18  01:23:47
+
+
+Memory Usage
+------------
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                O00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     sclkdiv_0
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: O00/OSCInst0
+         Type: OSCH
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 65 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 6
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

@@ -1,0 +1,8 @@
+[Opt Global Constraints]
+Constraint Name=179,no
+Constraint Value=115,no
+[OPT WINDOWS]
+MAIN_WINDOW_POSITION=0,0,1366,768
+[OPT GUI SETTING]
+Remember_Setting=1
+ACTIVE_SHEET=

@@ -1,0 +1,5 @@
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\sumador8bitArtimetico\Sumador8bitAritmetico.vhdl":5:7:5:27|Synthesizing work.sumador8bitaritmetico.sumador8bitaritmetico0.
+@W: CG296 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\sumador8bitArtimetico\Sumador8bitAritmetico.vhdl":17:1:17:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\sumador8bitArtimetico\Sumador8bitAritmetico.vhdl":20:32:20:35|Referenced variable num2 is not in sensitivity list.
+@W: CG290 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\sumador8bitArtimetico\Sumador8bitAritmetico.vhdl":20:17:20:20|Referenced variable num1 is not in sensitivity list.
+Post processing for work.sumador8bitaritmetico.sumador8bitaritmetico0

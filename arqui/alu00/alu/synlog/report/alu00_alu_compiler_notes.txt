@@ -1,0 +1,22 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Documents\alu00\topalu00.vhdl":7:7:7:14|Top entity is set to topalu00.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\alu00\topalu00.vhdl":7:7:7:14|Synthesizing work.topalu00.topalu0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\alu00\ac800.vhdl":7:7:7:11|Synthesizing work.ac800.ac80.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\alu00\ora00.vhdl":6:7:6:11|Synthesizing work.ora00.ora0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\alu00\anda00.vhdl":6:7:6:12|Synthesizing work.anda00.anda0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\topdv00.vhdl":7:7:7:13|Synthesizing work.topdv00.topdv0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\div00.vhdl":27:6:27:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\div00.vhdl":36:6:36:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\div00.vhdl":45:6:45:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\div00.vhdl":54:6:54:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\div00.vhdl":63:6:63:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\div00.vhdl":72:6:72:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\div00.vhdl":80:6:80:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\div00.vhdl":89:6:89:11|Removing redundant assignment.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

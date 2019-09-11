@@ -1,0 +1,1 @@
+run_tcl -fg sumador8bitArtimetico_sumador8bitArtimetico_synplify.tcl

@@ -1,0 +1,11 @@
+#Start recording tcl command: 6/19/2018 19:13:27
+#Project Location: G:/alu02; Project name: alu02
+prj_project open "G:/alu02/alu02.ldf"
+prj_src add "G:/alu02/xoral00.vhdl"
+prj_src add "G:/alu02/notal00.vhdl"
+prj_src add "G:/alu02/nandal00.vhdl"
+prj_src add "G:/alu02/noral00.vhdl"
+prj_src add "G:/alu02/xnoral00.vhdl"
+prj_src add "G:/multi8bit00/topmult8bit00.vhdl" "G:/multi8bit00/packagemult8bit00.vhdl"
+prj_src add "G:/alu02/multal00.vhdl"
+#Stop recording: 6/19/2018 20:50:39

@@ -1,0 +1,76 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\toplcd00.vhd":7:7:7:14|Top entity is set to toplcd00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\toplcd00.vhd":7:7:7:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdmux00.vhd":6:7:6:14|Synthesizing work.lcdmux00.lcdmux0.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdData00.vhd":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdData00.vhd":38:4:38:5|Register bit outWordw(7) is always 0.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdData00.vhd":38:4:38:5|Pruning register bit 7 of outWordw(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContData00.vhd":8:7:8:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContData00.vhd":39:20:39:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContData00.vhd":53:7:53:15|Removing redundant assignment.
+Post processing for work.lcdcontdata00.lcdcontdata0
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContData00.vhd":25:4:25:5|Register bit RScd is always 1.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContData00.vhd":25:4:25:5|Register bit RWcd is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContData00.vhd":25:4:25:5|Register bit outFlagcd is always 0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdConfig00.vhd":6:7:6:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContConfig00.vhd":8:7:8:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContConfig00.vhd":32:5:32:13|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.toplcd00.toplcd0
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdConfig00.vhd":23:4:23:5|Register bit RScf is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdConfig00.vhd":23:4:23:5|Register bit RWcf is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdConfig00.vhd":23:4:23:5|Register bit commandcf(6) is always 0.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdConfig00.vhd":23:4:23:5|Pruning register bit 6 of commandcf(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContData00.vhd":25:4:25:5|Register bit outcontcd(4) is always 0.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd01\lcdContData00.vhd":25:4:25:5|Pruning register bit 4 of outcontcd(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 81MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 25 11:30:37 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 25 11:30:37 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 25 11:30:37 2018
+
+###########################################################]

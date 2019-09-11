@@ -1,0 +1,84 @@
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topgeneric01.vhdl":9:7:9:18|Synthesizing work.topgeneric01.topgeneric0.
+@W: CD638 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topgeneric01.vhdl":26:7:26:11|Signal spaad is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topgeneric01.vhdl":26:14:26:18|Signal spasb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topgeneric01.vhdl":26:21:26:25|Signal spbad is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topgeneric01.vhdl":26:28:26:32|Signal spbsb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topgeneric01.vhdl":27:16:27:22|Signal soutssb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topgeneric01.vhdl":29:15:29:20|Signal sledsb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topgeneric01.vhdl":29:23:29:27|Signal sslad is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topgeneric01.vhdl":29:30:29:34|Signal sslsb is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\ucg01.vhdl":8:7:8:11|Synthesizing work.ucg01.ucg0.
+Post processing for work.ucg01.ucg0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\rotR00.vhdl":9:7:9:12|Synthesizing work.rotr00.rotr0.
+Post processing for work.rotr00.rotr0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\rotR00.vhdl":25:4:25:5|Pruning unused register outFlagrr_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\rotL00.vhdl":9:7:9:12|Synthesizing work.rotl00.rotl0.
+Post processing for work.rotl00.rotl0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\rotL00.vhdl":25:4:25:5|Pruning unused register outFlagrl_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\ShiftR00.vhdl":9:7:9:14|Synthesizing work.shiftr00.shiftr0.
+Post processing for work.shiftr00.shiftr0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\ShiftR00.vhdl":25:4:25:5|Pruning unused register outFlagsr_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\ShiftL00.vhdl":9:7:9:14|Synthesizing work.shiftl00.shiftl0.
+Post processing for work.shiftl00.shiftl0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\ShiftL00.vhdl":25:4:25:5|Pruning unused register outFlagsl_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\multg01.vhdl":8:7:8:13|Synthesizing work.multg01.multg0.
+Post processing for work.multg01.multg0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\multg01.vhdl":23:3:23:4|Pruning unused register outFlagmult_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topmult4bit00.vhdl":9:7:9:19|Synthesizing work.topmult4bit00.topmult4bit0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topfa00.vhdl":11:7:11:13|Synthesizing work.topfa00.topfa0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\or00.vhdl":10:7:10:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topha00.vhdl":11:7:11:13|Synthesizing work.topha00.topha0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\xor00.vhdl":10:7:10:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\and00.vhdl":10:7:10:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+Post processing for work.topha00.topha0
+Post processing for work.topfa00.topfa0
+Post processing for work.topmult4bit00.topmult4bit0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\subg01.vhdl":8:7:8:12|Synthesizing work.subg01.subg0.
+Post processing for work.subg01.subg0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\subg01.vhdl":26:3:26:4|Pruning unused register outFlagsb_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\addg01.vhdl":8:7:8:12|Synthesizing work.addg01.addg0.
+Post processing for work.addg01.addg0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\addg01.vhdl":26:3:26:4|Pruning unused register outFlagad_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topadder00.vhdl":13:7:13:16|Synthesizing work.topadder00.topadder0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\nxor00.vhdl":10:7:10:12|Synthesizing work.nxor00.nxor0.
+Post processing for work.nxor00.nxor0
+Post processing for work.topadder00.topadder0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\xnorg01.vhdl":8:7:8:13|Synthesizing work.xnorg01.xnorg0.
+Post processing for work.xnorg01.xnorg0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\xnorg01.vhdl":24:4:24:5|Pruning unused register outFlagxn_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\norg01.vhdl":8:7:8:12|Synthesizing work.norg01.norg0.
+Post processing for work.norg01.norg0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\norg01.vhdl":24:4:24:5|Pruning unused register outFlagno_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\nandg01.vhdl":8:7:8:13|Synthesizing work.nandg01.nandg0.
+Post processing for work.nandg01.nandg0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\nandg01.vhdl":24:4:24:5|Pruning unused register outFlagna_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\notg01.vhdl":8:7:8:12|Synthesizing work.notg01.notg0.
+Post processing for work.notg01.notg0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\notg01.vhdl":23:4:23:5|Pruning unused register outFlagn_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\xorg01.vhdl":8:7:8:12|Synthesizing work.xorg01.xorg01.
+Post processing for work.xorg01.xorg01
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\xorg01.vhdl":24:4:24:5|Pruning unused register outFlagx_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\org01.vhdl":8:7:8:11|Synthesizing work.org01.org0.
+Post processing for work.org01.org0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\org01.vhdl":24:3:24:4|Pruning unused register outFlago_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\andg01.vhdl":8:7:8:12|Synthesizing work.andg01.andg0.
+Post processing for work.andg01.andg0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\andg01.vhdl":24:3:24:4|Pruning unused register outFlaga_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\topdiv00.vhdl":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topgeneric01.topgeneric0
+@N: CL159 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\andg01.vhdl":14:4:14:10|Input inFlaga is unused.
+@N: CL159 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\org01.vhdl":14:4:14:10|Input inFlago is unused.
+@N: CL159 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\addg01.vhdl":13:4:13:11|Input inFlagad is unused.
+@N: CL159 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\subg01.vhdl":13:4:13:11|Input inFlagsb is unused.
+@N: CL159 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\Generics\generic02_primeraFase\generic02\source\multg01.vhdl":13:4:13:13|Input inFlagmult is unused.

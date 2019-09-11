@@ -1,0 +1,23 @@
+#Start recording tcl command: 12/2/2015 12:08:52
+#Project Location: C:/lscc/Arquitectura/org/combinacional01; Project name: combin01
+prj_project new -name "combin01" -impl "combin01" -dev LCMXO3L-6900C-5BG256C -synthesis "synplify"
+file copy -force -- "C:/lscc/Arquitectura/org/combinacional01/and.vhdl" "C:/lscc/Arquitectura/org/combinacional01/or.vhdl" "C:/lscc/Arquitectura/org/combinacional01/paquete_sumadorcompleto.vhdl" "C:/lscc/Arquitectura/org/combinacional01/paquete_sumadormedio.vhdl" "C:/lscc/Arquitectura/org/combinacional01/top_sumadorcompleto.vhdl" "C:/lscc/Arquitectura/org/combinacional01/combin01/source"
+file copy -force -- "C:/lscc/Arquitectura/org/combinacional01/top_sumadormedio.vhdl" "C:/lscc/Arquitectura/org/combinacional01/xnor.vhdl" "C:/lscc/Arquitectura/org/combinacional01/xor.vhdl" "C:/lscc/Arquitectura/org/combinacional01/combin01/source"
+prj_src add "C:/lscc/Arquitectura/org/combinacional01/combin01/source/and.vhdl" "C:/lscc/Arquitectura/org/combinacional01/combin01/source/or.vhdl" "C:/lscc/Arquitectura/org/combinacional01/combin01/source/paquete_sumadorcompleto.vhdl" "C:/lscc/Arquitectura/org/combinacional01/combin01/source/paquete_sumadormedio.vhdl" "C:/lscc/Arquitectura/org/combinacional01/combin01/source/top_sumadorcompleto.vhdl" "C:/lscc/Arquitectura/org/combinacional01/combin01/source/top_sumadormedio.vhdl" "C:/lscc/Arquitectura/org/combinacional01/combin01/source/xnor.vhdl" "C:/lscc/Arquitectura/org/combinacional01/combin01/source/xor.vhdl"
+prj_project save
+prj_src remove "C:/lscc/Arquitectura/org/combinacional01/combin01/source/xnor.vhdl"
+prj_src add "C:/lscc/Arquitectura/org/combinacional01/topmultip00.vhdl"
+prj_src add "C:/lscc/Arquitectura/org/combinacional01/paquete_topcombin.vhdl"
+prj_src remove "C:/lscc/Arquitectura/org/combinacional01/topmultip00.vhdl"
+prj_src add "C:/lscc/Arquitectura/org/combinacional01/topmulticomb01.vhdl"
+prj_run Export -impl combin01 -task Jedecgen
+pgr_project save "C:/lscc/Arquitectura/org/combinacional01/combin01/combin01.xcf"
+prj_src add -exclude "C:/lscc/Arquitectura/org/combinacional01/combin01/combin01.xcf"
+prj_src enable "C:/lscc/Arquitectura/org/combinacional01/combin01/combin01.xcf"
+pgr_program run
+prj_run Export -impl combin01 -task Jedecgen
+pgr_program run
+pgr_project save "C:/lscc/Arquitectura/org/combinacional01/combin01/combin01.xcf"
+prj_project save
+prj_project close
+#Stop recording: 12/2/2015 14:11:41

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  eTopMultip00  -multisrs  C:\lscc\Arquitectura\org\combinacional01\combin01\synwork\combin01_combin01_comp.srs  -osyn  C:\lscc\Arquitectura\org\combinacional01\combin01\synwork\combin01_combin01_mult.srs  -log  C:\lscc\Arquitectura\org\combinacional01\combin01\synlog\combin01_combin01_multi_srs_gen.srr 
+rc:0 success:1
+C:\lscc\Arquitectura\org\combinacional01\combin01\synwork\combin01_combin01_comp.srs|i|1449094501|5987
+C:\lscc\Arquitectura\org\combinacional01\combin01\synwork\combin01_combin01_mult.srs|o|1449094503|4078
+C:\lscc\Arquitectura\org\combinacional01\combin01\synlog\combin01_combin01_multi_srs_gen.srr|o|1449094503|487
+C:\lscc\diamond\3.5_x64\synpbase\bin\syn_nfilter.exe|i|1429561766|3000832
+C:\lscc\diamond\3.5_x64\synpbase\bin64\syn_nfilter.exe|i|1429561958|3967488

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="adder8bit00" device="LCMXO2-7000HE-5TG144C" default_implementation="adder8bit00">
+    <Options>
+        <Option name="HDL type" value="Verilog"/>
+    </Options>
+    <Implementation title="adder8bit00" dir="adder8bit00" description="adder8bit00" synthesis="synplify" default_strategy="Strategy1">
+        <Options>
+            <Option name="HDL type" value="Verilog"/>
+            <Option name="HDL_KEYFILE" value=""/>
+            <Option name="HDL_PARAM" value=""/>
+            <Option name="VERILOG_DIRECTIVES" value=""/>
+            <Option name="lib" value="work"/>
+            <Option name="top" value=""/>
+            <Option name="include path" value=""/>
+        </Options>
+        <Source name="remote_files/sources/Arquitectura/addertbt00/xor00.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work"/>
+        </Source>
+        <Source name="remote_files/sources/Arquitectura/addertbt00/and00.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work"/>
+        </Source>
+        <Source name="remote_files/sources/Arquitectura/addertbt00/pakageha00.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work"/>
+        </Source>
+        <Source name="remote_files/sources/Arquitectura/addertbt00/ha00.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work"/>
+        </Source>
+        <Source name="remote_files/sources/Arquitectura/addertbt00/or00.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work"/>
+        </Source>
+        <Source name="remote_files/sources/Arquitectura/addertbt00/packagefa00.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work"/>
+        </Source>
+        <Source name="remote_files/sources/Arquitectura/addertbt00/fa00.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work"/>
+        </Source>
+        <Source name="remote_files/sources/Arquitectura/addertbt00/xnor00.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work"/>
+        </Source>
+        <Source name="remote_files/sources/Arquitectura/addertbt00/packageadder4bit00.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work"/>
+        </Source>
+        <Source name="adder8bit00.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work"/>
+        </Source>
+        <Source name="adder8bit00.lpf" type="Logic Preference" type_short="LPF"/>
+        <Source name="adder8bit00/adder8bit00.xcf" type="Programming Project File" type_short="Programming"/>
+    </Implementation>
+    <Strategy name="Strategy1" file="adder8bit001.sty"/>
+</BaliProject>

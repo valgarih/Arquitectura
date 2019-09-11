@@ -1,0 +1,61 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Apr 05 11:17:07 2019 *
+NOTE DESIGN NAME: topalu00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outFlaginside : 12 : inout *
+NOTE PINS clk00 : 14 : out *
+NOTE PINS cdiv00[0] : 42 : in *
+NOTE PINS outac01[15] : 34 : out *
+NOTE PINS outac01[14] : 28 : out *
+NOTE PINS outac01[13] : 24 : out *
+NOTE PINS outac01[12] : 23 : out *
+NOTE PINS outac01[11] : 27 : out *
+NOTE PINS outac01[10] : 33 : out *
+NOTE PINS outac01[9] : 22 : out *
+NOTE PINS outac01[8] : 19 : out *
+NOTE PINS outac01[7] : 35 : out *
+NOTE PINS outac01[6] : 31 : out *
+NOTE PINS outac01[5] : 17 : out *
+NOTE PINS outac01[4] : 20 : out *
+NOTE PINS outac01[3] : 15 : out *
+NOTE PINS outac01[2] : 26 : out *
+NOTE PINS outac01[1] : 32 : out *
+NOTE PINS outac01[0] : 25 : out *
+NOTE PINS outac0[7] : 128 : out *
+NOTE PINS outac0[6] : 126 : out *
+NOTE PINS outac0[5] : 122 : out *
+NOTE PINS outac0[4] : 120 : out *
+NOTE PINS outac0[3] : 117 : out *
+NOTE PINS outac0[2] : 114 : out *
+NOTE PINS outac0[1] : 112 : out *
+NOTE PINS outac0[0] : 110 : out *
+NOTE PINS portB0[7] : 57 : in *
+NOTE PINS portB0[6] : 58 : in *
+NOTE PINS portB0[5] : 59 : in *
+NOTE PINS portB0[4] : 60 : in *
+NOTE PINS portB0[3] : 61 : in *
+NOTE PINS portB0[2] : 62 : in *
+NOTE PINS portB0[1] : 65 : in *
+NOTE PINS portB0[0] : 67 : in *
+NOTE PINS portA0[7] : 47 : in *
+NOTE PINS portA0[6] : 48 : in *
+NOTE PINS portA0[5] : 49 : in *
+NOTE PINS portA0[4] : 50 : in *
+NOTE PINS portA0[3] : 52 : in *
+NOTE PINS portA0[2] : 54 : in *
+NOTE PINS portA0[1] : 55 : in *
+NOTE PINS portA0[0] : 56 : in *
+NOTE PINS outFlagac0 : 13 : out *
+NOTE PINS opcode0[3] : 68 : in *
+NOTE PINS opcode0[2] : 69 : in *
+NOTE PINS opcode0[1] : 70 : in *
+NOTE PINS opcode0[0] : 71 : in *
+NOTE PINS en0 : 45 : in *
+NOTE PINS cdiv00[4] : 38 : in *
+NOTE PINS cdiv00[3] : 39 : in *
+NOTE PINS cdiv00[2] : 40 : in *
+NOTE PINS cdiv00[1] : 41 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

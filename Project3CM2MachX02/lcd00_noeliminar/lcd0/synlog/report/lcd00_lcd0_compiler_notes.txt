@@ -1,0 +1,27 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\toplcd00.vhd":7:7:7:14|Top entity is set to toplcd00.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\toplcd00.vhd":7:7:7:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdmux00.vhd":6:7:6:14|Synthesizing work.lcdmux00.lcdmux0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdData00.vhd":40:4:40:5|Register bit outWordw(7) is always 0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContData00.vhd":8:7:8:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContData00.vhd":41:20:41:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContData00.vhd":55:7:55:15|Removing redundant assignment.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContData00.vhd":27:4:27:5|Register bit RScd is always 1.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContData00.vhd":27:4:27:5|Register bit RWcd is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContData00.vhd":27:4:27:5|Register bit outFlagcd is always 0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdConfig00.vhd":6:7:6:17|Synthesizing work.lcdconfig00.lcdconfig0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContConfig00.vhd":9:7:9:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContConfig00.vhd":35:5:35:13|Removing redundant assignment.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdConfig00.vhd":25:4:25:5|Register bit RScf is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdConfig00.vhd":25:4:25:5|Register bit RWcf is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdConfig00.vhd":25:4:25:5|Register bit commandcf(6) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\lcd00\lcdContData00.vhd":27:4:27:5|Register bit outcontcd(4) is always 0.
+@N|Running in 64-bit mode
+

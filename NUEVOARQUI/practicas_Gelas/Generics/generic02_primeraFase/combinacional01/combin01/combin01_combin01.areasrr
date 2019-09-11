@@ -1,0 +1,605 @@
+----------------------------------------------------------------------
+Report for cell eTopMultip00.atopmultip
+
+Register bits: 0 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB        8       100.0
+                                 OB        8       100.0
+                           ORCALUT4       28       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        9       100.0
+SUB MODULES 
+                               eAnd        1       100.0
+                            eAnd_13        1       100.0
+                            eAnd_16        1       100.0
+                             eAnd_2        1       100.0
+                            eAnd_24        1       100.0
+                             eAnd_3        1       100.0
+                            eAnd_32        1       100.0
+                              eOr_0        1       100.0
+                              eOr_1        1       100.0
+                             eOr_10        1       100.0
+                              eOr_4        1       100.0
+                              eOr_5        1       100.0
+                              eOr_6        1       100.0
+                              eOr_8        1       100.0
+                              eOr_9        1       100.0
+                  eTopSumCompleto_0        1       100.0
+                eTopSumCompleto_0_0        1       100.0
+                eTopSumCompleto_0_1        1       100.0
+               eTopSumCompleto_0_10        1       100.0
+                eTopSumCompleto_0_3        1       100.0
+                eTopSumCompleto_0_4        1       100.0
+                eTopSumCompleto_0_5        1       100.0
+                eTopSumCompleto_0_6        1       100.0
+                eTopSumCompleto_0_7        1       100.0
+                eTopSumCompleto_0_8        1       100.0
+                eTopSumCompleto_0_9        1       100.0
+                eTopSumMedio_5_16_0        1       100.0
+               eTopSumMedio_5_16_11        1       100.0
+               eTopSumMedio_5_16_13        1       100.0
+               eTopSumMedio_5_16_14        1       100.0
+               eTopSumMedio_5_16_16        1       100.0
+               eTopSumMedio_5_16_17        1       100.0
+               eTopSumMedio_5_16_19        1       100.0
+                eTopSumMedio_5_16_2        1       100.0
+               eTopSumMedio_5_16_21        1       100.0
+                eTopSumMedio_5_16_3        1       100.0
+                eTopSumMedio_5_16_8        1       100.0
+                eTopSumMedio_5_16_9        1       100.0
+                             eXor_0        1       100.0
+                            eXor_11        1       100.0
+                            eXor_13        1       100.0
+                            eXor_14        1       100.0
+                            eXor_16        1       100.0
+                            eXor_17        1       100.0
+                            eXor_19        1       100.0
+                             eXor_2        1       100.0
+                            eXor_21        1       100.0
+                             eXor_3        1       100.0
+                             eXor_8        1       100.0
+                             eXor_9        1       100.0
+                            
+                         TOTAL           106           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0_10.netlist
+  Original Cell name eTopSumCompleto_0
+     Instance path:  S12
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+SUB MODULES 
+                             eOr_10        1       100.0
+               eTopSumMedio_5_16_21        1       100.0
+                            eXor_21        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_21.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S12.U4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+SUB MODULES 
+                            eXor_21        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eXor_21.netlist
+  Original Cell name eXor
+     Instance path:  S12.U4.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eOr_10.netlist
+  Original Cell name eOr
+     Instance path:  S12.U3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0_9.netlist
+  Original Cell name eTopSumCompleto_0
+     Instance path:  S11
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+SUB MODULES 
+                              eOr_9        1       100.0
+               eTopSumMedio_5_16_19        1       100.0
+                            eXor_19        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_19.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S11.U4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+SUB MODULES 
+                            eXor_19        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eXor_19.netlist
+  Original Cell name eXor
+     Instance path:  S11.U4.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eOr_9.netlist
+  Original Cell name eOr
+     Instance path:  S11.U3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0_8.netlist
+  Original Cell name eTopSumCompleto_0
+     Instance path:  S10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        3        10.7
+                                VLO        1        11.1
+SUB MODULES 
+                              eOr_8        1       100.0
+               eTopSumMedio_5_16_17        1       100.0
+                            eXor_17        1       100.0
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_17.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S10.U4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+                                VLO        1        11.1
+SUB MODULES 
+                            eXor_17        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell eXor_17.netlist
+  Original Cell name eXor
+     Instance path:  S10.U4.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+                                VLO        1        11.1
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell eOr_8.netlist
+  Original Cell name eOr
+     Instance path:  S10.U3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0_7.netlist
+  Original Cell name eTopSumCompleto_0
+     Instance path:  S9
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+                                VLO        2        22.2
+SUB MODULES 
+                            eAnd_32        1       100.0
+               eTopSumMedio_5_16_16        1       100.0
+                            eXor_16        1       100.0
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_16.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S9.U5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+                                VLO        2        22.2
+SUB MODULES 
+                            eAnd_32        1       100.0
+                            eXor_16        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell eXor_16.netlist
+  Original Cell name eXor
+     Instance path:  S9.U5.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eAnd_32.netlist
+  Original Cell name eAnd
+     Instance path:  S9.U5.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0_6.netlist
+  Original Cell name eTopSumCompleto_0
+     Instance path:  S8
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        3        10.7
+                                VLO        1        11.1
+SUB MODULES 
+                              eOr_6        1       100.0
+               eTopSumMedio_5_16_13        1       100.0
+               eTopSumMedio_5_16_14        1       100.0
+                            eXor_13        1       100.0
+                            eXor_14        1       100.0
+                            
+                         TOTAL             9           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_14.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S8.U5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                                VLO        1        11.1
+SUB MODULES 
+                            eXor_14        1       100.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell eXor_14.netlist
+  Original Cell name eXor
+     Instance path:  S8.U5.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_13.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S8.U4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+SUB MODULES 
+                            eXor_13        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eXor_13.netlist
+  Original Cell name eXor
+     Instance path:  S8.U4.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eOr_6.netlist
+  Original Cell name eOr
+     Instance path:  S8.U3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0_5.netlist
+  Original Cell name eTopSumCompleto_0
+     Instance path:  S7
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+SUB MODULES 
+                              eOr_5        1       100.0
+               eTopSumMedio_5_16_11        1       100.0
+                            eXor_11        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_11.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S7.U4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+SUB MODULES 
+                            eXor_11        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eXor_11.netlist
+  Original Cell name eXor
+     Instance path:  S7.U4.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eOr_5.netlist
+  Original Cell name eOr
+     Instance path:  S7.U3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0_4.netlist
+  Original Cell name eTopSumCompleto_0
+     Instance path:  S6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+SUB MODULES 
+                              eOr_4        1       100.0
+                eTopSumMedio_5_16_9        1       100.0
+                             eXor_9        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_9.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S6.U4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+SUB MODULES 
+                             eXor_9        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eXor_9.netlist
+  Original Cell name eXor
+     Instance path:  S6.U4.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eOr_4.netlist
+  Original Cell name eOr
+     Instance path:  S6.U3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0_3.netlist
+  Original Cell name eTopSumCompleto_0
+     Instance path:  S5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+SUB MODULES 
+                            eAnd_24        1       100.0
+                eTopSumMedio_5_16_8        1       100.0
+                             eXor_8        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_8.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S5.U5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+SUB MODULES 
+                            eAnd_24        1       100.0
+                             eXor_8        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell eXor_8.netlist
+  Original Cell name eXor
+     Instance path:  S5.U5.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eAnd_24.netlist
+  Original Cell name eAnd
+     Instance path:  S5.U5.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0_1.netlist
+  Original Cell name eTopSumCompleto_0
+     Instance path:  S3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+SUB MODULES 
+                              eOr_1        1       100.0
+                eTopSumMedio_5_16_3        1       100.0
+                             eXor_3        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_3.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S3.U4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+SUB MODULES 
+                             eXor_3        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eXor_3.netlist
+  Original Cell name eXor
+     Instance path:  S3.U4.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eOr_1.netlist
+  Original Cell name eOr
+     Instance path:  S3.U3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0_0.netlist
+  Original Cell name eTopSumCompleto_0
+     Instance path:  S2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+SUB MODULES 
+                              eOr_0        1       100.0
+                eTopSumMedio_5_16_2        1       100.0
+                             eXor_2        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_2.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S2.U5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+SUB MODULES 
+                             eXor_2        1       100.0
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eXor_2.netlist
+  Original Cell name eXor
+     Instance path:  S2.U5.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eOr_0.netlist
+  Original Cell name eOr
+     Instance path:  S2.U3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eTopSumCompleto_0.netlist
+  Original Cell name eTopSumCompleto
+     Instance path:  S1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+SUB MODULES 
+                            eAnd_16        1       100.0
+                eTopSumMedio_5_16_0        1       100.0
+                             eXor_0        1       100.0
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell eTopSumMedio_5_16_0.netlist
+  Original Cell name eTopSumMedio_5_16
+     Instance path:  S1.U5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        2         7.1
+SUB MODULES 
+                            eAnd_16        1       100.0
+                             eXor_0        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell eXor_0.netlist
+  Original Cell name eXor
+     Instance path:  S1.U5.U2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eAnd_16.netlist
+  Original Cell name eAnd
+     Instance path:  S1.U5.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                            
+                         TOTAL             1           
+----------------------------------------------------------------------
+Report for cell eAnd_13.netlist
+  Original Cell name eAnd
+     Instance path:  A23
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eAnd_3.netlist
+  Original Cell name eAnd
+     Instance path:  A30
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eAnd_2.netlist
+  Original Cell name eAnd
+     Instance path:  A20
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                                VLO        1        11.1
+                            
+                         TOTAL             2           
+----------------------------------------------------------------------
+Report for cell eAnd.netlist
+  Original Cell name eAnd
+     Instance path:  A00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1         3.6
+                                VLO        1        11.1
+                            
+                         TOTAL             2           

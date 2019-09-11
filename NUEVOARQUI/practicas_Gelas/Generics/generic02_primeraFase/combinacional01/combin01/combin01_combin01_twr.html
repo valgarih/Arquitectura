@@ -1,0 +1,500 @@
+<HTML>
+<HEAD><TITLE>Lattice TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Par_Twr"></A><B><U><big>Place & Route TRACE Report</big></U></B>
+
+Loading design for application trce from file combin01_combin01.ncd.
+Design name: eTopMultip00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO3L-6900C
+Package:     CABGA256
+Performance: 5
+Loading device for application trce from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.5_x64/ispfpga.
+Package Status:                     Final          Version 1.16.
+Performance Hardware Data Status:   Final          Version 30.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Par_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.5.1.302</big></U></B>
+Tue Dec 08 13:39:57 2015
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="ptwr_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o combin01_combin01.twr -gui -msgset C:/lscc/Arquitectura/org/combinacional01/promote.xml combin01_combin01.ncd combin01_combin01.prf 
+Design file:     combin01_combin01.ncd
+Preference file: combin01_combin01.prf
+Device,speed:    LCMXO3L-6900C,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+<A name="ptwr_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#par_twr_pref_0_0' Target='right'>Default path enumeration(0 errors)</A></LI>            594 items scored, 0 timing errors detected.
+
+<LI><A href='#par_twr_pref_0_1' Target='right'>Default net enumeration(0 errors)</A></LI>            36 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="par_twr_pref_0_0"></A>Preference: Default path enumeration
+            594 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:   21.050ns delay entrada2_tm[0] to resultado_tm[6]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         H6.PAD to       H6.PADDI entrada2_tm[0]
+ROUTE         6     4.202       H6.PADDI to     R23C11B.B1 entrada2_tm_c[0]
+CTOF_DEL    ---     0.452     R23C11B.B1 to     R23C11B.F1 SLICE_13
+ROUTE         1     0.678     R23C11B.F1 to     R24C11B.C0 and20
+CTOF_DEL    ---     0.452     R24C11B.C0 to     R24C11B.F0 SLICE_0
+ROUTE         2     1.599     R24C11B.F0 to     R23C11C.A0 CS2
+CTOF_DEL    ---     0.452     R23C11C.A0 to     R23C11C.F0 SLICE_10
+ROUTE         2     0.881     R23C11C.F0 to     R24C11A.A0 SS3
+CTOF_DEL    ---     0.452     R24C11A.A0 to     R24C11A.F0 SLICE_7
+ROUTE         2     0.865     R24C11A.F0 to     R24C12D.A1 SS6
+CTOF_DEL    ---     0.452     R24C12D.A1 to     R24C12D.F1 SLICE_3
+ROUTE         2     0.868     R24C12D.F1 to     R24C12A.A0 CS9
+CTOF_DEL    ---     0.452     R24C12A.A0 to     R24C12A.F0 SLICE_12
+ROUTE         2     0.555     R24C12A.F0 to     R23C12C.D1 CS10
+CTOF_DEL    ---     0.452     R23C12C.D1 to     R23C12C.F1 SLICE_2
+ROUTE         2     0.552     R23C12C.F1 to     R23C12B.D0 CS11
+CTOF_DEL    ---     0.452     R23C12B.D0 to     R23C12B.F0 SLICE_1
+ROUTE         1     2.414     R23C12B.F0 to       T9.PADDO resultado_tm_c[6]
+DOPAD_DEL   ---     3.448       T9.PADDO to         T9.PAD resultado_tm[6]
+                  --------
+                   21.050   (40.1% logic, 59.9% route), 10 logic levels.
+
+Report:   20.867ns delay entrada2_tm[0] to resultado_tm[5]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         H6.PAD to       H6.PADDI entrada2_tm[0]
+ROUTE         6     4.202       H6.PADDI to     R23C11B.B1 entrada2_tm_c[0]
+CTOF_DEL    ---     0.452     R23C11B.B1 to     R23C11B.F1 SLICE_13
+ROUTE         1     0.678     R23C11B.F1 to     R24C11B.C0 and20
+CTOF_DEL    ---     0.452     R24C11B.C0 to     R24C11B.F0 SLICE_0
+ROUTE         2     1.599     R24C11B.F0 to     R23C11C.A0 CS2
+CTOF_DEL    ---     0.452     R23C11C.A0 to     R23C11C.F0 SLICE_10
+ROUTE         2     0.881     R23C11C.F0 to     R24C11A.A0 SS3
+CTOF_DEL    ---     0.452     R24C11A.A0 to     R24C11A.F0 SLICE_7
+ROUTE         2     0.865     R24C11A.F0 to     R24C12D.A1 SS6
+CTOF_DEL    ---     0.452     R24C12D.A1 to     R24C12D.F1 SLICE_3
+ROUTE         2     0.868     R24C12D.F1 to     R24C12A.A0 CS9
+CTOF_DEL    ---     0.452     R24C12A.A0 to     R24C12A.F0 SLICE_12
+ROUTE         2     1.410     R24C12A.F0 to     R23C12A.C0 CS10
+CTOF_DEL    ---     0.452     R23C12A.C0 to     R23C12A.F0 SLICE_8
+ROUTE         1     2.380     R23C12A.F0 to       R9.PADDO resultado_tm_c[5]
+DOPAD_DEL   ---     3.448       R9.PADDO to         R9.PAD resultado_tm[5]
+                  --------
+                   20.867   (38.3% logic, 61.7% route), 9 logic levels.
+
+Report:   20.540ns delay entrada2_tm[0] to resultado_tm[7]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         H6.PAD to       H6.PADDI entrada2_tm[0]
+ROUTE         6     4.202       H6.PADDI to     R23C11B.B1 entrada2_tm_c[0]
+CTOF_DEL    ---     0.452     R23C11B.B1 to     R23C11B.F1 SLICE_13
+ROUTE         1     0.678     R23C11B.F1 to     R24C11B.C0 and20
+CTOF_DEL    ---     0.452     R24C11B.C0 to     R24C11B.F0 SLICE_0
+ROUTE         2     1.599     R24C11B.F0 to     R23C11C.A0 CS2
+CTOF_DEL    ---     0.452     R23C11C.A0 to     R23C11C.F0 SLICE_10
+ROUTE         2     0.881     R23C11C.F0 to     R24C11A.A0 SS3
+CTOF_DEL    ---     0.452     R24C11A.A0 to     R24C11A.F0 SLICE_7
+ROUTE         2     0.865     R24C11A.F0 to     R24C12D.A1 SS6
+CTOF_DEL    ---     0.452     R24C12D.A1 to     R24C12D.F1 SLICE_3
+ROUTE         2     0.868     R24C12D.F1 to     R24C12A.A0 CS9
+CTOF_DEL    ---     0.452     R24C12A.A0 to     R24C12A.F0 SLICE_12
+ROUTE         2     0.555     R24C12A.F0 to     R23C12C.D1 CS10
+CTOF_DEL    ---     0.452     R23C12C.D1 to     R23C12C.F1 SLICE_2
+ROUTE         2     0.392     R23C12C.F1 to     R23C12C.C0 CS11
+CTOF_DEL    ---     0.452     R23C12C.C0 to     R23C12C.F0 SLICE_2
+ROUTE         1     2.064     R23C12C.F0 to       P9.PADDO resultado_tm_c[7]
+DOPAD_DEL   ---     3.448       P9.PADDO to         P9.PAD resultado_tm[7]
+                  --------
+                   20.540   (41.1% logic, 58.9% route), 10 logic levels.
+
+Report:   20.467ns delay entrada2_tm[0] to resultado_tm[6]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         H6.PAD to       H6.PADDI entrada2_tm[0]
+ROUTE         6     4.202       H6.PADDI to     R23C11B.B1 entrada2_tm_c[0]
+CTOF_DEL    ---     0.452     R23C11B.B1 to     R23C11B.F1 SLICE_13
+ROUTE         1     0.678     R23C11B.F1 to     R24C11B.C0 and20
+CTOF_DEL    ---     0.452     R24C11B.C0 to     R24C11B.F0 SLICE_0
+ROUTE         2     1.599     R24C11B.F0 to     R23C11C.A0 CS2
+CTOF_DEL    ---     0.452     R23C11C.A0 to     R23C11C.F0 SLICE_10
+ROUTE         2     0.277     R23C11C.F0 to     R23C11A.D1 SS3
+CTOF_DEL    ---     0.452     R23C11A.D1 to     R23C11A.F1 SLICE_6
+ROUTE         2     0.618     R23C11A.F1 to     R23C11A.B0 CS6
+CTOF_DEL    ---     0.452     R23C11A.B0 to     R23C11A.F0 SLICE_6
+ROUTE         2     1.136     R23C11A.F0 to     R24C12A.C0 SS7
+CTOF_DEL    ---     0.452     R24C12A.C0 to     R24C12A.F0 SLICE_12
+ROUTE         2     0.555     R24C12A.F0 to     R23C12C.D1 CS10
+CTOF_DEL    ---     0.452     R23C12C.D1 to     R23C12C.F1 SLICE_2
+ROUTE         2     0.552     R23C12C.F1 to     R23C12B.D0 CS11
+CTOF_DEL    ---     0.452     R23C12B.D0 to     R23C12B.F0 SLICE_1
+ROUTE         1     2.414     R23C12B.F0 to       T9.PADDO resultado_tm_c[6]
+DOPAD_DEL   ---     3.448       T9.PADDO to         T9.PAD resultado_tm[6]
+                  --------
+                   20.467   (41.2% logic, 58.8% route), 10 logic levels.
+
+Report:   20.319ns delay entrada2_tm[0] to resultado_tm[6]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         H6.PAD to       H6.PADDI entrada2_tm[0]
+ROUTE         6     3.590       H6.PADDI to     R24C11B.C1 entrada2_tm_c[0]
+CTOF_DEL    ---     0.452     R24C11B.C1 to     R24C11B.F1 SLICE_0
+ROUTE         3     0.559     R24C11B.F1 to     R24C11B.D0 CS1
+CTOF_DEL    ---     0.452     R24C11B.D0 to     R24C11B.F0 SLICE_0
+ROUTE         2     1.599     R24C11B.F0 to     R23C11C.A0 CS2
+CTOF_DEL    ---     0.452     R23C11C.A0 to     R23C11C.F0 SLICE_10
+ROUTE         2     0.881     R23C11C.F0 to     R24C11A.A0 SS3
+CTOF_DEL    ---     0.452     R24C11A.A0 to     R24C11A.F0 SLICE_7
+ROUTE         2     0.865     R24C11A.F0 to     R24C12D.A1 SS6
+CTOF_DEL    ---     0.452     R24C12D.A1 to     R24C12D.F1 SLICE_3
+ROUTE         2     0.868     R24C12D.F1 to     R24C12A.A0 CS9
+CTOF_DEL    ---     0.452     R24C12A.A0 to     R24C12A.F0 SLICE_12
+ROUTE         2     0.555     R24C12A.F0 to     R23C12C.D1 CS10
+CTOF_DEL    ---     0.452     R23C12C.D1 to     R23C12C.F1 SLICE_2
+ROUTE         2     0.552     R23C12C.F1 to     R23C12B.D0 CS11
+CTOF_DEL    ---     0.452     R23C12B.D0 to     R23C12B.F0 SLICE_1
+ROUTE         1     2.414     R23C12B.F0 to       T9.PADDO resultado_tm_c[6]
+DOPAD_DEL   ---     3.448       T9.PADDO to         T9.PAD resultado_tm[6]
+                  --------
+                   20.319   (41.5% logic, 58.5% route), 10 logic levels.
+
+Report:   20.284ns delay entrada2_tm[0] to resultado_tm[5]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         H6.PAD to       H6.PADDI entrada2_tm[0]
+ROUTE         6     4.202       H6.PADDI to     R23C11B.B1 entrada2_tm_c[0]
+CTOF_DEL    ---     0.452     R23C11B.B1 to     R23C11B.F1 SLICE_13
+ROUTE         1     0.678     R23C11B.F1 to     R24C11B.C0 and20
+CTOF_DEL    ---     0.452     R24C11B.C0 to     R24C11B.F0 SLICE_0
+ROUTE         2     1.599     R24C11B.F0 to     R23C11C.A0 CS2
+CTOF_DEL    ---     0.452     R23C11C.A0 to     R23C11C.F0 SLICE_10
+ROUTE         2     0.277     R23C11C.F0 to     R23C11A.D1 SS3
+CTOF_DEL    ---     0.452     R23C11A.D1 to     R23C11A.F1 SLICE_6
+ROUTE         2     0.618     R23C11A.F1 to     R23C11A.B0 CS6
+CTOF_DEL    ---     0.452     R23C11A.B0 to     R23C11A.F0 SLICE_6
+ROUTE         2     1.136     R23C11A.F0 to     R24C12A.C0 SS7
+CTOF_DEL    ---     0.452     R24C12A.C0 to     R24C12A.F0 SLICE_12
+ROUTE         2     1.410     R24C12A.F0 to     R23C12A.C0 CS10
+CTOF_DEL    ---     0.452     R23C12A.C0 to     R23C12A.F0 SLICE_8
+ROUTE         1     2.380     R23C12A.F0 to       R9.PADDO resultado_tm_c[5]
+DOPAD_DEL   ---     3.448       R9.PADDO to         R9.PAD resultado_tm[5]
+                  --------
+                   20.284   (39.4% logic, 60.6% route), 9 logic levels.
+
+Report:   20.277ns delay entrada2_tm[0] to resultado_tm[6]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         H6.PAD to       H6.PADDI entrada2_tm[0]
+ROUTE         6     4.202       H6.PADDI to     R23C11B.B1 entrada2_tm_c[0]
+CTOF_DEL    ---     0.452     R23C11B.B1 to     R23C11B.F1 SLICE_13
+ROUTE         1     0.678     R23C11B.F1 to     R24C11B.C0 and20
+CTOF_DEL    ---     0.452     R24C11B.C0 to     R24C11B.F0 SLICE_0
+ROUTE         2     1.036     R24C11B.F0 to     R23C11D.C1 CS2
+CTOF_DEL    ---     0.452     R23C11D.C1 to     R23C11D.F1 SLICE_4
+ROUTE         4     0.406     R23C11D.F1 to     R23C11D.C0 CS3
+CTOF_DEL    ---     0.452     R23C11D.C0 to     R23C11D.F0 SLICE_4
+ROUTE         2     0.862     R23C11D.F0 to     R23C11A.A0 SS4
+CTOF_DEL    ---     0.452     R23C11A.A0 to     R23C11A.F0 SLICE_6
+ROUTE         2     1.136     R23C11A.F0 to     R24C12A.C0 SS7
+CTOF_DEL    ---     0.452     R24C12A.C0 to     R24C12A.F0 SLICE_12
+ROUTE         2     0.555     R24C12A.F0 to     R23C12C.D1 CS10
+CTOF_DEL    ---     0.452     R23C12C.D1 to     R23C12C.F1 SLICE_2
+ROUTE         2     0.552     R23C12C.F1 to     R23C12B.D0 CS11
+CTOF_DEL    ---     0.452     R23C12B.D0 to     R23C12B.F0 SLICE_1
+ROUTE         1     2.414     R23C12B.F0 to       T9.PADDO resultado_tm_c[6]
+DOPAD_DEL   ---     3.448       T9.PADDO to         T9.PAD resultado_tm[6]
+                  --------
+                   20.277   (41.6% logic, 58.4% route), 10 logic levels.
+
+Report:   20.136ns delay entrada2_tm[0] to resultado_tm[5]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         H6.PAD to       H6.PADDI entrada2_tm[0]
+ROUTE         6     3.590       H6.PADDI to     R24C11B.C1 entrada2_tm_c[0]
+CTOF_DEL    ---     0.452     R24C11B.C1 to     R24C11B.F1 SLICE_0
+ROUTE         3     0.559     R24C11B.F1 to     R24C11B.D0 CS1
+CTOF_DEL    ---     0.452     R24C11B.D0 to     R24C11B.F0 SLICE_0
+ROUTE         2     1.599     R24C11B.F0 to     R23C11C.A0 CS2
+CTOF_DEL    ---     0.452     R23C11C.A0 to     R23C11C.F0 SLICE_10
+ROUTE         2     0.881     R23C11C.F0 to     R24C11A.A0 SS3
+CTOF_DEL    ---     0.452     R24C11A.A0 to     R24C11A.F0 SLICE_7
+ROUTE         2     0.865     R24C11A.F0 to     R24C12D.A1 SS6
+CTOF_DEL    ---     0.452     R24C12D.A1 to     R24C12D.F1 SLICE_3
+ROUTE         2     0.868     R24C12D.F1 to     R24C12A.A0 CS9
+CTOF_DEL    ---     0.452     R24C12A.A0 to     R24C12A.F0 SLICE_12
+ROUTE         2     1.410     R24C12A.F0 to     R23C12A.C0 CS10
+CTOF_DEL    ---     0.452     R23C12A.C0 to     R23C12A.F0 SLICE_8
+ROUTE         1     2.380     R23C12A.F0 to       R9.PADDO resultado_tm_c[5]
+DOPAD_DEL   ---     3.448       R9.PADDO to         R9.PAD resultado_tm[5]
+                  --------
+                   20.136   (39.7% logic, 60.3% route), 9 logic levels.
+
+Report:   20.094ns delay entrada1_tm[2] to resultado_tm[6]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         L1.PAD to       L1.PADDI entrada1_tm[2]
+ROUTE         8     3.246       L1.PADDI to     R23C11B.D1 entrada1_tm_c[2]
+CTOF_DEL    ---     0.452     R23C11B.D1 to     R23C11B.F1 SLICE_13
+ROUTE         1     0.678     R23C11B.F1 to     R24C11B.C0 and20
+CTOF_DEL    ---     0.452     R24C11B.C0 to     R24C11B.F0 SLICE_0
+ROUTE         2     1.599     R24C11B.F0 to     R23C11C.A0 CS2
+CTOF_DEL    ---     0.452     R23C11C.A0 to     R23C11C.F0 SLICE_10
+ROUTE         2     0.881     R23C11C.F0 to     R24C11A.A0 SS3
+CTOF_DEL    ---     0.452     R24C11A.A0 to     R24C11A.F0 SLICE_7
+ROUTE         2     0.865     R24C11A.F0 to     R24C12D.A1 SS6
+CTOF_DEL    ---     0.452     R24C12D.A1 to     R24C12D.F1 SLICE_3
+ROUTE         2     0.868     R24C12D.F1 to     R24C12A.A0 CS9
+CTOF_DEL    ---     0.452     R24C12A.A0 to     R24C12A.F0 SLICE_12
+ROUTE         2     0.555     R24C12A.F0 to     R23C12C.D1 CS10
+CTOF_DEL    ---     0.452     R23C12C.D1 to     R23C12C.F1 SLICE_2
+ROUTE         2     0.552     R23C12C.F1 to     R23C12B.D0 CS11
+CTOF_DEL    ---     0.452     R23C12B.D0 to     R23C12B.F0 SLICE_1
+ROUTE         1     2.414     R23C12B.F0 to       T9.PADDO resultado_tm_c[6]
+DOPAD_DEL   ---     3.448       T9.PADDO to         T9.PAD resultado_tm[6]
+                  --------
+                   20.094   (42.0% logic, 58.0% route), 10 logic levels.
+
+Report:   20.094ns delay entrada2_tm[0] to resultado_tm[5]
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.372         H6.PAD to       H6.PADDI entrada2_tm[0]
+ROUTE         6     4.202       H6.PADDI to     R23C11B.B1 entrada2_tm_c[0]
+CTOF_DEL    ---     0.452     R23C11B.B1 to     R23C11B.F1 SLICE_13
+ROUTE         1     0.678     R23C11B.F1 to     R24C11B.C0 and20
+CTOF_DEL    ---     0.452     R24C11B.C0 to     R24C11B.F0 SLICE_0
+ROUTE         2     1.036     R24C11B.F0 to     R23C11D.C1 CS2
+CTOF_DEL    ---     0.452     R23C11D.C1 to     R23C11D.F1 SLICE_4
+ROUTE         4     0.406     R23C11D.F1 to     R23C11D.C0 CS3
+CTOF_DEL    ---     0.452     R23C11D.C0 to     R23C11D.F0 SLICE_4
+ROUTE         2     0.862     R23C11D.F0 to     R23C11A.A0 SS4
+CTOF_DEL    ---     0.452     R23C11A.A0 to     R23C11A.F0 SLICE_6
+ROUTE         2     1.136     R23C11A.F0 to     R24C12A.C0 SS7
+CTOF_DEL    ---     0.452     R24C12A.C0 to     R24C12A.F0 SLICE_12
+ROUTE         2     1.410     R24C12A.F0 to     R23C12A.C0 CS10
+CTOF_DEL    ---     0.452     R23C12A.C0 to     R23C12A.F0 SLICE_8
+ROUTE         1     2.380     R23C12A.F0 to       R9.PADDO resultado_tm_c[5]
+DOPAD_DEL   ---     3.448       R9.PADDO to         R9.PAD resultado_tm[5]
+                  --------
+                   20.094   (39.7% logic, 60.3% route), 9 logic levels.
+
+Report:   21.050ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="par_twr_pref_0_1"></A>Preference: Default net enumeration
+            36 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    4.202ns maximum delay on entrada2_tm_c[0]
+
+           Delays             Connection(s)
+           4.202ns         H6.PADDI to R23C11B.B1      
+           3.590ns         H6.PADDI to R24C11D.C1      
+           3.590ns         H6.PADDI to R24C11D.C0      
+           4.171ns         H6.PADDI to R23C11C.A1      
+           3.590ns         H6.PADDI to R24C11C.C1      
+           3.590ns         H6.PADDI to R24C11B.C1      
+
+Report:    3.945ns maximum delay on entrada1_tm_c[3]
+
+           Delays             Connection(s)
+           3.604ns         L5.PADDI to R23C11B.D0      
+           3.945ns         L5.PADDI to R23C11C.B1      
+           2.483ns         L5.PADDI to R23C12D.D0      
+           3.254ns         L5.PADDI to R23C11D.D0      
+           2.793ns         L5.PADDI to R23C12C.A0      
+           2.948ns         L5.PADDI to R23C12B.C1      
+           2.824ns         L5.PADDI to R23C12B.B0      
+
+Report:    3.516ns maximum delay on entrada1_tm_c[2]
+
+           Delays             Connection(s)
+           3.246ns         L1.PADDI to R23C11B.D1      
+           3.246ns         L1.PADDI to R23C11C.D0      
+           3.516ns         L1.PADDI to R24C11C.A1      
+           3.182ns         L1.PADDI to R23C12A.B1      
+           3.246ns         L1.PADDI to R23C11A.D0      
+           2.956ns         L1.PADDI to R23C12D.C1      
+           3.246ns         L1.PADDI to R23C11D.D1      
+           2.818ns         L1.PADDI to R23C12C.B1      
+
+Report:    3.170ns maximum delay on entrada1_tm_c[0]
+
+           Delays             Connection(s)
+           3.015ns         N3.PADDI to R24C12A.A1      
+           2.683ns         N3.PADDI to R24C11D.D1      
+           2.683ns         N3.PADDI to R24C11D.D0      
+           2.683ns         N3.PADDI to R24C11C.D0      
+           3.024ns         N3.PADDI to R24C11A.B1      
+           3.170ns         N3.PADDI to R24C12D.C1      
+           2.319ns         N3.PADDI to R24C11B.D1      
+
+Report:    3.131ns maximum delay on entrada2_tm_c[1]
+
+           Delays             Connection(s)
+           2.739ns         M2.PADDI to R24C11D.B0      
+           3.131ns         M2.PADDI to R23C11C.B0      
+           2.739ns         M2.PADDI to R24C11C.B1      
+           3.100ns         M2.PADDI to R23C11D.A1      
+           3.100ns         M2.PADDI to R23C11D.A0      
+           2.739ns         M2.PADDI to R24C11B.B1      
+           2.739ns         M2.PADDI to R24C11B.B0      
+
+Report:    3.125ns maximum delay on entrada1_tm_c[1]
+
+           Delays             Connection(s)
+           3.125ns         M1.PADDI to R24C12A.B0      
+           2.708ns         M1.PADDI to R24C11D.A0      
+           2.775ns         M1.PADDI to R24C11C.D1      
+           2.398ns         M1.PADDI to R24C11A.D0      
+           3.089ns         M1.PADDI to R23C11A.B1      
+           3.125ns         M1.PADDI to R24C12D.B0      
+           3.085ns         M1.PADDI to R24C11B.A1      
+           3.085ns         M1.PADDI to R24C11B.A0      
+
+Report:    3.100ns maximum delay on entrada2_tm_c[2]
+
+           Delays             Connection(s)
+           2.526ns         L2.PADDI to R23C11B.C0      
+           3.100ns         L2.PADDI to R24C11C.A0      
+           2.749ns         L2.PADDI to R24C11A.D1      
+           2.514ns         L2.PADDI to R24C11A.C0      
+           2.526ns         L2.PADDI to R23C11A.C1      
+           2.526ns         L2.PADDI to R23C11A.C0      
+           2.718ns         L2.PADDI to R23C12D.B1      
+           2.718ns         L2.PADDI to R23C12D.B0      
+           2.354ns         L2.PADDI to R23C12B.B1      
+
+Report:    2.948ns maximum delay on resultado_tm_c[0]
+
+           Delays             Connection(s)
+           2.948ns       R24C11D.F1 to T12.PADDO       
+
+Report:    2.819ns maximum delay on entrada2_tm_c[3]
+
+           Delays             Connection(s)
+           2.478ns         L3.PADDI to R24C12A.D1      
+           2.478ns         L3.PADDI to R24C12A.D0      
+           2.593ns         L3.PADDI to R23C12A.C1      
+           2.478ns         L3.PADDI to R24C12D.D1      
+           2.478ns         L3.PADDI to R24C12D.D0      
+           2.788ns         L3.PADDI to R23C12C.A1      
+           2.819ns         L3.PADDI to R23C12C.B0      
+           2.593ns         L3.PADDI to R23C12B.C0      
+
+Report:    2.793ns maximum delay on resultado_tm_c[3]
+
+           Delays             Connection(s)
+           2.793ns       R24C12A.F1 to P11.PADDO       
+
+Report:    4.202ns is the maximum delay for this preference.
+
+<A name="ptwr_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+Default path enumeration                |     0.000 ns|    21.050 ns|   0  
+                                        |             |             |
+Default net enumeration                 |     0.000 ns|     4.202 ns|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="ptwr_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 0 clocks:
+
+
+<A name="ptwr_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 594 paths, 36 nets, and 108 connections (100.00% coverage)
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

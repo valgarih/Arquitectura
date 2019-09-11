@@ -1,0 +1,294 @@
+# Thu May  2 13:01:12 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":26:3:26:6|Removing user instance outsubs_cl_15[7] because it is equivalent to instance outsubs_cl_14[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":26:3:26:6|Removing user instance outsubs_cl_14[7] because it is equivalent to instance outsubs_cl_12[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":26:3:26:6|Removing user instance outsubs_cl_13[7] because it is equivalent to instance outsubs_cl_11[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":26:3:26:6|Removing user instance outsubs_cl_12[7] because it is equivalent to instance outsubs_cl_10[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":26:3:26:6|Removing user instance outsubs_cl_11[7] because it is equivalent to instance outsubs_cl_9[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":26:3:26:6|Removing user instance outsubs_cl_10[7] because it is equivalent to instance outsubs_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":26:3:26:6|Removing user instance outsubs_cl_9[7] because it is equivalent to instance outLEDoverfsubs_cl_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":25:2:25:3|Removing user instance outsubs_cl_23[7] because it is equivalent to instance outsubs_cl_21[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":26:3:26:6|Removing user instance outLEDoverfsubs_cl_1 because it is equivalent to instance outsubs_cl_8[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":25:2:25:3|Removing user instance outsubs_cl_21[7] because it is equivalent to instance outsubs_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_7[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_6[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_3[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_2[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_1[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		   997.11ns		  10 /        13
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 13 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clksubs             port                   13         aux            
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 141MB)
+
+Writing Analyst data base C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\alu\synwork\alu01_alu_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 141MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\alu\alu01_alu.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 144MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 144MB)
+
+@W: MT420 |Found inferred clock subsal00|clksubs with period 1000.00ns. Please declare a user-defined clock on object "p:clksubs"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu May  2 13:01:15 2019
+#
+
+
+Top view:               subsal00
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 997.108
+
+                     Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------
+subsal00|clksubs     1.0 MHz       345.8 MHz     1000.000      2.892         997.108     inferred     Inferred_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------
+subsal00|clksubs  subsal00|clksubs  |  1000.000    997.108  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: subsal00|clksubs
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                   Arrival            
+Instance          Reference            Type        Pin     Net               Time        Slack  
+                  Clock                                                                         
+------------------------------------------------------------------------------------------------
+aux               subsal00|clksubs     FD1P3AX     Q       aux               1.148       997.108
+outsubs_cl[7]     subsal00|clksubs     FD1S3IX     Q       outsubs_cl[7]     1.044       997.411
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                     Required            
+Instance                  Reference            Type         Pin     Net                Time         Slack  
+                          Clock                                                                            
+-----------------------------------------------------------------------------------------------------------
+outLEDoverfsubs_1_0io     subsal00|clksubs     IFS1P3DX     SP      outsubs_1ce[0]     999.528      997.108
+outsubs_1_0io[0]          subsal00|clksubs     IFS1P3DX     SP      outsubs_1ce[0]     999.528      997.108
+outsubs_1_0io[1]          subsal00|clksubs     IFS1P3DX     SP      outsubs_1ce[0]     999.528      997.108
+outsubs_1_0io[2]          subsal00|clksubs     IFS1P3DX     SP      outsubs_1ce[0]     999.528      997.108
+outsubs_1_0io[3]          subsal00|clksubs     IFS1P3DX     SP      outsubs_1ce[0]     999.528      997.108
+outsubs_1_0io[4]          subsal00|clksubs     IFS1P3DX     SP      outsubs_1ce[0]     999.528      997.108
+outsubs_1_0io[5]          subsal00|clksubs     IFS1P3DX     SP      outsubs_1ce[0]     999.528      997.108
+outsubs_1_0io[6]          subsal00|clksubs     IFS1P3DX     SP      outsubs_1ce[0]     999.528      997.108
+outsubs_1_0io[7]          subsal00|clksubs     IFS1P3DX     SP      outsubs_1ce[0]     999.528      997.108
+outsubs_cl[7]             subsal00|clksubs     FD1S3IX      D       outsubs_clc        1000.089     997.307
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.472
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.528
+
+    - Propagation time:                      2.421
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     997.108
+
+    Number of logic level(s):                1
+    Starting point:                          aux / Q
+    Ending point:                            outLEDoverfsubs_1_0io / SP
+    The start point is clocked by            subsal00|clksubs [rising] on pin CK
+    The end   point is clocked by            subsal00|clksubs [rising] on pin SCLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+aux                       FD1P3AX      Q        Out     1.148     1.148       -         
+aux                       Net          -        -       -         -           4         
+outsubs_1ce[0]            ORCALUT4     A        In      0.000     1.148       -         
+outsubs_1ce[0]            ORCALUT4     Z        Out     1.273     2.421       -         
+outsubs_1ce[0]            Net          -        -       -         -           9         
+outLEDoverfsubs_1_0io     IFS1P3DX     SP       In      0.000     2.421       -         
+========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 145MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 145MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 13 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       27
+
+
+Details:
+FD1P3AX:        1
+FD1S3IX:        1
+GSR:            1
+IB:             16
+IFS1P3DX:       9
+INV:            1
+OB:             1
+OBZ:            10
+OFS1P3DX:       2
+ORCALUT4:       9
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 31MB peak: 145MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Thu May  2 13:01:15 2019
+
+###########################################################]

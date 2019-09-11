@@ -1,0 +1,17 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\jmaci\Desktop\sum8bit00\sum8bit00\synwork\sum8bit00_sum8bit00_hdl_.srs  -top  topadder8bit00  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\jmaci\Desktop\sum8bit00\sum8bit00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\jmaci\Desktop\sum8bit00\xor00.vhdl -lib work C:\Users\jmaci\Desktop\sum8bit00\and00.vhdl -lib work C:\Users\jmaci\Desktop\sum8bit00\packageha00.vhdl -lib work C:\Users\jmaci\Desktop\sum8bit00\ha00.vhdl -lib work C:\Users\jmaci\Desktop\sum8bit00\or00.vhdl -lib work C:\Users\jmaci\Desktop\sum8bit00\packagefa00.vhdl -lib work C:\Users\jmaci\Desktop\sum8bit00\fa00.vhdl -lib work C:\Users\jmaci\Desktop\sum8bit00\xnor00.vhdl -lib work C:\Users\jmaci\Desktop\sum8bit00\packageadder8bit00.vhdl -lib work C:\Users\jmaci\Desktop\sum8bit00\topadder8bit00.vhdl  -log  C:\Users\jmaci\Desktop\sum8bit00\sum8bit00\syntax.log  -fileorder  C:\Users\jmaci\Desktop\sum8bit00\sum8bit00\syntmp\hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\sum8bit00_sum8bit00_hdl_.srs -top topadder8bit00 -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\xor00.vhdl -lib work ..\..\and00.vhdl -lib work ..\..\packageha00.vhdl -lib work ..\..\ha00.vhdl -lib work ..\..\or00.vhdl -lib work ..\..\packagefa00.vhdl -lib work ..\..\fa00.vhdl -lib work ..\..\xnor00.vhdl -lib work ..\..\packageadder8bit00.vhdl -lib work ..\..\topadder8bit00.vhdl -log ..\syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:1
+file:..\synwork\sum8bit00_sum8bit00_hdl_.srs|io:o|time:0|size:0|exec:0|csum:
+file:..\..\..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\xor00.vhdl|io:i|time:1520487240|size:254|exec:0|csum:CD31EA5D83585A409AADC3BD2B223FD5
+file:..\..\and00.vhdl|io:i|time:1520487265|size:252|exec:0|csum:CE43BA1FE4A4B17135ACF0DE35754BBD
+file:..\..\packageha00.vhdl|io:i|time:1520487360|size:364|exec:0|csum:6513096A8E54DC496ED5A768FB3EC37D
+file:..\..\ha00.vhdl|io:i|time:1520487360|size:471|exec:0|csum:1E4F834302EF7F672B099DD86D059CC0
+file:..\..\or00.vhdl|io:i|time:1520487360|size:246|exec:0|csum:46E86A089696726428FED4E993C4FBBE
+file:..\..\packagefa00.vhdl|io:i|time:1520487442|size:381|exec:0|csum:E1836184CC2406BDB9D8D9EE23007843
+file:..\..\fa00.vhdl|io:i|time:1520487442|size:684|exec:0|csum:0E5C23EF50B7F471BE9D8022FE25F868
+file:..\..\xnor00.vhdl|io:i|time:1520487442|size:264|exec:0|csum:287FD4497877E4AAF28324F031AA567F
+file:..\..\packageadder8bit00.vhdl|io:i|time:1520488236|size:671|exec:0|csum:997EB4B716B22D800D244FEE06CBA099
+file:..\..\topadder8bit00.vhdl|io:i|time:1520488279|size:3598|exec:0|csum:2784CDE5B519F478B9E388F79CF4AB00
+file:..\syntax.log|io:o|time:1520488328|size:997|exec:0|csum:
+file:..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501913710|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

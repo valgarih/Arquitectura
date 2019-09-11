@@ -1,0 +1,82 @@
+----------------------------------------------------------------------
+Report for cell topbarrelSRL00.topbarrelsrl0
+
+Register bits: 43 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       30
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       15       100.0
+                            FD1P3AX        8       100.0
+                            FD1P3IX        4       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       22       100.0
+                                GSR        1       100.0
+                                 IB       21       100.0
+                                 OB        9       100.0
+                           OFS1P3IX        8       100.0
+                           ORCALUT4       79       100.0
+                               OSCH        1       100.0
+                                PUR        1       100.0
+                                VHI        5       100.0
+                                VLO        5       100.0
+SUB MODULES 
+                        barrelSRL00        1       100.0
+                              div00        1       100.0
+                              osc00        1       100.0
+                           toposc00        1       100.0
+                            
+                         TOTAL           184           
+----------------------------------------------------------------------
+Report for cell barrelSRL00.netlist
+     Instance path:  BSRL01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3        20.0
+                            FD1P3AX        8       100.0
+                            FD1P3IX        4       100.0
+                           ORCALUT4       27        34.2
+                                VHI        1        20.0
+                                VLO        1        20.0
+                            
+                         TOTAL            44           
+----------------------------------------------------------------------
+Report for cell toposc00.netlist
+     Instance path:  BSRL00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12        80.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       22       100.0
+                           ORCALUT4       52        65.8
+                               OSCH        1       100.0
+                                VHI        3        60.0
+                                VLO        3        60.0
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL            96           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  BSRL00.OS01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12        80.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       22       100.0
+                           ORCALUT4       52        65.8
+                                VHI        1        20.0
+                                VLO        1        20.0
+                            
+                         TOTAL            89           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  BSRL00.OS00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VHI        1        20.0
+                                VLO        1        20.0
+                            
+                         TOTAL             3           

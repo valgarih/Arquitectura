@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toplcd00  -multisrs  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdclear00\keylcdclear0\synwork\keylcdclear00_keylcdclear0_comp.srs  -osyn  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdclear00\keylcdclear0\synwork\keylcdclear00_keylcdclear0_mult.srs  -log  C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdclear00\keylcdclear0\synlog\keylcdclear00_keylcdclear0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top toplcd00 -multisrs ..\synwork\keylcdclear00_keylcdclear0_comp.srs -osyn ..\synwork\keylcdclear00_keylcdclear0_mult.srs -log ..\synlog\keylcdclear00_keylcdclear0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\keylcdclear00_keylcdclear0_comp.srs|io:i|time:1543178981|size:25779|exec:0|csum:2F0FFF2ECE0E4C3375C37D17D035583D
+file:..\synwork\keylcdclear00_keylcdclear0_mult.srs|io:o|time:1543178983|size:5489|exec:0|csum:
+file:..\synlog\keylcdclear00_keylcdclear0_multi_srs_gen.srr|io:o|time:1543178983|size:587|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501910190|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>G00/UD00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>G00/UD00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD277 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\packagegeneric01.vhdl&quot;:192:4:192:11|Port direction mismatch between component and entity</Dynamic>
+            <Navigation>CD277</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\packagegeneric01.vhdl</Navigation>
+            <Navigation>192</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>192</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Port direction mismatch between component and entity</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD277 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\packagegeneric01.vhdl&quot;:195:7:195:15|Port direction mismatch between component and entity</Dynamic>
+            <Navigation>CD277</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\packagegeneric01.vhdl</Navigation>
+            <Navigation>195</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>195</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Port direction mismatch between component and entity</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl&quot;:26:7:26:11|Signal spaad is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Signal spaad is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl&quot;:26:14:26:18|Signal spasb is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>Signal spasb is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl&quot;:26:21:26:25|Signal spbad is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>Signal spbad is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl&quot;:26:28:26:32|Signal spbsb is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Signal spbsb is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl&quot;:27:16:27:22|Signal soutssb is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Signal soutssb is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl&quot;:29:15:29:20|Signal sledsb is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Signal sledsb is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl&quot;:29:23:29:27|Signal sslad is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Signal sslad is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl&quot;:29:30:29:34|Signal sslsb is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Signal sslsb is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\rotR00.vhdl&quot;:25:4:25:5|Pruning unused register outFlagrr_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\rotR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagrr_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\rotL00.vhdl&quot;:25:4:25:5|Pruning unused register outFlagrl_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\rotL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagrl_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\ShiftR00.vhdl&quot;:25:4:25:5|Pruning unused register outFlagsr_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\ShiftR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagsr_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\ShiftL00.vhdl&quot;:25:4:25:5|Pruning unused register outFlagsl_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\ShiftL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagsl_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\multg01.vhdl&quot;:23:3:23:4|Pruning unused register outFlagmult_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\multg01.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outFlagmult_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\subg01.vhdl&quot;:26:3:26:4|Pruning unused register outFlagsb_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\subg01.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outFlagsb_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\addg01.vhdl&quot;:26:3:26:4|Pruning unused register outFlagad_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\addg01.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outFlagad_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\xnorg01.vhdl&quot;:24:4:24:5|Pruning unused register outFlagxn_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\xnorg01.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagxn_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\norg01.vhdl&quot;:24:4:24:5|Pruning unused register outFlagno_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\norg01.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagno_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\nandg01.vhdl&quot;:24:4:24:5|Pruning unused register outFlagna_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\nandg01.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagna_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\notg01.vhdl&quot;:23:4:23:5|Pruning unused register outFlagn_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\notg01.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagn_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\xorg01.vhdl&quot;:24:4:24:5|Pruning unused register outFlagx_cl_7. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\xorg01.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagx_cl_7. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\org01.vhdl&quot;:24:3:24:4|Pruning unused register outFlago_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\org01.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outFlago_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\andg01.vhdl&quot;:24:3:24:4|Pruning unused register outFlaga_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AlanAntonio\Desktop\ALLUU01\ALU01\generic02\source\andg01.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outFlaga_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\generic02\source\div00.vhdl&quot;:22:1:22:2|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including G00.UD01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\generic02\source\div00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including G00.UD01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl&quot;:26:3:26:4|Removing user instance G16.outrr_cl_23[7] because it is equivalent to instance G16.outrr_cl_22[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance G16.outrr_cl_23[7] because it is equivalent to instance G16.outrr_cl_22[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl&quot;:26:3:26:4|Removing user instance G16.outrr_cl_22[7] because it is equivalent to instance G16.outrr_cl_20[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance G16.outrr_cl_22[7] because it is equivalent to instance G16.outrr_cl_20[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl&quot;:26:3:26:4|Removing user instance G16.outrr_cl_21[7] because it is equivalent to instance G16.outrr_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance G16.outrr_cl_21[7] because it is equivalent to instance G16.outrr_cl_19[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl&quot;:26:3:26:4|Removing user instance G16.outrr_cl_20[7] because it is equivalent to instance G16.outrr_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance G16.outrr_cl_20[7] because it is equivalent to instance G16.outrr_cl_18[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl&quot;:26:3:26:4|Removing user instance G16.outrr_cl_19[7] because it is equivalent to instance G16.outrr_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance G16.outrr_cl_19[7] because it is equivalent to instance G16.outrr_cl_17[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl&quot;:26:3:26:4|Removing user instance G16.outrr_cl_18[7] because it is equivalent to instance G16.outrr_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Removing user instance G16.outrr_cl_18[7] because it is equivalent to instance G16.outrr_cl_16[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl&quot;:25:4:25:5|Removing sequential instance G16.outrr_cl_7[7] because it is equivalent to instance G16.outrr_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing sequential instance G16.outrr_cl_7[7] because it is equivalent to instance G16.outrr_cl_3[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl&quot;:25:4:25:5|Removing sequential instance G16.outrr_cl_6[7] because it is equivalent to instance G16.outrr_cl_5[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing sequential instance G16.outrr_cl_6[7] because it is equivalent to instance G16.outrr_cl_5[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl&quot;:25:4:25:5|Removing sequential instance G16.outrr_cl_5[7] because it is equivalent to instance G16.outrr_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing sequential instance G16.outrr_cl_5[7] because it is equivalent to instance G16.outrr_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl&quot;:25:4:25:5|Removing sequential instance G16.outrr_cl_4[7] because it is equivalent to instance G16.outrr_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\alanantonio\desktop\alluu01\alu01\rotr00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing sequential instance G16.outrr_cl_4[7] because it is equivalent to instance G16.outrr_cl_2[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:G00.UD00.osc_int&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:G00.UD00.osc_int&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

@@ -1,0 +1,155 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn151209075608"></A><B><U><big>pn151209075608</big></U></B>
+#Start recording tcl command: 12/9/2015 07:45:44
+#Project Location: C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/Generic/generic02; Project name: generic02
+prj_project open "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/Generic/generic02/generic02.ldf"
+prj_src add "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/or.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumador.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumadorcompleto.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumadormedio.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_topcombin.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumador.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumadorcompleto.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumadormedio.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/topmultip00.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/xor.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/xnor.vhdl"
+prj_src add "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/topmulticomb01.vhdl"
+prj_src remove "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/or.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumador.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumadorcompleto.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumadormedio.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_topcombin.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumador.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumadorcompleto.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumadormedio.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/topmultip00.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/xor.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/xnor.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/topmulticomb01.vhdl"
+prj_src add "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/or.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumador.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumadorcompleto.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumadormedio.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_topcombin.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumador.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumadorcompleto.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/xor.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/xnor.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/topmulticomb01.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/topmultip00.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumadormedio.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/and.vhdl"
+prj_src remove "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/or.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumador.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumadorcompleto.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_sumadormedio.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/paquete_topcombin.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumador.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumadorcompleto.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/xor.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/xnor.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/topmulticomb01.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/topmultip00.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/top_sumadormedio.vhdl" "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/combinacional01/and.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 12/9/2015 07:56:08
+
+
+
+<A name="pn160111202821"></A><B><U><big>pn160111202821</big></U></B>
+#Start recording tcl command: 1/11/2016 20:28:09
+#Project Location: C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/Generic/generic02; Project name: generic02
+prj_project open "C:/Users/Orlando/Documents/Superior/5.- Quinto Semestre/Arquitectura de Computadoras/2.- Practicas/Generic/generic02/generic02.ldf"
+prj_project close
+#Stop recording: 1/11/2016 20:28:21
+
+
+
+<A name="pn160607193145"></A><B><U><big>pn160607193145</big></U></B>
+#Start recording tcl command: 6/7/2016 18:59:32
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/generic04/generic02; Project name: generic02
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/generic04/generic02/generic02.ldf"
+#Stop recording: 6/7/2016 19:31:45
+
+
+
+<A name="pn160607193246"></A><B><U><big>pn160607193246</big></U></B>
+#Start recording tcl command: 6/7/2016 19:31:57
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/generic04/generic02; Project name: generic02
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/generic04/generic02/generic02.ldf"
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 6/7/2016 19:32:46
+
+
+
+<A name="pn160608072044"></A><B><U><big>pn160608072044</big></U></B>
+#Start recording tcl command: 6/8/2016 07:17:12
+#Project Location: C:/Users/Gabriela/Desktop/PracticasG/generic04/generic02; Project name: generic02
+prj_project open "C:/Users/Gabriela/Desktop/PracticasG/generic04/generic02/generic02.ldf"
+prj_project close
+#Stop recording: 6/8/2016 07:20:44
+
+
+
+<A name="pn160608084632"></A><B><U><big>pn160608084632</big></U></B>
+#Start recording tcl command: 6/8/2016 08:45:01
+#Project Location: F:/generic04/generic02; Project name: generic02
+prj_project open "F:/generic04/generic02/generic02.ldf"
+prj_project save
+prj_project close
+#Stop recording: 6/8/2016 08:46:32
+
+
+
+<A name="pn160608090744"></A><B><U><big>pn160608090744</big></U></B>
+#Start recording tcl command: 6/8/2016 09:05:33
+#Project Location: F:/generic04/generic02; Project name: generic02
+prj_project open "F:/generic04/generic02/generic02.ldf"
+prj_project close
+#Stop recording: 6/8/2016 09:07:45
+
+
+
+<A name="pn171201004709"></A><B><U><big>pn171201004709</big></U></B>
+#Start recording tcl command: 12/1/2017 00:36:00
+#Project Location: C:/Users/Alfredo/Desktop/generic02; Project name: generic02
+prj_project open "C:/Users/Alfredo/Desktop/generic02/generic02.ldf"
+#Stop recording: 12/1/2017 00:47:09
+
+
+
+<A name="pn180425184913"></A><B><U><big>pn180425184913</big></U></B>
+#Start recording tcl command: 4/25/2018 18:48:21
+#Project Location: F:/IPN/Arquitectura_de_Computadoras/ProjectsMachXO2/Generics/generic02_primeraFase; Project name: generic02
+prj_project open "F:/IPN/Arquitectura_de_Computadoras/ProjectsMachXO2/Generics/generic02_primeraFase/generic02.ldf"
+prj_project close
+#Stop recording: 4/25/2018 18:49:13
+
+
+
+<A name="pn180617124653"></A><B><U><big>pn180617124653</big></U></B>
+#Start recording tcl command: 6/17/2018 12:36:25
+#Project Location: G:/IPN/Arquitectura_de_Computadoras/ProjectsMachXO2/Generics/generic02_primeraFase; Project name: generic02
+prj_project open "G:/IPN/Arquitectura_de_Computadoras/ProjectsMachXO2/Generics/generic02_primeraFase/generic02.ldf"
+#Stop recording: 6/17/2018 12:46:53
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

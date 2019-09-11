@@ -1,0 +1,406 @@
+#$ TOOL  ispLEVER Classic 2.0.00.17.20.15
+#$ DATE  Thu May 30 19:57:55 2019
+#$ MODULE  topcontrol
+#$ PROPERTY  LATTICE OSCTIMER U1_U1_inst11= -, -, -, u1_sclk_n, 1024; 
+#$ PINS 14 indivtop_4_:125 enctop:104 indivtop_3_:124 indivtop_2_:123
+ indivtop_1_:122 indivtop_0_:121 auxtop_4_:7 clktop:4 outctop:5 outctop1:6
+ auxtop_3_:8 auxtop_2_:9 auxtop_1_:11 auxtop_0_:12
+#$ NODES 24 gnd_n_n U2_aux_4_ U2_aux_0_ U2_aux_1_ U2_aux_2_ U2_aux_3_ u1_sclk_n
+ U1_U2_sdiv_14_ U1_U2_sdiv_0_ U1_U2_sdiv_1_ U1_U2_sdiv_2_ U1_U2_sdiv_3_
+ U1_U2_sdiv_4_ U1_U2_sdiv_5_ U1_U2_sdiv_6_ U1_U2_sdiv_7_ U1_U2_sdiv_8_
+ U1_U2_sdiv_9_ U1_U2_sdiv_10_ U1_U2_sdiv_11_ U1_U2_sdiv_12_ U1_U2_sdiv_13_
+ u1_u2_n_4_i_n M0_OSCOUT
+#$ EXTERNAL osctimer 4 DYNOSCDIS'i' TIMERRES'i' OSCOUT'o' TIMEROUT'o'
+#$ INSTANCE U1_U1_inst11 OSCTIMER 4 gnd_n_n gnd_n_n M0_OSCOUT u1_sclk_n
+.model topcontrol 
+.inputs indivtop_4_.BLIF enctop.BLIF indivtop_3_.BLIF indivtop_2_.BLIF \
+ indivtop_1_.BLIF indivtop_0_.BLIF U2_aux_4_.Q U2_aux_0_.Q U2_aux_1_.Q \
+ U2_aux_2_.Q U2_aux_3_.Q u1_sclk_n.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q \
+ U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q \
+ U1_U2_sdiv_6_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q \
+ U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q clktop.Q outctop.Q outctop1.Q \
+ u1_u2_n_4_i_n.BLIF M0_OSCOUT.BLIF
+.outputs auxtop_4_.D auxtop_4_.C auxtop_4_.CE clktop.T- clktop.C outctop.D \
+ outctop.C outctop1.D- outctop1.C auxtop_3_.D auxtop_3_.C auxtop_3_.CE \
+ auxtop_2_.D auxtop_2_.C auxtop_2_.CE auxtop_1_.D auxtop_1_.C auxtop_1_.CE \
+ auxtop_0_.D auxtop_0_.C auxtop_0_.CE gnd_n_n U2_aux_4_.T U2_aux_4_.C U2_aux_0_.D \
+ U2_aux_0_.C U2_aux_1_.D U2_aux_1_.C U2_aux_2_.D U2_aux_2_.C U2_aux_3_.D.X1 \
+ U2_aux_3_.D.X2 U2_aux_3_.C U1_U2_sdiv_14_.D U1_U2_sdiv_14_.C U1_U2_sdiv_14_.CE \
+ U1_U2_sdiv_0_.T- U1_U2_sdiv_0_.C U1_U2_sdiv_0_.CE U1_U2_sdiv_1_.D- \
+ U1_U2_sdiv_1_.C U1_U2_sdiv_1_.CE U1_U2_sdiv_2_.D- U1_U2_sdiv_2_.C \
+ U1_U2_sdiv_2_.CE U1_U2_sdiv_3_.D- U1_U2_sdiv_3_.C U1_U2_sdiv_3_.CE \
+ U1_U2_sdiv_4_.D- U1_U2_sdiv_4_.C U1_U2_sdiv_4_.CE U1_U2_sdiv_5_.D- \
+ U1_U2_sdiv_5_.C U1_U2_sdiv_5_.CE U1_U2_sdiv_6_.D- U1_U2_sdiv_6_.C \
+ U1_U2_sdiv_6_.CE U1_U2_sdiv_7_.D- U1_U2_sdiv_7_.C U1_U2_sdiv_7_.CE \
+ U1_U2_sdiv_8_.D- U1_U2_sdiv_8_.C U1_U2_sdiv_8_.CE U1_U2_sdiv_9_.D- \
+ U1_U2_sdiv_9_.C U1_U2_sdiv_9_.CE U1_U2_sdiv_10_.T U1_U2_sdiv_10_.C \
+ U1_U2_sdiv_10_.CE U1_U2_sdiv_11_.T U1_U2_sdiv_11_.C U1_U2_sdiv_11_.CE \
+ U1_U2_sdiv_12_.T U1_U2_sdiv_12_.C U1_U2_sdiv_12_.CE U1_U2_sdiv_13_.T \
+ U1_U2_sdiv_13_.C U1_U2_sdiv_13_.CE u1_u2_n_4_i_n
+.names U2_aux_4_.Q auxtop_4_.D
+1 1
+.names clktop.Q auxtop_4_.C
+1 1
+.names enctop.BLIF auxtop_4_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q clktop.T-
+---010------0 1
+--0-00------- 1
+--010-------- 1
+--101-------- 1
+0-1-0-------- 1
+-----00000000 1
+---1-0-000000 1
+----10--00000 1
+0----0---0000 1
+-0---0----000 1
+10----------- 1
+-10---------- 1
+--0--0-----00 1
+.names u1_sclk_n.BLIF clktop.C
+1 1
+.names enctop.BLIF U2_aux_4_.Q U2_aux_0_.Q U2_aux_1_.Q U2_aux_2_.Q U2_aux_3_.Q outctop.Q outctop.D
+1-11111 1
+11----- 1
+.names clktop.Q outctop.C
+1 1
+.names enctop.BLIF U2_aux_4_.Q U2_aux_0_.Q U2_aux_1_.Q U2_aux_2_.Q U2_aux_3_.Q outctop1.Q outctop1.D-
+--11110 1
+-1----- 1
+0------ 1
+.names clktop.Q outctop1.C
+1 1
+.names U2_aux_3_.Q auxtop_3_.D
+1 1
+.names clktop.Q auxtop_3_.C
+1 1
+.names enctop.BLIF auxtop_3_.CE
+1 1
+.names U2_aux_2_.Q auxtop_2_.D
+1 1
+.names clktop.Q auxtop_2_.C
+1 1
+.names enctop.BLIF auxtop_2_.CE
+1 1
+.names U2_aux_1_.Q auxtop_1_.D
+1 1
+.names clktop.Q auxtop_1_.C
+1 1
+.names enctop.BLIF auxtop_1_.CE
+1 1
+.names U2_aux_0_.Q auxtop_0_.D
+1 1
+.names clktop.Q auxtop_0_.C
+1 1
+.names enctop.BLIF auxtop_0_.CE
+1 1
+.names gnd_n_n
+.names enctop.BLIF U2_aux_0_.Q U2_aux_1_.Q U2_aux_2_.Q U2_aux_3_.Q U2_aux_4_.T
+11111 1
+.names clktop.Q U2_aux_4_.C
+1 1
+.names enctop.BLIF U2_aux_0_.Q U2_aux_0_.D
+10 1
+01 1
+.names clktop.Q U2_aux_0_.C
+1 1
+.names enctop.BLIF U2_aux_0_.Q U2_aux_1_.Q U2_aux_1_.D
+110 1
+-01 1
+0-1 1
+.names clktop.Q U2_aux_1_.C
+1 1
+.names enctop.BLIF U2_aux_0_.Q U2_aux_1_.Q U2_aux_2_.Q U2_aux_2_.D
+1110 1
+--01 1
+-0-1 1
+0--1 1
+.names clktop.Q U2_aux_2_.C
+1 1
+.names enctop.BLIF U2_aux_0_.Q U2_aux_1_.Q U2_aux_2_.Q U2_aux_3_.Q U2_aux_3_.D.X1
+1111- 1
+.names enctop.BLIF U2_aux_0_.Q U2_aux_1_.Q U2_aux_2_.Q U2_aux_3_.Q U2_aux_3_.D.X2
+----1 1
+.names clktop.Q U2_aux_3_.C
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q U1_U2_sdiv_6_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_14_.D
+00000011111111111111 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_14_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_14_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_0_.T-
+1---0-0-1----- 1
+1--0--01------ 1
+--1---0----1-- 1
+-1----0---1--- 1
+---1--0-----1- 1
+1-----0--1---- 1
+1-----0-----1- 1
+----1-0------1 1
+-----10------- 1
+1-----0------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_0_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_0_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_1_.D-
+1---0----1----- 1
+1--0----1------ 1
+--1---------1-- 1
+-1---------1--- 1
+------00------- 1
+------11------- 1
+---1---------1- 1
+1---------1---- 1
+1------------1- 1
+----1---------1 1
+-----1--------- 1
+1-------------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_1_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_1_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_2_.D-
+------111------- 1
+1---0-----1----- 1
+1--0-----1------ 1
+--1----------1-- 1
+-1----------1--- 1
+---1----------1- 1
+-------00------- 1
+------0-0------- 1
+1----------1---- 1
+1-------------1- 1
+----1----------1 1
+-----1---------- 1
+1--------------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_2_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_2_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_3_.D-
+------1111------- 1
+1---0------1----- 1
+1--0------1------ 1
+--1-----------1-- 1
+-1-----------1--- 1
+---1-----------1- 1
+1-----------1---- 1
+--------00------- 1
+-------0-0------- 1
+------0--0------- 1
+1--------------1- 1
+----1-----------1 1
+-----1----------- 1
+1---------------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_3_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_3_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_4_.D-
+------11111------- 1
+1---0-------1----- 1
+1--0-------1------ 1
+--1------------1-- 1
+-1------------1--- 1
+---1------------1- 1
+1------------1---- 1
+1---------------1- 1
+---------00------- 1
+--------0-0------- 1
+-------0--0------- 1
+------0---0------- 1
+----1------------1 1
+-----1------------ 1
+1----------------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_4_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_4_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_5_.D-
+------111111------- 1
+1---0--------1----- 1
+1--0--------1------ 1
+--1-------------1-- 1
+-1-------------1--- 1
+---1-------------1- 1
+1-------------1---- 1
+1----------------1- 1
+----------00------- 1
+---------0-0------- 1
+--------0--0------- 1
+-------0---0------- 1
+------0----0------- 1
+----1-------------1 1
+-----1------------- 1
+1-----------------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_5_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_5_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q U1_U2_sdiv_6_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_6_.D-
+------1111111------- 1
+1---0---------1----- 1
+1--0---------1------ 1
+--1--------------1-- 1
+-1--------------1--- 1
+---1--------------1- 1
+1--------------1---- 1
+1-----------------1- 1
+-----------00------- 1
+----------0-0------- 1
+---------0--0------- 1
+--------0---0------- 1
+-------0----0------- 1
+------0-----0------- 1
+----1--------------1 1
+-----1-------------- 1
+1------------------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_6_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_6_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q U1_U2_sdiv_6_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_7_.D-
+1--0---------1------ 1
+------11111111------ 1
+1---0---------1----- 1
+--1--------------1-- 1
+-1--------------1--- 1
+---1--------------1- 1
+1--------------1---- 1
+1-----------------1- 1
+------------00------ 1
+-----------0-0------ 1
+----------0--0------ 1
+---------0---0------ 1
+--------0----0------ 1
+-------0-----0------ 1
+------0------0------ 1
+----1--------------1 1
+-----1-------------- 1
+1------------------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_7_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_7_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q U1_U2_sdiv_6_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_8_.D-
+1---0---------1----- 1
+------111111111----- 1
+1--0---------1------ 1
+--1--------------1-- 1
+-1--------------1--- 1
+---1--------------1- 1
+1--------------1---- 1
+1-----------------1- 1
+-------------00----- 1
+------------0-0----- 1
+-----------0--0----- 1
+----------0---0----- 1
+---------0----0----- 1
+--------0-----0----- 1
+-------0------0----- 1
+------0-------0----- 1
+----1--------------1 1
+-----1-------------- 1
+1------------------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_8_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_8_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q U1_U2_sdiv_6_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_9_.D-
+1--------------1---- 1
+------1111111111---- 1
+---1--------------1- 1
+--1--------------1-- 1
+-1--------------1--- 1
+1---0--------------- 1
+1--0---------------- 1
+--------------00---- 1
+-------------0-0---- 1
+------------0--0---- 1
+-----------0---0---- 1
+----------0----0---- 1
+---------0-----0---- 1
+--------0------0---- 1
+-------0-------0---- 1
+------0--------0---- 1
+-----1-------------- 1
+----1--------------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_9_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_9_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q U1_U2_sdiv_6_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_10_.T
+0---001111111111-00- 1
+0-0-001111111111--0- 1
+0--0001111111111-0-- 1
+0-00001111111111---- 1
+0----01111111111-000 1
+0-0--01111111111--00 1
+0--0-01111111111-0-0 1
+0-00-01111111111---0 1
+1---0---------1-1--- 1
+1--0---------1--1--- 1
+--1-------------11-- 1
+---1------------1-1- 1
+1---------------1-1- 1
+1--------------11--- 1
+----1-----------1--1 1
+-----1----------1--- 1
+-1--------------1--- 1
+1---------------1--1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_10_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_10_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q U1_U2_sdiv_6_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_11_.T
+00--0011111111111-0- 1
+00-00011111111111--- 1
+00---011111111111-00 1
+00-0-011111111111--0 1
+1---0---------1--1-- 1
+1--0---------1---1-- 1
+---1-------------11- 1
+-1--------------11-- 1
+1----------------11- 1
+1--------------1-1-- 1
+----1------------1-1 1
+-----1-----------1-- 1
+--1--------------1-- 1
+1----------------1-1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_11_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_11_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q U1_U2_sdiv_6_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_12_.T
+000-00111111111111-- 1
+000--0111111111111-0 1
+--1--------------11- 1
+-1--------------1-1- 1
+-----1------------1- 1
+---1--------------1- 1
+1-----------------1- 1
+----1-------------11 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_12_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_12_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF U1_U2_sdiv_14_.Q U1_U2_sdiv_0_.Q U1_U2_sdiv_1_.Q U1_U2_sdiv_2_.Q U1_U2_sdiv_3_.Q U1_U2_sdiv_4_.Q U1_U2_sdiv_5_.Q U1_U2_sdiv_6_.Q U1_U2_sdiv_7_.Q U1_U2_sdiv_8_.Q U1_U2_sdiv_9_.Q U1_U2_sdiv_10_.Q U1_U2_sdiv_11_.Q U1_U2_sdiv_12_.Q U1_U2_sdiv_13_.Q U1_U2_sdiv_13_.T
+0000-01111111111111- 1
+---1--------------11 1
+--1--------------1-1 1
+-1--------------1--1 1
+-----1-------------1 1
+----1--------------1 1
+1------------------1 1
+.names u1_sclk_n.BLIF U1_U2_sdiv_13_.C
+1 1
+.names u1_u2_n_4_i_n.BLIF U1_U2_sdiv_13_.CE
+1 1
+.names indivtop_4_.BLIF indivtop_3_.BLIF indivtop_2_.BLIF indivtop_1_.BLIF indivtop_0_.BLIF u1_u2_n_4_i_n
+-1111 1
+00-11 1
+0000- 1
+111-0 1
+.end

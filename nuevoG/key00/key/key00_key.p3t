@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "key00_key.log"
+-o "key00_key.csv"
+-pr "key00_key.prf"

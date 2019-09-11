@@ -1,0 +1,9 @@
+#Start recording tcl command: 6/13/2018 08:46:27
+#Project Location: C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00; Project name: alu00
+prj_project open "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/alu00.ldf"
+prj_src add "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/packagealu00.vhdl"
+prj_src add "C:/Users/Sergi/Desktop/Arquitectura de Computadoras/Tareas/grupo3CM1/alu00/topalu00.vhdl"
+prj_run Export -impl alu -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 6/13/2018 09:18:51

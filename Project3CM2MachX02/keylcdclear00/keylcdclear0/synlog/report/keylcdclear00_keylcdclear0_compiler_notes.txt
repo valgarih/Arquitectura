@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Project3CM2MachX02\keylcdclear00\toplcd00.vhd":7:7:7:14|Top entity is set to toplcd00.
+@N: CD630 :"D:\Project3CM2MachX02\keylcdclear00\toplcd00.vhd":7:7:7:14|Synthesizing work.toplcd00.toplcd0.
+

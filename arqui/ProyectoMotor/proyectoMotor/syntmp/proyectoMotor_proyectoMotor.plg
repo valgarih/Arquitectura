@@ -1,0 +1,10 @@
+@P:  Worst Slack : 994.659
+@P:  servo_pwm_clk64kHz|clk - Estimated Frequency : 187.2 MHz
+@P:  servo_pwm_clk64kHz|clk - Requested Frequency : 1.0 MHz
+@P:  servo_pwm_clk64kHz|clk - Estimated Period : 5.340
+@P:  servo_pwm_clk64kHz|clk - Requested Period : 1000.000
+@P:  servo_pwm_clk64kHz|clk - Slack : 994.659
+@P:  Total Area : 17.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:02s

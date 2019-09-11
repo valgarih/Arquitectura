@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Found inferred clock subsal00|clksubs which controls 21 sequential elements including aux. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

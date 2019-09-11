@@ -1,0 +1,61 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu May 02 12:51:25 2019 *
+NOTE DESIGN NAME: topalu00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outFlaginside : 132 : inout *
+NOTE PINS clk00 : 95 : out *
+NOTE PINS cdiv00[0] : 62 : in *
+NOTE PINS outac01[15] : 128 : out *
+NOTE PINS outac01[14] : 127 : out *
+NOTE PINS outac01[13] : 126 : out *
+NOTE PINS outac01[12] : 125 : out *
+NOTE PINS outac01[11] : 122 : out *
+NOTE PINS outac01[10] : 121 : out *
+NOTE PINS outac01[9] : 119 : out *
+NOTE PINS outac01[8] : 120 : out *
+NOTE PINS outac01[7] : 115 : out *
+NOTE PINS outac01[6] : 117 : out *
+NOTE PINS outac01[5] : 113 : out *
+NOTE PINS outac01[4] : 114 : out *
+NOTE PINS outac01[3] : 111 : out *
+NOTE PINS outac01[2] : 112 : out *
+NOTE PINS outac01[1] : 109 : out *
+NOTE PINS outac01[0] : 110 : out *
+NOTE PINS outac0[7] : 81 : out *
+NOTE PINS outac0[6] : 82 : out *
+NOTE PINS outac0[5] : 77 : out *
+NOTE PINS outac0[4] : 78 : out *
+NOTE PINS outac0[3] : 75 : out *
+NOTE PINS outac0[2] : 76 : out *
+NOTE PINS outac0[1] : 73 : out *
+NOTE PINS outac0[0] : 74 : out *
+NOTE PINS portB0[7] : 106 : in *
+NOTE PINS portB0[6] : 107 : in *
+NOTE PINS portB0[5] : 104 : in *
+NOTE PINS portB0[4] : 105 : in *
+NOTE PINS portB0[3] : 99 : in *
+NOTE PINS portB0[2] : 100 : in *
+NOTE PINS portB0[1] : 97 : in *
+NOTE PINS portB0[0] : 98 : in *
+NOTE PINS portA0[7] : 49 : in *
+NOTE PINS portA0[6] : 47 : in *
+NOTE PINS portA0[5] : 50 : in *
+NOTE PINS portA0[4] : 48 : in *
+NOTE PINS portA0[3] : 55 : in *
+NOTE PINS portA0[2] : 52 : in *
+NOTE PINS portA0[1] : 56 : in *
+NOTE PINS portA0[0] : 54 : in *
+NOTE PINS outFlagac0 : 133 : out *
+NOTE PINS opcode0[3] : 44 : in *
+NOTE PINS opcode0[2] : 42 : in *
+NOTE PINS opcode0[1] : 45 : in *
+NOTE PINS opcode0[0] : 43 : in *
+NOTE PINS en0 : 40 : in *
+NOTE PINS cdiv00[4] : 58 : in *
+NOTE PINS cdiv00[3] : 65 : in *
+NOTE PINS cdiv00[2] : 61 : in *
+NOTE PINS cdiv00[1] : 67 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

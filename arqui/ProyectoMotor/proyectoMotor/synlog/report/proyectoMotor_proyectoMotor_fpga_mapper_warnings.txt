@@ -1,0 +1,1 @@
+@W: MT420 |Found inferred clock servo_pwm_clk64kHz|clk with period 1000.00ns. Please declare a user-defined clock on object "p:clk"

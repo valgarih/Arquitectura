@@ -1,0 +1,44 @@
+Running in Lattice mode
+error reading package index file C:/Program Files/diamond/3.10_x64/synpbase/lib/pkgIndex.tcl: couldn't read file "{C:/Program Files/diamond/3.10_x64/synpbase/lib/pkgIndex.tcl}": no such file or directory
+error reading package index file C:/Program Files/diamond/3.10_x64/synpbase/lib/bwidget-1.9.5/pkgIndex.tcl: couldn't read file "{C:/Program Files/diamond/3.10_x64/synpbase/lib/bwidget-1.9.5/pkgIndex.tcl}": no such file or directory
+error reading package index file C:/Program Files/diamond/3.10_x64/synpbase/lib/tcllib-1.12/pkgIndex.tcl: couldn't read file "{C:/Program Files/diamond/3.10_x64/synpbase/lib/tcllib-1.12/pkgIndex.tcl}": no such file or directory
+error reading package index file C:/Program Files/diamond/3.10_x64/synpbase/lib/pkgIndex.tcl: couldn't read file "{C:/Program Files/diamond/3.10_x64/synpbase/lib/pkgIndex.tcl}": no such file or directory
+error reading package index file C:/Program Files/diamond/3.10_x64/synpbase/lib/pkgIndex.tcl: couldn't read file "{C:/Program Files/diamond/3.10_x64/synpbase/lib/pkgIndex.tcl}": no such file or directory
+error reading package index file C:/Program Files/diamond/3.10_x64/synpbase/lib/bwidget-1.9.5/pkgIndex.tcl: couldn't read file "{C:/Program Files/diamond/3.10_x64/synpbase/lib/bwidget-1.9.5/pkgIndex.tcl}": no such file or directory
+error reading package index file C:/Program Files/diamond/3.10_x64/synpbase/lib/tcllib-1.12/pkgIndex.tcl: couldn't read file "{C:/Program Files/diamond/3.10_x64/synpbase/lib/tcllib-1.12/pkgIndex.tcl}": no such file or directory
+error reading package index file C:/Program Files/diamond/3.10_x64/synpbase/lib/pkgIndex.tcl: couldn't read file "{C:/Program Files/diamond/3.10_x64/synpbase/lib/pkgIndex.tcl}": no such file or directory
+
+Starting:    C:\Program Files\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\Program Files\diamond\3.10_x64\synpbase
+Hostname:    DESKTOP-JBP5BT2
+Date:        Tue Feb 12 11:23:39 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch mult4bit00_mult4bit00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+Copied C:\Users\Valery Garibay\Documents\6_semestre\arqui\mul4bit00\mult4bit00\mult4bit00_mult4bit00.srr to C:\Users\Valery Garibay\Documents\6_semestre\arqui\mul4bit00\mult4bit00\backup\mult4bit00_mult4bit00.srr
+log file: "C:\Users\Valery Garibay\Documents\6_semestre\arqui\mul4bit00\mult4bit00\mult4bit00_mult4bit00.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+Job: "hdl_info_gen" terminated with error status: 2
+See log file: "C:\Users\Valery Garibay\Documents\6_semestre\arqui\mul4bit00\mult4bit00\syntax.log"
+# Tue Feb 12 11:23:43 2019
+
+Return Code: 2
+Run Time:00h:00m:03s
+Copied C:\Users\Valery Garibay\Documents\6_semestre\arqui\mul4bit00\mult4bit00\mult4bit00_mult4bit00.srr to C:\Users\Valery Garibay\Documents\6_semestre\arqui\mul4bit00\mult4bit00\mult4bit00_mult4bit00.srf
+Error: At line 68 while processing "mult4bit00_mult4bit00_synplify.tcl"
+2
+TCL script complete: "mult4bit00_mult4bit00_synplify.tcl"
+TCL script had errors: "mult4bit00_mult4bit00_synplify.tcl"
+exit status=9
+exit status=9
+Save changes for project:
+C:\Users\Valery Garibay\Documents\6_semestre\arqui\mul4bit00\mult4bit00\proj_1.prj
+batch mode default:no

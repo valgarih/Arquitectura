@@ -1,0 +1,92 @@
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\topgeneric01.vhdl":7:7:7:18|Synthesizing work.topgeneric01.topgeneric0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\uc00.vhdl":6:7:6:10|Synthesizing work.uc00.uc0.
+Post processing for work.uc00.uc0
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\shiftx00.vhd":8:7:8:15|Synthesizing work.shiftrx00.shiftrx0.
+Post processing for work.shiftrx00.shiftrx0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\shiftx00.vhd":27:3:27:4|Pruning unused register outFlagsrx_cl_8. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\topmulticomb01.vhdl":5:7:5:18|Synthesizing work.etopmultip00.atopmultip.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\top_sumadorcompleto.vhdl":5:7:5:21|Synthesizing work.etopsumcompleto.atopsumcompleto.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\top_sumadormedio.vhdl":5:7:5:18|Synthesizing work.etopsummedio.atopsummedio.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\xor.vhdl":4:7:4:10|Synthesizing work.exor.axor.
+Post processing for work.exor.axor
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\and.vhdl":4:7:4:10|Synthesizing work.eand.aand.
+Post processing for work.eand.aand
+Post processing for work.etopsummedio.atopsummedio
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\or.vhdl":4:7:4:9|Synthesizing work.eor.aor.
+Post processing for work.eor.aor
+Post processing for work.etopsumcompleto.atopsumcompleto
+Post processing for work.etopmultip00.atopmultip
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\multicomb.vhdl":6:7:6:17|Synthesizing work.multicomb00.multicomb0.
+Post processing for work.multicomb00.multicomb0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\multicomb.vhdl":22:6:22:7|Pruning unused register outFlagmc_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl":8:7:8:14|Synthesizing work.concat00.concat0.
+Post processing for work.concat00.concat0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl":25:6:25:7|Pruning unused register outFlagct_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":8:7:8:12|Synthesizing work.comp00.comp0.
+Post processing for work.comp00.comp0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Pruning unused register outFlagc0_cl_7. Make sure that there are no unused intermediate registers.
+@N: CL189 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(7) is always 0.
+@N: CL189 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(6) is always 0.
+@N: CL189 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(5) is always 0.
+@N: CL189 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(4) is always 0.
+@N: CL189 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(3) is always 0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp2.vhdl":8:7:8:11|Synthesizing work.comp2.comp0.
+Post processing for work.comp2.comp0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp2.vhdl":24:6:24:7|Pruning unused register outFlagc2_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\rotl00.vhdl":8:7:8:12|Synthesizing work.rotl00.rotl0.
+Post processing for work.rotl00.rotl0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Pruning unused register outFlagrl_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\rotr00.vhdl":8:7:8:12|Synthesizing work.rotr00.rotr0.
+Post processing for work.rotr00.rotr0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Pruning unused register outFlagrr_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\shiftl00.vhdl":8:7:8:14|Synthesizing work.shiftl00.shiftl0.
+Post processing for work.shiftl00.shiftl0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\shiftl00.vhdl":24:6:24:7|Pruning unused register outFlagsl_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\shiftr00.vhdl":8:7:8:14|Synthesizing work.shiftr00.shiftr0.
+Post processing for work.shiftr00.shiftr0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Pruning unused register outFlagsr_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\sub00.vhdl":8:7:8:11|Synthesizing work.sub00.sub0.
+Post processing for work.sub00.sub0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\sub00.vhdl":26:6:26:7|Pruning unused register outFlagsub_cl_5. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\add00.vhdl":8:7:8:11|Synthesizing work.add00.add0.
+Post processing for work.add00.add0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\add00.vhdl":26:6:26:7|Pruning unused register outFlagadd_cl_5. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nxor00.vhdl":6:7:6:12|Synthesizing work.nxor00.nxor0.
+Post processing for work.nxor00.nxor0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Pruning unused register outFlagnx_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nor00.vhdl":6:7:6:11|Synthesizing work.nor00.nor0.
+Post processing for work.nor00.nor0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nor00.vhdl":23:6:23:7|Pruning unused register outFlagno_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nand00.vhdl":6:7:6:12|Synthesizing work.nand00.nand0.
+Post processing for work.nand00.nand0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nand00.vhdl":23:6:23:7|Pruning unused register outFlagna_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\or00.vhdl":23:6:23:7|Pruning unused register outFlago_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\not00.vhdl":6:7:6:11|Synthesizing work.not00.not0.
+Post processing for work.not00.not0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\not00.vhdl":22:6:22:7|Pruning unused register outFlagn_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\xor00.vhdl":23:6:23:7|Pruning unused register outFlagx_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+@W: CL169 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\and00.vhdl":22:6:22:7|Pruning unused register outFlaga_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@W: CD277 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\packagediv00.vhdl":23:7:23:13|Port direction mismatch between component and entity
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\enab00.vhdl":6:7:6:12|Synthesizing work.enab00.ena.
+Post processing for work.enab00.ena
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\div0.vhdl":8:7:8:10|Synthesizing work.div0.div0.
+Post processing for work.div0.div0
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topgeneric01.topgeneric0
+@W: CL246 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl":12:4:12:10|Input port bits 7 to 4 of portact(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl":13:4:13:10|Input port bits 7 to 4 of portbct(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\shiftx00.vhd":13:4:13:11|Input port bits 7 to 4 of portbsrx(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\uc00.vhdl":9:4:9:9|Input enable is unused.
+@W: CL158 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\topgeneric01.vhdl":17:4:17:11|Inout outdiv00 is unused

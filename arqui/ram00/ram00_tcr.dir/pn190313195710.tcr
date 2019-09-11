@@ -1,0 +1,17 @@
+#Start recording tcl command: 3/13/2019 10:40:00
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/ram00; Project name: ram00
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ram00/ram00.ldf"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ram00/packageram00.vhdl"
+prj_run Synthesis -impl ram0
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ram00/topram00.vhdl"
+prj_run Synthesis -impl ram0
+prj_run Synthesis -impl ram0
+prj_run Synthesis -impl ram0
+prj_run Synthesis -impl ram0
+prj_run Synthesis -impl ram0
+prj_run Synthesis -impl ram0
+prj_src remove "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ram00/topram00.vhdl"
+prj_run Synthesis -impl ram0
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/ram00/topram00.vhdl"
+prj_run Synthesis -impl ram0
+#Stop recording: 3/13/2019 19:57:10

@@ -1,0 +1,5 @@
+#Start recording tcl command: 2/19/2019 10:45:50
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/mult8bit00/mult8bit00.ldf"
+prj_project close
+#Stop recording: 2/19/2019 10:46:45

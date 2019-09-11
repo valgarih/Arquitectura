@@ -1,0 +1,13 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  F:\alu02\alu   -part LCMXO2_7000HE  -package TG144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile F:\alu02\alu\synlog\report\alu02_alu_premap.xml  -top_level_module  acal00  -oedif  F:\alu02\alu\alu02_alu.edi  -conchk_prepass  F:\alu02\alu\alu02_alu_cck.rpt   -freq 1.000   F:\alu02\alu\synwork\alu02_alu_mult.srs  -flow prepass  -gcc_prepass  -osrd  F:\alu02\alu\synwork\alu02_alu_prem.srd  -devicelib  C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  F:\alu02\alu\syntmp\alu02_alu.plg  -osyn  F:\alu02\alu\synwork\alu02_alu_prem.srd  -prjdir  F:\alu02\alu\  -prjname  proj_1  -log  F:\alu02\alu\synlog\alu02_alu_premap.srr  -jobname  "premap" 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\m_gen_lattice.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\alu -part LCMXO2_7000HE -package TG144C -grade -5 -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile ..\synlog\report\alu02_alu_premap.xml -top_level_module acal00 -oedif ..\alu02_alu.edi -conchk_prepass ..\alu02_alu_cck.rpt -freq 1.000 ..\synwork\alu02_alu_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\alu02_alu_prem.srd -devicelib C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v -devicelib C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v -ologparam alu02_alu.plg -osyn ..\synwork\alu02_alu_prem.srd -prjdir ..\ -prjname proj_1 -log ..\synlog\alu02_alu_premap.srr -jobname "premap"
+rc:1 success:1 runtime:7
+file:..\alu02_alu.edi|io:o|time:0|size:0|exec:0|csum:
+file:..\alu02_alu_cck.rpt|io:o|time:1529417702|size:2370|exec:0|csum:
+file:..\synwork\alu02_alu_mult.srs|io:i|time:1529417696|size:1952|exec:0|csum:A0908671251AD1A3AB7926FEDF37F0CD
+file:..\synwork\alu02_alu_prem.srd|io:o|time:1529417700|size:3145|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v|io:i|time:1501917816|size:54295|exec:0|csum:D5667017EB528EBD3C317EFCC9D2C19B
+file:C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1501917816|size:40584|exec:0|csum:530CC5906D70AB3C6A4AA0861AC94BDF
+file:alu02_alu.plg|io:o|time:1529417698|size:0|exec:0|csum:
+file:..\synwork\alu02_alu_prem.srd|io:o|time:1529417700|size:3145|exec:0|csum:
+file:..\synlog\alu02_alu_premap.srr|io:o|time:1529417702|size:3532|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\m_gen_lattice.exe|io:i|time:1501920714|size:29299200|exec:1|csum:5C77397B47E7811864C32F4FC7D86D2F

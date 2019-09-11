@@ -1,0 +1,26 @@
+#Start recording tcl command: 1/29/2019 21:24:58
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/or01; Project name: or01
+C:/Users/Valery Garibay/Documents/6_semestre/arqui/and00
+and01
+#Start recording tcl command: 1/30/2019 10:48:30
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/and00; Project name: and01
+prj_project new -name "or01" -impl "or01" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/or01/or01.vhdl"
+prj_run Synthesis -impl or01
+prj_run Export -impl or01 -task Jedecgen
+prj_run Synthesis -impl or01
+prj_run Export -impl or01 -task Jedecgen
+prj_run Synthesis -impl or01
+prj_run Export -impl or01 -task Jedecgen
+prj_run Export -impl or01 -task Jedecgen
+pgr_project save "C:/Users/Valery Garibay/Documents/6_semestre/arqui/or01/or01/or01.xcf"
+prj_src add -exclude "C:/Users/Valery Garibay/Documents/6_semestre/arqui/or01/or01/or01.xcf"
+prj_src enable "C:/Users/Valery Garibay/Documents/6_semestre/arqui/or01/or01/or01.xcf"
+pgr_program run
+pgr_project save "C:/Users/Valery Garibay/Documents/6_semestre/arqui/or01/or01/or01.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/and00/and01.ldf"
+pgr_project close
+#Stop recording: 1/30/2019 10:48:30

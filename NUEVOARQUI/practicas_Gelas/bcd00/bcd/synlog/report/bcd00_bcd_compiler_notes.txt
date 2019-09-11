@@ -1,0 +1,51 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"F:\bcd00\topp07.vhdl":7:7:7:12|Top entity is set to topp07.
+@N: CD630 :"F:\bcd00\topp07.vhdl":7:7:7:12|Synthesizing work.topp07.topp0.
+@N: CD630 :"F:\bcd00\mux07.vhdl":6:7:6:11|Synthesizing work.mux07.mux0.
+@N: CD630 :"F:\bcd00\contring07.vhdl":6:7:6:16|Synthesizing work.contring07.contring0.
+@N: CD630 :"F:\bcd00\coderNibbles07.vhdl":6:7:6:20|Synthesizing work.codernibbles07.codernibbles0.
+@N: CD630 :"F:\bcd00\contIter07.vhdl":6:7:6:16|Synthesizing work.contiter07.contiter0.
+@N: CD630 :"F:\bcd00\shift12bit07.vhdl":6:7:6:18|Synthesizing work.shift12bit07.shift12bit0.
+@N: CD630 :"F:\bcd00\compadd07.vhdl":6:7:6:15|Synthesizing work.compadd07.compadd0.
+@N: CD630 :"F:\bcd00\sust07.vhdl":6:7:6:12|Synthesizing work.sust07.sust0.
+@N: CD630 :"F:\bcd00\ac12bit07.vhdl":6:7:6:15|Synthesizing work.ac12bit07.ac12bit0.
+@N: CD630 :"F:\bcd00\shift8bit07.vhdl":6:7:6:17|Synthesizing work.shift8bit07.shift8bit0.
+@N: CD630 :"F:\bcd00\leeInst07.vhdl":6:7:6:15|Synthesizing work.leeinst07.leeinst07.
+@N: CD630 :"F:\bcd00\ac8bit07.vhdl":6:7:6:14|Synthesizing work.ac8bit07.ac8bit0.
+@N: CD630 :"F:\bcd00\pcinc07.vhdl":6:7:6:13|Synthesizing work.pcinc07.pcinc07.
+@N: CD630 :"F:\bcd00\portAB07.vhdl":6:7:6:14|Synthesizing work.portab07.portab0.
+@N: CD630 :"F:\bcd00\init07.vhdl":6:7:6:12|Synthesizing work.init07.init0.
+@N: CD630 :"F:\osc00VHDL\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"F:\osc00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":27:2:27:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":36:2:36:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":45:2:45:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":54:2:54:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":63:2:63:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":72:2:72:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":81:2:81:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":90:2:90:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":99:2:99:7|Removing redundant assignment.
+@N: CD630 :"F:\osc00VHDL\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(0) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(1) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(2) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(3) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(4) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA8init(5) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(5) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA8init(6) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(6) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA8init(7) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(7) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(8) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(9) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(10) is always 0.
+@N: CL189 :"F:\bcd00\init07.vhdl":25:6:25:7|Register bit outACA12init(11) is always 0.
+@N: CL189 :"F:\bcd00\shift8bit07.vhdl":22:6:22:7|Register bit outACs(0) is always 0.
+@N: CL189 :"F:\bcd00\shift12bit07.vhdl":23:6:23:7|Register bit outACss(0) is always 0.
+@N|Running in 64-bit mode
+

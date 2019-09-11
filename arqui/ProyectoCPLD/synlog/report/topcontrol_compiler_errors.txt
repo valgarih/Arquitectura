@@ -1,0 +1,2 @@
+@E: CD395 :"C:\users\valery garibay\documents\6_semestre\arqui\proyectocpld\control.vhd":19:43:19:49|Constant width 5 does not match context width 4
+

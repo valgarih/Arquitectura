@@ -1,0 +1,7 @@
+#Start recording tcl command: 5/24/2018 12:59:45
+#Project Location: C:/Users/Ideapad/Desktop/GELACIO/bcd00; Project name: bcd00
+prj_project new -name "bcd00" -impl "bcd" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/div00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/osc00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/packageosc00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/toposc00.vhdl"
+prj_project save
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/init00.vhdl"
+#Stop recording: 5/24/2018 13:27:15

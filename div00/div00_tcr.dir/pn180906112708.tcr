@@ -1,0 +1,20 @@
+#Start recording tcl command: 9/6/2018 10:47:44
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00; Project name: div00
+prj_project open "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00/div00.ldf"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00/packagediv00.vhd"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00/topdiv00.vhd"
+prj_run Export -impl div -task Jedecgen
+prj_run Export -impl div -task Jedecgen
+prj_run Export -impl div -task Jedecgen
+pgr_project save "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00/div/div.xcf"
+prj_src add -exclude "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00/div/div.xcf"
+prj_src enable "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00/div/div.xcf"
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program set -port FTUSB-0
+pgr_program run
+pgr_project save "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00/div/div.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 9/6/2018 11:27:08

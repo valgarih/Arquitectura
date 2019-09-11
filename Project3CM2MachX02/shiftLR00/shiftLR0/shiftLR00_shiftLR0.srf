@@ -1,0 +1,38 @@
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\Program Files\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-JBP5BT2
+
+# Wed May  8 09:27:37 2019
+
+#Implementation: shiftLR0
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd":9:7:9:18|Top entity is set to topshiftLR00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd":9:7:9:18|Synthesizing work.topshiftlr00.topshiftlr0.
+@W: CD276 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd":14:2:14:7|Map for port indiv1 of component topdiv00 not found
+@W: CD276 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\div00vhdl\topdiv00.vhd":15:2:15:8|Map for port oscout1 of component topdiv00 not found
+@W: CD730 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd":22:1:22:5|Component declaration has 2 ports but entity declares 4 ports
+@E: CD326 :"C:\Users\Valery Garibay\Documents\Project3CM2MachX02\shiftLR00\topshiftLR00.vhd":22:1:22:5|Port indiv1 of entity work.topdiv00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+Synthesis failed
+1 errors during synthesis
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May  8 09:27:39 2019
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May  8 09:27:39 2019
+
+###########################################################]

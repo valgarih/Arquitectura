@@ -1,0 +1,1 @@
+project -fileorder "C:/Program\ Files/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/Valery\ Garibay/Documents/6_semestre/arqui/ProyectoMotor/clk64kHz.vhdl" "C:/Users/Valery\ Garibay/Documents/6_semestre/arqui/ProyectoMotor/servo_pwm.vhdl" "C:/Users/Valery\ Garibay/Documents/6_semestre/arqui/ProyectoMotor/servo_pwm_clk64kHz.vhdl" 

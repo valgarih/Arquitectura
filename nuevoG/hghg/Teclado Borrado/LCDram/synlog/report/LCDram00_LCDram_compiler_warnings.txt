@@ -1,0 +1,6 @@
+@W: CD326 :"F:\hghg\LCDram\toplcdram00.vhdl":33:1:33:2|Port led2 of entity work.lcdram00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CG296 :"F:\hghg\LCDram\lcdram00.vhdl":94:0:94:6|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"F:\hghg\LCDram\lcdram00.vhdl":96:3:96:5|Referenced variable clr is not in sensitivity list.
+@W: CL240 :"F:\hghg\LCDram\lcdram00.vhdl":16:1:16:4|Signal LED2 is floating; a simulation mismatch is possible.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

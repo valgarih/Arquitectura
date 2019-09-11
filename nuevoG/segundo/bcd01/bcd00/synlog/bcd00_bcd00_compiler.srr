@@ -1,0 +1,132 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"G:\bcd01\topconvbcd00.vhdl":8:7:8:18|Top entity is set to topconvbcd00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"G:\bcd01\topconvbcd00.vhdl":8:7:8:18|Synthesizing work.topconvbcd00.topconvbcd0.
+@W: CD638 :"G:\bcd01\topconvbcd00.vhdl":33:7:33:10|Signal sout is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"G:\bcd01\mux00.vhdl":10:7:10:11|Synthesizing work.mux00.mux0.
+@W: CG296 :"G:\bcd01\mux00.vhdl":21:8:21:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"G:\bcd01\mux00.vhdl":29:24:29:30|Referenced variable intbcdc is not in sensitivity list.
+@W: CG290 :"G:\bcd01\mux00.vhdl":27:24:27:30|Referenced variable intbcdd is not in sensitivity list.
+@W: CG290 :"G:\bcd01\mux00.vhdl":25:24:25:30|Referenced variable intbcdu is not in sensitivity list.
+Post processing for work.mux00.mux0
+@W: CL117 :"G:\bcd01\mux00.vhdl":23:7:23:10|Latch generated from process for signal outBCDmux(6 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"G:\bcd01\divint00.vhdl":10:7:10:14|Synthesizing work.divint00.divint0.
+Post processing for work.divint00.divint0
+@N: CD630 :"G:\bcd01\contring00.vhdl":10:7:10:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@N: CD630 :"G:\bcd01\coderNibbles00.vhdl":10:7:10:20|Synthesizing work.codernibbles00.codernibbles0.
+Post processing for work.codernibbles00.codernibbles0
+@N: CD630 :"G:\bcd01\contIter00.vhdl":10:7:10:16|Synthesizing work.contiter00.contiter0.
+Post processing for work.contiter00.contiter0
+@N: CD630 :"G:\bcd01\shift12bit00.vhdl":8:7:8:18|Synthesizing work.shift12bit00.shift12bit0.
+Post processing for work.shift12bit00.shift12bit0
+@W: CL169 :"G:\bcd01\shift12bit00.vhdl":23:6:23:7|Pruning unused register outFlagss_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"G:\bcd01\compadd00.vhdl":10:7:10:15|Synthesizing work.compadd00.compadd0.
+Post processing for work.compadd00.compadd0
+@W: CL169 :"G:\bcd01\compadd00.vhdl":26:5:26:6|Pruning unused register outFlagca_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"G:\bcd01\sust00.vhdl":8:7:8:12|Synthesizing work.sust00.sust0.
+Post processing for work.sust00.sust0
+@W: CL169 :"G:\bcd01\sust00.vhdl":26:5:26:6|Pruning unused register outFlagsu_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"G:\bcd01\sust00.vhdl":26:5:26:6|Pruning unused register outFlagsuB_cl_1. Make sure that there are no unused intermediate registers.
+@W: CL177 :"G:\bcd01\sust00.vhdl":27:13:27:28|Sharing sequential element outFlagsuB_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"G:\bcd01\sust00.vhdl":27:13:27:28|Sharing sequential element outFlagsuB. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"G:\bcd01\ac12bit00.vhdl":8:7:8:15|Synthesizing work.ac12bit00.ac12bit0.
+Post processing for work.ac12bit00.ac12bit0
+@N: CD630 :"G:\bcd01\shift8bit00.vhdl":8:7:8:17|Synthesizing work.shift8bit00.shift8bit0.
+Post processing for work.shift8bit00.shift8bit0
+@W: CL169 :"G:\bcd01\shift8bit00.vhdl":23:6:23:7|Pruning unused register outFlags_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"G:\bcd01\leeInst00.vhdl":10:7:10:15|Synthesizing work.leeinst00.leeinst0.
+Post processing for work.leeinst00.leeinst0
+@W: CL117 :"G:\bcd01\leeInst00.vhdl":31:9:31:10|Latch generated from process for signal outcode(3 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"G:\bcd01\ac8bit00.vhdl":8:7:8:14|Synthesizing work.ac8bit00.ac8bit0.
+Post processing for work.ac8bit00.ac8bit0
+@N: CD630 :"G:\bcd01\pcinc00.vhdl":10:7:10:13|Synthesizing work.pcinc00.pcinc0.
+@W: CG296 :"G:\bcd01\pcinc00.vhdl":24:13:24:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"G:\bcd01\pcinc00.vhdl":26:10:26:14|Referenced variable clkpc is not in sensitivity list.
+Post processing for work.pcinc00.pcinc0
+@N: CD630 :"G:\bcd01\portA00.vhdl":8:7:8:13|Synthesizing work.porta00.porta0.
+Post processing for work.porta00.porta0
+@W: CL169 :"G:\bcd01\portA00.vhdl":22:6:22:7|Pruning unused register outFlagLp_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"G:\bcd01\init00.vhdl":10:7:10:12|Synthesizing work.init00.init0.
+Post processing for work.init00.init0
+@N: CD630 :"G:\bcd01\topdiv00.vhdl":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"G:\bcd01\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"G:\bcd01\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topconvbcd00.topconvbcd0
+@W: CL138 :"G:\bcd01\init00.vhdl":30:2:30:3|Removing register 'aux0' because it is only assigned 0 or its original value.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outFlag8init is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outFlag12init is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(0) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(0) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(1) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(1) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(2) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(2) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(3) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(3) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(4) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(4) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(5) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(5) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(6) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(6) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC8init(7) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(7) is always 1.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(8) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(9) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(10) is always 0.
+@N: CL189 :"G:\bcd01\init00.vhdl":30:2:30:3|Register bit outAC12init(11) is always 0.
+@N: CL189 :"G:\bcd01\shift8bit00.vhdl":23:6:23:7|Register bit outACs(0) is always 0.
+@W: CL247 :"G:\bcd01\shift8bit00.vhdl":12:1:12:5|Input port bit 7 of inacs(7 downto 0) is unused 
+@W: CL246 :"G:\bcd01\sust00.vhdl":12:1:12:10|Input port bits 6 to 0 of inac8bitsu(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"G:\bcd01\sust00.vhdl":13:1:13:11|Input port bit 0 of inac12bitsu(11 downto 0) is unused 
+@N: CL189 :"G:\bcd01\shift12bit00.vhdl":23:6:23:7|Register bit outACss(0) is always 0.
+@W: CL247 :"G:\bcd01\shift12bit00.vhdl":12:1:12:6|Input port bit 11 of inacss(11 downto 0) is unused 
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 81MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun 14 22:29:01 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File D:\LatticeDiamond\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\Sergi\Desktop\bcd01\bcd00\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun 14 22:29:04 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun 14 22:29:04 2018
+
+###########################################################]

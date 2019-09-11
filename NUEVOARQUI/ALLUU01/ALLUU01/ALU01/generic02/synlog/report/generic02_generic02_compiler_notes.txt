@@ -1,0 +1,39 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl":9:7:9:18|Top entity is set to topgeneric01.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\topgeneric01.vhdl":9:7:9:18|Synthesizing work.topgeneric01.topgeneric0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\ucg01.vhdl":8:7:8:11|Synthesizing work.ucg01.ucg0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\rotR00.vhdl":9:7:9:12|Synthesizing work.rotr00.rotr0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\rotL00.vhdl":9:7:9:12|Synthesizing work.rotl00.rotl0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\ShiftR00.vhdl":9:7:9:14|Synthesizing work.shiftr00.shiftr0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\ShiftL00.vhdl":9:7:9:14|Synthesizing work.shiftl00.shiftl0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\multg01.vhdl":8:7:8:13|Synthesizing work.multg01.multg0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\topmult4bit00.vhdl":9:7:9:19|Synthesizing work.topmult4bit00.topmult4bit0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\topfa00.vhdl":11:7:11:13|Synthesizing work.topfa00.topfa0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\or00.vhdl":10:7:10:10|Synthesizing work.or00.or0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\topha00.vhdl":11:7:11:13|Synthesizing work.topha00.topha0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\xor00.vhdl":10:7:10:11|Synthesizing work.xor00.xor0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\and00.vhdl":10:7:10:11|Synthesizing work.and00.and0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\subg01.vhdl":8:7:8:12|Synthesizing work.subg01.subg0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\addg01.vhdl":8:7:8:12|Synthesizing work.addg01.addg0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\topadder00.vhdl":13:7:13:16|Synthesizing work.topadder00.topadder0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\nxor00.vhdl":10:7:10:12|Synthesizing work.nxor00.nxor0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\xnorg01.vhdl":8:7:8:13|Synthesizing work.xnorg01.xnorg0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\norg01.vhdl":8:7:8:12|Synthesizing work.norg01.norg0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\nandg01.vhdl":8:7:8:13|Synthesizing work.nandg01.nandg0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\notg01.vhdl":8:7:8:12|Synthesizing work.notg01.notg0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\xorg01.vhdl":8:7:8:12|Synthesizing work.xorg01.xorg01.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\org01.vhdl":8:7:8:11|Synthesizing work.org01.org0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\andg01.vhdl":8:7:8:12|Synthesizing work.andg01.andg0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\topdiv00.vhdl":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\div00.vhdl":10:7:10:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL159 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\andg01.vhdl":14:4:14:10|Input inFlaga is unused.
+@N: CL159 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\org01.vhdl":14:4:14:10|Input inFlago is unused.
+@N: CL159 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\addg01.vhdl":13:4:13:11|Input inFlagad is unused.
+@N: CL159 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\subg01.vhdl":13:4:13:11|Input inFlagsb is unused.
+@N: CL159 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\ALLUU01\ALLUU01\ALU01\generic02\source\multg01.vhdl":13:4:13:13|Input inFlagmult is unused.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell osc00
+   Instance path: osc00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        100.0
+                                  LUT4	       1.00        100.0
+                                 IOBUF	          2        100.0

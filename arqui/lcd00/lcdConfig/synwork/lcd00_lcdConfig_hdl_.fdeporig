@@ -1,0 +1,84 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|toplcd00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\lcdConfig\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\lcdConfig\\source\\div00.vhdl":1550597798
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\lcdConfig\\source\\osc00.vhdl":1550596355
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\lcdConfig\\source\\packagediv00.vhdl":1550598308
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\lcdConfig\\source\\topdv00.vhdl":1550681739
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\lcdConfig00.vhdl":1554227749
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\lcdContConfig00.vhdl":1553878915
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\lcdContData00.vhdl":1554225469
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\lcdData00.vhdl":1554232472
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\lcdmux00.vhdl":1553881030
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\packagelcd00.vhdl":1553880948
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\lcd00\\toplcd00.vhdl":1553882704
+0 "C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig\source\div00.vhdl" vhdl
+2 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig\source\osc00.vhdl" vhdl
+3 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig\source\packagediv00.vhdl" vhdl
+4 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig\source\topdv00.vhdl" vhdl
+5 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig00.vhdl" vhdl
+6 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdContConfig00.vhdl" vhdl
+7 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdContData00.vhdl" vhdl
+8 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdData00.vhdl" vhdl
+9 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdmux00.vhdl" vhdl
+10 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\packagelcd00.vhdl" vhdl
+11 "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\toplcd00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 0 
+3 0 
+4 2 1 0 3 
+5 0 
+6 0 
+7 0 
+8 0 
+9 0 
+10 0 
+11 4 6 5 7 8 9 0 10 
+
+# Dependency Lists (Users Of)
+0 11 10 9 8 7 6 5 4 3 2 1 
+1 4 
+2 4 
+3 4 
+4 11 
+5 11 
+6 11 
+7 11 
+8 11 
+9 11 
+10 11 
+11 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work osc00 osc0 2
+module work osc00 2
+arch work topdv00 topdv0 4
+module work topdv00 4
+arch work lcdconfig00 lcdconfig0 5
+module work lcdconfig00 5
+arch work lcdcontconfig00 lcdcontconfig0 6
+module work lcdcontconfig00 6
+arch work lcdcontdata00 lcdcontdata0 7
+module work lcdcontdata00 7
+arch work lcddata00 lcddata0 8
+module work lcddata00 8
+arch work lcdmux00 lcdmux0 9
+module work lcdmux00 9
+arch work toplcd00 toplcd0 11
+module work toplcd00 11

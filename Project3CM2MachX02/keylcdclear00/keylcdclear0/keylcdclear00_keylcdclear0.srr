@@ -1,0 +1,38 @@
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\Program Files\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-JBP5BT2
+
+# Tue Apr  9 11:47:43 2019
+
+#Implementation: keylcdclear0
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Project3CM2MachX02\keylcdclear00\toplcd00.vhd":7:7:7:14|Top entity is set to toplcd00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"D:\Project3CM2MachX02\keylcdclear00\toplcd00.vhd":7:7:7:14|Synthesizing work.toplcd00.toplcd0.
+@W: CD276 :"D:\Project3CM2MachX02\div00vhdl\topdiv00.vhd":14:2:14:7|Map for port indiv1 of component topdiv00 not found
+@W: CD276 :"D:\Project3CM2MachX02\div00vhdl\topdiv00.vhd":15:2:15:8|Map for port oscout1 of component topdiv00 not found
+@W: CD730 :"D:\Project3CM2MachX02\keylcdclear00\toplcd00.vhd":48:1:48:4|Component declaration has 2 ports but entity declares 4 ports
+@E: CD326 :"D:\Project3CM2MachX02\keylcdclear00\toplcd00.vhd":48:1:48:4|Port indiv1 of entity work.topdiv00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+Synthesis failed
+1 errors during synthesis
+Process took 0h:00m:44s realtime, 0h:00m:01s cputime
+# Tue Apr  9 11:48:47 2019
+
+###########################################################]
+@END
+Process took 0h:00m:49s realtime, 0h:00m:01s cputime
+# Tue Apr  9 11:49:01 2019
+
+###########################################################]

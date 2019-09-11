@@ -1,0 +1,72 @@
+---------------------------------------------------
+Report for cell topsequence00
+   Instance path: topsequence00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.00        100.0
+                                 IOLGC	       8.00        100.0
+                                  LUT4	      69.00        100.0
+                                 IOREG	          8        100.0
+                                 IOBUF	         25        100.0
+                                PFUREG	         36        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          topshiftRL00	          1        91.7
+                            sequence00	          1         8.3
+---------------------------------------------------
+Report for cell sequence00
+   Instance path: topsequence00/S01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.83         8.3
+                                  LUT4	       8.00        11.6
+                                PFUREG	          5        13.9
+---------------------------------------------------
+Report for cell topshiftRL00
+   Instance path: topsequence00/S00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      42.17        91.7
+                                  LUT4	      61.00        88.4
+                                PFUREG	         31        86.1
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              topdiv00	          1        81.5
+                             shiftRL00	          1        10.1
+---------------------------------------------------
+Report for cell shiftRL00
+   Instance path: topsequence00/S00/SRL01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.67        10.1
+                                  LUT4	       8.00        11.6
+                                PFUREG	          9        25.0
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topsequence00/S00/SRL00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      37.50        81.5
+                                  LUT4	      53.00        76.8
+                                PFUREG	         22        61.1
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        81.5
+---------------------------------------------------
+Report for cell div00
+   Instance path: topsequence00/S00/SRL00/D01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      37.50        81.5
+                                  LUT4	      53.00        76.8
+                                PFUREG	         22        61.1
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topsequence00/S00/SRL00/D00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

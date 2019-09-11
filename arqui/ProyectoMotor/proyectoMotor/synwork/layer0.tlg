@@ -1,0 +1,6 @@
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\servo_pwm_clk64kHz.vhdl":4:7:4:24|Synthesizing work.servo_pwm_clk64khz.behavioral.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\servo_pwm.vhdl":5:7:5:15|Synthesizing work.servo_pwm.behavioral.
+Post processing for work.servo_pwm.behavioral
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\clk64kHz.vhdl":4:7:4:14|Synthesizing work.clk64khz.behavioral.
+Post processing for work.clk64khz.behavioral
+Post processing for work.servo_pwm_clk64khz.behavioral

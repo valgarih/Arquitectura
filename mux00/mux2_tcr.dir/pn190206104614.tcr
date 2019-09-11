@@ -1,0 +1,5 @@
+#Start recording tcl command: 2/6/2019 10:45:42
+#Project Location: C:/Users/Sergio Luna/Desktop/Arquitectura/mux00; Project name: mux2
+prj_project open "C:/Users/Sergio Luna/Desktop/Arquitectura/mux00/mux2.ldf"
+prj_project close
+#Stop recording: 2/6/2019 10:46:14

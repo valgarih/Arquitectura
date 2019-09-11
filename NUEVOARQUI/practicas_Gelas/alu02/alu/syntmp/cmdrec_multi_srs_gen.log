@@ -1,0 +1,7 @@
+C:\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topalu01  -multisrs  "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\alu\synwork\alu02_alu_comp.srs"  -osyn  "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\alu\synwork\alu02_alu_mult.srs"  -log  "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\alu\synlog\alu02_alu_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topalu01 -multisrs "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\alu\synwork\alu02_alu_comp.srs" -osyn "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\alu\synwork\alu02_alu_mult.srs" -log "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\alu\synlog\alu02_alu_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\alu02_alu_comp.srs|io:i|time:1556819795|size:38912|exec:0|csum:3FF36358C7DF7D8ACFED243EA62EBAD8
+file:..\synwork\alu02_alu_mult.srs|io:o|time:1556819798|size:6831|exec:0|csum:
+file:..\synlog\alu02_alu_multi_srs_gen.srr|io:o|time:1556820167|size:467|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

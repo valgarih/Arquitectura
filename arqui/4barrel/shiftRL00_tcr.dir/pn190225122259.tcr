@@ -1,0 +1,12 @@
+#Start recording tcl command: 2/25/2019 12:17:09
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/4barrel; Project name: shiftRL00
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/4barrel/shiftRL00.ldf"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/div00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/osc00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/packagediv00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/topdv00.vhdl"
+prj_run Synthesis -impl shiftRL0
+prj_src remove "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/div00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/osc00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/packagediv00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/topdv00.vhdl"
+prj_run Synthesis -impl shiftRL0
+pgr_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/4barrel/shiftRL0/shiftRL0.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 2/25/2019 12:22:59

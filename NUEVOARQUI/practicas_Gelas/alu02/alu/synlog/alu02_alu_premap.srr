@@ -1,0 +1,120 @@
+# Thu May  2 13:02:48 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\alu\alu02_alu_scck.rpt 
+Printing clock  summary report in "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\alu\alu02_alu_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":22:2:22:4|Removing instance H01 (in view: work.ha00_0(ha0)) of type view:work.and00_8_0(and0) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu02\acal00.vhdl":21:2:21:3|Removing sequential instance outacal[7:0] (in view: work.acal00(acal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[0] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[1] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[2] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[3] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[4] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[5] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[6] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[7] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[0] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[1] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[2] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[3] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[4] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[5] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[6] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":101:2:101:4|Removing instance A16 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_8_1(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":105:2:105:4|Removing instance A17 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_7(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":109:2:109:4|Removing instance A18 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_6(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":113:2:113:4|Removing instance A19 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_5(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":117:2:117:4|Removing instance A20 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_4(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":121:2:121:4|Removing instance A21 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_3(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":125:2:125:4|Removing instance A22 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_2(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":129:2:129:4|Removing instance A23 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_1(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":133:2:133:4|Removing instance A24 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.xnor00(xnor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\fa00.vhdl":25:2:25:4|Removing instance F01 (in view: work.fa00_7(fa0)) of type view:work.ha00_0(ha0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_0(ha0)) of type view:work.xor00_9_0(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_1(ha0)) of type view:work.xor00_0_2(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_3(ha0)) of type view:work.xor00_0_4(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_5(ha0)) of type view:work.xor00_0_6(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_7(ha0)) of type view:work.xor00_0_8(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_9(ha0)) of type view:work.xor00_0_10(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_11(ha0)) of type view:work.xor00_0_12(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_13(ha0)) of type view:work.xor00_0_14(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_0(ha0)) of type view:work.xor00_0_0(xor0) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_7[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_6[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_5[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_4[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_3[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_2[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_1[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_7[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_6[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_5[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_4[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_3[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_2[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_1[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist topalu01
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     23   
+1 .         div00|oscout_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     145  
+====================================================================================================================================================
+
+@W: MT529 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\osc00vhdl\div00.vhdl":20:0:20:1|Found inferred clock osc00|osc_int_inferred_clock which controls 23 sequential elements including AL00.OS01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 143MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May  2 13:02:49 2019
+
+###########################################################]

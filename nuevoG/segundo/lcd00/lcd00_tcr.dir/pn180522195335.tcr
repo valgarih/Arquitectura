@@ -1,0 +1,23 @@
+#Start recording tcl command: 5/22/2018 19:25:20
+#Project Location: C:/Users/jmaci/Desktop/lcd00; Project name: lcd00
+prj_project new -name "lcd00" -impl "lcd" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/jmaci/Desktop/lcd00/div00.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/osc00.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/packageosc00.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/toposc00.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/lcdContConfig00.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/lcdconfig00.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/lcdcontdata.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/lcddata.vhdl"
+prj_src remove "C:/Users/jmaci/Desktop/lcd00/lcdcontdata.vhdl"
+prj_src remove "C:/Users/jmaci/Desktop/lcd00/lcddata.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/lcdcontdata00.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/lcddata.vhdl"
+prj_src remove "C:/Users/jmaci/Desktop/lcd00/lcddata.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/lcddata00.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/lcdmux00.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/packagelcd00.vhdl"
+prj_src add "C:/Users/jmaci/Desktop/lcd00/toplcd00.vhdl"
+prj_run Export -impl lcd -task Jedecgen
+#Stop recording: 5/22/2018 19:53:35

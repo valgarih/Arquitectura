@@ -1,0 +1,12 @@
+#Start recording tcl command: 5/22/2019 00:14:12
+#Project Location: C:/Users/Valery Garibay/Desktop/NUEVOARQUI/LCDRAM/lcdram00; Project name: lcdram00
+prj_project open "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/LCDRAM/lcdram00/lcdram00.ldf"
+prj_src remove "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/LCDRAM/div00vhdl/osc00.vhdl"
+prj_src remove "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/LCDRAM/div00vhdl/div00.vhdl"
+prj_src remove "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/LCDRAM/div00vhdl/packagediv00.vhdl"
+prj_src remove "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/LCDRAM/div00vhdl/topdiv00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/LCDRAM/osc00VHDL/div00.vhdl" "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/LCDRAM/osc00VHDL/osc00.vhdl" "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/LCDRAM/osc00VHDL/packageosc00.vhdl" "C:/Users/Valery Garibay/Desktop/NUEVOARQUI/LCDRAM/osc00VHDL/toposc00.vhdl"
+prj_run Synthesis -impl lcdram00
+prj_run Export -impl lcdram00 -task Jedecgen
+prj_run Export -impl lcdram00 -task Jedecgen
+#Stop recording: 5/23/2019 09:18:57

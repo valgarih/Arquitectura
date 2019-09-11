@@ -1,0 +1,44 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon May 13 12:57:54 2019 *
+NOTE DESIGN NAME: toplcdram00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS LCD_DATA0[0] : 23 : out *
+NOTE PINS cdiv00[0] : 62 : in *
+NOTE PINS OP : 40 : in *
+NOTE PINS ROWSLED[3] : 120 : out *
+NOTE PINS ROWSLED[2] : 115 : out *
+NOTE PINS ROWSLED[1] : 117 : out *
+NOTE PINS ROWSLED[0] : 113 : out *
+NOTE PINS COLSLED[3] : 111 : out *
+NOTE PINS COLSLED[2] : 112 : out *
+NOTE PINS COLSLED[1] : 109 : out *
+NOTE PINS COLSLED[0] : 110 : out *
+NOTE PINS ROWS[3] : 68 : in *
+NOTE PINS ROWS[2] : 70 : in *
+NOTE PINS ROWS[1] : 69 : in *
+NOTE PINS ROWS[0] : 71 : in *
+NOTE PINS COLS[3] : 92 : out *
+NOTE PINS COLS[2] : 91 : out *
+NOTE PINS COLS[1] : 94 : out *
+NOTE PINS COLS[0] : 93 : out *
+NOTE PINS clr0 : 38 : in *
+NOTE PINS clk00 : 119 : out *
+NOTE PINS LED_1 : 114 : out *
+NOTE PINS LCD_RW0 : 21 : out *
+NOTE PINS LCD_RS0 : 20 : out *
+NOTE PINS LCD_ENABLE0 : 22 : out *
+NOTE PINS LCD_DATA0[7] : 33 : out *
+NOTE PINS LCD_DATA0[6] : 32 : out *
+NOTE PINS LCD_DATA0[5] : 28 : out *
+NOTE PINS LCD_DATA0[4] : 27 : out *
+NOTE PINS LCD_DATA0[3] : 26 : out *
+NOTE PINS LCD_DATA0[2] : 25 : out *
+NOTE PINS LCD_DATA0[1] : 24 : out *
+NOTE PINS cdiv00[4] : 58 : in *
+NOTE PINS cdiv00[3] : 65 : in *
+NOTE PINS cdiv00[2] : 61 : in *
+NOTE PINS cdiv00[1] : 67 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

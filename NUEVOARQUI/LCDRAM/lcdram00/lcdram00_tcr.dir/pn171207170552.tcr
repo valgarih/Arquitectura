@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/7/2017 16:53:32
+#Project Location: C:/Users/mike_/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/lcdram00; Project name: lcdram00
+prj_project open "C:/Users/mike_/Desktop/5to semestre/Arquitectura de Computadoras/Practicas de Entrenamiento/lcdram00/lcdram00.ldf"
+prj_run Export -impl lcdram00 -task Jedecgen
+#Stop recording: 12/7/2017 17:05:52

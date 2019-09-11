@@ -1,0 +1,788 @@
+#Build: Synplify Pro J-2015.03L, Build 030R, Apr 20 2015
+#install: C:\lscc\diamond\3.5_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: ORLANDO-VAIO
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.5_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\topgeneric01.vhdl":7:7:7:18|Top entity is set to topgeneric01.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\topgeneric01.vhdl":7:7:7:18|Synthesizing work.topgeneric01.topgeneric0 
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\uc00.vhdl":6:7:6:10|Synthesizing work.uc00.uc0 
+Post processing for work.uc00.uc0
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\concat00.vhdl":8:7:8:14|Synthesizing work.concat00.concat0 
+Post processing for work.concat00.concat0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Pruning register outFlagct_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\comp00.vhdl":8:7:8:12|Synthesizing work.comp00.comp0 
+Post processing for work.comp00.comp0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Pruning register outFlagc0_cl_7  
+@W: CL189 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(7) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(6) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(5) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(4) is always 0, optimizing ...
+@W: CL189 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(3) is always 0, optimizing ...
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\comp2.vhdl":8:7:8:11|Synthesizing work.comp2.comp0 
+Post processing for work.comp2.comp0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Pruning register outFlagc2_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\rotl00.vhdl":8:7:8:12|Synthesizing work.rotl00.rotl0 
+Post processing for work.rotl00.rotl0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Pruning register outFlagrl_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\rotr00.vhdl":8:7:8:12|Synthesizing work.rotr00.rotr0 
+Post processing for work.rotr00.rotr0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Pruning register outFlagrr_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\shiftl00.vhdl":8:7:8:14|Synthesizing work.shiftl00.shiftl0 
+Post processing for work.shiftl00.shiftl0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\shiftl00.vhdl":24:6:24:7|Pruning register outFlagsl_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\shiftr00.vhdl":8:7:8:14|Synthesizing work.shiftr00.shiftr0 
+Post processing for work.shiftr00.shiftr0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Pruning register outFlagsr_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\sub00.vhdl":8:7:8:11|Synthesizing work.sub00.sub0 
+Post processing for work.sub00.sub0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Pruning register outFlagsub_cl_5  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\add00.vhdl":8:7:8:11|Synthesizing work.add00.add0 
+Post processing for work.add00.add0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Pruning register outFlagadd_cl_5  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\nxor00.vhdl":6:7:6:12|Synthesizing work.nxor00.nxor0 
+Post processing for work.nxor00.nxor0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Pruning register outFlagnx_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\nor00.vhdl":6:7:6:11|Synthesizing work.nor00.nor0 
+Post processing for work.nor00.nor0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Pruning register outFlagno_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\nand00.vhdl":6:7:6:12|Synthesizing work.nand00.nand0 
+Post processing for work.nand00.nand0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Pruning register outFlagna_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0 
+Post processing for work.or00.or0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Pruning register outFlago_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\not00.vhdl":6:7:6:11|Synthesizing work.not00.not0 
+Post processing for work.not00.not0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Pruning register outFlagn_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0 
+Post processing for work.xor00.xor0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Pruning register outFlagx_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0 
+Post processing for work.and00.and0
+@W: CL169 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Pruning register outFlaga_cl_7  
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\div00\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0 
+@W: CD277 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\div00\packagediv00.vhdl":23:7:23:13|Port direction mismatch between component and entity
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\div00\enab00.vhdl":6:7:6:12|Synthesizing work.enab00.ena 
+Post processing for work.enab00.ena
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\div00\div0.vhdl":8:7:8:10|Synthesizing work.div0.div0 
+Post processing for work.div0.div0
+@N: CD630 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\div00\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0 
+@W: CD276 :"C:\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo3l.vhd":2251:8:2251:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.5_x64\cae_library\synthesis\vhdl\machxo3l.vhd":2245:10:2245:13|Synthesizing work.osch.syn_black_box 
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topgeneric01.topgeneric0
+@W: CL246 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\concat00.vhdl":12:4:12:10|Input port bits 7 to 4 of portact(7 downto 0) are unused 
+@W: CL246 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\concat00.vhdl":13:4:13:10|Input port bits 7 to 4 of portbct(7 downto 0) are unused 
+@W: CL159 :"C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\source\uc00.vhdl":9:4:9:9|Input enable is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 80MB peak: 82MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 27 08:26:50 2015
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 27 08:26:50 2015
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Fri Nov 27 08:26:50 2015
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 27 08:26:52 2015
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1176R, Built Apr 20 2015 17:38:44
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@L: C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\generic02_impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\generic02_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 116MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=240  set on top level netlist topgeneric01
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                            Requested     Requested     Clock        Clock              
+Clock                            Frequency     Period        Type         Group              
+---------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred     Inferred_clkgroup_1
+topgeneric01|clk0                1.0 MHz       1000.000      inferred     Inferred_clkgroup_0
+=============================================================================================
+
+@W: MT529 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\uc00.vhdl":25:6:25:7|Found inferred clock topgeneric01|clk0 which controls 313 sequential elements including G19.aux. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\div00\div0.vhdl":20:5:20:6|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including G00.U1.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 142MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 27 08:26:53 2015
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1176R, Built Apr 20 2015 17:38:44
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":27:7:27:8|Removing user instance G16.outct_cl_23[7],  because it is equivalent to instance G16.outct_cl_22[7]
+@W: BN132 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":27:7:27:8|Removing user instance G16.outct_cl_22[7],  because it is equivalent to instance G16.outct_cl_20[7]
+@W: BN132 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":27:7:27:8|Removing user instance G16.outct_cl_21[7],  because it is equivalent to instance G16.outct_cl_19[7]
+@W: BN132 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":27:7:27:8|Removing user instance G16.outct_cl_20[7],  because it is equivalent to instance G16.outct_cl_18[7]
+@W: BN132 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":27:7:27:8|Removing user instance G16.outct_cl_19[7],  because it is equivalent to instance G16.outct_cl_17[7]
+@W: BN132 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":27:7:27:8|Removing user instance G16.outct_cl_18[7],  because it is equivalent to instance G16.outct_cl_16[7]
+@W: BN132 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Removing sequential instance G16.outct_cl_7[7],  because it is equivalent to instance G16.outct_cl_5[7]
+@W: BN132 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Removing sequential instance G16.outct_cl_6[7],  because it is equivalent to instance G16.outct_cl_4[7]
+@W: BN132 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":27:7:27:8|Removing user instance G16.outct_cl_17[7],  because it is equivalent to instance G16.outct_cl_16[7]
+@W: BN132 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Removing sequential instance G16.outct_cl_4[7],  because it is equivalent to instance G16.outct_cl_2[7]
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Boundary register outct_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Boundary register outct_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Removing sequential instance outct_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.concat00(concat0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Boundary register outct_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Boundary register outct_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Removing sequential instance outct_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.concat00(concat0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Boundary register outct_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Removing sequential instance outct_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.concat00(concat0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\concat00.vhdl":26:6:26:7|Boundary register outct_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp00(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Boundary register outc0_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp00(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Boundary register outc0_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp00(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Boundary register outc0_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp00(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Boundary register outc0_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp00(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Boundary register outc0_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Removing sequential instance outc0_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp00(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":25:6:25:7|Boundary register outc0_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp2(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Boundary register outc2_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp2(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Boundary register outc2_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp2(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Boundary register outc2_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp2(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Boundary register outc2_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp2(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Boundary register outc2_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp2(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Boundary register outc2_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Removing sequential instance outc2_cl_1[7] of view:PrimLib.dff(prim) in hierarchy view:work.comp2(comp0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp2.vhdl":24:6:24:7|Boundary register outc2_cl_1[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Removing sequential instance outrl_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.rotl00(rotl0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Boundary register outrl_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Removing sequential instance outrl_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.rotl00(rotl0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Boundary register outrl_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Removing sequential instance outrl_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.rotl00(rotl0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Boundary register outrl_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Removing sequential instance outrl_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.rotl00(rotl0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotl00.vhdl":24:6:24:7|Boundary register outrl_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Removing sequential instance outrr_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.rotr00(rotr0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Boundary register outrr_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Removing sequential instance outrr_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.rotr00(rotr0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Boundary register outrr_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Removing sequential instance outrr_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.rotr00(rotr0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Boundary register outrr_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Removing sequential instance outrr_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.rotr00(rotr0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\rotr00.vhdl":24:6:24:7|Boundary register outrr_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\shiftl00.vhdl":24:6:24:7|Removing sequential instance outsl_cl_1[7] of view:PrimLib.dff(prim) in hierarchy view:work.shiftl00(shiftl0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\shiftl00.vhdl":24:6:24:7|Boundary register outsl_cl_1[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Removing sequential instance outsr_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.shiftr00(shiftr0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Boundary register outsr_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Removing sequential instance outsr_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.shiftr00(shiftr0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Boundary register outsr_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Removing sequential instance outsr_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.shiftr00(shiftr0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Boundary register outsr_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Removing sequential instance outsr_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.shiftr00(shiftr0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\shiftr00.vhdl":24:6:24:7|Boundary register outsr_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Removing sequential instance outsub_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.sub00(sub0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Boundary register outsub_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Removing sequential instance outsub_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.sub00(sub0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Boundary register outsub_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Removing sequential instance outsub_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.sub00(sub0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Boundary register outsub_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Removing sequential instance outsub_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.sub00(sub0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Boundary register outsub_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Removing sequential instance outsub_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.sub00(sub0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Boundary register outsub_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Removing sequential instance outsub_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.sub00(sub0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Boundary register outsub_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.add00(add0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Boundary register outadd_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.add00(add0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Boundary register outadd_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.add00(add0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Boundary register outadd_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.add00(add0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Boundary register outadd_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.add00(add0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Boundary register outadd_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Removing sequential instance outadd_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.add00(add0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\add00.vhdl":26:6:26:7|Boundary register outadd_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.nxor00(nxor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Boundary register outnx_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.nxor00(nxor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Boundary register outnx_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.nxor00(nxor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Boundary register outnx_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.nxor00(nxor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Boundary register outnx_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.nxor00(nxor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Boundary register outnx_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.nxor00(nxor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Boundary register outnx_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Removing sequential instance outnx_cl_1[7] of view:PrimLib.dff(prim) in hierarchy view:work.nxor00(nxor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nxor00.vhdl":23:6:23:7|Boundary register outnx_cl_1[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.nor00(nor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Boundary register outno_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.nor00(nor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Boundary register outno_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.nor00(nor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Boundary register outno_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.nor00(nor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Boundary register outno_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.nor00(nor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Boundary register outno_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Removing sequential instance outno_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.nor00(nor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nor00.vhdl":23:6:23:7|Boundary register outno_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.nand00(nand0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Boundary register outna_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.nand00(nand0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Boundary register outna_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.nand00(nand0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Boundary register outna_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.nand00(nand0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Boundary register outna_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.nand00(nand0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Boundary register outna_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Removing sequential instance outna_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.nand00(nand0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\nand00.vhdl":23:6:23:7|Boundary register outna_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Boundary register outo_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Boundary register outo_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Boundary register outo_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Boundary register outo_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Boundary register outo_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Removing sequential instance outo_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.or00(or0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\or00.vhdl":23:6:23:7|Boundary register outo_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.not00(not0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Boundary register outn_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.not00(not0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Boundary register outn_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.not00(not0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Boundary register outn_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.not00(not0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Boundary register outn_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.not00(not0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Boundary register outn_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Removing sequential instance outn_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.not00(not0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\not00.vhdl":22:6:22:7|Boundary register outn_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.xor00(xor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Boundary register outx_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.xor00(xor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Boundary register outx_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.xor00(xor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Boundary register outx_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.xor00(xor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Boundary register outx_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.xor00(xor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Boundary register outx_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Removing sequential instance outx_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.xor00(xor0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\xor00.vhdl":23:6:23:7|Boundary register outx_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_7[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Boundary register outa_cl_7[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_6[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Boundary register outa_cl_6[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_5[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Boundary register outa_cl_5[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_4[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Boundary register outa_cl_4[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_3[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Boundary register outa_cl_3[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Removing sequential instance outa_cl_2[7] of view:PrimLib.dff(prim) in hierarchy view:work.and00(and0) because there are no references to its outputs 
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\and00.vhdl":22:6:22:7|Boundary register outa_cl_2[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+@N: MF179 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\comp00.vhdl":30:9:30:25|Found 8 bit by 8 bit '==' comparator, 'pc0\.un5_codopc0'
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 146MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 146MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 146MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 146MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 146MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 146MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 150MB peak: 156MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		   469.00ns		 378 /       208
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 150MB peak: 156MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"c:\users\orlando\documents\superior\5.- quinto semestre\arquitectura de computadoras\2.- practicas\generic\generic02\impl1\source\sub00.vhdl":26:6:26:7|Boundary register G09.outsub_1_0_.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 149MB peak: 156MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 208 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk0                port                   186        G01.aux        
+@K:CKID0002       G00.U0.OSCInst0     OSCH                   22         G00.U1.outdiv  
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 116MB peak: 156MB)
+
+Writing Analyst data base C:\Users\Orlando\Documents\Superior\5.- Quinto Semestre\Arquitectura de Computadoras\2.- Practicas\Generic\generic02\impl1\synwork\generic02_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 148MB peak: 156MB)
+
+Writing EDIF Netlist and constraint files
+J-2015.03L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 152MB peak: 156MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 152MB peak: 156MB)
+
+@W: MT420 |Found inferred clock topgeneric01|clk0 with period 1000.00ns. Please declare a user-defined clock on object "p:clk0"
+
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:G00.U0.osc_int"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Nov 27 08:26:58 2015
+#
+
+
+Top view:               topgeneric01
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 468.644
+
+                                 Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     2.1 MHz       82.5 MHz      480.769       12.125        468.644     inferred     Inferred_clkgroup_1
+topgeneric01|clk0                1.0 MHz       185.3 MHz     1000.000      5.396         994.604     inferred     Inferred_clkgroup_0
+=====================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+topgeneric01|clk0             topgeneric01|clk0             |  1000.000    994.604  |  No paths    -      |  No paths    -      |  No paths    -    
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     468.644  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                         Arrival            
+Instance           Reference                        Type        Pin     Net         Time        Slack  
+                   Clock                                                                               
+-------------------------------------------------------------------------------------------------------
+G00.U1.sdiv[0]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[0]     1.044       468.644
+G00.U1.sdiv[1]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[1]     1.044       468.644
+G00.U1.sdiv[2]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[2]     1.044       468.644
+G00.U1.sdiv[3]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[3]     1.044       468.644
+G00.U1.sdiv[6]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[6]     1.044       468.644
+G00.U1.sdiv[7]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]     1.044       468.644
+G00.U1.sdiv[4]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[4]     1.044       469.661
+G00.U1.sdiv[5]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[5]     1.044       469.661
+G00.U1.sdiv[8]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]     1.044       469.661
+G00.U1.sdiv[9]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]     1.044       469.661
+=======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                      Required            
+Instance            Reference                        Type        Pin     Net                      Time         Slack  
+                    Clock                                                                                             
+----------------------------------------------------------------------------------------------------------------------
+G00.U1.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_cry_19_0_S0     480.664      468.644
+G00.U1.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_cry_19_0_S1     480.664      468.644
+G00.U1.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_cry_17_0_S0     480.664      468.787
+G00.U1.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_cry_17_0_S1     480.664      468.787
+G00.U1.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_cry_15_0_S0     480.664      468.930
+G00.U1.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_cry_15_0_S1     480.664      468.930
+G00.U1.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_cry_13_0_S0     480.664      469.073
+G00.U1.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_cry_13_0_S1     480.664      469.073
+G00.U1.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_cry_11_0_S0     480.664      469.216
+G00.U1.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv_cry_11_0_S1     480.664      469.216
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      12.019
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     468.644
+
+    Number of logic level(s):                17
+    Starting point:                          G00.U1.sdiv[0] / Q
+    Ending point:                            G00.U1.sdiv[20] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+G00.U1.sdiv[0]                          FD1S3IX      Q        Out     1.044     1.044       -         
+sdiv[0]                                 Net          -        -       -         -           2         
+G00.U1.pdiv\.outdiv3lto19_i_a2_16_4     ORCALUT4     A        In      0.000     1.044       -         
+G00.U1.pdiv\.outdiv3lto19_i_a2_16_4     ORCALUT4     Z        Out     1.017     2.061       -         
+outdiv3lto19_i_a2_16_4                  Net          -        -       -         -           1         
+G00.U1.pdiv\.outdiv3lto19_i_a2_16       ORCALUT4     B        In      0.000     2.061       -         
+G00.U1.pdiv\.outdiv3lto19_i_a2_16       ORCALUT4     Z        Out     1.193     3.253       -         
+N_111_13                                Net          -        -       -         -           4         
+G00.U1.pdiv\.outdiv13lto16_i_a2_15      ORCALUT4     A        In      0.000     3.253       -         
+G00.U1.pdiv\.outdiv13lto16_i_a2_15      ORCALUT4     Z        Out     1.193     4.446       -         
+N_105_18                                Net          -        -       -         -           4         
+G00.U1.pdiv\.outdiv18lto20              ORCALUT4     A        In      0.000     4.446       -         
+G00.U1.pdiv\.outdiv18lto20              ORCALUT4     Z        Out     1.089     5.535       -         
+outdiv18                                Net          -        -       -         -           2         
+G00.U1.un1_outdiv44_2_0                 ORCALUT4     B        In      0.000     5.535       -         
+G00.U1.un1_outdiv44_2_0                 ORCALUT4     Z        Out     1.089     6.624       -         
+un1_outdiv44_2_0                        Net          -        -       -         -           2         
+G00.U1.un1_sdiv_cry_0_0_RNO             ORCALUT4     A        In      0.000     6.624       -         
+G00.U1.un1_sdiv_cry_0_0_RNO             ORCALUT4     Z        Out     1.017     7.641       -         
+un1_outdiv44_i                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_0_0                 CCU2D        B0       In      0.000     7.641       -         
+G00.U1.un1_sdiv_cry_0_0                 CCU2D        COUT     Out     1.545     9.185       -         
+un1_sdiv_cry_0                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_1_0                 CCU2D        CIN      In      0.000     9.185       -         
+G00.U1.un1_sdiv_cry_1_0                 CCU2D        COUT     Out     0.143     9.328       -         
+un1_sdiv_cry_2                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_3_0                 CCU2D        CIN      In      0.000     9.328       -         
+G00.U1.un1_sdiv_cry_3_0                 CCU2D        COUT     Out     0.143     9.471       -         
+un1_sdiv_cry_4                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_5_0                 CCU2D        CIN      In      0.000     9.471       -         
+G00.U1.un1_sdiv_cry_5_0                 CCU2D        COUT     Out     0.143     9.614       -         
+un1_sdiv_cry_6                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_7_0                 CCU2D        CIN      In      0.000     9.614       -         
+G00.U1.un1_sdiv_cry_7_0                 CCU2D        COUT     Out     0.143     9.756       -         
+un1_sdiv_cry_8                          Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_9_0                 CCU2D        CIN      In      0.000     9.756       -         
+G00.U1.un1_sdiv_cry_9_0                 CCU2D        COUT     Out     0.143     9.899       -         
+un1_sdiv_cry_10                         Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_11_0                CCU2D        CIN      In      0.000     9.899       -         
+G00.U1.un1_sdiv_cry_11_0                CCU2D        COUT     Out     0.143     10.042      -         
+un1_sdiv_cry_12                         Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_13_0                CCU2D        CIN      In      0.000     10.042      -         
+G00.U1.un1_sdiv_cry_13_0                CCU2D        COUT     Out     0.143     10.185      -         
+un1_sdiv_cry_14                         Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_15_0                CCU2D        CIN      In      0.000     10.185      -         
+G00.U1.un1_sdiv_cry_15_0                CCU2D        COUT     Out     0.143     10.328      -         
+un1_sdiv_cry_16                         Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_17_0                CCU2D        CIN      In      0.000     10.328      -         
+G00.U1.un1_sdiv_cry_17_0                CCU2D        COUT     Out     0.143     10.470      -         
+un1_sdiv_cry_18                         Net          -        -       -         -           1         
+G00.U1.un1_sdiv_cry_19_0                CCU2D        CIN      In      0.000     10.470      -         
+G00.U1.un1_sdiv_cry_19_0                CCU2D        S1       Out     1.549     12.019      -         
+un1_sdiv_cry_19_0_S1                    Net          -        -       -         -           1         
+G00.U1.sdiv[20]                         FD1S3IX      D        In      0.000     12.019      -         
+======================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: topgeneric01|clk0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                   Arrival            
+Instance             Reference             Type        Pin     Net              Time        Slack  
+                     Clock                                                                         
+---------------------------------------------------------------------------------------------------
+G19.outFlaguc        topgeneric01|clk0     FD1S3JX     Q       outFlag0_c       1.321       994.604
+G02.aux              topgeneric01|clk0     FD1S3AX     Q       aux              1.108       996.139
+G01.outa_cl[7]       topgeneric01|clk0     FD1S3IX     Q       outa_cl[7]       1.228       996.184
+G08.outadd_cl[7]     topgeneric01|clk0     FD1S3IX     Q       outadd_cl[7]     1.228       996.184
+G14.outc2_cl[7]      topgeneric01|clk0     FD1S3IX     Q       outc2_cl[7]      1.228       996.184
+G16.outct_cl[7]      topgeneric01|clk0     FD1S3IX     Q       outct_cl[7]      1.228       996.184
+G03.outn_cl[7]       topgeneric01|clk0     FD1S3IX     Q       outn_cl[7]       1.228       996.184
+G05.outna_cl[7]      topgeneric01|clk0     FD1S3AX     Q       outna_cl[7]      1.228       996.184
+G06.outno_cl[7]      topgeneric01|clk0     FD1S3IX     Q       outno_cl[7]      1.228       996.184
+G07.outnx_cl[7]      topgeneric01|clk0     FD1S3IX     Q       outnx_cl[7]      1.228       996.184
+===================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                Required            
+Instance            Reference             Type        Pin     Net           Time         Slack  
+                    Clock                                                                       
+------------------------------------------------------------------------------------------------
+G08.outadd_1[0]     topgeneric01|clk0     FD1P3AX     D       N_173         1000.089     994.604
+G10.aux             topgeneric01|clk0     FD1S3AX     D       aux_RNO_2     1000.089     994.997
+G11.aux             topgeneric01|clk0     FD1S3AX     D       aux_RNO_1     1000.089     994.997
+G13.aux             topgeneric01|clk0     FD1S3AX     D       aux_RNO_0     1000.089     995.037
+G06.aux             topgeneric01|clk0     FD1S3AX     D       aux_RNO_3     1000.089     995.045
+G04.aux             topgeneric01|clk0     FD1S3AX     D       aux_RNO_5     1000.089     995.077
+G15.aux             topgeneric01|clk0     FD1S3AX     D       aux_RNO       1000.089     995.221
+G11.outsl_1[1]      topgeneric01|clk0     FD1P3AX     D       N_505         1000.089     995.565
+G11.outsl_1[2]      topgeneric01|clk0     FD1P3AX     D       N_504         1000.089     995.565
+G11.outsl_1[3]      topgeneric01|clk0     FD1P3AX     D       N_503         1000.089     995.565
+================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.089
+
+    - Propagation time:                      5.485
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 994.604
+
+    Number of logic level(s):                4
+    Starting point:                          G19.outFlaguc / Q
+    Ending point:                            G08.outadd_1[0] / D
+    The start point is clocked by            topgeneric01|clk0 [rising] on pin CK
+    The end   point is clocked by            topgeneric01|clk0 [rising] on pin CK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+G19.outFlaguc              FD1S3JX      Q        Out     1.321     1.321       -         
+outFlag0_c                 Net          -        -       -         -           33        
+G06.outno_5_6_11_1_o2      ORCALUT4     D        In      0.000     1.321       -         
+G06.outno_5_6_11_1_o2      ORCALUT4     Z        Out     1.265     2.586       -         
+N_412                      Net          -        -       -         -           8         
+G08.outadd_7_5_36_1_o3     ORCALUT4     A        In      0.000     2.586       -         
+G08.outadd_7_5_36_1_o3     ORCALUT4     Z        Out     1.265     3.851       -         
+N_430                      Net          -        -       -         -           8         
+G08.outadd_1_RNO_0[0]      ORCALUT4     B        In      0.000     3.851       -         
+G08.outadd_1_RNO_0[0]      ORCALUT4     Z        Out     1.017     4.868       -         
+N_604                      Net          -        -       -         -           1         
+G08.outadd_1_RNO[0]        ORCALUT4     C        In      0.000     4.868       -         
+G08.outadd_1_RNO[0]        ORCALUT4     Z        Out     0.617     5.485       -         
+N_173                      Net          -        -       -         -           1         
+G08.outadd_1[0]            FD1P3AX      D        In      0.000     5.485       -         
+=========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 152MB peak: 156MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 152MB peak: 156MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo3l_6900c-5
+
+Register bits: 208 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       39
+
+
+Details:
+BB:             1
+CCU2D:          34
+FD1P3AX:        116
+FD1P3IX:        1
+FD1S3AX:        20
+FD1S3IX:        51
+FD1S3JX:        1
+GSR:            1
+IB:             26
+IFS1P3DX:       9
+INV:            24
+OB:             12
+OFS1P3DX:       10
+ORCALUT4:       346
+OSCH:           1
+PFUMX:          5
+PUR:            1
+VHI:            19
+VLO:            20
+false:          1
+true:           2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 55MB peak: 156MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Fri Nov 27 08:26:58 2015
+
+###########################################################]

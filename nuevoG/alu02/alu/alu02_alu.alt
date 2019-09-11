@@ -1,0 +1,28 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Jun 19 09:15:52 2018 *
+NOTE DESIGN NAME: acal00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outacal[0] : 100 : out *
+NOTE PINS clkacal : 55 : in *
+NOTE PINS outFlagacal : 81 : out *
+NOTE PINS outacal[7] : 98 : out *
+NOTE PINS outacal[6] : 95 : out *
+NOTE PINS outacal[5] : 104 : out *
+NOTE PINS outacal[4] : 89 : out *
+NOTE PINS outacal[3] : 85 : out *
+NOTE PINS outacal[2] : 92 : out *
+NOTE PINS outacal[1] : 94 : out *
+NOTE PINS inFlagacal : 83 : in *
+NOTE PINS inacal[7] : 97 : in *
+NOTE PINS inacal[6] : 96 : in *
+NOTE PINS inacal[5] : 103 : in *
+NOTE PINS inacal[4] : 87 : in *
+NOTE PINS inacal[3] : 86 : in *
+NOTE PINS inacal[2] : 91 : in *
+NOTE PINS inacal[1] : 93 : in *
+NOTE PINS inacal[0] : 99 : in *
+NOTE PINS enacal : 84 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

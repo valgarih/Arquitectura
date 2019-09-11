@@ -1,0 +1,21 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\jmaci\Desktop\ADC2\shiftRL00\topshiftRL00.vhdl":7:7:7:18|Top entity is set to topshiftRL00.
+@N: CD630 :"C:\Users\jmaci\Desktop\ADC2\shiftRL00\topshiftRL00.vhdl":7:7:7:18|Synthesizing work.topshiftrl00.topshiftrl0.
+@N: CD630 :"C:\Users\jmaci\Desktop\ADC2\shiftRL00\shiftRL00.vhdl":6:7:6:15|Synthesizing work.shiftrl00.shiftrl0.
+@N: CD630 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\div00.vhdl":27:2:27:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\div00.vhdl":36:2:36:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\div00.vhdl":45:2:45:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\div00.vhdl":54:2:54:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\div00.vhdl":63:2:63:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\div00.vhdl":72:2:72:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\div00.vhdl":81:2:81:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\div00.vhdl":90:2:90:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\div00.vhdl":99:2:99:7|Removing redundant assignment.
+@N: CD630 :"C:\Users\jmaci\Desktop\ADC2\osc00VHDL\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

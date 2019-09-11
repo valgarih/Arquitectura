@@ -1,0 +1,3 @@
+@W: CL169 :"C:\Users\Valery Garibay\Documents\nuevoG\alu01\subsal00.vhdl":24:1:24:2|Pruning unused register outFlagsubs_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL138 :"C:\Users\Valery Garibay\Documents\nuevoG\alu01\subsal00.vhdl":24:1:24:2|Removing register 'outSLsubs' because it is only assigned 0 or its original value.
+

@@ -1,0 +1,8 @@
+#Start recording tcl command: 6/12/2018 23:29:19
+#Project Location: C:/Users/Sergi/Desktop/bcd01; Project name: bcd00
+prj_project open "C:/Users/Sergi/Desktop/bcd01/bcd00.ldf"
+prj_src add "C:/Users/Sergi/Desktop/bcd01/ac8bit00.vhdl" "C:/Users/Sergi/Desktop/bcd01/ac12bit00.vhdl"
+prj_src add "C:/Users/Sergi/Desktop/bcd01/coderNibbles00.vhdl" "C:/Users/Sergi/Desktop/bcd01/compadd00.vhdl" "C:/Users/Sergi/Desktop/bcd01/contIter00.vhdl" "C:/Users/Sergi/Desktop/bcd01/contring00.vhdl"
+prj_src add "C:/Users/Sergi/Desktop/bcd01/divint00.vhdl"
+prj_src add "C:/Users/Sergi/Desktop/bcd01/leeInst00.vhdl" "C:/Users/Sergi/Desktop/bcd01/mux00.vhdl"
+#Stop recording: 6/12/2018 23:31:49

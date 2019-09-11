@@ -1,0 +1,10 @@
+#Start recording tcl command: 3/1/2018 08:17:43
+#Project Location: C:/Users/segui/OneDrive/Documentos/Arquitectura/adder8bit00; Project name: adder4bit00
+C:/Users/segui/OneDrive/Documentos/Arquitectura/adder8bit01
+adder8bit01
+#Start recording tcl command: 3/1/2018 08:18:05
+#Project Location: C:/Users/segui/OneDrive/Documentos/Arquitectura/adder8bit01; Project name: adder8bit01
+prj_project open "C:/Users/segui/OneDrive/Documentos/Arquitectura/adder8bit00/adder4bit00.ldf"
+prj_project close
+prj_project open "C:/Users/segui/OneDrive/Documentos/Arquitectura/adder8bit01/adder8bit01.ldf"
+#Stop recording: 3/1/2018 08:18:06

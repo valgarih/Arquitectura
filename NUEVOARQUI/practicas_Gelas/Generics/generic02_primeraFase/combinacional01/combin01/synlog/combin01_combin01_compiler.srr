@@ -1,0 +1,50 @@
+Synopsys HDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.5_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\lscc\Arquitectura\org\combinacional01\topmulticomb01.vhdl":5:7:5:18|Top entity is set to eTopMultip00.
+File C:\lscc\Arquitectura\org\combinacional01\topmulticomb01.vhdl changed - recompiling
+VHDL syntax check successful!
+File C:\lscc\Arquitectura\org\combinacional01\topmulticomb01.vhdl changed - recompiling
+@N: CD630 :"C:\lscc\Arquitectura\org\combinacional01\topmulticomb01.vhdl":5:7:5:18|Synthesizing work.etopmultip00.atopmultip 
+@N: CD630 :"C:\lscc\Arquitectura\org\combinacional01\combin01\source\top_sumadorcompleto.vhdl":5:7:5:21|Synthesizing work.etopsumcompleto.atopsumcompleto 
+@N: CD630 :"C:\lscc\Arquitectura\org\combinacional01\combin01\source\top_sumadormedio.vhdl":5:7:5:18|Synthesizing work.etopsummedio.atopsummedio 
+@N: CD630 :"C:\lscc\Arquitectura\org\combinacional01\combin01\source\xor.vhdl":4:7:4:10|Synthesizing work.exor.axor 
+Post processing for work.exor.axor
+@N: CD630 :"C:\lscc\Arquitectura\org\combinacional01\combin01\source\and.vhdl":4:7:4:10|Synthesizing work.eand.aand 
+Post processing for work.eand.aand
+Post processing for work.etopsummedio.atopsummedio
+@N: CD630 :"C:\lscc\Arquitectura\org\combinacional01\combin01\source\or.vhdl":4:7:4:9|Synthesizing work.eor.aor 
+Post processing for work.eor.aor
+Post processing for work.etopsumcompleto.atopsumcompleto
+Post processing for work.etopmultip00.atopmultip
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 02 16:15:01 2015
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 058R, built Apr 20 2015
+@N|Running in 64-bit mode
+File C:\lscc\Arquitectura\org\combinacional01\combin01\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 02 16:15:01 2015
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 02 16:15:01 2015
+
+###########################################################]

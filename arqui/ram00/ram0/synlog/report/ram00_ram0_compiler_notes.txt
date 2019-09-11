@@ -1,0 +1,30 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\topram00.vhdl":10:7:10:14|Top entity is set to topram00.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\topram00.vhdl":10:7:10:14|Synthesizing work.topram00.topram0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\contRead00.vhdl":35:6:35:14|Removing redundant assignment.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\mux00.vhdl":8:7:8:11|Synthesizing work.mux00.mux0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram00.vhdl":8:7:8:11|Synthesizing work.ram00.ram0.
+@N: CL134 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram00.vhdl":23:7:23:13|Found RAM wordram, depth=64, width=7
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\coder00.vhdl":8:7:8:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\coder00.vhdl":67:7:67:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\coder00.vhdl":120:7:120:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\coder00.vhdl":174:7:174:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\coder00.vhdl":228:7:228:14|Removing redundant assignment.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\topdv00.vhdl":7:7:7:13|Synthesizing work.topdv00.topdv0.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\div00.vhdl":27:6:27:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\div00.vhdl":36:6:36:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\div00.vhdl":45:6:45:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\div00.vhdl":54:6:54:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\div00.vhdl":63:6:63:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\div00.vhdl":72:6:72:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\div00.vhdl":80:6:80:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\div00.vhdl":89:6:89:11|Removing redundant assignment.
+@N: CD630 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ram00\ram0\source\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

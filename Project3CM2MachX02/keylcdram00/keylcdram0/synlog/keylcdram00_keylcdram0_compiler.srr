@@ -1,0 +1,198 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\toplcd00.vhd":7:7:7:14|Top entity is set to toplcd00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\toplcd00.vhd":7:7:7:14|Synthesizing work.toplcd00.toplcd0.
+@W: CD276 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdContConfig00.vhd":16:2:16:10|Map for port outflagcc of component lcdcontconfig00 not found
+@W: CD730 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\toplcd00.vhd":46:1:46:4|Component declaration has 4 ports but entity declares 5 ports
+@W: CD326 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\toplcd00.vhd":46:1:46:4|Port outflagcc of entity work.lcdcontconfig00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdmux00.vhd":6:7:6:14|Synthesizing work.lcdmux00.lcdmux0.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\contread00.vhd":9:7:9:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\contread00.vhd":36:8:36:16|Removing redundant assignment.
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\ram00.vhd":9:7:9:11|Synthesizing work.ram00.ram0.
+Post processing for work.ram00.ram0
+@N: CL134 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\ram00.vhd":24:7:24:13|Found RAM wordram, depth=64, width=11
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":9:7:9:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":48:8:48:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":56:9:56:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":65:9:65:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":74:9:74:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":83:9:83:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":92:9:92:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":101:9:101:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":110:9:110:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":119:9:119:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":128:9:128:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":137:9:137:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":146:9:146:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":155:9:155:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":164:9:164:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":174:8:174:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":182:9:182:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":191:9:191:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":200:9:200:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":209:9:209:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":218:9:218:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":227:9:227:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":236:9:236:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":245:9:245:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":254:9:254:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":263:9:263:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":272:9:272:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":281:9:281:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":290:9:290:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":300:8:300:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":308:9:308:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":317:9:317:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":326:9:326:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":335:9:335:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":344:9:344:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":353:9:353:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":362:9:362:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":371:9:371:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":380:9:380:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":389:9:389:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":398:9:398:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":407:9:407:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":416:9:416:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":426:8:426:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":434:9:434:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":443:9:443:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":452:9:452:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":461:9:461:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":470:9:470:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":479:9:479:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":488:9:488:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":497:9:497:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":506:9:506:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":515:9:515:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":524:9:524:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":533:9:533:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":542:9:542:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":552:8:552:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":560:9:560:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":569:9:569:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":578:9:578:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":587:9:587:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":596:9:596:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":605:9:605:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":614:9:614:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":623:9:623:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":632:9:632:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":641:9:641:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":650:9:650:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":659:9:659:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":668:9:668:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":678:8:678:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":686:9:686:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":695:9:695:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":704:9:704:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":713:9:713:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":722:9:722:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":731:9:731:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":740:9:740:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":749:9:749:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":758:9:758:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":767:9:767:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":776:9:776:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":785:9:785:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\coder00.vhd":794:9:794:16|Removing redundant assignment.
+Post processing for work.coder00.coder0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":6:7:6:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdContConfig00.vhd":9:7:9:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdContConfig00.vhd":33:5:33:13|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+@W: CL240 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdContConfig00.vhd":16:2:16:10|Signal outFlagcc is floating; a simulation mismatch is possible.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\shiftRL00.vhd":7:7:7:15|Synthesizing work.shiftrl00.shiftrl0.
+Post processing for work.shiftrl00.shiftrl0
+@W: CL279 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\shiftRL00.vhd":21:2:21:3|Pruning register bits 5 to 1 of scontcr(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\topdiv00.vhd":9:7:9:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\div00.vhd":9:7:9:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00vhdl\osc00.vhd":10:7:10:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.toplcd00.toplcd0
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Register bit commandcf(0) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Register bit commandcf(1) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Register bit commandcf(9) is always 0.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Pruning register bit 9 of commandcf(10 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Pruning register bits 1 to 0 of commandcf(10 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdConfig00.vhd":21:4:21:5|Pruning register bit 8 of commandcf(8 downto 2). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(31) is always 0.
+@W: CL260 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Pruning register bit 31 of wordscounter(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(5) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(6) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(7) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(8) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(9) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(10) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(11) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(12) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(13) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(14) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(15) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(16) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(17) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(18) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(19) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(20) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(21) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(22) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(23) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(24) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(25) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(26) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(27) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(28) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(29) is always 0.
+@N: CL189 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Register bit wordscounter(30) is always 0.
+@W: CL279 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\lcdData00.vhd":31:4:31:5|Pruning register bits 30 to 5 of wordscounter(30 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 81MB peak: 84MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 29 12:56:59 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\keylcdram00\keylcdram0\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 29 12:57:00 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Thu Nov 29 12:57:00 2018
+
+###########################################################]

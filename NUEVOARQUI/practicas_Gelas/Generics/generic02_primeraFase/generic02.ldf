@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="generic02" device="LCMXO2-7000HE-4TG144C" default_implementation="generic02">
+    <Options/>
+    <Implementation title="generic02" dir="generic02" description="generic02" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topgeneric01"/>
+        <Source name="generic02/source/multg01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/nandg01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/norg01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/notg01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/org01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/xnorg01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/addg01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/and00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/andg01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/div00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/ha00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/nxor00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/or00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/osc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/packageadder00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/packagediv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/packagefa00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/packagemult4bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/subg01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/topadder00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/topdiv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/topfa00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/topha00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/topmult4bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/ucg01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/xor00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/xorg01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="ShiftL00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="ShiftR00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="rotL00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="rotR00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/packagegeneric01.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="generic02/source/topgeneric01.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topgeneric01"/>
+        </Source>
+        <Source name="generic02.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="generic02/generic02.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="generic021.sty"/>
+</BaliProject>

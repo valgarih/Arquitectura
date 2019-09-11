@@ -1,0 +1,8 @@
+@W: CG296 :"F:\ram00\muxram00.vhdl":20:7:20:13|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"F:\ram00\muxram00.vhdl":26:9:26:13|Referenced variable rwmux is not in sensitivity list.
+@W: CG290 :"F:\ram00\muxram00.vhdl":22:7:22:11|Referenced variable enmux is not in sensitivity list.
+@W: CG296 :"F:\ram00\coderram00.vhdl":24:10:24:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"F:\ram00\coderram00.vhdl":34:6:34:9|Referenced variable clkc is not in sensitivity list.
+@W: CL279 :"F:\ram00\contring00.vhdl":18:4:18:5|Pruning register bits 3 to 0 of sshift(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

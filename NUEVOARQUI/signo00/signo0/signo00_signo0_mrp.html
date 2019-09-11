@@ -1,0 +1,369 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+           Lattice Mapping Report File for Design Module 'signo00'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
+     signo00_signo0.ngd -o signo00_signo0_map.ncd -pr signo00_signo0.prf -mp
+     signo00_signo0.mrp -lpf C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo0/signo00_signo0_synplify.lpf -lpf
+     C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf -c 0 -gui
+     -msgset C:/Users/Valery Garibay/Desktop/NUEVOARQUI/signo00/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  05/08/19  11:45:04
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:      0 out of  7209 (0%)
+      PFU registers:            0 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:         0 out of  3432 (0%)
+      SLICEs as Logic/ROM:      0 out of  3432 (0%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:          0 out of  3432 (0%)
+   Number of LUT4s:          0 out of  6864 (0%)
+      Number used as logic LUTs:          0
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 24 + 4(JTAG) out of 115 (24%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  0
+   Number of Clock Enables:  0
+   Number of LSRs:  0
+
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net vector_salida_c[7]: 9 loads
+     Net vector_salida_c[0]: 1 loads
+     Net vector_salida_c[1]: 1 loads
+     Net vector_salida_c[2]: 1 loads
+     Net vector_salida_c[3]: 1 loads
+     Net vector_salida_c[4]: 1 loads
+     Net vector_salida_c[5]: 1 loads
+     Net vector_salida_c[6]: 1 loads
+
+
+
+
+   Number of warnings:  24
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(11): Semantic error in
+     "LOCATE COMP "vector_entrada[8]" SITE "54" ;": COMP "vector_entrada[8]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(12): Semantic error in
+     "LOCATE COMP "vector_entrada[9]" SITE "56" ;": COMP "vector_entrada[9]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(13): Semantic error in
+     "LOCATE COMP "vector_entrada[10]" SITE "52" ;": COMP "vector_entrada[10]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(14): Semantic error in
+     "LOCATE COMP "vector_entrada[11]" SITE "55" ;": COMP "vector_entrada[11]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(15): Semantic error in
+     "LOCATE COMP "vector_entrada[12]" SITE "48" ;": COMP "vector_entrada[12]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(16): Semantic error in
+     "LOCATE COMP "vector_entrada[13]" SITE "50" ;": COMP "vector_entrada[13]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(17): Semantic error in
+     "LOCATE COMP "vector_entrada[14]" SITE "47" ;": COMP "vector_entrada[14]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(18): Semantic error in
+     "LOCATE COMP "vector_entrada[15]" SITE "49" ;": COMP "vector_entrada[15]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(34): Semantic error in
+     "LOCATE COMP "vector_salida[17]" SITE "133" ;": COMP "vector_salida[17]"
+
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(35): Semantic error in
+     "LOCATE COMP "vector_salida[18]" SITE "132" ;": COMP "vector_salida[18]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(36): Semantic error in
+     "LOCATE COMP "vector_salida[19]" SITE "74" ;": COMP "vector_salida[19]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(37): Semantic error in
+     "LOCATE COMP "vector_salida[20]" SITE "73" ;": COMP "vector_salida[20]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(38): Semantic error in
+     "LOCATE COMP "vector_salida[21]" SITE "76" ;": COMP "vector_salida[21]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(39): Semantic error in
+     "LOCATE COMP "vector_salida[22]" SITE "75" ;": COMP "vector_salida[22]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(40): Semantic error in
+     "LOCATE COMP "vector_salida[23]" SITE "78" ;": COMP "vector_salida[23]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(41): Semantic error in
+     "LOCATE COMP "vector_salida[24]" SITE "77" ;": COMP "vector_salida[24]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(42): Semantic error in
+     "LOCATE COMP "vector_salida[25]" SITE "82" ;": COMP "vector_salida[25]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(43): Semantic error in
+     "LOCATE COMP "vector_salida[26]" SITE "81" ;": COMP "vector_salida[26]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(44): Semantic error in
+     "LOCATE COMP "vector_salida[27]" SITE "84" ;": COMP "vector_salida[27]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(45): Semantic error in
+     "LOCATE COMP "vector_salida[28]" SITE "83" ;": COMP "vector_salida[28]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(46): Semantic error in
+     "LOCATE COMP "vector_salida[29]" SITE "86" ;": COMP "vector_salida[29]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(47): Semantic error in
+     "LOCATE COMP "vector_salida[30]" SITE "85" ;": COMP "vector_salida[30]"
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(48): Semantic error in
+     "LOCATE COMP "vector_salida[31]" SITE "92" ;": COMP "vector_salida[31]"
+
+     cannot be found in design. This preference has been disabled.
+WARNING - map: C:/Users/Valery
+     Garibay/Desktop/NUEVOARQUI/signo00/signo00.lpf(50): Semantic error in
+     "LOCATE COMP "vector_salida[16]" SITE "138" ;": COMP "vector_salida[16]"
+     cannot be found in design. This preference has been disabled.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| vector_salida[0]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_entrada[0]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[15]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[14]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[13]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[12]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[11]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[10]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[9]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[8]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[7]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[6]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[5]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[4]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[3]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[2]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_salida[1]    | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_entrada[7]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_entrada[6]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_entrada[5]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_entrada[4]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_entrada[3]   | INPUT     | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| vector_entrada[2]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| vector_entrada[1]   | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 56 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

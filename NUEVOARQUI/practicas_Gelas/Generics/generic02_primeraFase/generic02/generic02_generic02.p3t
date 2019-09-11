@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "generic02_generic02.log"
+-o "generic02_generic02.csv"
+-pr "generic02_generic02.prf"

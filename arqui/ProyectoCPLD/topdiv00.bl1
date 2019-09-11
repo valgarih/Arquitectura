@@ -1,0 +1,676 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Wed May 22 12:28:24 2019
+#$ PROPERTY LATTICE OSCTIMER U1_inst11= -, -, -, sclk, 1024; 
+#$ MODULE topdiv00
+#$ PINS 6 indiv0_4_:125'ke'  clk0:5'ke'  indiv0_3_:124'ke'  indiv0_2_:123'ke'  \
+#  indiv0_1_:122'ke'  indiv0_0_:121'ke' 
+#$ NODES 221 sclk gnd_n_n U2_sdiv_11_ U2_sdiv_0_ U2_sdiv_1_ U2_sdiv_2_ U2_sdiv_3_ \
+#  U2_sdiv_4_ U2_sdiv_5_ U2_sdiv_6_ U2_sdiv_7_ U2_sdiv_8_ U2_sdiv_9_ U2_sdiv_10_ \
+#  u2_pdiv_sdiv70_3_n u2_pdiv_sdiv71_3_n u2_pdiv_sdiv72_3_n u2_pdiv_sdiv76_3_n \
+#  U2_outdiv_0 u2_n_57_n u2_n_58_n u2_n_59_n u2_n_60_n u2_n_61_n u2_n_62_n u2_n_63_n \
+#  u2_n_64_n u2_n_66_n u2_n_70_n u2_n_74_n u2_n_79_n u2_n_80_n u2_n_83_n u2_n_85_n \
+#  u2_n_86_n u2_n_87_n u2_n_88_n u2_n_89_n u2_n_90_n u2_n_91_n u2_n_92_n u2_n_93_n \
+#  u2_n_94_n u2_n_95_n u2_n_96_n u2_n_97_n u2_n_99_n u2_n_100_n u2_n_102_n u2_n_103_n \
+#  u2_n_104_n u2_n_105_n u2_n_108_n u2_n_109_n u2_n_111_n u2_n_377_1_n u2_n_371_n \
+#  u2_n_378_n u2_n_377_n u2_n_376_n u2_n_375_n u2_n_374_n u2_n_372_n u2_n_373_n \
+#  u2_n_81_n u2_n_82_1_n u2_n_72_n u2_n_82_n u2_n_69_n u2_n_65_n u2_n_84_3_n u2_n_101_n \
+#  u2_un1_sdiv69_1_n u2_pdiv_sdiv75_3_n u2_n_112_n u2_n_110_n u2_n_107_n u2_n_71_n \
+#  u2_n_106_n indiv0_i_0__n u2_sdiv_i_10__n u2_sdiv_i_11__n u2_sdiv_i_9__n \
+#  u2_pdiv_sdiv75_3_i_n u2_sdiv_i_8__n indiv0_i_4__n u2_sdiv_i_6__n u2_sdiv_i_4__n \
+#  indiv0_i_1__n indiv0_i_3__n u2_pdiv_sdiv72_3_i_n u2_pdiv_sdiv71_3_i_n \
+#  u2_pdiv_sdiv70_3_i_n u2_pdiv_sdiv76_3_i_n u2_sdiv_i_7__n u2_sdiv_i_5__n \
+#  indiv0_i_2__n u2_sdiv_i_3__n u2_sdiv_i_2__n u2_sdiv_i_0__n u2_sdiv_i_1__n \
+#  U2_outdivreg indiv0_c_0__n indiv0_c_1__n indiv0_c_2__n indiv0_c_3__n indiv0_c_4__n \
+#  u2_n_411_i_n u2_n_86_i_n u2_n_85_i_n u2_sdiv_n11_0_n u2_n_88_i_n u2_n_87_i_n \
+#  u2_sdiv_n10_0_n u2_n_90_i_n u2_n_89_i_n u2_sdiv_n9_0_n u2_n_100_i_n u2_n_57_0_n \
+#  u2_n_102_i_n u2_n_101_i_n u2_n_67_i_n u2_n_104_i_n u2_n_103_i_n u2_n_69_0_n \
+#  u2_n_105_i_n u2_n_106_i_n u2_n_71_0_n u2_n_107_i_n u2_n_72_0_n u2_n_110_i_n \
+#  u2_n_77_i_n u2_n_112_i_n u2_n_79_0_n u2_n_75_i_n u2_n_65_i_n u2_n_80_i_n u2_n_81_i_n \
+#  u2_n_82_i_n u2_n_83_i_n u2_n_84_3_i_n u2_un1_sdiv69_1_0_n u2_n_372_i_n u2_n_373_i_n \
+#  u2_n_374_i_n u2_n_375_i_n u2_n_377_i_n u2_n_376_i_n u2_n_378_i_n u2_n_356_i_n \
+#  u2_n_371_0_n u2_n_74_i_n u2_n_70_i_n u2_n_66_i_n u2_n_64_i_n u2_n_63_i_n u2_n_62_i_n \
+#  u2_n_61_i_n u2_n_60_i_n u2_n_59_i_n u2_n_58_i_n u2_n_99_i_n u2_n_97_i_n u2_n_96_i_n \
+#  u2_n_95_i_n u2_n_94_i_n u2_n_93_i_n u2_n_92_i_n u2_n_91_i_n u2_n_371_0_1_n \
+#  u2_n_356_i_1_n u2_n_356_i_2_n u2_n_356_i_3_n u2_n_356_i_4_n u2_n_356_i_5_n \
+#  u2_n_356_i_6_n u2_un1_sdiv69_1_0_1_n u2_un1_sdiv69_1_0_2_n u2_un1_sdiv69_1_0_3_n \
+#  u2_un1_sdiv69_1_0_4_n u2_un1_sdiv69_1_0_5_n u2_n_77_i_1_n u2_pdiv_sdiv76_3_1_n \
+#  u2_n_378_1_n u2_n_81_1_n u2_n_81_2_n u2_n_81_3_n u2_n_82_1_0_n u2_n_82_2_n \
+#  u2_n_84_3_1_n u2_n_84_3_2_n u2_n_101_1_n u2_n_101_2_n u2_n_101_3_n u2_n_101_4_n \
+#  u2_pdiv_sdiv70_3_1_n u2_pdiv_sdiv72_3_1_n u2_pdiv_sdiv75_3_1_n \
+#  u2_pdiv_sdiv75_3_2_n u2_n_56_i_1_n u2_n_52_i_1_n u2_n_50_i_1_n u2_n_48_i_1_n \
+#  u2_n_46_i_1_n u2_n_44_i_1_n u2_n_42_i_1_n u2_n_412_i_1_n u2_n_105_1_n u2_n_104_1_n \
+#  u2_n_103_1_n u2_n_102_1_n u2_n_100_1_n u2_n_90_1_n u2_n_89_1_n u2_n_88_1_n \
+#  u2_n_87_1_n u2_n_86_1_n u2_n_85_1_n u2_n_83_1_n u2_n_80_1_n U1_inst11>OSCOUT
+#$ EXTERNAL osctimer  4 DYNOSCDIS'i'  TIMERRES'i'  OSCOUT'o'  TIMEROUT'o' 
+#$ INSTANCE U1_inst11 OSCTIMER 4 gnd_n_n gnd_n_n U1_inst11>OSCOUT sclk
+.model topdiv00
+.inputs indiv0_4_.BLIF indiv0_3_.BLIF indiv0_2_.BLIF indiv0_1_.BLIF \
+indiv0_0_.BLIF sclk.BLIF U2_sdiv_11_.BLIF U2_sdiv_0_.BLIF U2_sdiv_1_.BLIF \
+U2_sdiv_2_.BLIF U2_sdiv_3_.BLIF U2_sdiv_4_.BLIF U2_sdiv_5_.BLIF \
+U2_sdiv_6_.BLIF U2_sdiv_7_.BLIF U2_sdiv_8_.BLIF U2_sdiv_9_.BLIF \
+U2_sdiv_10_.BLIF u2_pdiv_sdiv70_3_n.BLIF u2_pdiv_sdiv71_3_n.BLIF \
+u2_pdiv_sdiv72_3_n.BLIF u2_pdiv_sdiv76_3_n.BLIF U2_outdiv_0.BLIF \
+u2_n_57_n.BLIF u2_n_58_n.BLIF u2_n_59_n.BLIF u2_n_60_n.BLIF u2_n_61_n.BLIF \
+u2_n_62_n.BLIF u2_n_63_n.BLIF u2_n_64_n.BLIF u2_n_66_n.BLIF u2_n_70_n.BLIF \
+u2_n_74_n.BLIF u2_n_79_n.BLIF u2_n_80_n.BLIF u2_n_83_n.BLIF u2_n_85_n.BLIF \
+u2_n_86_n.BLIF u2_n_87_n.BLIF u2_n_88_n.BLIF u2_n_89_n.BLIF u2_n_90_n.BLIF \
+u2_n_91_n.BLIF u2_n_92_n.BLIF u2_n_93_n.BLIF u2_n_94_n.BLIF u2_n_95_n.BLIF \
+u2_n_96_n.BLIF u2_n_97_n.BLIF u2_n_99_n.BLIF u2_n_100_n.BLIF u2_n_102_n.BLIF \
+u2_n_103_n.BLIF u2_n_104_n.BLIF u2_n_105_n.BLIF u2_n_108_n.BLIF \
+u2_n_109_n.BLIF u2_n_111_n.BLIF u2_n_377_1_n.BLIF u2_n_371_n.BLIF \
+u2_n_378_n.BLIF u2_n_377_n.BLIF u2_n_376_n.BLIF u2_n_375_n.BLIF \
+u2_n_374_n.BLIF u2_n_372_n.BLIF u2_n_373_n.BLIF u2_n_81_n.BLIF \
+u2_n_82_1_n.BLIF u2_n_72_n.BLIF u2_n_82_n.BLIF u2_n_69_n.BLIF u2_n_65_n.BLIF \
+u2_n_84_3_n.BLIF u2_n_101_n.BLIF u2_un1_sdiv69_1_n.BLIF \
+u2_pdiv_sdiv75_3_n.BLIF u2_n_112_n.BLIF u2_n_110_n.BLIF u2_n_107_n.BLIF \
+u2_n_71_n.BLIF u2_n_106_n.BLIF indiv0_i_0__n.BLIF u2_sdiv_i_10__n.BLIF \
+u2_sdiv_i_11__n.BLIF u2_sdiv_i_9__n.BLIF u2_pdiv_sdiv75_3_i_n.BLIF \
+u2_sdiv_i_8__n.BLIF indiv0_i_4__n.BLIF u2_sdiv_i_6__n.BLIF u2_sdiv_i_4__n.BLIF \
+indiv0_i_1__n.BLIF indiv0_i_3__n.BLIF u2_pdiv_sdiv72_3_i_n.BLIF \
+u2_pdiv_sdiv71_3_i_n.BLIF u2_pdiv_sdiv70_3_i_n.BLIF u2_pdiv_sdiv76_3_i_n.BLIF \
+u2_sdiv_i_7__n.BLIF u2_sdiv_i_5__n.BLIF indiv0_i_2__n.BLIF u2_sdiv_i_3__n.BLIF \
+u2_sdiv_i_2__n.BLIF u2_sdiv_i_0__n.BLIF u2_sdiv_i_1__n.BLIF U2_outdivreg.BLIF \
+indiv0_c_0__n.BLIF indiv0_c_1__n.BLIF indiv0_c_2__n.BLIF indiv0_c_3__n.BLIF \
+indiv0_c_4__n.BLIF u2_n_411_i_n.BLIF u2_n_86_i_n.BLIF u2_n_85_i_n.BLIF \
+u2_sdiv_n11_0_n.BLIF u2_n_88_i_n.BLIF u2_n_87_i_n.BLIF u2_sdiv_n10_0_n.BLIF \
+u2_n_90_i_n.BLIF u2_n_89_i_n.BLIF u2_sdiv_n9_0_n.BLIF u2_n_100_i_n.BLIF \
+u2_n_57_0_n.BLIF u2_n_102_i_n.BLIF u2_n_101_i_n.BLIF u2_n_67_i_n.BLIF \
+u2_n_104_i_n.BLIF u2_n_103_i_n.BLIF u2_n_69_0_n.BLIF u2_n_105_i_n.BLIF \
+u2_n_106_i_n.BLIF u2_n_71_0_n.BLIF u2_n_107_i_n.BLIF u2_n_72_0_n.BLIF \
+u2_n_110_i_n.BLIF u2_n_77_i_n.BLIF u2_n_112_i_n.BLIF u2_n_79_0_n.BLIF \
+u2_n_75_i_n.BLIF u2_n_65_i_n.BLIF u2_n_80_i_n.BLIF u2_n_81_i_n.BLIF \
+u2_n_82_i_n.BLIF u2_n_83_i_n.BLIF u2_n_84_3_i_n.BLIF u2_un1_sdiv69_1_0_n.BLIF \
+u2_n_372_i_n.BLIF u2_n_373_i_n.BLIF u2_n_374_i_n.BLIF u2_n_375_i_n.BLIF \
+u2_n_377_i_n.BLIF u2_n_376_i_n.BLIF u2_n_378_i_n.BLIF u2_n_356_i_n.BLIF \
+u2_n_371_0_n.BLIF u2_n_74_i_n.BLIF u2_n_70_i_n.BLIF u2_n_66_i_n.BLIF \
+u2_n_64_i_n.BLIF u2_n_63_i_n.BLIF u2_n_62_i_n.BLIF u2_n_61_i_n.BLIF \
+u2_n_60_i_n.BLIF u2_n_59_i_n.BLIF u2_n_58_i_n.BLIF u2_n_99_i_n.BLIF \
+u2_n_97_i_n.BLIF u2_n_96_i_n.BLIF u2_n_95_i_n.BLIF u2_n_94_i_n.BLIF \
+u2_n_93_i_n.BLIF u2_n_92_i_n.BLIF u2_n_91_i_n.BLIF u2_n_371_0_1_n.BLIF \
+u2_n_356_i_1_n.BLIF u2_n_356_i_2_n.BLIF u2_n_356_i_3_n.BLIF \
+u2_n_356_i_4_n.BLIF u2_n_356_i_5_n.BLIF u2_n_356_i_6_n.BLIF \
+u2_un1_sdiv69_1_0_1_n.BLIF u2_un1_sdiv69_1_0_2_n.BLIF \
+u2_un1_sdiv69_1_0_3_n.BLIF u2_un1_sdiv69_1_0_4_n.BLIF \
+u2_un1_sdiv69_1_0_5_n.BLIF u2_n_77_i_1_n.BLIF u2_pdiv_sdiv76_3_1_n.BLIF \
+u2_n_378_1_n.BLIF u2_n_81_1_n.BLIF u2_n_81_2_n.BLIF u2_n_81_3_n.BLIF \
+u2_n_82_1_0_n.BLIF u2_n_82_2_n.BLIF u2_n_84_3_1_n.BLIF u2_n_84_3_2_n.BLIF \
+u2_n_101_1_n.BLIF u2_n_101_2_n.BLIF u2_n_101_3_n.BLIF u2_n_101_4_n.BLIF \
+u2_pdiv_sdiv70_3_1_n.BLIF u2_pdiv_sdiv72_3_1_n.BLIF u2_pdiv_sdiv75_3_1_n.BLIF \
+u2_pdiv_sdiv75_3_2_n.BLIF u2_n_56_i_1_n.BLIF u2_n_52_i_1_n.BLIF \
+u2_n_50_i_1_n.BLIF u2_n_48_i_1_n.BLIF u2_n_46_i_1_n.BLIF u2_n_44_i_1_n.BLIF \
+u2_n_42_i_1_n.BLIF u2_n_412_i_1_n.BLIF u2_n_105_1_n.BLIF u2_n_104_1_n.BLIF \
+u2_n_103_1_n.BLIF u2_n_102_1_n.BLIF u2_n_100_1_n.BLIF u2_n_90_1_n.BLIF \
+u2_n_89_1_n.BLIF u2_n_88_1_n.BLIF u2_n_87_1_n.BLIF u2_n_86_1_n.BLIF \
+u2_n_85_1_n.BLIF u2_n_83_1_n.BLIF u2_n_80_1_n.BLIF U1_inst11>OSCOUT.BLIF
+.outputs clk0 U2_sdiv_11_.D U2_sdiv_11_.CE U2_sdiv_11_.C U2_sdiv_8_.D \
+U2_sdiv_8_.CE U2_sdiv_8_.C U2_sdiv_9_.D U2_sdiv_9_.CE U2_sdiv_9_.C \
+U2_sdiv_10_.D U2_sdiv_10_.CE U2_sdiv_10_.C U2_sdiv_6_.D U2_sdiv_6_.CE \
+U2_sdiv_6_.C U2_sdiv_7_.D U2_sdiv_7_.CE U2_sdiv_7_.C U2_sdiv_3_.D \
+U2_sdiv_3_.CE U2_sdiv_3_.C U2_sdiv_4_.D U2_sdiv_4_.CE U2_sdiv_4_.C \
+U2_sdiv_5_.D U2_sdiv_5_.CE U2_sdiv_5_.C U2_sdiv_1_.D U2_sdiv_1_.CE \
+U2_sdiv_1_.C U2_sdiv_2_.D U2_sdiv_2_.CE U2_sdiv_2_.C U2_outdivreg.D \
+U2_outdivreg.C U2_sdiv_0_.D U2_sdiv_0_.CE U2_sdiv_0_.C gnd_n_n \
+u2_pdiv_sdiv70_3_n u2_pdiv_sdiv71_3_n u2_pdiv_sdiv72_3_n u2_pdiv_sdiv76_3_n \
+u2_n_57_n u2_n_58_n u2_n_59_n u2_n_60_n u2_n_61_n u2_n_62_n u2_n_63_n \
+u2_n_64_n u2_n_66_n u2_n_70_n u2_n_74_n u2_n_79_n u2_n_80_n u2_n_83_n \
+u2_n_85_n u2_n_86_n u2_n_87_n u2_n_88_n u2_n_89_n u2_n_90_n u2_n_91_n \
+u2_n_92_n u2_n_93_n u2_n_94_n u2_n_95_n u2_n_96_n u2_n_97_n u2_n_99_n \
+u2_n_100_n u2_n_102_n u2_n_103_n u2_n_104_n u2_n_105_n u2_n_108_n u2_n_109_n \
+u2_n_111_n u2_n_377_1_n u2_n_371_n u2_n_378_n u2_n_377_n u2_n_376_n u2_n_375_n \
+u2_n_374_n u2_n_372_n u2_n_373_n u2_n_81_n u2_n_82_1_n u2_n_72_n u2_n_82_n \
+u2_n_69_n u2_n_65_n u2_n_84_3_n u2_n_101_n u2_un1_sdiv69_1_n \
+u2_pdiv_sdiv75_3_n u2_n_112_n u2_n_110_n u2_n_107_n u2_n_71_n u2_n_106_n \
+indiv0_i_0__n u2_sdiv_i_10__n u2_sdiv_i_11__n u2_sdiv_i_9__n \
+u2_pdiv_sdiv75_3_i_n u2_sdiv_i_8__n indiv0_i_4__n u2_sdiv_i_6__n \
+u2_sdiv_i_4__n indiv0_i_1__n indiv0_i_3__n u2_pdiv_sdiv72_3_i_n \
+u2_pdiv_sdiv71_3_i_n u2_pdiv_sdiv70_3_i_n u2_pdiv_sdiv76_3_i_n u2_sdiv_i_7__n \
+u2_sdiv_i_5__n indiv0_i_2__n u2_sdiv_i_3__n u2_sdiv_i_2__n u2_sdiv_i_0__n \
+u2_sdiv_i_1__n indiv0_c_0__n indiv0_c_1__n indiv0_c_2__n indiv0_c_3__n \
+indiv0_c_4__n u2_n_411_i_n u2_n_86_i_n u2_n_85_i_n u2_sdiv_n11_0_n u2_n_88_i_n \
+u2_n_87_i_n u2_sdiv_n10_0_n u2_n_90_i_n u2_n_89_i_n u2_sdiv_n9_0_n \
+u2_n_100_i_n u2_n_57_0_n u2_n_102_i_n u2_n_101_i_n u2_n_67_i_n u2_n_104_i_n \
+u2_n_103_i_n u2_n_69_0_n u2_n_105_i_n u2_n_106_i_n u2_n_71_0_n u2_n_107_i_n \
+u2_n_72_0_n u2_n_110_i_n u2_n_77_i_n u2_n_112_i_n u2_n_79_0_n u2_n_75_i_n \
+u2_n_65_i_n u2_n_80_i_n u2_n_81_i_n u2_n_82_i_n u2_n_83_i_n u2_n_84_3_i_n \
+u2_un1_sdiv69_1_0_n u2_n_372_i_n u2_n_373_i_n u2_n_374_i_n u2_n_375_i_n \
+u2_n_377_i_n u2_n_376_i_n u2_n_378_i_n u2_n_356_i_n u2_n_371_0_n u2_n_74_i_n \
+u2_n_70_i_n u2_n_66_i_n u2_n_64_i_n u2_n_63_i_n u2_n_62_i_n u2_n_61_i_n \
+u2_n_60_i_n u2_n_59_i_n u2_n_58_i_n u2_n_99_i_n u2_n_97_i_n u2_n_96_i_n \
+u2_n_95_i_n u2_n_94_i_n u2_n_93_i_n u2_n_92_i_n u2_n_91_i_n u2_n_371_0_1_n \
+u2_n_356_i_1_n u2_n_356_i_2_n u2_n_356_i_3_n u2_n_356_i_4_n u2_n_356_i_5_n \
+u2_n_356_i_6_n u2_un1_sdiv69_1_0_1_n u2_un1_sdiv69_1_0_2_n \
+u2_un1_sdiv69_1_0_3_n u2_un1_sdiv69_1_0_4_n u2_un1_sdiv69_1_0_5_n \
+u2_n_77_i_1_n u2_pdiv_sdiv76_3_1_n u2_n_378_1_n u2_n_81_1_n u2_n_81_2_n \
+u2_n_81_3_n u2_n_82_1_0_n u2_n_82_2_n u2_n_84_3_1_n u2_n_84_3_2_n u2_n_101_1_n \
+u2_n_101_2_n u2_n_101_3_n u2_n_101_4_n u2_pdiv_sdiv70_3_1_n \
+u2_pdiv_sdiv72_3_1_n u2_pdiv_sdiv75_3_1_n u2_pdiv_sdiv75_3_2_n u2_n_56_i_1_n \
+u2_n_52_i_1_n u2_n_50_i_1_n u2_n_48_i_1_n u2_n_46_i_1_n u2_n_44_i_1_n \
+u2_n_42_i_1_n u2_n_412_i_1_n u2_n_105_1_n u2_n_104_1_n u2_n_103_1_n \
+u2_n_102_1_n u2_n_100_1_n u2_n_90_1_n u2_n_89_1_n u2_n_88_1_n u2_n_87_1_n \
+u2_n_86_1_n u2_n_85_1_n u2_n_83_1_n u2_n_80_1_n U2_outdiv_0
+.names u2_sdiv_n11_0_n.BLIF U2_sdiv_11_.D
+0 1
+.names u2_n_412_i_1_n.BLIF u2_n_91_i_n.BLIF U2_sdiv_8_.D
+11 1
+.names u2_sdiv_n9_0_n.BLIF U2_sdiv_9_.D
+0 1
+.names u2_sdiv_n10_0_n.BLIF U2_sdiv_10_.D
+0 1
+.names u2_n_44_i_1_n.BLIF u2_n_356_i_n.BLIF U2_sdiv_6_.D
+11 1
+.names u2_n_42_i_1_n.BLIF u2_n_356_i_n.BLIF U2_sdiv_7_.D
+11 1
+.names u2_n_50_i_1_n.BLIF u2_n_356_i_n.BLIF U2_sdiv_3_.D
+11 1
+.names u2_n_48_i_1_n.BLIF u2_n_356_i_n.BLIF U2_sdiv_4_.D
+11 1
+.names u2_n_46_i_1_n.BLIF u2_n_356_i_n.BLIF U2_sdiv_5_.D
+11 1
+.names u2_n_56_i_1_n.BLIF u2_n_356_i_n.BLIF U2_sdiv_1_.D
+11 1
+.names u2_n_52_i_1_n.BLIF u2_n_356_i_n.BLIF U2_sdiv_2_.D
+11 1
+.names U2_outdiv_0.BLIF U2_outdivreg.D
+0 1
+.names u2_n_356_i_n.BLIF u2_sdiv_i_0__n.BLIF U2_sdiv_0_.D
+11 1
+.names gnd_n_n
+.names u2_pdiv_sdiv70_3_1_n.BLIF indiv0_i_1__n.BLIF u2_pdiv_sdiv70_3_n
+11 1
+.names u2_n_65_i_n.BLIF u2_n_75_i_n.BLIF u2_pdiv_sdiv71_3_n
+11 1
+.names u2_pdiv_sdiv72_3_1_n.BLIF indiv0_i_3__n.BLIF u2_pdiv_sdiv72_3_n
+11 1
+.names u2_pdiv_sdiv76_3_1_n.BLIF indiv0_c_3__n.BLIF u2_pdiv_sdiv76_3_n
+11 1
+.names u2_n_57_0_n.BLIF u2_n_57_n
+0 1
+.names u2_n_58_i_n.BLIF u2_n_58_n
+0 1
+.names u2_n_59_i_n.BLIF u2_n_59_n
+0 1
+.names u2_n_60_i_n.BLIF u2_n_60_n
+0 1
+.names u2_n_61_i_n.BLIF u2_n_61_n
+0 1
+.names u2_n_62_i_n.BLIF u2_n_62_n
+0 1
+.names u2_n_63_i_n.BLIF u2_n_63_n
+0 1
+.names u2_n_64_i_n.BLIF u2_n_64_n
+0 1
+.names u2_n_66_i_n.BLIF u2_n_66_n
+0 1
+.names u2_n_70_i_n.BLIF u2_n_70_n
+0 1
+.names u2_n_74_i_n.BLIF u2_n_74_n
+0 1
+.names u2_n_79_0_n.BLIF u2_n_79_n
+0 1
+.names u2_n_80_1_n.BLIF indiv0_i_4__n.BLIF u2_n_80_n
+11 1
+.names u2_n_83_1_n.BLIF indiv0_i_4__n.BLIF u2_n_83_n
+11 1
+.names u2_n_85_1_n.BLIF U2_sdiv_11_.BLIF u2_n_85_n
+11 1
+.names u2_n_86_1_n.BLIF u2_sdiv_i_11__n.BLIF u2_n_86_n
+11 1
+.names u2_n_87_1_n.BLIF U2_sdiv_10_.BLIF u2_n_87_n
+11 1
+.names u2_n_88_1_n.BLIF u2_sdiv_i_10__n.BLIF u2_n_88_n
+11 1
+.names u2_n_89_1_n.BLIF U2_sdiv_9_.BLIF u2_n_89_n
+11 1
+.names u2_n_90_1_n.BLIF u2_sdiv_i_9__n.BLIF u2_n_90_n
+11 1
+.names u2_n_64_n.BLIF u2_sdiv_i_8__n.BLIF u2_n_91_n
+11 1
+.names u2_n_63_n.BLIF u2_sdiv_i_7__n.BLIF u2_n_92_n
+11 1
+.names u2_n_62_n.BLIF u2_sdiv_i_6__n.BLIF u2_n_93_n
+11 1
+.names u2_n_61_n.BLIF u2_sdiv_i_5__n.BLIF u2_n_94_n
+11 1
+.names u2_n_60_n.BLIF u2_sdiv_i_4__n.BLIF u2_n_95_n
+11 1
+.names u2_n_59_n.BLIF u2_sdiv_i_3__n.BLIF u2_n_96_n
+11 1
+.names u2_n_58_n.BLIF u2_sdiv_i_2__n.BLIF u2_n_97_n
+11 1
+.names u2_sdiv_i_0__n.BLIF u2_sdiv_i_1__n.BLIF u2_n_99_n
+11 1
+.names u2_n_100_1_n.BLIF u2_pdiv_sdiv72_3_i_n.BLIF u2_n_100_n
+11 1
+.names u2_n_102_1_n.BLIF indiv0_i_3__n.BLIF u2_n_102_n
+11 1
+.names u2_n_103_1_n.BLIF indiv0_c_4__n.BLIF u2_n_103_n
+11 1
+.names u2_n_104_1_n.BLIF indiv0_i_2__n.BLIF u2_n_104_n
+11 1
+.names u2_n_105_1_n.BLIF indiv0_i_1__n.BLIF u2_n_105_n
+11 1
+.names u2_sdiv_i_10__n.BLIF u2_sdiv_i_11__n.BLIF u2_n_108_n
+11 1
+.names u2_n_108_n.BLIF u2_sdiv_i_9__n.BLIF u2_n_109_n
+11 1
+.names u2_pdiv_sdiv75_3_i_n.BLIF indiv0_i_0__n.BLIF u2_n_111_n
+11 1
+.names indiv0_c_4__n.BLIF indiv0_i_0__n.BLIF u2_n_377_1_n
+11 1
+.names u2_n_371_0_n.BLIF u2_n_371_n
+0 1
+.names u2_n_378_1_n.BLIF indiv0_i_1__n.BLIF u2_n_378_n
+11 1
+.names u2_n_377_1_n.BLIF U2_sdiv_5_.BLIF u2_n_377_n
+11 1
+.names U2_sdiv_10_.BLIF indiv0_c_0__n.BLIF u2_n_376_n
+11 1
+.names U2_sdiv_9_.BLIF indiv0_c_1__n.BLIF u2_n_375_n
+11 1
+.names U2_sdiv_8_.BLIF indiv0_c_2__n.BLIF u2_n_374_n
+11 1
+.names u2_n_371_n.BLIF indiv0_c_4__n.BLIF u2_n_372_n
+11 1
+.names U2_sdiv_7_.BLIF indiv0_c_3__n.BLIF u2_n_373_n
+11 1
+.names u2_n_81_3_n.BLIF u2_sdiv_i_6__n.BLIF u2_n_81_n
+11 1
+.names u2_sdiv_i_7__n.BLIF u2_sdiv_i_8__n.BLIF u2_n_82_1_n
+11 1
+.names u2_n_72_0_n.BLIF u2_n_72_n
+0 1
+.names u2_n_82_1_0_n.BLIF u2_n_82_2_n.BLIF u2_n_82_n
+11 1
+.names u2_n_69_0_n.BLIF u2_n_69_n
+0 1
+.names u2_n_65_i_n.BLIF u2_n_65_n
+0 1
+.names u2_n_84_3_1_n.BLIF u2_n_84_3_2_n.BLIF u2_n_84_3_n
+11 1
+.names u2_n_101_4_n.BLIF u2_n_101_3_n.BLIF u2_n_101_n
+11 1
+.names u2_un1_sdiv69_1_0_n.BLIF u2_un1_sdiv69_1_n
+0 1
+.names u2_pdiv_sdiv75_3_1_n.BLIF u2_pdiv_sdiv75_3_2_n.BLIF u2_pdiv_sdiv75_3_n
+11 1
+.names u2_pdiv_sdiv72_3_n.BLIF u2_sdiv_i_8__n.BLIF u2_n_112_n
+11 1
+.names u2_n_57_n.BLIF u2_n_71_n.BLIF u2_n_110_n
+11 1
+.names u2_pdiv_sdiv75_3_n.BLIF indiv0_i_0__n.BLIF u2_n_107_n
+11 1
+.names u2_n_71_0_n.BLIF u2_n_71_n
+0 1
+.names u2_n_111_n.BLIF indiv0_c_1__n.BLIF u2_n_106_n
+11 1
+.names indiv0_c_0__n.BLIF indiv0_i_0__n
+0 1
+.names U2_sdiv_10_.BLIF u2_sdiv_i_10__n
+0 1
+.names U2_sdiv_11_.BLIF u2_sdiv_i_11__n
+0 1
+.names U2_sdiv_9_.BLIF u2_sdiv_i_9__n
+0 1
+.names u2_pdiv_sdiv75_3_n.BLIF u2_pdiv_sdiv75_3_i_n
+0 1
+.names U2_sdiv_8_.BLIF u2_sdiv_i_8__n
+0 1
+.names indiv0_c_4__n.BLIF indiv0_i_4__n
+0 1
+.names U2_sdiv_6_.BLIF u2_sdiv_i_6__n
+0 1
+.names U2_sdiv_4_.BLIF u2_sdiv_i_4__n
+0 1
+.names indiv0_c_1__n.BLIF indiv0_i_1__n
+0 1
+.names indiv0_c_3__n.BLIF indiv0_i_3__n
+0 1
+.names u2_pdiv_sdiv72_3_n.BLIF u2_pdiv_sdiv72_3_i_n
+0 1
+.names u2_pdiv_sdiv71_3_n.BLIF u2_pdiv_sdiv71_3_i_n
+0 1
+.names u2_pdiv_sdiv70_3_n.BLIF u2_pdiv_sdiv70_3_i_n
+0 1
+.names u2_pdiv_sdiv76_3_n.BLIF u2_pdiv_sdiv76_3_i_n
+0 1
+.names U2_sdiv_7_.BLIF u2_sdiv_i_7__n
+0 1
+.names U2_sdiv_5_.BLIF u2_sdiv_i_5__n
+0 1
+.names indiv0_c_2__n.BLIF indiv0_i_2__n
+0 1
+.names U2_sdiv_3_.BLIF u2_sdiv_i_3__n
+0 1
+.names U2_sdiv_2_.BLIF u2_sdiv_i_2__n
+0 1
+.names U2_sdiv_0_.BLIF u2_sdiv_i_0__n
+0 1
+.names U2_sdiv_1_.BLIF u2_sdiv_i_1__n
+0 1
+.names u2_n_67_i_n.BLIF u2_n_77_i_n.BLIF u2_n_411_i_n
+11 1
+.names u2_n_86_n.BLIF u2_n_86_i_n
+0 1
+.names u2_n_85_n.BLIF u2_n_85_i_n
+0 1
+.names u2_n_85_i_n.BLIF u2_n_86_i_n.BLIF u2_sdiv_n11_0_n
+11 1
+.names u2_n_88_n.BLIF u2_n_88_i_n
+0 1
+.names u2_n_87_n.BLIF u2_n_87_i_n
+0 1
+.names u2_n_87_i_n.BLIF u2_n_88_i_n.BLIF u2_sdiv_n10_0_n
+11 1
+.names u2_n_90_n.BLIF u2_n_90_i_n
+0 1
+.names u2_n_89_n.BLIF u2_n_89_i_n
+0 1
+.names u2_n_89_i_n.BLIF u2_n_90_i_n.BLIF u2_sdiv_n9_0_n
+11 1
+.names u2_n_100_n.BLIF u2_n_100_i_n
+0 1
+.names u2_n_100_i_n.BLIF indiv0_i_4__n.BLIF u2_n_57_0_n
+11 1
+.names u2_n_102_n.BLIF u2_n_102_i_n
+0 1
+.names u2_n_101_n.BLIF u2_n_101_i_n
+0 1
+.names u2_n_101_i_n.BLIF u2_n_102_i_n.BLIF u2_n_67_i_n
+11 1
+.names u2_n_104_n.BLIF u2_n_104_i_n
+0 1
+.names u2_n_103_n.BLIF u2_n_103_i_n
+0 1
+.names U2_sdiv_6_.BLIF indiv0_c_4__n.BLIF u2_n_69_0_n
+11 1
+.names u2_n_105_n.BLIF u2_n_105_i_n
+0 1
+.names u2_n_106_n.BLIF u2_n_106_i_n
+0 1
+.names u2_n_105_i_n.BLIF u2_n_106_i_n.BLIF u2_n_71_0_n
+11 1
+.names u2_n_107_n.BLIF u2_n_107_i_n
+0 1
+.names u2_n_107_i_n.BLIF U2_sdiv_4_.BLIF u2_n_72_0_n
+11 1
+.names u2_n_110_n.BLIF u2_n_110_i_n
+0 1
+.names u2_n_77_i_1_n.BLIF u2_n_110_i_n.BLIF u2_n_77_i_n
+11 1
+.names u2_n_112_n.BLIF u2_n_112_i_n
+0 1
+.names u2_n_112_i_n.BLIF u2_pdiv_sdiv71_3_i_n.BLIF u2_n_79_0_n
+11 1
+.names indiv0_c_0__n.BLIF indiv0_c_1__n.BLIF u2_n_75_i_n
+11 1
+.names indiv0_i_2__n.BLIF indiv0_i_3__n.BLIF u2_n_65_i_n
+11 1
+.names u2_n_80_n.BLIF u2_n_80_i_n
+0 1
+.names u2_n_81_n.BLIF u2_n_81_i_n
+0 1
+.names u2_n_82_n.BLIF u2_n_82_i_n
+0 1
+.names u2_n_83_n.BLIF u2_n_83_i_n
+0 1
+.names u2_n_84_3_n.BLIF u2_n_84_3_i_n
+0 1
+.names u2_un1_sdiv69_1_0_4_n.BLIF u2_un1_sdiv69_1_0_5_n.BLIF \
+u2_un1_sdiv69_1_0_n
+11 1
+.names u2_n_372_n.BLIF u2_n_372_i_n
+0 1
+.names u2_n_373_n.BLIF u2_n_373_i_n
+0 1
+.names u2_n_374_n.BLIF u2_n_374_i_n
+0 1
+.names u2_n_375_n.BLIF u2_n_375_i_n
+0 1
+.names u2_n_377_n.BLIF u2_n_377_i_n
+0 1
+.names u2_n_376_n.BLIF u2_n_376_i_n
+0 1
+.names u2_n_378_n.BLIF u2_n_378_i_n
+0 1
+.names u2_n_356_i_5_n.BLIF u2_n_356_i_6_n.BLIF u2_n_356_i_n
+11 1
+.names u2_n_371_0_1_n.BLIF u2_sdiv_i_10__n.BLIF u2_n_371_0_n
+11 1
+.names u2_n_70_i_n.BLIF U2_sdiv_10_.BLIF u2_n_74_i_n
+11 1
+.names u2_n_66_i_n.BLIF U2_sdiv_9_.BLIF u2_n_70_i_n
+11 1
+.names u2_n_64_i_n.BLIF U2_sdiv_8_.BLIF u2_n_66_i_n
+11 1
+.names u2_n_63_i_n.BLIF U2_sdiv_7_.BLIF u2_n_64_i_n
+11 1
+.names u2_n_62_i_n.BLIF U2_sdiv_6_.BLIF u2_n_63_i_n
+11 1
+.names u2_n_61_i_n.BLIF U2_sdiv_5_.BLIF u2_n_62_i_n
+11 1
+.names u2_n_60_i_n.BLIF U2_sdiv_4_.BLIF u2_n_61_i_n
+11 1
+.names u2_n_59_i_n.BLIF U2_sdiv_3_.BLIF u2_n_60_i_n
+11 1
+.names u2_n_58_i_n.BLIF U2_sdiv_2_.BLIF u2_n_59_i_n
+11 1
+.names U2_sdiv_0_.BLIF U2_sdiv_1_.BLIF u2_n_58_i_n
+11 1
+.names u2_n_99_n.BLIF u2_n_99_i_n
+0 1
+.names u2_n_97_n.BLIF u2_n_97_i_n
+0 1
+.names u2_n_96_n.BLIF u2_n_96_i_n
+0 1
+.names u2_n_95_n.BLIF u2_n_95_i_n
+0 1
+.names u2_n_94_n.BLIF u2_n_94_i_n
+0 1
+.names u2_n_93_n.BLIF u2_n_93_i_n
+0 1
+.names u2_n_92_n.BLIF u2_n_92_i_n
+0 1
+.names u2_n_91_n.BLIF u2_n_91_i_n
+0 1
+.names u2_sdiv_i_6__n.BLIF u2_sdiv_i_9__n.BLIF u2_n_371_0_1_n
+11 1
+.names u2_n_372_i_n.BLIF u2_n_373_i_n.BLIF u2_n_356_i_1_n
+11 1
+.names u2_n_374_i_n.BLIF u2_n_375_i_n.BLIF u2_n_356_i_2_n
+11 1
+.names u2_n_376_i_n.BLIF u2_n_377_i_n.BLIF u2_n_356_i_3_n
+11 1
+.names u2_n_378_i_n.BLIF u2_sdiv_i_11__n.BLIF u2_n_356_i_4_n
+11 1
+.names u2_n_356_i_1_n.BLIF u2_n_356_i_2_n.BLIF u2_n_356_i_5_n
+11 1
+.names u2_n_356_i_3_n.BLIF u2_n_356_i_4_n.BLIF u2_n_356_i_6_n
+11 1
+.names u2_n_77_i_n.BLIF u2_n_80_i_n.BLIF u2_un1_sdiv69_1_0_1_n
+11 1
+.names u2_n_81_i_n.BLIF u2_n_82_i_n.BLIF u2_un1_sdiv69_1_0_2_n
+11 1
+.names u2_n_84_3_i_n.BLIF u2_n_67_i_n.BLIF u2_un1_sdiv69_1_0_3_n
+11 1
+.names u2_un1_sdiv69_1_0_1_n.BLIF u2_un1_sdiv69_1_0_2_n.BLIF \
+u2_un1_sdiv69_1_0_4_n
+11 1
+.names u2_un1_sdiv69_1_0_3_n.BLIF u2_n_83_i_n.BLIF u2_un1_sdiv69_1_0_5_n
+11 1
+.names u2_n_103_i_n.BLIF u2_n_104_i_n.BLIF u2_n_77_i_1_n
+11 1
+.names u2_n_377_1_n.BLIF indiv0_c_2__n.BLIF u2_pdiv_sdiv76_3_1_n
+11 1
+.names U2_sdiv_4_.BLIF indiv0_c_4__n.BLIF u2_n_378_1_n
+11 1
+.names u2_n_72_n.BLIF u2_n_82_1_n.BLIF u2_n_81_1_n
+11 1
+.names u2_n_109_n.BLIF u2_sdiv_i_5__n.BLIF u2_n_81_2_n
+11 1
+.names u2_n_81_1_n.BLIF u2_n_81_2_n.BLIF u2_n_81_3_n
+11 1
+.names u2_n_69_n.BLIF u2_n_75_i_n.BLIF u2_n_82_1_0_n
+11 1
+.names u2_n_82_1_n.BLIF u2_n_109_n.BLIF u2_n_82_2_n
+11 1
+.names u2_sdiv_i_11__n.BLIF indiv0_i_0__n.BLIF u2_n_84_3_1_n
+11 1
+.names indiv0_i_1__n.BLIF indiv0_i_4__n.BLIF u2_n_84_3_2_n
+11 1
+.names u2_pdiv_sdiv76_3_i_n.BLIF indiv0_i_0__n.BLIF u2_n_101_1_n
+11 1
+.names u2_n_65_n.BLIF u2_pdiv_sdiv70_3_i_n.BLIF u2_n_101_2_n
+11 1
+.names u2_pdiv_sdiv71_3_i_n.BLIF u2_pdiv_sdiv72_3_i_n.BLIF u2_n_101_3_n
+11 1
+.names u2_n_101_1_n.BLIF u2_n_101_2_n.BLIF u2_n_101_4_n
+11 1
+.names u2_n_65_i_n.BLIF indiv0_c_0__n.BLIF u2_pdiv_sdiv70_3_1_n
+11 1
+.names u2_n_75_i_n.BLIF indiv0_c_2__n.BLIF u2_pdiv_sdiv72_3_1_n
+11 1
+.names indiv0_c_1__n.BLIF indiv0_c_2__n.BLIF u2_pdiv_sdiv75_3_1_n
+11 1
+.names indiv0_c_3__n.BLIF indiv0_c_4__n.BLIF u2_pdiv_sdiv75_3_2_n
+11 1
+.names u2_n_58_n.BLIF u2_n_99_i_n.BLIF u2_n_56_i_1_n
+11 1
+.names u2_n_59_n.BLIF u2_n_97_i_n.BLIF u2_n_52_i_1_n
+11 1
+.names u2_n_60_n.BLIF u2_n_96_i_n.BLIF u2_n_50_i_1_n
+11 1
+.names u2_n_61_n.BLIF u2_n_95_i_n.BLIF u2_n_48_i_1_n
+11 1
+.names u2_n_62_n.BLIF u2_n_94_i_n.BLIF u2_n_46_i_1_n
+11 1
+.names u2_n_63_n.BLIF u2_n_93_i_n.BLIF u2_n_44_i_1_n
+11 1
+.names u2_n_64_n.BLIF u2_n_92_i_n.BLIF u2_n_42_i_1_n
+11 1
+.names u2_n_356_i_n.BLIF u2_n_66_n.BLIF u2_n_412_i_1_n
+11 1
+.names u2_pdiv_sdiv76_3_i_n.BLIF indiv0_c_0__n.BLIF u2_n_105_1_n
+11 1
+.names u2_n_57_n.BLIF u2_n_75_i_n.BLIF u2_n_104_1_n
+11 1
+.names u2_n_111_n.BLIF u2_pdiv_sdiv76_3_i_n.BLIF u2_n_103_1_n
+11 1
+.names u2_n_57_n.BLIF u2_n_75_i_n.BLIF u2_n_102_1_n
+11 1
+.names u2_pdiv_sdiv70_3_i_n.BLIF u2_pdiv_sdiv71_3_i_n.BLIF u2_n_100_1_n
+11 1
+.names u2_n_66_i_n.BLIF u2_n_356_i_n.BLIF u2_n_90_1_n
+11 1
+.names u2_n_66_n.BLIF u2_n_356_i_n.BLIF u2_n_89_1_n
+11 1
+.names u2_n_70_i_n.BLIF u2_n_356_i_n.BLIF u2_n_88_1_n
+11 1
+.names u2_n_70_n.BLIF u2_n_356_i_n.BLIF u2_n_87_1_n
+11 1
+.names u2_n_74_i_n.BLIF u2_n_356_i_n.BLIF u2_n_86_1_n
+11 1
+.names u2_n_74_n.BLIF u2_n_356_i_n.BLIF u2_n_85_1_n
+11 1
+.names u2_n_108_n.BLIF u2_pdiv_sdiv70_3_n.BLIF u2_n_83_1_n
+11 1
+.names u2_n_79_n.BLIF u2_n_109_n.BLIF u2_n_80_1_n
+11 1
+.names U2_outdivreg.BLIF clk0
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_11_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_11_.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_8_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_8_.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_9_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_9_.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_10_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_10_.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_6_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_6_.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_7_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_7_.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_3_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_3_.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_4_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_4_.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_5_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_5_.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_1_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_1_.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_2_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_2_.C
+1 1
+0 0
+.names sclk.BLIF U2_outdivreg.C
+1 1
+0 0
+.names u2_n_411_i_n.BLIF U2_sdiv_0_.CE
+1 1
+0 0
+.names sclk.BLIF U2_sdiv_0_.C
+1 1
+0 0
+.names indiv0_0_.BLIF indiv0_c_0__n
+1 1
+0 0
+.names indiv0_1_.BLIF indiv0_c_1__n
+1 1
+0 0
+.names indiv0_2_.BLIF indiv0_c_2__n
+1 1
+0 0
+.names indiv0_3_.BLIF indiv0_c_3__n
+1 1
+0 0
+.names indiv0_4_.BLIF indiv0_c_4__n
+1 1
+0 0
+.names u2_un1_sdiv69_1_n.BLIF U2_outdivreg.BLIF U2_outdiv_0
+01 1
+10 1
+11 0
+00 0
+.end

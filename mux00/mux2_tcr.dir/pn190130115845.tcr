@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/30/2019 11:58:45
+#Project Location: C:/Users/Sergio Luna/Desktop/Arquitectura/mux00; Project name: mux2
+prj_project new -name "mux2" -impl "mux2" -dev LCMXO2-1200HC-4TG144C -synthesis "synplify"
+prj_project save
+#Stop recording: 1/30/2019 11:58:45

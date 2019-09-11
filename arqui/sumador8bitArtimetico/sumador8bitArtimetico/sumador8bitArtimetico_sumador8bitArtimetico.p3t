@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "sumador8bitArtimetico_sumador8bitArtimetico.log"
+-o "sumador8bitArtimetico_sumador8bitArtimetico.csv"
+-pr "sumador8bitArtimetico_sumador8bitArtimetico.prf"

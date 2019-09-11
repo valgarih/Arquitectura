@@ -1,0 +1,5 @@
+@W: CD638 :"C:\Users\Valery Garibay\Documents\alu00\topalu00.vhdl":22:7:22:15|Signal soutinst1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL169 :"C:\Users\Valery Garibay\Documents\alu00\ora00.vhdl":23:2:23:3|Pruning unused register outFlagoral_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Valery Garibay\Documents\alu00\anda00.vhdl":23:2:23:3|Pruning unused register outFlagal_cl_7. Make sure that there are no unused intermediate registers.
+@W: CD326 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\osc00.vhdl":21:0:21:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+

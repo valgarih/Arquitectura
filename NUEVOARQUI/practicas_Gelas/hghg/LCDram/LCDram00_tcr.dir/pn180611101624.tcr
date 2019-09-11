@@ -1,0 +1,17 @@
+#Start recording tcl command: 6/11/2018 09:46:53
+#Project Location: C:/Users/Ideapad/Desktop/GELACIO/LCDram; Project name: LCDram00
+prj_project open "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram00.ldf"
+pgr_project save "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+prj_src add -exclude "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+prj_src enable "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+prj_run Export -impl LCDram -task Jedecgen
+pgr_project save "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+pgr_program run
+pgr_project save "C:/Users/Ideapad/Desktop/GELACIO/LCDram/LCDram/LCDram.xcf"
+prj_project save
+prj_project close
+#Stop recording: 6/11/2018 10:16:24

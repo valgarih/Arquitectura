@@ -1,0 +1,2 @@
+
+sch2vlog -FPGA -i C:/lscc/Arquitectura/org/combinacional01/mutiplicador.sch -o C:/lscc/Arquitectura/org/combinacional01/combin01/mutiplicador.v -gui -msgset C:/lscc/Arquitectura/org/combinacional01/promote.xml

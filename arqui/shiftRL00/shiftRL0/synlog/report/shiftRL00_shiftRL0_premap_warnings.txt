@@ -1,0 +1,1 @@
+@W: MT529 :"c:\users\valery garibay\documents\6_semestre\arqui\shiftrl00\shiftrl00.vhdl":19:2:19:3|Found inferred clock shiftRL00|clks which controls 16 sequential elements including outs[7:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -1,0 +1,16 @@
+@W: CD433 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\multal00.vhdl":0:0:0:0|No design units in file
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":24:1:24:2|Pruning unused register outFlagsubs_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl":24:1:24:2|Pruning unused register outFlagadd_cl_6. Make sure that there are no unused intermediate registers.
+@W: CD796 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\topmult8bit00.vhdl":16:34:16:36|Bit 7 of signal s20 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xnoral00.vhdl":22:2:22:3|Pruning unused register outFlagxnoral_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\noral00.vhdl":22:2:22:3|Pruning unused register outFlagnoral_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\nandal00.vhdl":22:2:22:3|Pruning unused register outFlagnandal_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\notal00.vhdl":22:2:22:3|Pruning unused register outFlagnotal_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xoral00.vhdl":23:2:23:3|Pruning unused register outFlagxoral_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\ora00.vhdl":23:2:23:3|Pruning unused register outFlagoral_cl_7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\anda00.vhdl":23:2:23:3|Pruning unused register outFlagal_cl_7. Make sure that there are no unused intermediate registers.
+@W: CD276 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL168 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl":93:1:93:4|Removing instance AL09 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL138 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl":24:1:24:2|Removing register 'outSLadd' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":24:1:24:2|Removing register 'outSLsubs' because it is only assigned 0 or its original value.
+

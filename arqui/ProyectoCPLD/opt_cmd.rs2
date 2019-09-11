@@ -1,0 +1,1 @@
+-global -lci proyecto.lct -touch proyecto.imp

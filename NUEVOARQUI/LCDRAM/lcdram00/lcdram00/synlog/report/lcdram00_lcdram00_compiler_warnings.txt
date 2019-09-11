@@ -1,0 +1,7 @@
+@W: CL279 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\LCDRAM\lcdram00vhdl\contring00.vhdl":19:4:19:5|Pruning register bits 2 to 0 of soutr(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD276 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL138 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\LCDRAM\lcdram00vhdl\contReadRa00.vhdl":26:5:26:6|Removing register 'RWcd' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\LCDRAM\lcdram00vhdl\lcdconfig00.vhdl":25:4:25:5|Removing register 'RSc' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\LCDRAM\lcdram00vhdl\lcdconfig00.vhdl":25:4:25:5|Removing register 'RWc' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\LCDRAM\lcdram00vhdl\lcdconfig00.vhdl":25:4:25:5|Pruning register bit 6 of comandoc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

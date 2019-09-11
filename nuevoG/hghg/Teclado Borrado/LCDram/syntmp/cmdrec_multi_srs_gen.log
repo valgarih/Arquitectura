@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toplcdram00  -multisrs  F:\hghg\LCDram\LCDram\synwork\LCDram00_LCDram_comp.srs  -osyn  F:\hghg\LCDram\LCDram\synwork\LCDram00_LCDram_mult.srs  -log  F:\hghg\LCDram\LCDram\synlog\LCDram00_LCDram_multi_srs_gen.srr 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top toplcdram00 -multisrs ..\synwork\LCDram00_LCDram_comp.srs -osyn ..\synwork\LCDram00_LCDram_mult.srs -log ..\synlog\LCDram00_LCDram_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\LCDram00_LCDram_comp.srs|io:i|time:1529091428|size:19720|exec:0|csum:E1292340FA57E3E2B1B2943C9C821761
+file:..\synwork\LCDram00_LCDram_mult.srs|io:o|time:1529091432|size:3031|exec:0|csum:
+file:..\synlog\LCDram00_LCDram_multi_srs_gen.srr|io:o|time:1529091432|size:601|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

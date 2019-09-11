@@ -1,0 +1,145 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn180312121226"></A><B><U><big>pn180312121226</big></U></B>
+#Start recording tcl command: 3/12/2018 11:33:44
+#Project Location: C:/Users/lalo/Desktop/barrelSRL00; Project name: barrelSRL00
+prj_project new -name "barrelSRL00" -impl "barrelSRL" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/div00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/osc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/packageosc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/toposc00.vhdl"
+prj_project save
+prj_src add "C:/Users/lalo/Desktop/barrelSRL00/barrelSRL00.vhdl"
+#Stop recording: 3/12/2018 12:12:26
+
+
+
+<A name="pn180313100338"></A><B><U><big>pn180313100338</big></U></B>
+#Start recording tcl command: 3/13/2018 09:34:30
+#Project Location: C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00; Project name: barrelSRL00
+prj_project open "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/barrelSRL00.ldf"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/packagebarrelSRL00.vhdl"
+prj_src remove "C:/Users/lalo/Desktop/quinto semestre/arquitectura/quinto semestre/arquitectura/osc00VHDL/div00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/quinto semestre/arquitectura/osc00VHDL/osc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/quinto semestre/arquitectura/osc00VHDL/packageosc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/quinto semestre/arquitectura/osc00VHDL/toposc00.vhdl"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/div00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/osc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/packageosc00.vhdl" "C:/Users/lalo/Desktop/quinto semestre/arquitectura/osc00VHDL/toposc00.vhdl"
+prj_src add "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/topbarrelSRL00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 3/13/2018 10:03:38
+
+
+
+<A name="pn180315115401"></A><B><U><big>pn180315115401</big></U></B>
+#Start recording tcl command: 3/15/2018 11:32:26
+#Project Location: C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00; Project name: barrelSRL00
+prj_project open "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/barrelSRL00.ldf"
+prj_run Export -impl barrelSRL -task Jedecgen
+prj_run Export -impl barrelSRL -task Jedecgen
+pgr_project save "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/barrelSRL/barrelSRL.xcf"
+prj_src add -exclude "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/barrelSRL/barrelSRL.xcf"
+prj_src enable "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/barrelSRL/barrelSRL.xcf"
+pgr_program run
+pgr_project save "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/barrelSRL/barrelSRL.xcf"
+pgr_project close
+#Stop recording: 3/15/2018 11:54:01
+
+
+
+<A name="pn180320232848"></A><B><U><big>pn180320232848</big></U></B>
+#Start recording tcl command: 3/20/2018 23:06:15
+#Project Location: C:/Users/jmaci/Desktop/ADC2/barrelSRL00; Project name: barrelSRL00
+prj_project open "C:/Users/jmaci/Desktop/ADC2/barrelSRL00/barrelSRL00.ldf"
+prj_run Export -impl barrelSRL -task Jedecgen
+pgr_project open "C:/Users/jmaci/Desktop/ADC2/barrelSRL00/barrelSRL/barrelSRL.xcf"
+pgr_program run
+pgr_project save "C:/Users/jmaci/Desktop/ADC2/barrelSRL00/barrelSRL/barrelSRL.xcf"
+pgr_project close
+prj_run Export -impl barrelSRL -task Jedecgen
+prj_run Export -impl barrelSRL -task Jedecgen
+pgr_project open "C:/Users/jmaci/Desktop/ADC2/barrelSRL00/barrelSRL/barrelSRL.xcf"
+pgr_program run
+pgr_project save "C:/Users/jmaci/Desktop/ADC2/barrelSRL00/barrelSRL/barrelSRL.xcf"
+pgr_project close
+prj_run Export -impl barrelSRL -task Jedecgen
+prj_run Export -impl barrelSRL -task Jedecgen
+pgr_project open "C:/Users/jmaci/Desktop/ADC2/barrelSRL00/barrelSRL/barrelSRL.xcf"
+pgr_program run
+pgr_project save "C:/Users/jmaci/Desktop/ADC2/barrelSRL00/barrelSRL/barrelSRL.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 3/20/2018 23:28:48
+
+
+
+<A name="pn180403222231"></A><B><U><big>pn180403222231</big></U></B>
+#Start recording tcl command: 4/3/2018 22:19:55
+#Project Location: C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00; Project name: barrelSRL00
+prj_project open "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/barrelSRL00.ldf"
+#Stop recording: 4/3/2018 22:22:31
+
+
+
+<A name="pn180405221817"></A><B><U><big>pn180405221817</big></U></B>
+#Start recording tcl command: 4/5/2018 22:17:05
+#Project Location: C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00; Project name: barrelSRL00
+prj_project open "C:/Users/lalo/Desktop/quinto semestre/arquitectura/barrelSRL00/barrelSRL00.ldf"
+#Stop recording: 4/5/2018 22:18:17
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

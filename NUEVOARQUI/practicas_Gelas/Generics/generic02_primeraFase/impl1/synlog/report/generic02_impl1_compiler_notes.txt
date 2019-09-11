@@ -1,0 +1,43 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.7_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\topgeneric01.vhdl":7:7:7:18|Top entity is set to topgeneric01.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\topgeneric01.vhdl":7:7:7:18|Synthesizing work.topgeneric01.topgeneric0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\uc00.vhdl":6:7:6:10|Synthesizing work.uc00.uc0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\shiftx00.vhd":8:7:8:15|Synthesizing work.shiftrx00.shiftrx0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\topmulticomb01.vhdl":5:7:5:18|Synthesizing work.etopmultip00.atopmultip.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\top_sumadorcompleto.vhdl":5:7:5:21|Synthesizing work.etopsumcompleto.atopsumcompleto.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\top_sumadormedio.vhdl":5:7:5:18|Synthesizing work.etopsummedio.atopsummedio.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\xor.vhdl":4:7:4:10|Synthesizing work.exor.axor.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\and.vhdl":4:7:4:10|Synthesizing work.eand.aand.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\combinacional01\or.vhdl":4:7:4:9|Synthesizing work.eor.aor.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\multicomb.vhdl":6:7:6:17|Synthesizing work.multicomb00.multicomb0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\concat00.vhdl":8:7:8:14|Synthesizing work.concat00.concat0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":8:7:8:12|Synthesizing work.comp00.comp0.
+@N: CL189 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(7) is always 0.
+@N: CL189 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(6) is always 0.
+@N: CL189 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(5) is always 0.
+@N: CL189 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(4) is always 0.
+@N: CL189 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp00.vhdl":25:6:25:7|Register bit outc0(3) is always 0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\comp2.vhdl":8:7:8:11|Synthesizing work.comp2.comp0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\rotl00.vhdl":8:7:8:12|Synthesizing work.rotl00.rotl0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\rotr00.vhdl":8:7:8:12|Synthesizing work.rotr00.rotr0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\shiftl00.vhdl":8:7:8:14|Synthesizing work.shiftl00.shiftl0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\shiftr00.vhdl":8:7:8:14|Synthesizing work.shiftr00.shiftr0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\sub00.vhdl":8:7:8:11|Synthesizing work.sub00.sub0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\add00.vhdl":8:7:8:11|Synthesizing work.add00.add0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nxor00.vhdl":6:7:6:12|Synthesizing work.nxor00.nxor0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nor00.vhdl":6:7:6:11|Synthesizing work.nor00.nor0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\nand00.vhdl":6:7:6:12|Synthesizing work.nand00.nand0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\not00.vhdl":6:7:6:11|Synthesizing work.not00.not0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\enab00.vhdl":6:7:6:12|Synthesizing work.enab00.ena.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\div0.vhdl":8:7:8:10|Synthesizing work.div0.div0.
+@N: CD630 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\div00\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.7_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL159 :"C:\Users\saiko\Documents\ESCOM\5 semestre\Arqui de Computadoras\Arquitectura\generic04\generic02\impl1\source\uc00.vhdl":9:4:9:9|Input enable is unused.
+@N|Running in 64-bit mode
+

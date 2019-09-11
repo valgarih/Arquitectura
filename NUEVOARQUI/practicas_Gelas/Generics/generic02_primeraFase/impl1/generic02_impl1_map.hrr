@@ -1,0 +1,657 @@
+---------------------------------------------------
+Report for cell topgeneric01
+   Instance path: topgeneric01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     266.00        100.0
+                                 IOLGC	      19.00        100.0
+                                  LUT4	     460.00        100.0
+                                 IOREG	         19        100.0
+                                 IOBUF	         38        100.0
+                                PFUREG	        211        100.0
+                                RIPPLE	         34        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 xor00	          1         6.1
+                                  uc00	          1         0.4
+                              topdiv00	          1        12.0
+                                 sub00	          1         6.4
+                              shiftr00	          1        19.3
+                             shiftrx00	          1         8.9
+                              shiftl00	          1         2.9
+                                rotr00	          1         2.5
+                                rotl00	          1         3.1
+                                nand00	          1         3.0
+                                 not00	          1         3.0
+                                  or00	          1         1.9
+                                nxor00	          1         2.7
+                                 nor00	          1         2.2
+                           multicomb00	          1         1.9
+                          eTopMultip00	          1         4.2
+                                 comp2	          1         3.3
+                              concat00	          1         1.6
+                                comp00	          1         5.4
+                                 and00	          1         3.1
+                                 add00	          1         5.6
+---------------------------------------------------
+Report for cell and00
+   Instance path: topgeneric01/G01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.33         3.1
+                                  LUT4	      15.00         3.3
+                                PFUREG	         12         5.7
+---------------------------------------------------
+Report for cell xor00
+   Instance path: topgeneric01/G02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.25         6.1
+                                  LUT4	      47.00        10.2
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell not00
+   Instance path: topgeneric01/G03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.92         3.0
+                                  LUT4	      15.00         3.3
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell or00
+   Instance path: topgeneric01/G04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.17         1.9
+                                  LUT4	       6.00         1.3
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell nand00
+   Instance path: topgeneric01/G05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00         3.0
+                                  LUT4	      14.00         3.0
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell nor00
+   Instance path: topgeneric01/G06
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.83         2.2
+                                  LUT4	       8.00         1.7
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell nxor00
+   Instance path: topgeneric01/G07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.17         2.7
+                                  LUT4	      10.00         2.2
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell add00
+   Instance path: topgeneric01/G08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      15.00         5.6
+                                  LUT4	      20.00         4.3
+                                PFUREG	         12         5.7
+                                RIPPLE	          5        14.7
+---------------------------------------------------
+Report for cell sub00
+   Instance path: topgeneric01/G09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.00         6.4
+                                  LUT4	      25.00         5.4
+                                PFUREG	         12         5.7
+                                RIPPLE	          5        14.7
+---------------------------------------------------
+Report for cell shiftr00
+   Instance path: topgeneric01/G10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      51.42        19.3
+                                  LUT4	     106.00        23.0
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell shiftl00
+   Instance path: topgeneric01/G11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.67         2.9
+                                  LUT4	      15.00         3.3
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell rotr00
+   Instance path: topgeneric01/G12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.67         2.5
+                                  LUT4	      13.00         2.8
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell rotl00
+   Instance path: topgeneric01/G13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.33         3.1
+                                  LUT4	      15.00         3.3
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell comp2
+   Instance path: topgeneric01/G14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.83         3.3
+                                  LUT4	       8.00         1.7
+                                PFUREG	         10         4.7
+                                RIPPLE	          5        14.7
+---------------------------------------------------
+Report for cell comp00
+   Instance path: topgeneric01/G15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.42         5.4
+                                  LUT4	      11.00         2.4
+                                PFUREG	          6         2.8
+                                RIPPLE	          8        23.5
+---------------------------------------------------
+Report for cell concat00
+   Instance path: topgeneric01/G16
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.33         1.6
+                                  LUT4	       8.00         1.7
+                                PFUREG	          4         1.9
+---------------------------------------------------
+Report for cell multicomb00
+   Instance path: topgeneric01/G17
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         1.9
+                                  LUT4	       5.00         1.1
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell shiftrx00
+   Instance path: topgeneric01/G19
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.67         8.9
+                                  LUT4	      47.00        10.2
+                                PFUREG	         11         5.2
+---------------------------------------------------
+Report for cell uc00
+   Instance path: topgeneric01/G20
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.17         0.4
+                                  LUT4	       2.00         0.4
+                                PFUREG	          1         0.5
+---------------------------------------------------
+Report for cell eTopMultip00
+   Instance path: topgeneric01/G18
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.25         4.2
+                                  LUT4	      26.00         5.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     eTopSumCompleto_0	          1         0.3
+                   eTopSumCompleto_0_4	          1         0.4
+                   eTopSumCompleto_0_8	          1         0.5
+                   eTopSumCompleto_0_9	          1         0.3
+                   eTopSumCompleto_0_6	          1         0.6
+                   eTopSumCompleto_0_7	          1         0.3
+                   eTopSumCompleto_0_5	          1         0.4
+                  eTopSumCompleto_0_10	          1         0.2
+                   eTopSumCompleto_0_3	          1         0.3
+                   eTopSumCompleto_0_1	          1         0.4
+                   eTopSumCompleto_0_0	          1         0.4
+                                eAnd_3	          1         0.2
+                               eAnd_13	          1         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0_10
+   Instance path: topgeneric01/G18/S12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  eTopSumMedio_5_16_21	          1         0.1
+                                eOr_10	          1         0.1
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_21
+   Instance path: topgeneric01/G18/S12/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               eXor_21	          1         0.1
+---------------------------------------------------
+Report for cell eXor_21
+   Instance path: topgeneric01/G18/S12/U4/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eOr_10
+   Instance path: topgeneric01/G18/S12/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0_9
+   Instance path: topgeneric01/G18/S11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  eTopSumMedio_5_16_19	          1         0.1
+                                 eOr_9	          1         0.2
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_19
+   Instance path: topgeneric01/G18/S11/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               eXor_19	          1         0.1
+---------------------------------------------------
+Report for cell eXor_19
+   Instance path: topgeneric01/G18/S11/U4/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eOr_9
+   Instance path: topgeneric01/G18/S11/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0_8
+   Instance path: topgeneric01/G18/S10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.25         0.5
+                                  LUT4	       3.00         0.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  eTopSumMedio_5_16_17	          1         0.3
+                                 eOr_8	          1         0.2
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_17
+   Instance path: topgeneric01/G18/S10/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               eXor_17	          1         0.3
+---------------------------------------------------
+Report for cell eXor_17
+   Instance path: topgeneric01/G18/S10/U4/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+---------------------------------------------------
+Report for cell eOr_8
+   Instance path: topgeneric01/G18/S10/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0_7
+   Instance path: topgeneric01/G18/S9
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  eTopSumMedio_5_16_16	          1         0.3
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_16
+   Instance path: topgeneric01/G18/S9/U5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               eXor_16	          1         0.1
+                               eAnd_32	          1         0.2
+---------------------------------------------------
+Report for cell eXor_16
+   Instance path: topgeneric01/G18/S9/U5/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eAnd_32
+   Instance path: topgeneric01/G18/S9/U5/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0_6
+   Instance path: topgeneric01/G18/S8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.50         0.6
+                                  LUT4	       3.00         0.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  eTopSumMedio_5_16_13	          1         0.2
+                  eTopSumMedio_5_16_14	          1         0.2
+                                 eOr_6	          1         0.2
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_14
+   Instance path: topgeneric01/G18/S8/U5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               eXor_14	          1         0.2
+---------------------------------------------------
+Report for cell eXor_14
+   Instance path: topgeneric01/G18/S8/U5/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_13
+   Instance path: topgeneric01/G18/S8/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               eXor_13	          1         0.2
+---------------------------------------------------
+Report for cell eXor_13
+   Instance path: topgeneric01/G18/S8/U4/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eOr_6
+   Instance path: topgeneric01/G18/S8/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0_5
+   Instance path: topgeneric01/G18/S7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  eTopSumMedio_5_16_11	          1         0.2
+                                 eOr_5	          1         0.2
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_11
+   Instance path: topgeneric01/G18/S7/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               eXor_11	          1         0.2
+---------------------------------------------------
+Report for cell eXor_11
+   Instance path: topgeneric01/G18/S7/U4/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eOr_5
+   Instance path: topgeneric01/G18/S7/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0_4
+   Instance path: topgeneric01/G18/S6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   eTopSumMedio_5_16_9	          1         0.2
+                                 eOr_4	          1         0.2
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_9
+   Instance path: topgeneric01/G18/S6/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                eXor_9	          1         0.2
+---------------------------------------------------
+Report for cell eXor_9
+   Instance path: topgeneric01/G18/S6/U4/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eOr_4
+   Instance path: topgeneric01/G18/S6/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0_3
+   Instance path: topgeneric01/G18/S5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   eTopSumMedio_5_16_8	          1         0.3
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_8
+   Instance path: topgeneric01/G18/S5/U5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                eXor_8	          1         0.1
+                               eAnd_24	          1         0.2
+---------------------------------------------------
+Report for cell eXor_8
+   Instance path: topgeneric01/G18/S5/U5/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eAnd_24
+   Instance path: topgeneric01/G18/S5/U5/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0_1
+   Instance path: topgeneric01/G18/S3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   eTopSumMedio_5_16_3	          1         0.2
+                                 eOr_1	          1         0.2
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_3
+   Instance path: topgeneric01/G18/S3/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                eXor_3	          1         0.2
+---------------------------------------------------
+Report for cell eXor_3
+   Instance path: topgeneric01/G18/S3/U4/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eOr_1
+   Instance path: topgeneric01/G18/S3/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0_0
+   Instance path: topgeneric01/G18/S2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   eTopSumMedio_5_16_1	          1         0.2
+                                 eOr_0	          1         0.2
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_1
+   Instance path: topgeneric01/G18/S2/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                eXor_1	          1         0.2
+---------------------------------------------------
+Report for cell eXor_1
+   Instance path: topgeneric01/G18/S2/U4/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eOr_0
+   Instance path: topgeneric01/G18/S2/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eTopSumCompleto_0
+   Instance path: topgeneric01/G18/S1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   eTopSumMedio_5_16_0	          1         0.3
+---------------------------------------------------
+Report for cell eTopSumMedio_5_16_0
+   Instance path: topgeneric01/G18/S1/U5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                eXor_0	          1         0.1
+                               eAnd_16	          1         0.2
+---------------------------------------------------
+Report for cell eXor_0
+   Instance path: topgeneric01/G18/S1/U5/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eAnd_16
+   Instance path: topgeneric01/G18/S1/U5/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eAnd_13
+   Instance path: topgeneric01/G18/A23
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell eAnd_3
+   Instance path: topgeneric01/G18/A30
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topgeneric01/G00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.83        12.0
+                                  LUT4	      42.00         9.1
+                                PFUREG	         22        10.4
+                                RIPPLE	         11        32.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                  div0	          1        12.0
+---------------------------------------------------
+Report for cell div0
+   Instance path: topgeneric01/G00/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.83        12.0
+                                  LUT4	      42.00         9.1
+                                PFUREG	         22        10.4
+                                RIPPLE	         11        32.4
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topgeneric01/G00/U0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

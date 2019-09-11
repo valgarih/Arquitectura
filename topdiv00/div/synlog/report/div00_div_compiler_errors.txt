@@ -1,0 +1,2 @@
+@E: CD326 :"C:\Users\James\Documents\ESCOM_SEMESTRE_6\3CM2_ARQUITECTURA\Project3CM2MachX02\div00\topdiv00.vhd":25:1:25:3|Port clkdiv of entity work.div00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

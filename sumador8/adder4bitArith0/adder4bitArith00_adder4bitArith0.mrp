@@ -1,0 +1,204 @@
+
+      Lattice Mapping Report File for Design Module 'topadder4bitArith'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     adder4bitArith00_adder4bitArith0.ngd -o
+     adder4bitArith00_adder4bitArith0_map.ncd -pr
+     adder4bitArith00_adder4bitArith0.prf -mp
+     adder4bitArith00_adder4bitArith0.mrp -lpf C:/Users/James/Documents/ESCOM_SE
+     MESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bitArith00/adder4bitAri
+     th0/adder4bitArith00_adder4bitArith0_synplify.lpf -lpf C:/Users/James/Docum
+     ents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bitArith00
+     /adder4bitArith00.lpf -c 0 -gui 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  11/01/18  22:02:31
+
+Design Summary
+--------------
+
+   Number of registers:      0 out of  7209 (0%)
+      PFU registers:            0 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:         3 out of  3432 (0%)
+      SLICEs as Logic/ROM:      3 out of  3432 (0%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:          3 out of  3432 (0%)
+   Number of LUT4s:          6 out of  6864 (0%)
+      Number used as logic LUTs:          0
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        6
+      Number used as shift registers:     0
+   Number of PIO sites used: 14 + 4(JTAG) out of 115 (16%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+                                    Page 1
+
+
+
+
+Design:  topadder4bitArith                             Date:  11/01/18  22:02:31
+
+Design Summary (cont)
+---------------------
+   Number of clocks:  0
+   Number of Clock Enables:  0
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net option_c: 6 loads
+     Net NUM2_c[0]: 1 loads
+     Net NUM2_c[3]: 1 loads
+     Net SUM: 1 loads
+     Net SUM_cry_0: 1 loads
+     Net SUM_c[0]: 1 loads
+     Net SUM_c[1]: 1 loads
+     Net SUM_c[2]: 1 loads
+     Net SUM_c[3]: 1 loads
+     Net SUM_c[4]: 1 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| SUM[0]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| NUM1[0]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SUM[4]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SUM[3]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SUM[2]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SUM[1]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| option              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| NUM2[3]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| NUM2[2]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| NUM2[1]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| NUM2[0]             | INPUT     | LVCMOS25  |            |
+
+                                    Page 2
+
+
+
+
+Design:  topadder4bitArith                             Date:  11/01/18  22:02:31
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| NUM1[3]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| NUM1[2]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| NUM1[1]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal SUM_cry_3_0_COUT undriven or does not drive anything - clipped.
+Signal SUM_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Block GND was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 56 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 3
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

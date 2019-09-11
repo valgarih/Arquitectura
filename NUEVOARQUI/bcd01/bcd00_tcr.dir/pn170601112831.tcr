@@ -1,0 +1,8 @@
+#Start recording tcl command: 6/1/2017 10:52:00
+#Project Location: C:/Users/Luis/Documents/bcd00; Project name: bcd00
+prj_project new -name "bcd00" -impl "bcd00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/Luis/Documents/bcd00/ac8bit00.vhdl" "C:/Users/Luis/Documents/bcd00/ac12bit00.vhdl" "C:/Users/Luis/Documents/bcd00/coderNibbles00.vhdl" "C:/Users/Luis/Documents/bcd00/compadd00.vhdl" "C:/Users/Luis/Documents/bcd00/contIter00.vhdl" "C:/Users/Luis/Documents/bcd00/contring00.vhdl" "C:/Users/Luis/Documents/bcd00/div00.vhdl" "C:/Users/Luis/Documents/bcd00/divint00.vhdl" "C:/Users/Luis/Documents/bcd00/init00.vhdl" "C:/Users/Luis/Documents/bcd00/leeInst00.vhdl" "C:/Users/Luis/Documents/bcd00/mux00.vhdl" "C:/Users/Luis/Documents/bcd00/osc00.vhdl" "C:/Users/Luis/Documents/bcd00/packagediv00.vhdl" "C:/Users/Luis/Documents/bcd00/packagep00.vhdl" "C:/Users/Luis/Documents/bcd00/pcinc00.vhdl" "C:/Users/Luis/Documents/bcd00/portA00.vhdl" "C:/Users/Luis/Documents/bcd00/shift8bit00.vhdl" "C:/Users/Luis/Documents/bcd00/shift12bit00.vhdl" "C:/Users/Luis/Documents/bcd00/sust00.vhdl" "C:/Users/Luis/Documents/bcd00/topconvbcd00.vhdl" "C:/Users/Luis/Documents/bcd00/topdiv00.vhdl"
+prj_project save
+prj_run Export -impl bcd00
+prj_run Export -impl bcd00
+#Stop recording: 6/1/2017 11:28:31

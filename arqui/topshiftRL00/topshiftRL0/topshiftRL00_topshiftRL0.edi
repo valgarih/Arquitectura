@@ -1,0 +1,332 @@
+(edif topshiftRL00
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2019 2 25 11 57 0)
+      (author "Synopsys, Inc.")
+      (program "Synplify Pro" (version "M-2017.03L-SP1-1, mapper maplat, Build 1796R"))
+     )
+   )
+  (library LUCENT
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell OB (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port I (direction INPUT))
+           (port O (direction OUTPUT))
+         )
+       )
+    )
+    (cell IB (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port I (direction INPUT))
+           (port O (direction OUTPUT))
+         )
+       )
+    )
+    (cell GSR (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port GSR (direction INPUT))
+         )
+       )
+    )
+    (cell VHI (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+    (cell VLO (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell topdiv00 (cellType GENERIC)
+       (view syn_black_box (viewType NETLIST)
+         (interface
+           (port (array (rename cdiv0 "cdiv0(4:0)") 5) (direction INPUT))
+           (port clk0 (direction INOUT))
+         )
+        (property orig_inst_of (string "topdiv00"))
+       )
+    )
+    (cell shiftRL00 (cellType GENERIC)
+       (view syn_black_box (viewType NETLIST)
+         (interface
+           (port clks (direction INPUT))
+           (port ens (direction INPUT))
+           (port (array (rename ins "ins(7:0)") 8) (direction INPUT))
+           (port (array (rename outs "outs(7:0)") 8) (direction OUTPUT))
+           (port (array (rename sel "sel(1:0)") 2) (direction INPUT))
+         )
+        (property orig_inst_of (string "shiftRL00"))
+       )
+    )
+    (cell topshiftRL00 (cellType GENERIC)
+       (view topshiftrl0 (viewType NETLIST)
+         (interface
+           (port clk00 (direction OUTPUT))
+           (port (array (rename cdiv00 "cdiv00(4:0)") 5) (direction INPUT))
+           (port ens0 (direction INPUT))
+           (port (array (rename ins0 "ins0(7:0)") 8) (direction INPUT))
+           (port (array (rename outs0 "outs0(7:0)") 8) (direction OUTPUT))
+           (port (array (rename sel0 "sel0(1:0)") 2) (direction INPUT))
+         )
+         (contents
+          (instance VCC (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
+          (instance GND (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
+          (instance GSR_INST (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
+          )
+          (instance (rename sel0_pad_1 "sel0_pad[1]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename sel0_pad_0 "sel0_pad[0]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename outs0_pad_7 "outs0_pad[7]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename outs0_pad_6 "outs0_pad[6]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename outs0_pad_5 "outs0_pad[5]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename outs0_pad_4 "outs0_pad[4]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename outs0_pad_3 "outs0_pad[3]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename outs0_pad_2 "outs0_pad[2]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename outs0_pad_1 "outs0_pad[1]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename outs0_pad_0 "outs0_pad[0]") (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance (rename ins0_pad_7 "ins0_pad[7]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename ins0_pad_6 "ins0_pad[6]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename ins0_pad_5 "ins0_pad[5]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename ins0_pad_4 "ins0_pad[4]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename ins0_pad_3 "ins0_pad[3]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename ins0_pad_2 "ins0_pad[2]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename ins0_pad_1 "ins0_pad[1]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename ins0_pad_0 "ins0_pad[0]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance ens0_pad (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename cdiv00_pad_4 "cdiv00_pad[4]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename cdiv00_pad_3 "cdiv00_pad[3]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename cdiv00_pad_2 "cdiv00_pad[2]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename cdiv00_pad_1 "cdiv00_pad[1]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance (rename cdiv00_pad_0 "cdiv00_pad[0]") (viewRef PRIM (cellRef IB (libraryRef LUCENT)))          )
+          (instance clk00_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (instance SRL01 (viewRef syn_black_box (cellRef shiftRL00))          )
+          (instance SRL00 (viewRef syn_black_box (cellRef topdiv00))
+          )
+          (net VCC (joined
+           (portRef Z (instanceRef VCC))
+           (portRef GSR (instanceRef GSR_INST))
+          ))
+          (net clk00_c (joined
+           (portRef clk0 (instanceRef SRL00))
+           (portRef clks (instanceRef SRL01))
+           (portRef I (instanceRef clk00_pad))
+          ))
+          (net clk00 (joined
+           (portRef O (instanceRef clk00_pad))
+           (portRef clk00)
+          ))
+          (net (rename cdiv00_c_0 "cdiv00_c[0]") (joined
+           (portRef O (instanceRef cdiv00_pad_0))
+           (portRef (member cdiv0 4) (instanceRef SRL00))
+          ))
+          (net (rename cdiv00_0 "cdiv00[0]") (joined
+           (portRef (member cdiv00 4))
+           (portRef I (instanceRef cdiv00_pad_0))
+          ))
+          (net (rename cdiv00_c_1 "cdiv00_c[1]") (joined
+           (portRef O (instanceRef cdiv00_pad_1))
+           (portRef (member cdiv0 3) (instanceRef SRL00))
+          ))
+          (net (rename cdiv00_1 "cdiv00[1]") (joined
+           (portRef (member cdiv00 3))
+           (portRef I (instanceRef cdiv00_pad_1))
+          ))
+          (net (rename cdiv00_c_2 "cdiv00_c[2]") (joined
+           (portRef O (instanceRef cdiv00_pad_2))
+           (portRef (member cdiv0 2) (instanceRef SRL00))
+          ))
+          (net (rename cdiv00_2 "cdiv00[2]") (joined
+           (portRef (member cdiv00 2))
+           (portRef I (instanceRef cdiv00_pad_2))
+          ))
+          (net (rename cdiv00_c_3 "cdiv00_c[3]") (joined
+           (portRef O (instanceRef cdiv00_pad_3))
+           (portRef (member cdiv0 1) (instanceRef SRL00))
+          ))
+          (net (rename cdiv00_3 "cdiv00[3]") (joined
+           (portRef (member cdiv00 1))
+           (portRef I (instanceRef cdiv00_pad_3))
+          ))
+          (net (rename cdiv00_c_4 "cdiv00_c[4]") (joined
+           (portRef O (instanceRef cdiv00_pad_4))
+           (portRef (member cdiv0 0) (instanceRef SRL00))
+          ))
+          (net (rename cdiv00_4 "cdiv00[4]") (joined
+           (portRef (member cdiv00 0))
+           (portRef I (instanceRef cdiv00_pad_4))
+          ))
+          (net ens0_c (joined
+           (portRef O (instanceRef ens0_pad))
+           (portRef ens (instanceRef SRL01))
+          ))
+          (net ens0 (joined
+           (portRef ens0)
+           (portRef I (instanceRef ens0_pad))
+          ))
+          (net (rename ins0_c_0 "ins0_c[0]") (joined
+           (portRef O (instanceRef ins0_pad_0))
+           (portRef (member ins 7) (instanceRef SRL01))
+          ))
+          (net (rename ins0_0 "ins0[0]") (joined
+           (portRef (member ins0 7))
+           (portRef I (instanceRef ins0_pad_0))
+          ))
+          (net (rename ins0_c_1 "ins0_c[1]") (joined
+           (portRef O (instanceRef ins0_pad_1))
+           (portRef (member ins 6) (instanceRef SRL01))
+          ))
+          (net (rename ins0_1 "ins0[1]") (joined
+           (portRef (member ins0 6))
+           (portRef I (instanceRef ins0_pad_1))
+          ))
+          (net (rename ins0_c_2 "ins0_c[2]") (joined
+           (portRef O (instanceRef ins0_pad_2))
+           (portRef (member ins 5) (instanceRef SRL01))
+          ))
+          (net (rename ins0_2 "ins0[2]") (joined
+           (portRef (member ins0 5))
+           (portRef I (instanceRef ins0_pad_2))
+          ))
+          (net (rename ins0_c_3 "ins0_c[3]") (joined
+           (portRef O (instanceRef ins0_pad_3))
+           (portRef (member ins 4) (instanceRef SRL01))
+          ))
+          (net (rename ins0_3 "ins0[3]") (joined
+           (portRef (member ins0 4))
+           (portRef I (instanceRef ins0_pad_3))
+          ))
+          (net (rename ins0_c_4 "ins0_c[4]") (joined
+           (portRef O (instanceRef ins0_pad_4))
+           (portRef (member ins 3) (instanceRef SRL01))
+          ))
+          (net (rename ins0_4 "ins0[4]") (joined
+           (portRef (member ins0 3))
+           (portRef I (instanceRef ins0_pad_4))
+          ))
+          (net (rename ins0_c_5 "ins0_c[5]") (joined
+           (portRef O (instanceRef ins0_pad_5))
+           (portRef (member ins 2) (instanceRef SRL01))
+          ))
+          (net (rename ins0_5 "ins0[5]") (joined
+           (portRef (member ins0 2))
+           (portRef I (instanceRef ins0_pad_5))
+          ))
+          (net (rename ins0_c_6 "ins0_c[6]") (joined
+           (portRef O (instanceRef ins0_pad_6))
+           (portRef (member ins 1) (instanceRef SRL01))
+          ))
+          (net (rename ins0_6 "ins0[6]") (joined
+           (portRef (member ins0 1))
+           (portRef I (instanceRef ins0_pad_6))
+          ))
+          (net (rename ins0_c_7 "ins0_c[7]") (joined
+           (portRef O (instanceRef ins0_pad_7))
+           (portRef (member ins 0) (instanceRef SRL01))
+          ))
+          (net (rename ins0_7 "ins0[7]") (joined
+           (portRef (member ins0 0))
+           (portRef I (instanceRef ins0_pad_7))
+          ))
+          (net (rename outs0_c_0 "outs0_c[0]") (joined
+           (portRef (member outs 7) (instanceRef SRL01))
+           (portRef I (instanceRef outs0_pad_0))
+          ))
+          (net (rename outs0_0 "outs0[0]") (joined
+           (portRef O (instanceRef outs0_pad_0))
+           (portRef (member outs0 7))
+          ))
+          (net (rename outs0_c_1 "outs0_c[1]") (joined
+           (portRef (member outs 6) (instanceRef SRL01))
+           (portRef I (instanceRef outs0_pad_1))
+          ))
+          (net (rename outs0_1 "outs0[1]") (joined
+           (portRef O (instanceRef outs0_pad_1))
+           (portRef (member outs0 6))
+          ))
+          (net (rename outs0_c_2 "outs0_c[2]") (joined
+           (portRef (member outs 5) (instanceRef SRL01))
+           (portRef I (instanceRef outs0_pad_2))
+          ))
+          (net (rename outs0_2 "outs0[2]") (joined
+           (portRef O (instanceRef outs0_pad_2))
+           (portRef (member outs0 5))
+          ))
+          (net (rename outs0_c_3 "outs0_c[3]") (joined
+           (portRef (member outs 4) (instanceRef SRL01))
+           (portRef I (instanceRef outs0_pad_3))
+          ))
+          (net (rename outs0_3 "outs0[3]") (joined
+           (portRef O (instanceRef outs0_pad_3))
+           (portRef (member outs0 4))
+          ))
+          (net (rename outs0_c_4 "outs0_c[4]") (joined
+           (portRef (member outs 3) (instanceRef SRL01))
+           (portRef I (instanceRef outs0_pad_4))
+          ))
+          (net (rename outs0_4 "outs0[4]") (joined
+           (portRef O (instanceRef outs0_pad_4))
+           (portRef (member outs0 3))
+          ))
+          (net (rename outs0_c_5 "outs0_c[5]") (joined
+           (portRef (member outs 2) (instanceRef SRL01))
+           (portRef I (instanceRef outs0_pad_5))
+          ))
+          (net (rename outs0_5 "outs0[5]") (joined
+           (portRef O (instanceRef outs0_pad_5))
+           (portRef (member outs0 2))
+          ))
+          (net (rename outs0_c_6 "outs0_c[6]") (joined
+           (portRef (member outs 1) (instanceRef SRL01))
+           (portRef I (instanceRef outs0_pad_6))
+          ))
+          (net (rename outs0_6 "outs0[6]") (joined
+           (portRef O (instanceRef outs0_pad_6))
+           (portRef (member outs0 1))
+          ))
+          (net (rename outs0_c_7 "outs0_c[7]") (joined
+           (portRef (member outs 0) (instanceRef SRL01))
+           (portRef I (instanceRef outs0_pad_7))
+          ))
+          (net (rename outs0_7 "outs0[7]") (joined
+           (portRef O (instanceRef outs0_pad_7))
+           (portRef (member outs0 0))
+          ))
+          (net (rename sel0_c_0 "sel0_c[0]") (joined
+           (portRef O (instanceRef sel0_pad_0))
+           (portRef (member sel 1) (instanceRef SRL01))
+          ))
+          (net (rename sel0_0 "sel0[0]") (joined
+           (portRef (member sel0 1))
+           (portRef I (instanceRef sel0_pad_0))
+          ))
+          (net (rename sel0_c_1 "sel0_c[1]") (joined
+           (portRef O (instanceRef sel0_pad_1))
+           (portRef (member sel 0) (instanceRef SRL01))
+          ))
+          (net (rename sel0_1 "sel0[1]") (joined
+           (portRef (member sel0 0))
+           (portRef I (instanceRef sel0_pad_1))
+          ))
+         )
+        (property orig_inst_of (string "topshiftRL00"))
+       )
+    )
+  )
+  (design topshiftRL00 (cellRef topshiftRL00 (libraryRef work))
+	(property PART (string "lcmxo2_7000he-5") ))
+)

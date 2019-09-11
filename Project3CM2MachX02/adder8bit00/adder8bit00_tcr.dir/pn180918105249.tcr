@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/18/2018 09:52:28
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder8bit00; Project name: adder8bit00
+prj_project open "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder8bit00/adder8bit00.ldf"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder8bit00/topadder8bit00.vhd"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/adder4bit00/packageadder4bit00.vhd"
+prj_run Export -impl adder8bit -task Jedecgen
+#Stop recording: 9/18/2018 10:52:49

@@ -1,0 +1,11 @@
+#Start recording tcl command: 3/12/2019 10:42:45
+#Project Location: C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/Segundo Parcial/ram00; Project name: ram00
+prj_project open "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/Segundo Parcial/ram00/ram00.ldf"
+prj_src add "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/topdiv00vhdl/packagediv00.vhdl" "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/topdiv00vhdl/div00.vhdl" "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/topdiv00vhdl/osc00.vhdl" "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/topdiv00vhdl/topdiv00.vhdl"
+prj_src remove "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/Segundo Parcial/topdiv00vhdl/div00.vhdl" "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/Segundo Parcial/topdiv00vhdl/osc00.vhdl" "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/Segundo Parcial/topdiv00vhdl/packagediv00.vhdl" "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/Segundo Parcial/topdiv00vhdl/topdiv00.vhdl"
+prj_src add "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/Segundo Parcial/ram00/mux00.vhdl"
+prj_src add "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/Segundo Parcial/ram00/contRead00.vhdl"
+prj_src add "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/Segundo Parcial/ram00/packageram00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 3/12/2019 11:39:55

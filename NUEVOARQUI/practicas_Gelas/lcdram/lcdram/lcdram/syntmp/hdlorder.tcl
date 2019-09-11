@@ -1,0 +1,1 @@
+project -fileorder "D:/LatticeDiamond/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/Sergi/Desktop/lcdram/lcdram/div00.vhdl" "C:/Users/Sergi/Desktop/lcdram/lcdram/osc00.vhdl" "C:/Users/Sergi/Desktop/lcdram/lcdram/packageosc00.vhdl" "C:/Users/Sergi/Desktop/lcdram/lcdram/toposc00.vhdl" 

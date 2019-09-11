@@ -1,0 +1,13 @@
+#Start recording tcl command: 9/13/2018 10:43:15
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/shiftRL00; Project name: shiftRL00
+C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/word00
+word00
+#Start recording tcl command: 9/13/2018 10:55:57
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/word00; Project name: word00
+prj_project open "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/shiftRL00/shiftRL00.ldf"
+prj_project save
+prj_project close
+prj_project new -name "word00" -impl "word" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00vhdl/div00.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00vhdl/osc00.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00vhdl/packagediv00.vhd" "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/div00vhdl/topdiv00.vhd"
+prj_project save
+#Stop recording: 9/13/2018 10:55:58

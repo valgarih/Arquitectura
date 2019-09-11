@@ -1,0 +1,270 @@
+
+        Lattice Mapping Report File for Design Module 'topsequence00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     sequence00_sequence0.ngd -o sequence00_sequence0_map.ncd -pr
+     sequence00_sequence0.prf -mp sequence00_sequence0.mrp -lpf C:/Users/James/D
+     ocuments/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/sequence00/s
+     equence0/sequence00_sequence0_synplify.lpf -lpf C:/Users/James/Documents/ES
+     COM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/sequence00/sequence00.l
+     pf -c 0 -gui -msgset C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITE
+     CTURA/Project3CM2MachX02/sequence00/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  11/08/18  18:24:08
+
+Design Summary
+--------------
+
+   Number of registers:     44 out of  7209 (1%)
+      PFU registers:           36 out of  6864 (1%)
+      PIO registers:            8 out of   345 (2%)
+   Number of SLICEs:        46 out of  3432 (1%)
+      SLICEs as Logic/ROM:     46 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:         91 out of  6864 (1%)
+      Number used as logic LUTs:         69
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 25 + 4(JTAG) out of 115 (25%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+
+                                    Page 1
+
+
+
+
+Design:  topsequence00                                 Date:  11/08/18  18:24:08
+
+Design Summary (cont)
+---------------------
+     Net S00.SRL00.sclk_0: 29 loads, 29 rising, 0 falling (Driver:
+     S00/SRL00/D00/OSCInst0 )
+   Number of Clock Enables:  2
+     Net un1_outosc_0_sqmuxa_1_RNIG5IJ: 16 loads, 9 LSLICEs
+     Net state_RNIQTIC1[4]: 1 loads, 0 LSLICEs
+   Number of local set/reset loads for net ens_c merged into GSR:  6
+   Number of LSRs:  2
+     Net un1_outosc_0_sqmuxa_1_RNIAAEK: 8 loads, 1 LSLICEs
+     Net S00/SRL00/D01/outosc_0_sqmuxa_RNIBDUF: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net un1_outosc_0_sqmuxa_1_RNIG5IJ: 17 loads
+     Net S00/SRL00/D01/outosc_0_sqmuxa_RNIBDUF: 11 loads
+     Net ens_c: 10 loads
+     Net cdiv_c[1]: 9 loads
+     Net cdiv_c[4]: 9 loads
+     Net cdiv_c[0]: 8 loads
+     Net outseq_c: 8 loads
+     Net un1_outosc_0_sqmuxa_1_RNIAAEK: 8 loads
+     Net S00/SRL00/D01/sdiv[18]: 7 loads
+     Net S00/SRL00/D01/sdiv[16]: 6 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: Using local reset signal 'ens_c' to infer global GSR net.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| clk                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[0]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outassert           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outseq              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outs[7]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outs[6]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outs[5]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outs[4]             | OUTPUT    | LVCMOS25  | OUT        |
+
+                                    Page 2
+
+
+
+
+Design:  topsequence00                                 Date:  11/08/18  18:24:08
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| outs[3]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outs[2]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outs[1]             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outs[0]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ins[7]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ins[6]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ins[5]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ins[4]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ins[3]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ins[2]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ins[1]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ins[0]              | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ens                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[4]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[3]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[2]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[1]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block S00/GND undriven or does not drive anything - clipped.
+Block S00/VCC undriven or does not drive anything - clipped.
+Block S00/SRL00/GND undriven or does not drive anything - clipped.
+Block S00/SRL00/VCC undriven or does not drive anything - clipped.
+Block S00/SRL00/D00/VCC undriven or does not drive anything - clipped.
+Block S00/SRL00/D01/VCC undriven or does not drive anything - clipped.
+Block S00/SRL01/GND undriven or does not drive anything - clipped.
+Block S00/SRL01/VCC undriven or does not drive anything - clipped.
+Block S01/GND undriven or does not drive anything - clipped.
+Block S01/VCC undriven or does not drive anything - clipped.
+Signal ens_c_i was merged into signal ens_c
+Signal S00/SRL00/D00/GND undriven or does not drive anything - clipped.
+Signal S00/SRL00/D01/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal S00/SRL00/D00/OSCInst0_SEDSTDBY undriven or does not drive anything -
+
+                                    Page 3
+
+
+
+
+Design:  topsequence00                                 Date:  11/08/18  18:24:08
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal S00/SRL00/D01/un1_sdiv_cry_19_0_COUT undriven or does not drive anything
+     - clipped.
+Signal S00/SRL00/D01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal S00/SRL00/D01/N_1 undriven or does not drive anything - clipped.
+Block ens_pad_RNIQ4S was optimized away.
+Block S00/SRL00/D00/GND was optimized away.
+Block S00/SRL00/D01/GND was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                S00/SRL00/D00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     S00.SRL00.sclk_0
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: S00/SRL00/D00/OSCInst0
+         Type: OSCH
+
+GSR Usage
+---------
+
+GSR Component:
+   The local reset signal 'ens_c' of the design has been inferred as Global Set
+        Reset (GSR). The reset signal used for GSR control is 'ens_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 4 secs  
+   Peak Memory Usage: 58 MB
+        
+
+
+
+
+                                    Page 4
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

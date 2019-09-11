@@ -1,0 +1,176 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 1176R, Built Apr 20 2015 17:38:44
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 144MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		100000.00ns		  28 /         0
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 144MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 144MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 144MB)
+
+Writing Analyst data base C:\lscc\Arquitectura\org\combinacional01\combin01\synwork\combin01_combin01_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 144MB)
+
+Writing EDIF Netlist and constraint files
+J-2015.03L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 145MB peak: 146MB)
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Dec 02 16:15:06 2015
+#
+
+
+Top view:               eTopMultip00
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 145MB peak: 146MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 145MB peak: 146MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo3l_6900c-5
+
+Register bits: 0 of 54912 (0%)
+PIC Latch:       0
+I/O cells:       16
+
+
+Details:
+GSR:            1
+IB:             8
+OB:             8
+ORCALUT4:       28
+PUR:            1
+VHI:            1
+VLO:            9
+false:          42
+true:           50
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 52MB peak: 146MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Dec 02 16:15:06 2015
+
+###########################################################]

@@ -1,0 +1,30 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe  -osyn  G:\bcd01\bcd00\synwork\bcd00_bcd00_comp.srs  -top  topconvbcd00  -hdllog  G:\bcd01\bcd00\synlog\bcd00_bcd00_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  G:\bcd01\bcd00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work G:\bcd01\div00.vhdl -lib work G:\bcd01\osc00.vhdl -lib work G:\bcd01\packageosc00.vhdl -lib work G:\bcd01\ac8bit00.vhdl -lib work G:\bcd01\ac12bit00.vhdl -lib work G:\bcd01\coderNibbles00.vhdl -lib work G:\bcd01\compadd00.vhdl -lib work G:\bcd01\contIter00.vhdl -lib work G:\bcd01\contring00.vhdl -lib work G:\bcd01\divint00.vhdl -lib work G:\bcd01\leeInst00.vhdl -lib work G:\bcd01\mux00.vhdl -lib work G:\bcd01\shift8bit00.vhdl -lib work G:\bcd01\shift12bit00.vhdl -lib work G:\bcd01\sust00.vhdl -lib work G:\bcd01\pcinc00.vhdl -lib work G:\bcd01\portA00.vhdl -lib work G:\bcd01\packagediv00.vhdl -lib work G:\bcd01\packagep00.vhdl -lib work G:\bcd01\toposc00.vhdl -lib work G:\bcd01\init00.vhdl -lib work G:\bcd01\topdiv00.vhdl -lib work G:\bcd01\topconvbcd00.vhdl  -jobname  "compiler" 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe -osyn ..\synwork\bcd00_bcd00_comp.srs -top topconvbcd00 -hdllog ..\synlog\bcd00_bcd00_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\div00.vhdl -lib work ..\..\osc00.vhdl -lib work ..\..\packageosc00.vhdl -lib work ..\..\ac8bit00.vhdl -lib work ..\..\ac12bit00.vhdl -lib work ..\..\coderNibbles00.vhdl -lib work ..\..\compadd00.vhdl -lib work ..\..\contIter00.vhdl -lib work ..\..\contring00.vhdl -lib work ..\..\divint00.vhdl -lib work ..\..\leeInst00.vhdl -lib work ..\..\mux00.vhdl -lib work ..\..\shift8bit00.vhdl -lib work ..\..\shift12bit00.vhdl -lib work ..\..\sust00.vhdl -lib work ..\..\pcinc00.vhdl -lib work ..\..\portA00.vhdl -lib work ..\..\packagediv00.vhdl -lib work ..\..\packagep00.vhdl -lib work ..\..\toposc00.vhdl -lib work ..\..\init00.vhdl -lib work ..\..\topdiv00.vhdl -lib work ..\..\topconvbcd00.vhdl -jobname "compiler"
+rc:0 success:1 runtime:12
+file:..\synwork\bcd00_bcd00_comp.srs|io:o|time:1529033346|size:35635|exec:0|csum:
+file:..\synlog\bcd00_bcd00_compiler.srr|io:o|time:1529033346|size:10295|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\div00.vhdl|io:i|time:1528871276|size:2117|exec:0|csum:44AC1072448BA13650DD2A2ECEB28AC4
+file:..\..\osc00.vhdl|io:i|time:1528871282|size:571|exec:0|csum:95F7346FD9885E9E59D609C88611C027
+file:..\..\packageosc00.vhdl|io:i|time:1528871300|size:407|exec:0|csum:316F9EE0BA3AC7BC3ACA2A6961D567D6
+file:..\..\ac8bit00.vhdl|io:i|time:1528871318|size:786|exec:0|csum:E29FF23CBEDA17B0CAD474E2164B1FF1
+file:..\..\ac12bit00.vhdl|io:i|time:1528871324|size:896|exec:0|csum:051261F5A822C695E58060A327E85A69
+file:..\..\coderNibbles00.vhdl|io:i|time:1528871330|size:3009|exec:0|csum:D59642FCB6D32E1CF996D7BF413A461E
+file:..\..\compadd00.vhdl|io:i|time:1528871346|size:1902|exec:0|csum:5E12A4B3DB4825D043336546AF362E6B
+file:..\..\contIter00.vhdl|io:i|time:1528871354|size:1041|exec:0|csum:15F8B231C17188397592364E83262AC5
+file:..\..\contring00.vhdl|io:i|time:1528871360|size:839|exec:0|csum:40584E9BDB30228017631AE805462181
+file:..\..\divint00.vhdl|io:i|time:1528871370|size:917|exec:0|csum:773542D91D7B91FF5275316E92D79B49
+file:..\..\leeInst00.vhdl|io:i|time:1528871376|size:1086|exec:0|csum:CAEBC1746B604801DB326BABC0B9BB7A
+file:..\..\mux00.vhdl|io:i|time:1528871534|size:877|exec:0|csum:9D809337BF6DBBBB7D0F14637E5C5D60
+file:..\..\shift8bit00.vhdl|io:i|time:1528871388|size:1230|exec:0|csum:F42E413F3A0EA929E39FD3CEC3A29E4A
+file:..\..\shift12bit00.vhdl|io:i|time:1529033318|size:1282|exec:0|csum:AE83563C23EF68549782AE9FC853BBBF
+file:..\..\sust00.vhdl|io:i|time:1528871400|size:1385|exec:0|csum:D8E7BB436433421EC4886F582207F55E
+file:..\..\pcinc00.vhdl|io:i|time:1528871770|size:4659|exec:0|csum:314DD317A924BA3830B79A99363456CA
+file:..\..\portA00.vhdl|io:i|time:1528871424|size:944|exec:0|csum:F03BEF79EC55E2E56882A56DA2281504
+file:..\..\packagediv00.vhdl|io:i|time:1528871848|size:407|exec:0|csum:0F35552F7F50BDF2847DE02A0398A1A3
+file:..\..\packagep00.vhdl|io:i|time:1528872108|size:4602|exec:0|csum:6BF7C6C8BA41FC92DA18E79484F1F332
+file:..\..\toposc00.vhdl|io:i|time:1528871294|size:533|exec:0|csum:D3BF72A2F7BCD1C743404CB84D76C978
+file:..\..\init00.vhdl|io:i|time:1528871694|size:1188|exec:0|csum:DEA864A711099984D76913E8D8E7E1DF
+file:..\..\topdiv00.vhdl|io:i|time:1528871898|size:528|exec:0|csum:0E58E1D7BFC16E838558233F5C4E5C32
+file:..\..\topconvbcd00.vhdl|io:i|time:1528872024|size:5347|exec:0|csum:980C4DD6180E99207E52ABCCACDC43C9
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe|io:i|time:1501909958|size:5526016|exec:1|csum:B0FC75282263C9BC65A760D01C67ECBA

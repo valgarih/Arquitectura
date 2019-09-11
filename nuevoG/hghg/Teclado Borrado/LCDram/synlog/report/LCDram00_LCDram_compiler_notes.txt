@@ -1,0 +1,26 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"F:\hghg\LCDram\toplcdram00.vhdl":10:7:10:17|Top entity is set to toplcdram00.
+@N: CD895 :"F:\hghg\LCDram\lcdram00.vhdl":92:16:92:20|Setting attribute syn_ramstyle to "no_rw_check" on shared variable c_key
+@N: CD630 :"F:\hghg\LCDram\toplcdram00.vhdl":10:7:10:17|Synthesizing work.toplcdram00.toplcdram0.
+@N: CD630 :"F:\hghg\LCDram\lcdram00.vhdl":8:7:8:14|Synthesizing work.lcdram00.lcdram0.
+@N: CD231 :"F:\hghg\LCDram\lcdram00.vhdl":62:16:62:17|Using onehot encoding for type state_type. For example, enumeration s0 is mapped to "10000000000000000000000000000".
+@N: CL189 :"F:\hghg\LCDram\lcdram00.vhdl":96:0:96:1|Register bit del is always 0.
+@N: CD630 :"F:\osc00VHDL\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"F:\osc00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":27:2:27:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":36:2:36:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":45:2:45:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":54:2:54:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":63:2:63:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":72:2:72:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":81:2:81:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":90:2:90:7|Removing redundant assignment.
+@N: CD364 :"F:\osc00VHDL\div00.vhdl":99:2:99:7|Removing redundant assignment.
+@N: CD630 :"F:\osc00VHDL\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL201 :"F:\hghg\LCDram\lcdram00.vhdl":96:0:96:1|Trying to extract state machine for register COLS.
+@N: CL201 :"F:\hghg\LCDram\lcdram00.vhdl":96:0:96:1|Trying to extract state machine for register current_state.
+@N|Running in 64-bit mode
+

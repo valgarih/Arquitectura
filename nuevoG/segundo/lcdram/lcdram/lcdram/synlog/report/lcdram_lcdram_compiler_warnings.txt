@@ -1,0 +1,6 @@
+@W: CD276 :"D:\LatticeDiamond\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL260 :"C:\Users\Sergi\Desktop\lcdram\lcdram\toposc00.vhdl":167:2:167:3|Pruning register bit 6 of salidaAPantallaConfiguracion(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Sergi\Desktop\lcdram\lcdram\toposc00.vhdl":616:2:616:3|Pruning register bit 6 of salidaAPantallaConfiguracionRam(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL177 :"C:\Users\Sergi\Desktop\lcdram\lcdram\toposc00.vhdl":275:2:275:3|Sharing sequential element seqalAnillo. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL279 :"C:\Users\Sergi\Desktop\lcdram\lcdram\toposc00.vhdl":275:2:275:3|Pruning register bits 2 to 0 of seqalAnillo(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

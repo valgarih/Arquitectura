@@ -1,0 +1,8 @@
+#Start recording tcl command: 3/3/2018 19:51:36
+#Project Location: C:/Users/segui/OneDrive/Documentos/Arquitectura/mult8bit00; Project name: mult8bit00
+prj_project new -name "mult8bit00" -impl "mult8bit00" -dev LCMXO2280C-3FT256C -synthesis "synplify"
+prj_src add "C:/Users/segui/OneDrive/Documentos/Arquitectura/adder4bit00/and00.vhdl" "C:/Users/segui/OneDrive/Documentos/Arquitectura/adder4bit00/fa00.vhdl" "C:/Users/segui/OneDrive/Documentos/Arquitectura/adder4bit00/ha00.vhdl" "C:/Users/segui/OneDrive/Documentos/Arquitectura/adder4bit00/or00.vhdl" "C:/Users/segui/OneDrive/Documentos/Arquitectura/adder4bit00/packagefa00.vhdl" "C:/Users/segui/OneDrive/Documentos/Arquitectura/adder4bit00/packageha00.vhdl" "C:/Users/segui/OneDrive/Documentos/Arquitectura/adder4bit00/xor00.vhdl"
+prj_project save
+prj_project save
+prj_project close
+#Stop recording: 3/3/2018 19:52:14

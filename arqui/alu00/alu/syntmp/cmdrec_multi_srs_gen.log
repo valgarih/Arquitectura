@@ -1,0 +1,7 @@
+C:\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topalu00  -multisrs  "C:\Users\Valery Garibay\Documents\alu00\alu\synwork\alu00_alu_comp.srs"  -osyn  "C:\Users\Valery Garibay\Documents\alu00\alu\synwork\alu00_alu_mult.srs"  -log  "C:\Users\Valery Garibay\Documents\alu00\alu\synlog\alu00_alu_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topalu00 -multisrs "C:\Users\Valery Garibay\Documents\alu00\alu\synwork\alu00_alu_comp.srs" -osyn "C:\Users\Valery Garibay\Documents\alu00\alu\synwork\alu00_alu_mult.srs" -log "C:\Users\Valery Garibay\Documents\alu00\alu\synlog\alu00_alu_multi_srs_gen.srr"
+rc:0 success:1 runtime:1
+file:..\synwork\alu00_alu_comp.srs|io:i|time:1556639170|size:13109|exec:0|csum:E6D3B072CDC22472E6104011728AA663
+file:..\synwork\alu00_alu_mult.srs|io:o|time:1556639173|size:3743|exec:0|csum:
+file:..\synlog\alu00_alu_multi_srs_gen.srr|io:o|time:1556639173|size:508|exec:0|csum:
+file:..\..\..\..\..\..\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

@@ -1,0 +1,60 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\hghg\\LCDram\\LCDram\\synwork\\LCDram00_LCDram_comp.srs|-top|toplcdram00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\hghg\\LCDram\\lcdram00.vhdl":1528729643
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\hghg\\LCDram\\packagelcdram00.vhdl":1528307732
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\hghg\\LCDram\\div00.vhdl":1520349504
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\hghg\\LCDram\\osc00.vhdl":1520348576
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\hghg\\LCDram\\packageosc00.vhdl":1557768970
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\hghg\\LCDram\\toposc00.vhdl":1520349706
+#CUR:"C:\\Users\\Valery Garibay\\Desktop\\NUEVOARQUI\\practicas_Gelas\\hghg\\LCDram\\toplcdram00.vhdl":1528307907
+0 "C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\hghg\LCDram\lcdram00.vhdl" vhdl
+2 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\hghg\LCDram\packagelcdram00.vhdl" vhdl
+3 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\hghg\LCDram\div00.vhdl" vhdl
+4 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\hghg\LCDram\osc00.vhdl" vhdl
+5 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\hghg\LCDram\packageosc00.vhdl" vhdl
+6 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\hghg\LCDram\toposc00.vhdl" vhdl
+7 "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\hghg\LCDram\toplcdram00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 4 3 5 
+7 6 1 2 
+
+# Dependency Lists (Users Of)
+0 -1
+1 7 
+2 7 
+3 6 
+4 6 
+5 6 
+6 7 
+7 -1
+
+# Design Unit to File Association
+arch work lcdram00 lcdram0 1
+module work lcdram00 1
+arch work div00 div0 3
+module work div00 3
+arch work osc00 osc0 4
+module work osc00 4
+arch work toposc00 toposc0 6
+module work toposc00 6
+arch work toplcdram00 toplcdram0 7
+module work toplcdram00 7

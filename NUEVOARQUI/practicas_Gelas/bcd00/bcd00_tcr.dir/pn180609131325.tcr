@@ -1,0 +1,44 @@
+#Start recording tcl command: 6/9/2018 10:26:50
+#Project Location: C:/Users/Ideapad/Desktop/GELACIO/bcd00; Project name: bcd00
+prj_project open "C:/Users/Ideapad/Desktop/GELACIO/bcd00/bcd00.ldf"
+prj_src remove "C:/Users/Ideapad/Desktop/GELACIO/bcd00/sust00.vhdl"
+prj_src remove "C:/Users/Ideapad/Desktop/GELACIO/bcd00/portA00.vhdl"
+prj_src remove "C:/Users/Ideapad/Desktop/GELACIO/bcd00/init00.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/init07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/sust07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/shift12bit00.vhdl"
+prj_src remove "C:/Users/Ideapad/Desktop/GELACIO/bcd00/shift12bit00.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/shift12bit07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/shift8bit07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/portAB07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/pcinc07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/mux07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/leeInst07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/contring07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/contIter07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/compadd07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/coderNibbles07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/ac12bit07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/ac8bit07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/packagep07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/div07.vhdl"
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/bcd00/topp07.vhdl"
+prj_src remove "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/toposc00.vhdl"
+prj_src remove "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/packageosc00.vhdl"
+prj_src remove "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/osc00.vhdl"
+prj_src remove "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/div00.vhdl"
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+prj_src add "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/osc00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/packageosc00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/toposc00.vhdl" "C:/Users/Ideapad/Desktop/GELACIO/osc00VHDL/div00.vhdl"
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+prj_run Export -impl bcd -task Jedecgen
+#Stop recording: 6/9/2018 13:13:25

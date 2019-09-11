@@ -1,0 +1,2 @@
+@E: CD326 :"C:\Users\Sergio Luna\Desktop\Sexto Semestre\Arquitectura\4barrel\topShiftRL00.vhd":27:1:27:5|Port sel of entity work.shiftrl00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

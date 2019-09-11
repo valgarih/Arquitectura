@@ -1,0 +1,28 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Apr 16 11:51:09 2019 *
+NOTE DESIGN NAME: ac800 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outac[0] : 98 : out *
+NOTE PINS clkac : 27 : in *
+NOTE PINS outFlagac : 85 : out *
+NOTE PINS outac[7] : 82 : out *
+NOTE PINS outac[6] : 81 : out *
+NOTE PINS outac[5] : 93 : out *
+NOTE PINS outac[4] : 103 : out *
+NOTE PINS outac[3] : 104 : out *
+NOTE PINS outac[2] : 95 : out *
+NOTE PINS outac[1] : 87 : out *
+NOTE PINS inFlagac : 91 : in *
+NOTE PINS inac[7] : 84 : in *
+NOTE PINS inac[6] : 83 : in *
+NOTE PINS inac[5] : 94 : in *
+NOTE PINS inac[4] : 99 : in *
+NOTE PINS inac[3] : 100 : in *
+NOTE PINS inac[2] : 96 : in *
+NOTE PINS inac[1] : 89 : in *
+NOTE PINS inac[0] : 97 : in *
+NOTE PINS enac : 92 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -1,0 +1,6 @@
+#Start recording tcl command: 2/5/2019 11:08:06
+#Project Location: C:/Users/frida/Desktop/escom/sexto/ARQUI/PRACTICAS/adder4bit00; Project name: adder4bit00
+prj_project new -name "adder4bit00" -impl "adder4bit00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/frida/Desktop/escom/sexto/ARQUI/PRACTICAS/adder4bit00/xor00.vhd"
+#Stop recording: 2/5/2019 12:01:26

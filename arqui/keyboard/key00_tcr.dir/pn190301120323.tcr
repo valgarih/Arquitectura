@@ -1,0 +1,8 @@
+#Start recording tcl command: 3/1/2019 10:56:34
+#Project Location: C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/keyboard; Project name: key00
+prj_project new -name "key00" -impl "key0" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/topdiv00vhdl/div00.vhdl" "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/topdiv00vhdl/osc00.vhdl" "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/topdiv00vhdl/packagediv00.vhdl" "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/topdiv00vhdl/topdiv00.vhdl"
+prj_project save
+prj_src add "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/keyboard/contring00.vhdl"
+prj_src add "C:/Users/sebas/Documents/ESCOM/Sexto Semestre/Arquitectura de Computadoras/Projects/keyboard/coder00.vhdl"
+#Stop recording: 3/1/2019 12:03:23

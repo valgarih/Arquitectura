@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toprom00  -multisrs  F:\rom00\rom\synwork\rom00_rom_comp.srs  -osyn  F:\rom00\rom\synwork\rom00_rom_mult.srs  -log  F:\rom00\rom\synlog\rom00_rom_multi_srs_gen.srr 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top toprom00 -multisrs ..\synwork\rom00_rom_comp.srs -osyn ..\synwork\rom00_rom_mult.srs -log ..\synlog\rom00_rom_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\rom00_rom_comp.srs|io:i|time:1524579054|size:7885|exec:0|csum:22BA59C0728F131A39BA1D5E4445D767
+file:..\synwork\rom00_rom_mult.srs|io:o|time:1524579056|size:2913|exec:0|csum:
+file:..\synlog\rom00_rom_multi_srs_gen.srr|io:o|time:1524579056|size:409|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

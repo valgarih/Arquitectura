@@ -1,0 +1,25 @@
+@N: CD630 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\topkey00.vhdl":7:7:7:14|Synthesizing work.topkey00.topkey0.
+@N: CD630 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\coder00.vhdl":6:7:6:13|Synthesizing work.coder00.coder0.
+Post processing for work.coder00.coder0
+@N: CD630 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@W: CL279 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\contring00.vhdl":18:4:18:5|Pruning register bits 3 to 0 of sshift(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\div00.vhdl":27:6:27:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\div00.vhdl":36:6:36:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\div00.vhdl":45:6:45:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\div00.vhdl":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\div00.vhdl":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\div00.vhdl":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\div00.vhdl":91:6:91:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\div00.vhdl":101:6:101:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\jmaci\Desktop\Nueva carpeta (2)\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.topkey00.topkey0

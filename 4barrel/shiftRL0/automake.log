@@ -1,0 +1,443 @@
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL0" -path "C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel"   "C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL0/shiftRL00_shiftRL0.edi" "shiftRL00_shiftRL0.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to shiftRL00_shiftRL0.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/Program Files/diamond/3.10_x64/ispfpga/xo2c00/data"  -p "C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL0" -p "C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel"  "shiftRL00_shiftRL0.ngo" "shiftRL00_shiftRL0.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'shiftRL00_shiftRL0.ngo' ...
+Loading NGL library 'C:/Program Files/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/Program Files/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/Program Files/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/Program Files/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="SRL00/D00/OSCInst0_SEDSTDBY" arg2="SRL00/D00/OSCInst0_SEDSTDBY"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="1"  />
+
+Design Results:
+    159 blocks expanded
+Complete the first expansion.
+Writing 'shiftRL00_shiftRL0.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial   "shiftRL00_shiftRL0.ngd" -o "shiftRL00_shiftRL0_map.ncd" -pr "shiftRL00_shiftRL0.prf" -mp "shiftRL00_shiftRL0.mrp" -lpf "C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL0/shiftRL00_shiftRL0_synplify.lpf" -lpf "C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL00.lpf" -c 0            
+map:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: shiftRL00_shiftRL0.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 5.
+
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL00.lpf(28): Semantic error in &quot;LOCATE COMP &quot;notimes0[0]&quot; SITE &quot;43&quot; ;&quot;: " arg1="notimes0[0]" arg2="C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL00.lpf" arg3="28"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL00.lpf(29): Semantic error in &quot;LOCATE COMP &quot;notimes0[1]&quot; SITE &quot;45&quot; ;&quot;: " arg1="notimes0[1]" arg2="C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL00.lpf" arg3="29"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL00.lpf(30): Semantic error in &quot;LOCATE COMP &quot;notimes0[2]&quot; SITE &quot;42&quot; ;&quot;: " arg1="notimes0[2]" arg2="C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL00.lpf" arg3="30"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL00.lpf(31): Semantic error in &quot;LOCATE COMP &quot;notimes0[3]&quot; SITE &quot;44&quot; ;&quot;: " arg1="notimes0[3]" arg2="C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/shiftRL00.lpf" arg3="31"  />
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/Program Files/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+
+
+
+Design Summary:
+   Number of registers:     40 out of  7209 (1%)
+      PFU registers:           31 out of  6864 (0%)
+      PIO registers:            9 out of   345 (3%)
+   Number of SLICEs:        46 out of  3432 (1%)
+      SLICEs as Logic/ROM:     46 out of  3432 (1%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:         91 out of  6864 (1%)
+      Number used as logic LUTs:         69
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 27 + 4(JTAG) out of 115 (27%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  1
+     Net SRL00.sclk_0: 26 loads, 26 rising, 0 falling (Driver: SRL00/D00/OSCInst0 )
+   Number of Clock Enables:  1
+     Net un1_outosc_0_sqmuxa_1_1_RNIHTT31: 14 loads, 5 LSLICEs
+   Number of LSRs:  2
+     Net ens0_pad_RNIR9Q91: 9 loads, 0 LSLICEs
+     Net SRL00/D01/outosc_0_sqmuxa_RNI53VR: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net un1_outosc_0_sqmuxa_1_1_RNIHTT31: 15 loads
+     Net SRL00/D01/outosc_0_sqmuxa_RNI53VR: 11 loads
+     Net ens0_c: 10 loads
+     Net ens0_pad_RNIR9Q91: 9 loads
+     Net sel0_c[0]: 9 loads
+     Net SRL00/D01/sdiv[16]: 9 loads
+     Net SRL00/D01/sdiv[17]: 9 loads
+     Net SRL00/D01/sdiv[18]: 9 loads
+     Net cdiv00_c[4]: 8 loads
+     Net cdiv00_c[0]: 7 loads
+ 
+
+   Number of warnings:  4
+   Number of errors:    0
+
+
+
+Total CPU Time: 1 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 57 MB
+
+Dumping design to file shiftRL00_shiftRL0_map.ncd.
+
+mpartrce -p "shiftRL00_shiftRL0.p2t" -f "shiftRL00_shiftRL0.p3t" -tf "shiftRL00_shiftRL0.pt" "shiftRL00_shiftRL0_map.ncd" "shiftRL00_shiftRL0.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "shiftRL00_shiftRL0_map.ncd"
+Mon Feb 25 14:23:41 2019
+
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset "C:/Users/Valery Garibay/Desktop/Arquitectura/4barrel/promote.xml" -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF shiftRL00_shiftRL0_map.ncd shiftRL00_shiftRL0.dir/5_1.ncd shiftRL00_shiftRL0.prf
+Preference file: shiftRL00_shiftRL0.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file shiftRL00_shiftRL0_map.ncd.
+Design name: topshiftRL00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/Program Files/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   27+4(JTAG)/336     9% used
+                  27+4(JTAG)/115     27% bonded
+   IOLOGIC            9/336           2% used
+
+   SLICE             46/3432          1% used
+
+   OSC                1/1           100% used
+
+
+Number of Signals: 158
+Number of Connections: 378
+
+Pin Constraint Summary:
+   27 out of 27 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    SRL00.sclk_0 (driver: SRL00/D00/OSCInst0, clk load #: 26)
+
+
+The following 2 signals are selected to use the secondary clock routing resources:
+    un1_outosc_0_sqmuxa_1_1_RNIHTT31 (driver: SLICE_19, clk load #: 0, sr load #: 0, ce load #: 14)
+    SRL00/D01/outosc_0_sqmuxa_RNI53VR (driver: SRL00/D01/SLICE_17, clk load #: 0, sr load #: 11, ce load #: 0)
+
+No signal is selected as Global Set/Reset.
+Starting Placer Phase 0.
+
+Finished Placer Phase 0.  REAL time: 2 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 31355.
+Finished Placer Phase 1.  REAL time: 7 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  30972
+Finished Placer Phase 2.  REAL time: 7 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "SRL00.sclk_0" from OSC on comp "SRL00/D00/OSCInst0" on site "OSC", clk load = 26
+  SECONDARY "un1_outosc_0_sqmuxa_1_1_RNIHTT31" from F1 on comp "SLICE_19" on site "R14C20B", clk load = 0, ce load = 14, sr load = 0
+  SECONDARY "SRL00/D01/outosc_0_sqmuxa_RNI53VR" from F0 on comp "SRL00/D01/SLICE_17" on site "R14C20D", clk load = 0, ce load = 0, sr load = 11
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 2 out of 8 (25%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   27 + 4(JTAG) out of 336 (9.2%) PIO sites used.
+   27 + 4(JTAG) out of 115 (27.0%) bonded PIO sites used.
+   Number of PIO comps: 27; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 10 / 28 ( 35%) | 2.5V       | -         |
+| 1        | 14 / 29 ( 48%) | 2.5V       | -         |
+| 2        | 3 / 29 ( 10%)  | 2.5V       | -         |
+| 3        | 0 / 9 (  0%)   | -          | -         |
+| 4        | 0 / 10 (  0%)  | -          | -         |
+| 5        | 0 / 10 (  0%)  | -          | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 6 secs 
+
+Dumping design to file shiftRL00_shiftRL0.dir/5_1.ncd.
+
+0 connections routed; 378 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 10 secs 
+
+Start NBR router at 14:23:51 02/25/19
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 14:23:51 02/25/19
+
+Start NBR section for initial routing at 14:23:51 02/25/19
+Level 4, iteration 1
+9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 466.177ns/0.000ns; real time: 10 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 14:23:51 02/25/19
+Level 4, iteration 1
+7(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 466.177ns/0.000ns; real time: 10 secs 
+Level 4, iteration 2
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 466.177ns/0.000ns; real time: 10 secs 
+Level 4, iteration 3
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 466.075ns/0.000ns; real time: 10 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 14:23:51 02/25/19
+
+Start NBR section for re-routing at 14:23:52 02/25/19
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 466.075ns/0.000ns; real time: 11 secs 
+
+Start NBR section for post-routing at 14:23:52 02/25/19
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 466.075ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 10 secs 
+Total REAL time: 11 secs 
+Completely routed.
+End of route.  378 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file shiftRL00_shiftRL0.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Success
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 466.075
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.374
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 11 secs 
+Total REAL time to completion: 12 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "shiftRL00_shiftRL0.t2b" -w "shiftRL00_shiftRL0.ncd" -jedec "shiftRL00_shiftRL0.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.10.0.111.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file shiftRL00_shiftRL0.ncd.
+Design name: topshiftRL00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/Program Files/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from shiftRL00_shiftRL0.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.94.
+ 
+Saving bit stream in "shiftRL00_shiftRL0.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 

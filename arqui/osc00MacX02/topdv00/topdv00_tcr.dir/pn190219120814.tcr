@@ -1,0 +1,13 @@
+#Start recording tcl command: 2/19/2019 11:12:31
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/osc00MacX02/topdv00; Project name: topdv00
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/osc00MacX02/topdv00/topdv00.ldf"
+prj_run Synthesis -impl topdv00
+prj_run Synthesis -impl topdv00
+prj_run Synthesis -impl topdv00
+prj_run Synthesis -impl topdv00
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/osc00MacX02/topdv00/packagediv00.vhdl"
+prj_run Synthesis -impl topdv00
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/osc00MacX02/topdv00/topdv00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 2/19/2019 12:08:14

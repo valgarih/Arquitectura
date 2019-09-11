@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "mux2_mux2.log"
+-o "mux2_mux2.csv"
+-pr "mux2_mux2.prf"

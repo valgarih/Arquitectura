@@ -1,0 +1,1 @@
+run_tcl -fg topshiftRL00_topshiftRL0_synplify.tcl

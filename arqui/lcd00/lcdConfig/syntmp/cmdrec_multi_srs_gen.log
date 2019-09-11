@@ -1,0 +1,7 @@
+C:\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toplcd00  -multisrs  "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig\synwork\lcd00_lcdConfig_comp.srs"  -osyn  "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig\synwork\lcd00_lcdConfig_mult.srs"  -log  "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig\synlog\lcd00_lcdConfig_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top toplcd00 -multisrs "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig\synwork\lcd00_lcdConfig_comp.srs" -osyn "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig\synwork\lcd00_lcdConfig_mult.srs" -log "C:\Users\Valery Garibay\Documents\6_semestre\arqui\lcd00\lcdConfig\synlog\lcd00_lcdConfig_multi_srs_gen.srr"
+rc:0 success:1 runtime:1
+file:..\synwork\lcd00_lcdConfig_comp.srs|io:i|time:1554232479|size:14363|exec:0|csum:9E4870018C613884FD6ED44DA35D0A52
+file:..\synwork\lcd00_lcdConfig_mult.srs|io:o|time:1554232480|size:5088|exec:0|csum:
+file:..\synlog\lcd00_lcdConfig_multi_srs_gen.srr|io:o|time:1554232480|size:537|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Program Files\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

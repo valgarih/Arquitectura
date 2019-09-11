@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/20/2018 22:29:12
+#Project Location: F:/ram00; Project name: ram00
+prj_project open "F:/ram00/ram00.ldf"
+prj_run Export -impl ram -task Jedecgen
+#Stop recording: 4/20/2018 23:21:14

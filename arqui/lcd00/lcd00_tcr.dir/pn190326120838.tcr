@@ -1,0 +1,7 @@
+#Start recording tcl command: 3/26/2019 10:33:24
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/lcd00; Project name: lcd00
+prj_project open "C:/Users/Valery Garibay/Documents/6_semestre/arqui/lcd00/lcd00.ldf"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/lcd00/lcdContConfig00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/lcd00/lcdContData00.vhdl"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/lcd00/lcdData00.vhdl"
+#Stop recording: 3/26/2019 12:08:38

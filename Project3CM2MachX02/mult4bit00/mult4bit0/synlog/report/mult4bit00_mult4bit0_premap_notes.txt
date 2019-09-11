@@ -1,0 +1,6 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\mult4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_0(hamu0)) of type view:work.andmu_16_0(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\mult4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_6(hamu0)) of type view:work.andmu_0_5(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\mult4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_7(hamu0)) of type view:work.andmu_0_8(andm) because it does not drive other instances.
+@N: BN115 :"c:\users\james\documents\escom_semestre_6\3cm2_arquitectura\project3cm2machx02\mult4bit00\hamu00.vhd":19:1:19:3|Removing instance H01 (in view: work.hamu00_1_15(hamu0)) of type view:work.andmu_0_16(andm) because it does not drive other instances.

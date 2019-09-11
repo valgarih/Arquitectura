@@ -1,0 +1,2 @@
+@E: CD605 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\ProyectoMotor\servo_pwm_clk64kHz_tb.vhdl":4:7:4:27|Top level entity servo_pwm_clk64kHz_tb has no ports 
+

@@ -1,0 +1,2 @@
+@E: CD327 :"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topshiftRL00\topshiftRL00.vhdl":28:15:28:18|Illegal connection of instance input sel to entity output sel0
+

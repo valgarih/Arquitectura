@@ -1,0 +1,7 @@
+#Start recording tcl command: 4/23/2018 11:23:10
+#Project Location: F:/rom00; Project name: rom00
+prj_project new -name "rom00" -impl "rom" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "F:/osc00VHDL/div00.vhdl" "F:/osc00VHDL/osc00.vhdl" "F:/osc00VHDL/packageosc00.vhdl" "F:/osc00VHDL/toposc00.vhdl"
+prj_project save
+prj_src add "F:/rom00/rom00.vhd"
+#Stop recording: 4/23/2018 11:51:42

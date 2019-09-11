@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "keylcd00_keylcd0.log"
+-o "keylcd00_keylcd0.csv"
+-pr "keylcd00_keylcd0.prf"

@@ -1,0 +1,19 @@
+#Start recording tcl command: 3/5/2019 10:19:09
+#Project Location: C:/Users/Valery Garibay/Documents/6_semestre/arqui/key00; Project name: key00
+prj_project new -name "key00" -impl "key0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/div00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/osc00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/packagediv00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/topdivVHDL/topdv00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/key00/key0/source"
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/key00/key0/source/div00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/key00/key0/source/osc00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/key00/key0/source/packagediv00.vhdl" "C:/Users/Valery Garibay/Documents/6_semestre/arqui/key00/key0/source/topdv00.vhdl"
+prj_project save
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/key00/countring00.vhdl"
+prj_run Synthesis -impl key0
+prj_run Synthesis -impl key0
+prj_run Synthesis -impl key0
+prj_run Synthesis -impl key0
+prj_src add "C:/Users/Valery Garibay/Documents/6_semestre/arqui/key00/coder00.vhdl"
+prj_run Synthesis -impl key0
+prj_run Synthesis -impl key0
+prj_run Synthesis -impl key0
+prj_run Synthesis -impl key0
+prj_run Synthesis -impl key0
+prj_run Synthesis -impl key0
+#Stop recording: 3/5/2019 11:37:59

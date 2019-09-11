@@ -1,0 +1,18 @@
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+LOCATE COMP "entrada1_tm[0]" SITE "N3" ;
+LOCATE COMP "entrada1_tm[1]" SITE "M1" ;
+LOCATE COMP "entrada1_tm[2]" SITE "L1" ;
+LOCATE COMP "entrada1_tm[3]" SITE "L5" ;
+LOCATE COMP "entrada2_tm[0]" SITE "H6" ;
+LOCATE COMP "entrada2_tm[1]" SITE "M2" ;
+LOCATE COMP "entrada2_tm[2]" SITE "L2" ;
+LOCATE COMP "entrada2_tm[3]" SITE "L3" ;
+LOCATE COMP "resultado_tm[0]" SITE "T12" ;
+LOCATE COMP "resultado_tm[1]" SITE "R11" ;
+LOCATE COMP "resultado_tm[2]" SITE "T11" ;
+LOCATE COMP "resultado_tm[3]" SITE "P11" ;
+LOCATE COMP "resultado_tm[4]" SITE "T10" ;
+LOCATE COMP "resultado_tm[5]" SITE "R9" ;
+LOCATE COMP "resultado_tm[6]" SITE "T9" ;
+LOCATE COMP "resultado_tm[7]" SITE "P9" ;

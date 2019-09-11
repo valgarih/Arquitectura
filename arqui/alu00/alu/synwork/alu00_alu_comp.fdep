@@ -1,0 +1,117 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Valery Garibay\\Documents\\alu00\\alu\\synwork\\alu00_alu_comp.srs|-top|topalu00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\anda00.vhdl":1528942142
+#CUR:"C:\\Program Files\\diamond\\3.10_x64\\synpbase\\lib\\cpld\\lattice.vhd":1501917816
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\ora00.vhdl":1528942442
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\xora00.vhdl":1528942482
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\nanda00.vhdl":1528942490
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\nora00.vhdl":1528942498
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\xnora00.vhdl":1528942506
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\nota00.vhdl":1528942520
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\adder8bita00.vhdl":1528942462
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\substract8bita00.vhdl":1528943058
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\mult8bita00.vhdl":1556639152
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\ac800.vhdl":1528939880
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\packagealu00.vhdl":1555089388
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\topdivVHDL\\div00.vhdl":1550597798
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\topdivVHDL\\osc00.vhdl":1550596355
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\topdivVHDL\\packagediv00.vhdl":1550598308
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\6_semestre\\arqui\\topdivVHDL\\topdv00.vhdl":1550681739
+#CUR:"C:\\Users\\Valery Garibay\\Documents\\alu00\\topalu00.vhdl":1555089354
+0			"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1			"C:\Users\Valery Garibay\Documents\alu00\anda00.vhdl" vhdl
+2			"C:\Users\Valery Garibay\Documents\alu00\ora00.vhdl" vhdl
+3			"C:\Users\Valery Garibay\Documents\alu00\xora00.vhdl" vhdl
+4			"C:\Users\Valery Garibay\Documents\alu00\nanda00.vhdl" vhdl
+5			"C:\Users\Valery Garibay\Documents\alu00\nora00.vhdl" vhdl
+6			"C:\Users\Valery Garibay\Documents\alu00\xnora00.vhdl" vhdl
+7			"C:\Users\Valery Garibay\Documents\alu00\nota00.vhdl" vhdl
+8			"C:\Users\Valery Garibay\Documents\alu00\adder8bita00.vhdl" vhdl
+9			"C:\Users\Valery Garibay\Documents\alu00\substract8bita00.vhdl" vhdl
+10			"C:\Users\Valery Garibay\Documents\alu00\mult8bita00.vhdl" vhdl
+11			"C:\Users\Valery Garibay\Documents\alu00\ac800.vhdl" vhdl
+12			"C:\Users\Valery Garibay\Documents\alu00\packagealu00.vhdl" vhdl
+13			"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\div00.vhdl" vhdl
+14			"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\osc00.vhdl" vhdl
+15			"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\packagediv00.vhdl" vhdl
+16			"C:\Users\Valery Garibay\Documents\6_semestre\arqui\topdivVHDL\topdv00.vhdl" vhdl
+17			"C:\Users\Valery Garibay\Documents\alu00\topalu00.vhdl" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 0
+14 0
+15 0
+16 15 0 13 14
+17 12 11 2 1 16
+#Dependency Lists(Users Of)
+0 13 14 15 16
+1 17
+2 17
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 17
+12 17
+13 16
+14 16
+15 16
+16 17
+17 -1
+#Design Unit to File Association
+module work topalu00 17
+arch work topalu00 topalu0 17
+module work topdv00 16
+arch work topdv00 topdv0 16
+module work osc00 14
+arch work osc00 osc0 14
+module work div00 13
+arch work div00 div0 13
+module work ac800 11
+arch work ac800 ac80 11
+module work mult8bita00 10
+arch work mult8bita00 mult8bita0 10
+module work substract8bita00 9
+arch work substract8bita00 substract8bita0 9
+module work adder8bita00 8
+arch work adder8bita00 adder8bita0 8
+module work nota00 7
+arch work nota00 nota0 7
+module work xnora00 6
+arch work xnora00 xnora0 6
+module work nora00 5
+arch work nora00 nora0 5
+module work nanda00 4
+arch work nanda00 nanda0 4
+module work xora00 3
+arch work xora00 xora0 3
+module work ora00 2
+arch work ora00 ora0 2
+module work anda00 1
+arch work anda00 anda0 1

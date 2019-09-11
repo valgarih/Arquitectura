@@ -1,0 +1,403 @@
+<HTML>
+<HEAD><TITLE>Synthesis Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis Report</big></U></B>
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\Program Files\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-JBP5BT2
+
+# Thu May  2 13:02:45 2019
+
+#Implementation: alu
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Program Files\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl":7:7:7:14|Top entity is set to topalu01.
+File C:\Program Files\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\osc00.vhdl changed - recompiling
+File C:\Program Files\diamond\3.10_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\packageosc00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\and00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\or00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\packageha00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\packagefa00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\xor00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\xnor00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\packageadder8bit00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\packagemult8bit00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\anda00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\ora00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xoral00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\notal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\nandal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\noral00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xnoral00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\acal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\packagealu01.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\multal00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\toposc00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\ha00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\fa00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\topadder8bit00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\topmult8bit00.vhdl changed - recompiling
+File C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl changed - recompiling
+@W: CD433 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\multal00.vhdl":0:0:0:0|No design units in file
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl":7:7:7:14|Synthesizing work.topalu01.topalu0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\acal00.vhdl":6:7:6:12|Synthesizing work.acal00.acal0.
+Post processing for work.acal00.acal0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":6:7:6:14|Synthesizing work.subsal00.subsal0.
+Post processing for work.subsal00.subsal0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":24:1:24:2|Pruning unused register outFlagsubs_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl":6:7:6:13|Synthesizing work.addal00.addal0.
+Post processing for work.addal00.addal0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl":24:1:24:2|Pruning unused register outFlagadd_cl_6. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\topmult8bit00.vhdl":7:7:7:19|Synthesizing work.topmult8bit00.topmult8bit0.
+@W: CD796 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\multi8bit00\topmult8bit00.vhdl":16:34:16:36|Bit 7 of signal s20 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\ha00.vhdl":7:7:7:10|Synthesizing work.ha00.ha0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+Post processing for work.ha00.ha0
+Post processing for work.fa00.fa0
+Post processing for work.topmult8bit00.topmult8bit0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\topadder8bit00.vhdl":7:7:7:20|Synthesizing work.topadder8bit00.topadder8bit0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\sum8bit00\xnor00.vhdl":6:7:6:12|Synthesizing work.xnor00.xnor0.
+Post processing for work.xnor00.xnor0
+Post processing for work.topadder8bit00.topadder8bit0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xnoral00.vhdl":6:7:6:14|Synthesizing work.xnoral00.xnoral0.
+Post processing for work.xnoral00.xnoral0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xnoral00.vhdl":22:2:22:3|Pruning unused register outFlagxnoral_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\noral00.vhdl":6:7:6:13|Synthesizing work.noral00.noral0.
+Post processing for work.noral00.noral0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\noral00.vhdl":22:2:22:3|Pruning unused register outFlagnoral_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\nandal00.vhdl":6:7:6:14|Synthesizing work.nandal00.nandal0.
+Post processing for work.nandal00.nandal0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\nandal00.vhdl":22:2:22:3|Pruning unused register outFlagnandal_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\notal00.vhdl":6:7:6:13|Synthesizing work.notal00.notal0.
+Post processing for work.notal00.notal0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\notal00.vhdl":22:2:22:3|Pruning unused register outFlagnotal_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xoral00.vhdl":6:7:6:13|Synthesizing work.xoral00.xoral0.
+Post processing for work.xoral00.xoral0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\xoral00.vhdl":23:2:23:3|Pruning unused register outFlagxoral_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\ora00.vhdl":6:7:6:11|Synthesizing work.ora00.ora0.
+Post processing for work.ora00.ora0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\ora00.vhdl":23:2:23:3|Pruning unused register outFlagoral_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\anda00.vhdl":6:7:6:12|Synthesizing work.anda00.anda0.
+Post processing for work.anda00.anda0
+@W: CL169 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu00\anda00.vhdl":23:2:23:3|Pruning unused register outFlagal_cl_7. Make sure that there are no unused intermediate registers.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\toposc00.vhdl":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":27:2:27:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":36:2:36:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":45:2:45:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":54:2:54:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":63:2:63:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":72:2:72:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":81:2:81:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":90:2:90:7|Removing redundant assignment.
+@N: CD364 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\div00.vhdl":99:2:99:7|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\osc00VHDL\osc00.vhdl":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\Program Files\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.topalu01.topalu0
+@W: CL168 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\topalu01.vhdl":93:1:93:4|Removing instance AL09 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL138 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\addal00.vhdl":24:1:24:2|Removing register 'outSLadd' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu01\subsal00.vhdl":24:1:24:2|Removing register 'outSLsubs' because it is only assigned 0 or its original value.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  2 13:02:46 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  2 13:02:46 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  2 13:02:46 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  2 13:02:47 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Thu May  2 13:02:48 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\alu\alu02_alu_scck.rpt 
+Printing clock  summary report in "C:\Users\Valery Garibay\Desktop\NUEVOARQUI\practicas_Gelas\alu02\alu\alu02_alu_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":22:2:22:4|Removing instance H01 (in view: work.ha00_0(ha0)) of type view:work.and00_8_0(and0) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu02\acal00.vhdl":21:2:21:3|Removing sequential instance outacal[7:0] (in view: work.acal00(acal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[0] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[1] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[2] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[3] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[4] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[5] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[6] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_1[7] (in view: work.addal00(addal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[0] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[1] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[2] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[3] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[4] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[5] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[6] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_1[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":101:2:101:4|Removing instance A16 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_8_1(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":105:2:105:4|Removing instance A17 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_7(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":109:2:109:4|Removing instance A18 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_6(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":113:2:113:4|Removing instance A19 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_5(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":117:2:117:4|Removing instance A20 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_4(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":121:2:121:4|Removing instance A21 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_3(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":125:2:125:4|Removing instance A22 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_2(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":129:2:129:4|Removing instance A23 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.and00_1(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\topadder8bit00.vhdl":133:2:133:4|Removing instance A24 (in view: work.topadder8bit00(topadder8bit0)) of type view:work.xnor00(xnor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\fa00.vhdl":25:2:25:4|Removing instance F01 (in view: work.fa00_7(fa0)) of type view:work.ha00_0(ha0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_0(ha0)) of type view:work.xor00_9_0(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_1(ha0)) of type view:work.xor00_0_2(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_3(ha0)) of type view:work.xor00_0_4(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_5(ha0)) of type view:work.xor00_0_6(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_7(ha0)) of type view:work.xor00_0_8(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_9(ha0)) of type view:work.xor00_0_10(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_11(ha0)) of type view:work.xor00_0_12(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_13(ha0)) of type view:work.xor00_0_14(xor0) because it does not drive other instances.
+@N: BN115 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\sum8bit00\ha00.vhdl":18:2:18:4|Removing instance H00 (in view: work.ha00_1_0(ha0)) of type view:work.xor00_0_0(xor0) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_7[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_6[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_5[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_4[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_3[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_2[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl_1[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\addal00.vhdl":24:1:24:2|Removing sequential instance outadd_cl[7] (in view: work.addal00(addal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_7[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_6[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_5[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_4[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_3[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_2[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl_1[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu01\subsal00.vhdl":24:1:24:2|Removing sequential instance outsubs_cl[7] (in view: work.subsal00(subsal0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist topalu01
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     23   
+1 .         div00|oscout_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     145  
+====================================================================================================================================================
+
+@W: MT529 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\osc00vhdl\div00.vhdl":20:0:20:1|Found inferred clock osc00|osc_int_inferred_clock which controls 23 sequential elements including AL00.OS01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 143MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May  2 13:02:49 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Thu May  2 13:02:50 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@E: Net outFlagInstal0 (in view: work.topalu01(topalu0)) has mixed driver types, The conflicting connections are
+Connection 1: Direction is (Output) on instance AL12.outFlagacal (in view: work.topalu01(topalu0)) port Q[0]
+Connection 2: Direction is (Output Tristate) on instance AL11.outflagsubs_6 (in view: work.topalu01(topalu0)) port OUT[0]
+Connection 3: Direction is (Output Tristate) on instance AL10.outflagadd_6 (in view: work.topalu01(topalu0)) port OUT[0]
+Connection 4: Direction is (Output Tristate) on instance AL06.outflagnoral_7 (in view: work.topalu01(topalu0)) port OUT[0]
+Connection 5: Direction is (Output Tristate) on instance AL05.outflagnandal_7 (in view: work.topalu01(topalu0)) port OUT[0]
+Connection 6: Direction is (Output Tristate) on instance AL04.outflagnotal_7 (in view: work.topalu01(topalu0)) port OUT[0]
+Connection 7: Direction is (Output Tristate) on instance AL02.outflagoral_7 (in view: work.topalu01(topalu0)) port OUT[0]
+Connection 8: Direction is (Output Tristate) on instance AL01.outflagal_7 (in view: work.topalu01(topalu0)) port OUT[0]
+@E: BN129 :"c:\users\valery garibay\desktop\nuevoarqui\practicas_gelas\alu02\topalu01.vhdl":7:7:7:14|Net outFlagInstal0 (in view: work.topalu01(topalu0)) has mixed driver types 
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May  2 13:02:51 2019
+
+###########################################################]
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

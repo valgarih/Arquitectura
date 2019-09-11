@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "sum8bit00_sum8bit00.log"
+-o "sum8bit00_sum8bit00.csv"
+-pr "sum8bit00_sum8bit00.prf"

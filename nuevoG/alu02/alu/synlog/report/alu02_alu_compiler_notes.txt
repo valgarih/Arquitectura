@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"F:\alu02\acal00.vhdl":6:7:6:12|Top entity is set to acal00.
+@N: CD630 :"F:\alu02\acal00.vhdl":6:7:6:12|Synthesizing work.acal00.acal0.
+@N|Running in 64-bit mode
+

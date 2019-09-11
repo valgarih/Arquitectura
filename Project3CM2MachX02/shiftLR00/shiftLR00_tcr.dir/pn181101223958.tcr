@@ -1,0 +1,5 @@
+#Start recording tcl command: 11/1/2018 22:07:42
+#Project Location: C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/shiftLR00; Project name: shiftLR00
+prj_project open "C:/Users/James/Documents/ESCOM_SEMESTRE_6/3CM2_ARQUITECTURA/Project3CM2MachX02/shiftLR00/shiftLR00.ldf"
+pgr_project close
+#Stop recording: 11/1/2018 22:39:58
